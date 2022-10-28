@@ -1,0 +1,76 @@
+﻿l_russian:
+
+demd_poor_Погода:0 "Плохая Погода"
+demd_poor_Погода_desc:0 "Погода отвратительная. Дождь и солнечный свет поступают в недостаточном количестве для выращивания сельскохозяйственных культур, и часть урожая будет потеряна."
+demd_poor_Погода_tooltip:0 "If I have to write Погода tooltips I might kill myself."
+
+demd_average_Погода:0 "Обычная Погода"
+demd_average_Погода_desc:0 "Погода средняя. Природа не благословляла и не презирала нас. Мы можем ожидать типичную урожайность от урожая"
+demd_average_Погода_tooltip:0 "If I have to write Погода tooltips I might kill myself."
+
+demd_good_Погода:0 "Хорошая Погода"
+demd_good_Погода_desc:0 "Погода лучше, чем обычно. В этих условиях мы можем ожидать более высокой доходности."
+demd_good_Погода_tooltip:0 "If I have to write Погода tooltips I might kill myself."
+
+demd_great_Погода:0 "Прекрасная Погода"
+demd_great_Погода_desc:0 "Погода идеально подходит для сельского хозяйства. Природа подарила нам свое благо, урожай наверняка будет потрясающим."
+demd_great_Погода_tooltip:0 "If I have to write Погода tooltips I might kill myself."
+
+demd_terrible_Погода:0 "Ужасная Погода"
+demd_terrible_Погода_desc:0 "Погода катастрофическая. Наша продовольственная безопасность находится под серьезной угрозой из-за того, что всего несколько скудных бушелей избежали этого испытания."
+demd_terrible_Погода_tooltip:0 "If I have to write Погода tooltips I might kill myself."
+
+demd_faith_conversion_good:0 "[county.GetName] обращена в [county.GetFaith.GetName]"
+demd_faith_conversion_good_desc:0 "(placeholder) [county.GetName] обращена в [county.GetFaith.GetName]."
+demd_faith_conversion_good_tooltip:0 "(placeholder) [county.GetName] обращена в [county.GetFaith.GetName]."
+
+demd_faith_conversion_bad:0 "[county.GetName] обращена в [county.GetFaith.GetName]"
+demd_faith_conversion_bad_desc:0 "(placeholder) [county.GetName] обращена в [county.GetFaith.GetName]."
+demd_faith_conversion_bad_tooltip:0 "(placeholder) [county.GetName] обращена в [county.GetFaith.GetName]."
+
+demd_heresy_emerges_bad:0 "A new heresy, [county.MakeScope.Var('converting_faith').Faith.GetName], has emerged in [county.GetName]"
+demd_heresy_emerges_bad_desc:0 "Owing to low fervor, the people of [county.GetName] have rejected [county.GetFaith.GetName] and begun to take [county.MakeScope.Var('converting_faith').Faith.GetName]."
+
+demd_culture_conversion_good:0 "[county.GetName] обращена в [county.MakeScope.Var('converting_culture').Culture.GetName]"
+demd_culture_conversion_good_desc:0 "(placeholder) [county.GetName] обращена в [county.MakeScope.Var('converting_culture').Culture.GetName] с [county.GetCulture.GetName]."
+demd_culture_conversion_good_tooltip:0 "(placeholder) [county.GetName] обращена в [county.MakeScope.Var('converting_culture').Culture.GetName] с [county.GetCulture.GetName]."
+
+demd_culture_conversion_bad:0 "[county.GetName] обращена в [county.MakeScope.Var('converting_culture').Culture.GetName]"
+demd_culture_conversion_bad_desc:0 "(placeholder) [county.GetName] обращена в [county.MakeScope.Var('converting_culture').Culture.GetName] с [county.GetCulture.GetName]."
+demd_culture_conversion_bad_tooltip:0 "(placeholder) [county.GetName] обращена в [county.MakeScope.Var('converting_culture').Culture.GetName] с [county.GetCulture.GetName]."
+
+
+
+
+###############################################
+
+demd_mild_flooding:0 "Небольшое наводнение в [county.GetName]"
+demd_mild_flooding_desc:0 "Затопление незначительное. Берега реки залиты водой, но потери минимальны."
+
+demd_moderate_flooding:0 "Внушительное наводнение в [county.GetName]"
+demd_moderate_flooding_desc:0 "Затопление умеренное. Река разлилась и унесла значительное количество вещей."
+ 
+demd_severe_flooding:0 "Большое наводнение в [county.GetName]"
+demd_severe_flooding_desc:0 "Наводнение сильное. Это катастрофический потоп! Все местные населенные пункты сильно пострадали."
+
+###############################################
+
+demd_minor_avalanche:0 "Небольшие лавины в [county.GetName]"
+demd_minor_avalanche_desc:0 "Лавина небольшая. Горный щебень принес несколько жертв, но сообщество быстро соберет осколки."
+demd_minor_avalanche_tooltip:0 "..."
+
+demd_moderate_avalanche:0 "Средние лавины в [county.GetName]"
+demd_moderate_avalanche_desc:0 "Лавинность умеренная. Многие каменные глыбы упали, и еще больше жизней было потеряно. Последствия катастрофы значительны."
+demd_moderate_avalanche_tooltip:0 "..."
+
+demd_severe_avalanche:0 "Сильнейшие лавины в [county.GetName]"
+demd_severe_avalanche_desc:0 "Лавина сильная. Огромные валуны покатились вниз по склону горы и сильно покалечили местных жителей в обозримом будущем."
+demd_severe_avalanche_tooltip:0 "..."
+
+##############
+
+demd_drought_message_start:0 "Засуха в [county.GetName]"
+demd_drought_message_start_desc:0 "В этом округе засуха. Почва жаждет, и урожай страдает."
+demd_drought_message_end:0 "Засуха закончилась в [county.GetName]"
+demd_drought_message_end_desc:0 "Засуха в округе [county.GetName] утихла. Почва была обновлена, и ожидается, что будущие урожаи улучшатся."
+demd_drought_tooltip:0 "..."

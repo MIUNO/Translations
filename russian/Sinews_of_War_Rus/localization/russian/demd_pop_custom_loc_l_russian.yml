@@ -1,0 +1,30 @@
+﻿l_russian:
+
+demd_neighboring_feudal_clan_realm:0 "Любой соседний [top_liege|E] имеет [feudal|E] или [clan|E] [government|E]"
+demd_current_date_greater_1200:0 "Это по меньшей мере 1200 год нашей эры"
+
+demd_debug_county_node:0 "Предупреждение о совместимости: Sinews of War"
+demd_debug_county_node_desc:0 "[problem_county.GetNameNoTierNoTooltip] не имеет назначенного торгового узла! Пожалуйста, устраните эту проблему совместимости и запустите новую игру."
+
+demd_debug_county_list:0 "Предупреждение о совместимости: Sinews of War"
+demd_debug_county_list_desc:0 "[problem_county.GetNameNoTierNoTooltip] не был включен в ежегодный список действий! Пожалуйста, устраните эту проблему совместимости и запустите новую игру."
+
+
+demd_debug_county_pixels:0 "Предупреждение о совместимости: Sinews of War"
+demd_debug_county_pixels_desc:0 "One or more provinces in [problem_county.GetNameNoTierNoTooltip] не имеет назначенной области пикселей! Пожалуйста, устраните эту проблему совместимости и запустите новую игру."
+
+
+demd_debug_owner:0 "Внимание: [problem_county.GetName] не имеет владельца!"
+demd_debug_culture:0 "Внимание: культура [problem_county.GetNameNoTierNoTooltip] отсутствует в списке культур!"
+demd_debug_food:0 "Внимание: [problem_county.GetNameNoTierNoTooltip] в узле [problem_node.GetNameNoTierNoTooltip] не имеет var food_traded!"
+demd_debug_list:0 "Внимание: [problem_county.GetNameNoTierNoTooltip] в узле [problem_node.GetNameNoTierNoTooltip] нет в списке провов!"
+demd_debug_no_events_fired:0 "Никаких религиозных эвентов не проводилось"
+
+demd_debug_empire:0 "[empire.GetNameNoTierNoTooltip]: [empire.Custom('demd_empire_population')]k"
+
+
+DEMD_CONSTRUCT_HOLDING:0 "#bold [barony|E] @icon_demd_food!#   [demd_food_districts|E]:#! [Province.MakeScope.Var('food_districts_province').GetValue|1]\nFrom Square Root [barony|E] Size: [Province.MakeScope.Var('sqrt_pixels').GetValue|1]\nScale Factor: x [Province.MakeScope.ScriptValue('demd_prov_terrain_food_districts_scale_factor')|1]\nFrom [terrain|E]: [Province.MakeScope.ScriptValue('demd_prov_terrain_food_districts_mult')|%1]\nFrom [demd_water|E]: [Province.MakeScope.ScriptValue('demd_prov_water_food_districts_mult')|%1]\nFrom [winter|E]: [Province.MakeScope.ScriptValue('demd_prov_winter_food_districts_mult')|%1]\nBonuses from [culture|E] and [faith|E] are applied at the [county|E] level."
+
+######################
+# Population tab
+######################

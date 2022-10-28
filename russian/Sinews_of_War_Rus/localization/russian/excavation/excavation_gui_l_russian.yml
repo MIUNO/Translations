@@ -1,0 +1,27 @@
+﻿l_russian:
+
+button_start_excavation:0 "Начать раскопки"
+
+button_replace_excavation_leader:0 "Заменить"
+
+# EXCAVATION_REMOVE_LEADER_TOOLTIP:0 "Remove [excavation_leader|E]"
+EXCAVATION_REMOVE_LEADER_TOOLTIP:0 "Удалить [excavation_leader|E]"
+
+
+DEMD_START_EXCAVATION:0 "#bold @icon_excavation!# :#! \nНачать раскопки: @icon_taxes!# [EmptyScope.ScriptValue('excavation_start_cost')|0]"
+
+appoint_new_excavation_leader:0 "Назначить ответственного на раскопки"
+
+ruins_display_name:0 "[Province.GetCounty.GetTitle.Custom('get_ruins_name')]"
+
+background_ruins_egyptian_generic:0 "@icon_egyptian!#"
+
+ruins_fort_generic:0 "Разрушенный форт"
+ruins_cave_generic:0 "Разрушенная пещера"
+ruins_egyptian_generic:0 "Древние египетские руины"
+ruins_nordic_generic:0 "Нордические руины"
+ruins_dwemer_generic:0 "Двемерские руины"
+ruins_fallback_error_1:0 "Неизвестный тип руин"
+ruins_fallback_error_2:0 "Неизвестные руины"
+
+excavation_stage_intermediate_tt:0 "#T @icon_excavation!#  [excavation_stage|E] Конец\n\n#P [Province.GetCounty.GetTitle.MakeScope.Var('active_excavation').Story.MakeScope.ScriptValue('excavation_breakthrough_chance')|0]%#! шанс на [excavation_breakthrough|E]\n\n$TAB$#P Вероятность увеличения [excavation_quality|E]#!\n"

@@ -1,0 +1,18 @@
+﻿l_russian:
+
+demd_pop_flood.1002.t:0 "Дождливый день в [county.GetNameNoTierNoTooltip]..."
+demd_pop_flood.1002.desc:0 "Я ерзаю на стуле. Дождь шел все утро и вечер.\n\nКонечно, обычно это не вызывает беспокойства, но последние несколько дней было совсем не непохоже. Если это продолжится, это может быть поводом для беспокойства.\n\n Я смотрю на свой внутренний двор, теперь затопленный. Несколько служанок торопливо уносят ведра с водой."
+demd_pop_flood.1002.a:0 "Будем надеяться, что скоро все прояснится."
+demd_pop_flood.1002.b:0 "Думаю, я пойду поплаваю." # lunatic trait option
+
+demd_pop_flood.1003.t:0 "Катастрофа: [county.GetNameNoTierNoTooltip] затопляет!"
+demd_pop_flood.1003.desc:0 "..."
+demd_pop_flood.1003.a:0 "Удачно"
+
+demd_pop_flood.1004.t:0 "Катастрофа: [county.GetNameNoTierNoTooltip] затопляет!"
+demd_pop_flood.1004.desc:0 "..."
+demd_pop_flood.1004.a:0 "Неудачно"
+
+demd_pop_flood.1005.t:0 "Катастрофа: [county.GetNameNoTierNoTooltip] затопляет!"
+demd_pop_flood.1005.desc:0 "..."
+demd_pop_flood.1005.a:0 "Катастрофа"

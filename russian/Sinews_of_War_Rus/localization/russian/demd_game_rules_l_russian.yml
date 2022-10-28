@@ -1,0 +1,18 @@
+﻿l_russian:
+rule_debug_log:0 "Sinews of War: Ведение журнала отладки"
+setting_debug_yes:0 "Да"
+setting_debug_yes_desc:0 "#N (Not Recommended)#! Ежегодный импульс будет регистрировать данные, которые могут быть проанализированы позже. Это может привести к сбоям в игровом процессе 1 января каждого года"
+setting_debug_no:0 "Нет"
+setting_debug_no_desc:0 "#P (Recommended)#! Данные не будут регистрироваться. Этот параметр рекомендуется использовать, поскольку ведение журнала снижает производительность."
+
+rule_archaeology:0 "Sinews of War: Раскопки"
+setting_archaeology_on:0 "Включить"
+setting_archaeology_on_desc:0 "#N (Not Recommended)#! Система земляных работ будет включена. В настоящее время система находится в стадии разработки, поэтому эта настройка не рекомендуется."
+setting_archaeology_off:0 "Выключить"
+setting_archaeology_off_desc:0 "#P (Recommended)#! Система земляных работ будет отключена."
+
+rule_claim_fabrication:0 "Sinews of War: Фабрикация претензий"
+setting_claim_fabrication_sow:0 "Реалистичный"
+setting_claim_fabrication_sow_desc:0 "#P (Recommended)#! Более реалистичная фальсификация претензий с вероятностью неблагоприятных последствий."
+setting_claim_fabrication_vanilla:0 "Ванильный"
+setting_claim_fabrication_vanilla_desc:0 "#N (Not Recommended)#! Поведение ванильного утверждения о фальсификации. Эта настройка не рекомендуется, так как она существенно уменьшит сложность."

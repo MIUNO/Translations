@@ -1,0 +1,27 @@
+﻿l_russian:
+ 
+ razed_me_opinion:0 "Разрушил мою собственность"
+ sacked_me_opinion:0 "Разграблил мою собственность"
+ demd_left_me_opinion:0 "Оставил меня умирать"
+ demd_saved_my_life_opinion:0 "Спас мне жизнь"
+ demd_interceded_on_my_behalf_opinion:0 "Ходатайствовал от моего имени"
+ demd_abandoned_my_family_member_opinion:0 "Бросил члена моей семьи"
+ demd_rejected_my_help_opinion:0 "Моя помощь отклонена"
+ demd_accepted_my_help_opinion:0 "Принял мою помощь"
+ demd_assigned_my_financial_assistance_opinion:0 "Моя финансовая помощь присвоена"
+ 
+ demd_raze_acceptance_change:0 "Разрушил [county|E]"
+ demd_sack_acceptance_change:0 "Разграбил [county|E]"
+ demd_raid_acceptance_change:0 "Совершил набег на [county|E]"
+ 
+ raided_me_opinion:0 "Совершил набег на мой [county|E]"
+ razed_me_opinion:0 "Разрушил мой [county|E]"
+ sacked_me_opinion:0 "Разграбил мой [county|E]"
+ 
+ raided_vassal_opinion:0 "Совершил набег на [vassal|E] [county|E]"
+ razed_vassal_opinion:0 "Разрушил [vassal|E] [county|E]"
+ sacked_vassal_opinion:0 "Разграбил [vassal|E] [county|E]"
+ 
+ razed_coreligionist_opinion:0 "Разрушил [county|E] единовереца"
+ sacked_coreligionist_opinion:0 "Разграбил [county|E] единовереца"
+ raided_coreligionist_opinion:0 "Совершил набег на [county|E] единовереца"

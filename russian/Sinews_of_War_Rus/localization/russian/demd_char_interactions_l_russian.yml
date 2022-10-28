@@ -1,0 +1,60 @@
+﻿l_russian:
+
+BUY_CLAIM_NO_EXCOMMUNICATION:0 "Вы не можете быть [excommunicated|E]"
+BUY_CLAIM_NO_EXCOMMUNICATION_OR_DIFF_FAITH:0 "Цель должна быть [excommunicated|E] или иметь возможность [GetTrait('claim_fabricator').GetName( GetNullCharacter )] [trait|E] или быть из [faith|E] мы рассматриваем меньше, чем [faith_righteous|E] или иметь [piety_level|E] от нуля."
+BUY_CLAIM_PIETY_LEVEL:0 "Ваш [piety_level|E] должно быть больше или равно уровню заголовка"
+BUY_CLAIM_NO_FABRICATOR:0 "Вы не можете иметь [GetTrait('claim_fabricator').GetName( GetNullCharacter )] [trait|E]"
+
+demd_type_is_target_desc:0 "Текущий  [holding|E] тип совпадает с целевым типом"
+demd_holding_isnt_valid_type_desc:0 "Текущий  [holding|E] тип недопустим для преобразования"
+
+demd_castle_holding_isnt_duplicate_desc:0 "Другого такого нет [castle_holding|E] в этом [county|E]"
+demd_church_holding_isnt_duplicate_desc:0 "Другого такого нет [temple_holding|E] в этом [county|E]"
+demd_city_holding_isnt_duplicate_desc:0 "Другого такого нет [city_holding|E] в этом [county|E]"
+
+demd_castle_holding_isnt_duplicate_desc:0 "Другого такого нет [castle_holding|E] в этом [county|E]"
+demd_church_holding_isnt_duplicate_desc:0 "Другого такого нет [temple_holding|E] в этом [county|E]"
+demd_city_holding_isnt_duplicate_desc:0 "Другого такого нет [city_holding|E] в этом [county|E]"
+
+refused_to_send_mission_opinion:0 "Отказался посылать миссию"
+demd_request_mission_interaction_tooltip:0 "Адрес получателя [capital|E] [county|E] будет запущен [faith|E] попытка преобразования против каждого непосредственно принадлежащего [county|E] получателя"
+
+demd_mission_subject_can_attack:0 "Адрес получателя [capital|E] [county|E] обладает большей [demd_faith_conversion_attack|E] чем тот [demd_faith_conversion_defense|E] из вашего [capital|E] [county|E]"
+
+DEMD_REQUEST_MISSIONARIES_NOTIFICATION:0 "Миссионеры просили"
+
+demd_request_mission_interaction:0 "Просьба к миссионерам"
+
+demd_request_mission_interaction_desc:0 "Отправьте запрос о миссионерах соседнему правителю. Адрес получателя [capital|E] [county|E] будет запущен [faith|E] попытка конверсии против вашего [capital|E] [county|E]."
+
+demd_mission_no_faith_conv:0 "Ваш [capital|E] [county|E] еще не преобразован в другой [faith|E]"
+
+################
+
+refused_to_accept_mission_opinion:0 "Отказался принять миссию"
+demd_offer_mission_interaction_tooltip:0 "Ваш [capital|E] [county|E] будет запущен [faith|E] попытка преобразования против каждого непосредственно принадлежащего [county|E] получателя."
+
+demd_mission_subject_can_attack:0 "Получатель [capital|E] [county|E] обладает большей [demd_faith_conversion_attack|E] чем тот [demd_faith_conversion_defense|E] из вашего [capital|E] [county|E]"
+
+DEMD_OFFER_MISSIONARIES_NOTIFICATION:0 "Миссионеры предложили"
+
+demd_offer_mission_interaction:0 "Предлагайте миссионеров"
+
+demd_offer_mission_interaction_desc:0 "Предложите послать миссионеров к соседнему правителю. Ваш [capital|E] [county|E] будет запущен [faith|E] попытка преобразования против имени получателя [capital|E] [county|E]."
+
+demd_offer_mission_no_faith_conv:0 "Получатель [capital|E] [county|E] еще не преобразован в другой [faith|E]"
+
+################
+
+faith_convert_with_learning_decision:0 "Распространяй мою веру"
+faith_convert_with_learning_decision_desc:0 "Ваш [faith|E] еще не укоренился ни в одном [counties|E]. Вы запустите [demd_faith_conversion_attack|E] против вашего [capital|E] [county|E] используя сумму ваших [faith|E] [fervor|E] и в среднем вы и ваш [realm_priest|E] [learning|E] навык."
+
+faith_convert_with_learning_can_attack:0 "Ваш [learning|E] плюс ваш [faith|E] [fervor|E] находится выше, чем [demd_faith_conversion_defense|E] из вашего [capital|E] [county|E]"
+
+faith_convert_with_learning_effect_desc:0 "[scope:recipient.GetFullName] будет запущен [demd_faith_conversion_attack|E] против каждого непосредственно принадлежащего [county|E] получателя"
+
+faith_convert_with_learning_effect_actor_desc:0 "[scope:actor.GetFullName] будет запущен [demd_faith_conversion_attack|E] против [scope:actor.GetHerHis] [capital|E] [county|E]"
+
+faith_convert_with_learning_decision_tooltip:0 "Средний показатель вас и вашего [realm_priest|E] [learning|E] навык плюс ваш [faith|E] [fervor|E] находится выше, чем [demd_faith_conversion_defense|E] из вашего [capital|E] [county|E]"
+
+faith_convert_with_learning_decision_confirm:0 "Начать преобразование"

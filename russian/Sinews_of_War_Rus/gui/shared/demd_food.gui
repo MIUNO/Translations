@@ -1,0 +1,110 @@
+﻿types Food
+{
+    type food_breakdown_widget = widget
+    {
+        alwaystransparent = no
+        using = GeneralTooltipSetup
+        widget = {
+            name = "background"
+            using = DefaultTooltipBackground
+            size = { 100% 100% }
+            alwaystransparent = no
+			max_width = 450
+        }
+        vbox = {
+            set_parent_size_to_minimum = yes
+            margin = { 20 10 }
+            margin_bottom = 20
+            spacing = 3
+
+            text_multi = {
+                layoutpolicy_horizontal = expanding
+                raw_text = "#T @icon_demd_food!#  Consumption Ratio: [Province.MakeScope.Var('food_ratio').GetValue|%0]"
+                align = left
+				max_width = 450
+            }
+
+            vbox = {
+                layoutpolicy_horizontal = expanding
+                layoutpolicy_vertical = expanding
+                #margin = { 0 4 }
+                spacing = -1
+
+                text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#weak [demd_food|E] производится путем [demd_job_farmers|E], и необходимо для поддержания [county|E] [demd_population|E]. Недостаток поставки #defender_color Еды#! приведет к снижению рождаемости, увеличению смертности и внешней миграции.#!"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#bold Запас: [Province.MakeScope.Var('food_demanded').GetValue|1]#!"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+					tooltipwidget = { 
+						food_per_capita_breakdown_widget = { 
+						
+						} 
+					}
+                    raw_text = "Произведенно: [Province.MakeScope.Var('food_produced').GetValue|2]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#bold Сеть: [Province.MakeScope.ScriptValue('rural_food_net')|1]#!"
+                    align = left
+					autoresize = yes
+					max_width = 400
+					datacontext = "[GuiScope.SetRoot(Province.MakeScope).GetScriptValueBreakdown('rural_food_net')]"
+					tooltipwidget = {
+						widget_value_breakdown_tooltip = {}
+					}
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#bold Запас: [Province.MakeScope.Var('food_stockpile').GetValue|1]#!"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+					tooltipwidget = { 
+						food_districts_breakdown_widget = { 
+						
+						} 
+					}
+                    raw_text = "[demd_food_districts|E] Построенно: [Province.MakeScope.Var('food_districts_count').GetValue|1]/[Province.MakeScope.Var('food_districts_max').GetValue|1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "[demd_job_farmers|E]#! Занято: [Province.MakeScope.Var('food_producers_count').GetValue|1]k/[Province.MakeScope.Var('food_producers_max').GetValue|1]k"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "[demd_construction_cap|E]: [Province.MakeScope.ScriptValue('prov_construction_capacity')|1] (Используется: [Province.MakeScope.ScriptValue('prov_districts_to_build')|1])"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }				
+            }
+        }
+    }
+}

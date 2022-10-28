@@ -1,0 +1,16 @@
+﻿l_russian:
+
+feudal_government_food:0 "Еда в феоде"
+feudal_food_exempt:0 "Минимальный"
+feudal_food_low:0 "Низкий"
+feudal_food_normal:0 "Обычный"
+feudal_food_high:0 "Высокий"
+feudal_food_extortionate:0 "Вымогательство"
+
+feudal_food_exempt_short:0 "Минимум\n0%"
+feudal_food_low_short:0 "Низкий\n[EmptyScope.ScriptValue('low_feudal_food_rate')|0%]"
+feudal_food_normal_short:0 "Обычный\n[EmptyScope.ScriptValue('normal_feudal_food_rate')|0%]"
+feudal_food_high_short:0 "Высокий\n[EmptyScope.ScriptValue('high_feudal_food_rate')|0%]"
+feudal_food_extortionate_short:0 "Вымогательство\n[EmptyScope.ScriptValue('extortionate_feudal_food_rate')|0%]"
+
+exempt_feudal_food:0 "Очень низкий"

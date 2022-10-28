@@ -1,0 +1,93 @@
+﻿l_russian:
+
+# 1001: Tying the Knot
+demd_pop_culture_conversion.1001.t:0 "[county.GetName]: Связать узами брака"
+demd_pop_culture_conversion.1001.desc:0 "Проезжая через поселение в [county.GetNameNoTierNoTooltip] я слышу веселые звуки свадебных празднеств. Я показываю жестом своей свите остановится, а сам благосклонно наблюдаю на сей союз.\n\nIt выглядит как типичная [desirable_culture.GetName] свадьба по началу, но затем мы лицезреем весьма необычную картину. Похоже, что многие черты  [undesirable_culture.GetName] были представлены на данном празднестве. Сначала, конечно, мы обратились в замешательство, но одна из знатных особ возглавляющих непосредственно делегацию решила почтить нас своим визитом \n\nThey объяснив всем нам, что это смешанное бракосочетание. Сам жених относится к [desirable_culture.GetName] культуре, тогда как невеста представительница [undesirable_culture.GetName] культуры. Они смиренно просят нас благословить сию свадебную церемонию."
+
+demd_pop_culture_conversion.1001.a:0 "Я благославляю этот союз и мир между [desirable_culture.GetCollectiveNoun] и [undesirable_culture.GetCollectiveNoun]!"
+demd_pop_culture_conversion.1001.b:0 "Я все же сделаю для них исключение, но в будущем подобное не должно происходить."
+demd_pop_culture_conversion.1001.c:0 "Я велю прекратить это безобразие! [desirable_culture.GetCollectiveNoun] и [undesirable_culture.GetCollectiveNoun] совершенно не подходят для брака!"
+
+# 1002: Law in Translation
+demd_pop_culture_conversion.1002.t:0 "[county.GetName]: Закон в переводе"
+demd_pop_culture_conversion.1002.desc:0 "Мой канцлер созвал своих писарей для ежемесячного отчета. Все они приходят с различными донесениями, просьбами и правовыми актами. Однако один из них не хочет отказываться от своего урожая.\n\n"Приношу свои искренние извинения, милорд, но большая часть актов в [county.GetName] составлена на языке [undesirable_culture.GetName]. Я пытался побудить их приложить усилия, но они настаивали на том, чтобы использовать свой собственный язык. "\n\nМы не можем эффективно управлять с наличием данного языкового барьера. Мой канцлер и писари хотят, чтобы у меня была эффективная и четкая политика по этому вопросу."
+
+demd_pop_culture_conversion.1002.a:0 "Наймите языковедов для изучения [desirable_culture.GetName] языка для местных магистратов."
+demd_pop_culture_conversion.1002.b:0 "Отдавайте приоритет правовым актам на языке, который мы в состоянии понимать. Тогда у них точно будет правильная мотивация."
+demd_pop_culture_conversion.1002.c:0 "Правовые акты написанные на языке отличном от [desirable_culture.GetName] отныне объявляются недействительными!"
+invalidated_local_laws:0 "Недействительные местные законы"
+invalidated_local_laws_desc:0 "Недействительные местные законы"
+
+# 1003: Customary Law
+demd_pop_culture_conversion.1003.t:0 "[county.GetName]: Обычное право"
+demd_pop_culture_conversion.1003.desc:0 "С двумя культурами в [county.GetNameNoTierNoTooltip] судебные иски с участием как [desirable_culture.GetCollectiveNoun], так и [undesirable_culture.GetCollectiveNoun] - не что иное, как кошмар. Массовая путаница, вызванная этим, - слишком большая проблема".
+
+demd_pop_culture_conversion.1003.a:0 "[desirable_culture.GetName] обычное право стоит выше всего остального и впредь будет единственным действительным законом!"
+demd_pop_culture_conversion.1003.b:0 "[undesirable_culture.GetCollectiveNoun] могут судить о своих делах в соответствии со своим законом, но не о делах, затрагивающих [desirable_culture.GetCollectiveNoun]."
+demd_pop_culture_conversion.1003.c:0 "Подтолкнем к разрешению дел по [desirable_culture.GetName] обычаю."
+
+# 1004: Language Barrier
+demd_pop_culture_conversion.1004.t:0 "[county.GetName]: Языковой барьер"
+demd_pop_culture_conversion.1004.desc:0 "Некоторые [undesirable_culture.GetCollectiveNoun] стремятся изучить культуру и язык [desirable_culture.GetName], чтобы получить работу у богатых покровителей. Их усилия достойны похвалы и принесут пользу нашему влиянию в этом районе. Большой шаг к их интеграции.\n\nОднако декан университета упорно отказывается принимать студентов, говорящих на [undesirable_culture.GetName]. Умение говорить на [desirable_culture.GetName] является обязательным условием обучения, на котором он настаивает, но это противоречит самой цели классов для продвижения нашего языка и обычаев."
+
+demd_pop_culture_conversion.1004.b:0 "Отговорить его от его упрямого сопротивления"
+demd_pop_culture_conversion.1004.b.success:0 "Вы убеждаете декана"
+demd_pop_culture_conversion.1004.b.failure:0 "Вам не удалось убедить декана"
+demd_pop_culture_conversion.1004.a:0 "Заплатить декану, чтобы он нанял дополнительных переводчиков, а остаток платы оставил себе."
+
+# 1005: A Worthy Name
+demd_pop_culture_conversion.1005.t:0 "[county.GetName]: Достойное имя"
+demd_pop_culture_conversion.1005.desc:0 "Во время проведения совета по незначительным вопросам королевства младший писарь приносит мне запрос: "[this.GetTitleAsNameNoTooltip], не было бы предпочтительнее, если бы вы провозгласили указ, согласно которому все в [county.GetNameNoTierNoTooltip] должны будут принять [desirable_culture.GetName] имя для административных целей. Они гордятся своими родными именами [undesirable_culture.GetName], но их трудно точно расшифровать на нашем языке. Более того, это помогло бы им увидеть величие нашей культуры, если бы мы назвали новорожденных по-нашему".
+
+demd_pop_culture_conversion.1005.a:0 "Дать [desirable_culture.GetName] имена в честь привелегированных дворянских особ"
+demd_pop_culture_conversion.1005.b:0 "Принять решение о том, что все правовые документы должны включать [desirable_culture.GetName] имена"
+demd_pop_culture_conversion.1005.c:0 "У меня есть более насущные дела."
+
+# 1006: Cadaster Disaster
+demd_pop_culture_conversion.1006.t:0 "[county.GetName]: Кадастровая катастрофа."
+demd_pop_culture_conversion.1006.desc:0 "Мой стюард пришел ко мне, чтобы узнать о кадастре [county.GetNameNoTierNoTooltip]. Действительно, реестр собственности устарел и нуждается в доработке. Серьезные последствия для моей репутации, и я не останусь без сопротивления. Я мог бы даже поднять восстание!\n\nС другой стороны, это была бы прекрасная возможность подтолкнуть гегемонию людей [desirable_culture.GetName] в [county.GetNameNoTierNoTooltip] и возможность, которая может больше не представиться."
+
+demd_pop_culture_conversion.1006.a:0 "Продолжайте передел земли!"
+demd_pop_culture_conversion.1006.b:0 "Это слишком рискованно. Я напишу честный кадастр."
+demd_pop_culture_conversion.1006.c:0 "Нам сейчас не нужны такие споры."
+
+# 1007: War Service
+demd_pop_culture_conversion.1007.t:0 "[county.GetName]: Воинская повинность"
+demd_pop_culture_conversion.1007.desc:0 "Мой маршал обновлял списки сборов на прошлой неделе и столкнулся с необычной ситуацией. Проверяя записи для [county.GetNameNoTierNoTooltip], он понял, что почти все призывники принадлежали к [desirable_culture.GetName], серьезное недонабор в наших вооруженных силах.\n\nЕсли бы мы могли ввести больше [undesirable_culture.GetCollectiveNoun] в сборы, мы могли бы повысить наш военный потенциал, постепенно приучая их к нашему образу жизни.Они будут восхищаться и, в конечном итоге, подражать нам в своем стремлении к лучшему понимание."
+
+demd_pop_culture_conversion.1007.a:0 "Мы выкуем взаимопонимание в огне войны! Зарегистрировать всех способных нести оружие в руках из [undesirable_culture.GetCollectiveNoun]!"
+demd_pop_culture_conversion.1007.b:0 "Отправить заказ добровольцам [undesirable_culture.GetName] и вознаградить тех, кто появится."
+demd_pop_culture_conversion.1007.c:0 "Все равно из них не выйдет хороших воинов."
+
+# 1008: Upward Mobility
+demd_pop_culture_conversion.1008.t:0 "[county.GetName]: Продвижение по службе"
+demd_pop_culture_conversion.1008.desc:0 "В [county.GetNameNoTierNoTooltip] растет [undesirable_culture.GetName] дворянство, и, как и все мужчины, добившиеся успеха сами, они хотят выставить напоказ свою вновь обретенную славу и статус. Некоторые способы сделать это — спонсировать художников или строительные проекты. Через архитектуру и искусство, мы могли бы мягко повлиять на них, чтобы они приняли нашу культуру.\n\nХудожники, писатели, певцы и другие на вашей стороне, финансирование зданий приносит большой престиж, и эти выскочки обязательно прислушаются к вашему совету, если вы предложите директивы о том, как "правильно" тратить свое богатство".
+demd_pop_culture_conversion.1008.a:0 "Я знаю нескольких артистов, которым они понравятся!"
+demd_pop_culture_conversion.1008.b:0 "Лучший способ отметить их новый статус — повысить налоги."
+demd_pop_culture_conversion.1008.c:0 "Ввести новые законы о роскоши, чтобы умерить их пыл."
+
+# 1009: Civil Service
+demd_pop_culture_conversion.1009.t:0 "[county.GetName]: Гражданская служба"
+demd_pop_culture_conversion.1009.desc:0 "По мере того, как наша администрация растет, а вместе с ней и рабочая нагрузка, нам не хватает писарей и мелких служивых людей для выполнения дополнительной работы в [county.GetNameNoTierNoTooltip]. Тем не менее, здесь нет недостатка в грамотных [undesirable_culture.GetCollectiveNoun], которые могли бы выполнять эту роль. Они также будут связующим звеном между своими людьми и более широкой бюрократией [desirable_culture.GetName].\n\nНам необходимо установить стандарт для найма и того, в какой степени язык [desirable_culture.GetName] будет использоваться ими. Мы могли бы в конечном итоге взрастить местную элиту, враждебную нашим целям, вместо того, чтобы укреплять наш контроль, если мы не будем действовать осторожно."
+demd_pop_culture_conversion.1009.a:0 "Предоставьте нашим офицерам возможность набирать новых писарей из числа более способных из [undesirable_culture.GetCollectiveNoun]."
+demd_pop_culture_conversion.1009.b:0 "Нет, мы можем доверять только [desirable_culture.GetCollectiveNoun] вопросы управления!"
+overextended_bureaucracy:0 "Чрезмерная бюрократия"
+overextended_bureaucracy_desc:0 "Чрезмерная бюрократия"
+
+# 1010: Housing Surplus
+demd_pop_culture_conversion.1010.t:0 "[county.GetName]: Излишки жилья"
+demd_pop_culture_conversion.1010.desc:0 "Недавно в [county.GetNameNoTierNoTooltip] произошел большой отток мигрантов, в значительной степени [undesirable_culture.GetCollectiveNoun]. Они подарили или продали часть своего недвижимого имущества другим [undesirable_culture.GetCollectiveNoun], которые во многих случаях оставили их необитаемыми. У нас есть возможность установить больше поселенцев [desirable_culture.GetName], используя этот кризис."
+demd_pop_culture_conversion.1010.a:0 "Принудительно продать недвижимость по цене чуть выше рыночной и отдать ее взаймы поселенцам [desirable_culture.GetName]."
+demd_pop_culture_conversion.1010.b:0 "Насильно реквизировать недвижимость у поселенцев [desirable_culture.GetName]"
+demd_pop_culture_conversion.1010.c:0 "Это не стоит нашего времени."
+
+# 1011: Rioting (low control event)
+demd_pop_culture_conversion.1011.t:0 "[county.GetName]: [undesirable_culture.GetName] восстания"
+demd_pop_culture_conversion.1011.desc:0 "Недавно в [county.GetNameNoTierNoTooltip] произошли массовые городские беспорядки, в основном среди [undesirable_culture.GetCollectiveNoun], которые считают, что местная администрация [desirable_culture.GetName] плохо обращается с ними. В прошлом мы в значительной степени игнорировали напряженность, но сегодня она вылилась в насилие. Несколько правительственных зданий горят, и мы больше не контролируем некоторые беднейшие районы [county.title_province.GetName]."
+demd_pop_culture_conversion.1011.a:0 "Восстановите контроль над [county.title_province.GetName] любыми средствами!"
+demd_pop_culture_conversion.1011.b:0 "Мы не хотим накалять обстановку. Постарайтесь сдержать беспорядки, но сведите силовые действия к минимуму."
+demd_pop_culture_conversion.1011.c:0 "Пусть они выместят свой гнев."
+demd_pop_culture_conversion.allowed:0 "Многие люди будут убиты, а имущество уничтожено, и существует большая вероятность того, что пожары выйдут из-под контроля."
+demd_pop_culture_conversion.tolerated:0 "Некоторые люди будут убиты, а имущество уничтожено, и есть небольшой шанс, что пожары выйдут из-под контроля."
+demd_pop_culture_conversion.suppressed:0 "Некоторые будут убиты, но у нас есть отличные шансы ограничить материальный ущерб и контролировать пожары."
+demd_pop_culture_conversion.tolerated:0 "Есть небольшой шанс, что пожары выйдут из-под контроля."

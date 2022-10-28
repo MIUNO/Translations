@@ -1,0 +1,6 @@
+﻿l_russian:
+
+SKILL_POINT_FROM_ME_TORTURING_GAIN_CHANCE:3 "Когда вы [torture|E] кто-то:\n$TAB$#V [EmptyScope.ScriptValue('dark_insights_stat_increase_chance')|0]%#! шанс получить либо [intrigue_i]#P 1#! [intrigue|E] или [prowess_i]#P 1#! [prowess|E] (Максимально [EmptyScope.ScriptValue('dark_insights_prowess_increase_maximum')|0] каждый)"
+
+CONVERT_COUNTY_NO_NEGATIVE_FERVOR_MODIFIERS:3 "[convert_county|E]: Мощность преобразования от соседних [counties|E] из вашего [faith|E] на 50% больше"
+

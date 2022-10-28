@@ -1,0 +1,64 @@
+﻿l_russian:
+
+game_concept_demd_trade_resource:0 "Роскошный товар"
+game_concept_demd_trade_resources:0 "Роскошные товары"
+game_concept_demd_trade_resources_desc:0 "Наличие в #defender_color Роскошный товары!# в [county|E] увеличивает его производство [demd_trade_value|E] в значительной степени."
+
+demd_gold:0 "@icon_demd_gold!# [demd_gold|E]: #P +[EmptyScope.ScriptValue('demd_gold_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_gold_icon:0 "@icon_demd_gold_small!#"
+game_concept_demd_gold:0 "Золото"
+game_concept_demd_gold_desc:0 "Золото рассматривалось как мера относительной ценности еще до чеканки монет. История золота как товара глубоко переплетена с его использованием в религиозных и мифологических образах."
+
+demd_silver:0 "@icon_demd_silver!# [demd_silver|E]: #P +[EmptyScope.ScriptValue('demd_silver_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_silver_icon:0 "@icon_demd_silver_small!#"
+game_concept_demd_silver:0 "Серебро"
+game_concept_demd_silver_desc:0 "Серебро рассматривалось как мера относительной ценности еще до чеканки монет. История серебра как товара глубоко переплетена с его использованием в религиозных и мифологических образах."
+
+demd_wine:0 "@icon_demd_wine!# [demd_wine|E]: #P +[EmptyScope.ScriptValue('demd_wine_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_wine_icon:0 "@icon_demd_wine_small!#"
+game_concept_demd_wine:0 "Вино"
+game_concept_demd_wine_desc:0 "Вино производится из винограда, изюма и многих других фруктов и имеет множество применений в рекреационных, религиозных и культурных целях."
+
+demd_silk:0 "@icon_demd_silk!# [demd_silk|E]: #P +[EmptyScope.ScriptValue('demd_silk_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_silk_icon:0 "@icon_demd_silk_small!#"
+game_concept_demd_silk:0 "Шелк"
+game_concept_demd_silk_desc:0 "Окутанные тайной истоки выращивания шелка лежат на Дальнем Востоке. Эта экзотическая ткань достаточно редка, чтобы вызвать большой интерес и еще большую цену."
+
+demd_spices:0 "@icon_demd_spices!# [demd_spices|E]: #P +[EmptyScope.ScriptValue('demd_spices_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_spices_icon:0 "@icon_demd_spices_small!#"
+game_concept_demd_spices:0 "Специи"
+game_concept_demd_spices_desc:0 "Используемые в основном в качестве пищевых добавок, многие травы, входящие в состав специй, имеют разную цену в зависимости от их происхождения."
+
+demd_amber:0 "@icon_demd_amber!# [demd_amber|E]: #P +[EmptyScope.ScriptValue('demd_amber_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_amber_icon:0 "@icon_demd_amber_small!#"
+game_concept_demd_amber:0 "Янтарь"
+game_concept_demd_amber_desc:0 "Изготовленная из смолы сосен, привлекательность янтаря в качестве декоративного материала в сочетании с его редкостью делает его особенно ценным товаром."
+
+demd_gems:0 "@icon_demd_gems!# [demd_gems|E]: #P +[EmptyScope.ScriptValue('demd_gems_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_gems_icon:0 "@icon_demd_gems_small!#"
+demd_gems:0 "@icon_demd_gems!# [demd_gems|E]"
+game_concept_demd_gems:0 "Драгоценные камни"
+game_concept_demd_gems_desc:0 "Высоко ценимые как декоративные предметы, невероятная редкость драгоценных камней гарантирует, что только самые богатые люди когда-либо будут обладать ими."
+
+demd_ivory:0 "@icon_demd_ivory!# [demd_ivory|E]: #P +[EmptyScope.ScriptValue('demd_ivory_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_ivory_icon:0 "@icon_demd_ivory_small!#"
+game_concept_demd_ivory:0 "Слоновая кость"
+game_concept_demd_ivory_desc:0 "Моржовая слоновая кость продавалась на юг от норвежской Гренландии до Скандинавии, южной Англии, северной Франции и Германии. Слоновая кость становилась все более доступной по мере развития Средневековья, и самым важным центром резьбы по дереву стал Париж, который имел практически промышленное производство и экспортировался по всей Европе."
+
+demd_salt:0 "@icon_demd_salt!# [demd_salt|E]: #P +[EmptyScope.ScriptValue('demd_salt_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_salt_icon:0 "@icon_demd_salt_small!#"
+game_concept_demd_salt:0 "Соль"
+game_concept_demd_salt_desc:0 "Соль, высоко ценимая как пищевая добавка и консервант, пользуется таким высоким спросом, что часто служит параллельной валютой."
+
+demd_furs:0 "@icon_demd_furs!# [demd_furs|E]: #P +[EmptyScope.ScriptValue('demd_furs_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_furs_icon:0 "@icon_demd_furs_small!#"
+game_concept_demd_furs:0 "Мехов"
+game_concept_demd_furs_desc:0 "Меха использовались с незапамятных времен, чтобы защитить людей от пронизывающего холода. Начиная от сшитых кроличьих шкурок и заканчивая шкурами большого медведя, хороший мех можно использовать для любого количества целей."
+
+demd_dyes:0 "@icon_demd_dyes!# [demd_dyes|E]: #P +[EmptyScope.ScriptValue('demd_dyes_trade_value_bonus')|0%] @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_dyes_icon:0 "@icon_demd_dyes_small!#"
+game_concept_demd_dyes:0 "Красители"
+game_concept_demd_dyes_desc:0 "Дорогие красители, такие как тирский пурпур и кермес, добываются из редких беспозвоночных в очень локализованных местах обитания. Эти цвета особенно востребованы правящей элитой многих культур и обязательно стоят дорого."
+
+demd_no_trade_resource:0 "Пусто: +0% @icon_trade_value!#  [demd_trade_value|E] #!"
+demd_no_trade_resource_icon:0 " "

@@ -1,0 +1,16 @@
+﻿l_russian:
+
+plague_seclude_court:0 "Уединенный двор"
+plague_seclude_court_decision:0 "Уединенный двор"
+Plague_seclude_court_decision_desc:0 "Изолирование нашего двора уменьшит риск [courtiers|E] заразиться [demd_plague|E], но может не стать популярным среди людей."
+Plague_seclude_court_decision_tooltip:0 "$plague_seclude_court_decision_desc$"
+plague_seclude_court_confirm:0 "Закрой ворота"
+
+plague_unseclude_court:0 "Выйти из уединения"
+plague_unseclude_court_confirm:0 "Откройте ворота"
+
+demd_fortify_eastern_marches:0 «Укрепить Восточные рубежи»
+demd_fortify_eastern_marches_decision:0 «Укрепить Восточные рубежи»
+demd_fortify_eastern_marches_decision_desc:0 "Угроза, исходящая от набегов из степей, побудила восточно-франкских правителей приказать одному мужчине из девяти поселиться в укрепленном анклаве. Мужчины, живущие в крепостях, поддерживали их и строили кварталы для своих confamiliares, которые продолжали жить В их собственных жилищах в сельской местности. Те, кто постоянно проживал в крепости, также отвечали за сохранность одной трети всего урожая, который другие восемь перевозили туда. Восемь также сажали и собирали зерно на владениях девятого и хранил его в своем жилище. Хотя остальные восемь обычно не проживали в крепости, их жизнь вращалась вокруг нее. необходимость."
+demd_fortify_eastern_marches_decision_tooltip:0 ""
+demd_fortify_eastern_marches_confirm:0 «Укрепите нашу оборону»

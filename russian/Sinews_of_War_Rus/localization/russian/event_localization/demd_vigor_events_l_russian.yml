@@ -1,0 +1,41 @@
+﻿l_russian:
+
+demd_vigor.0001.t:0 "Упадок [reformed_culture.GetName] Культуры"
+demd_vigor.0001.desc:0 "Последние годы не оказались благосклонными к [reformed_culture.GetName] [culture|E]. Наши родственные узы исчезли, и наши люди проявляют больше интереса к исполнению своих сиюминутных желаний, чем к соблюдению традиционных ценностей, которые скрепляли нашу культуру. Мы уже идем по пути упадка и распада, и если не предпринять никаких действий, вполне вероятно, что [reformed_culture.GetName] культура скоро вообще перестанет иметь какое-либо значение.\n\nКак самый выдающийся живой [reformed_culture.GetName], мне предстоит наметить новый курс для нашего народа. Но что важнее всего сохранить?"
+demd_vigor.0001.a:0 "Наши манеры и этикет" # Courtly
+demd_vigor.0001.b:0 "Наши законы и обычаи" # Bureaucratic
+demd_vigor.0001.c:0 "Наши узы общности" # Communal
+demd_vigor.0001.d:0 "Наша выдержка и решительность" # Stoic
+demd_vigor.0001.e:0 "Наша вежливость и любопытство" # Egalitarian
+demd_vigor.0001.f:0 "Наша сила оружия" # Bellicose
+demd_vigor.0001.g:0 "Наша преданность [dominant_faith.GetHighGodName]" # Spiritual
+demd_vigor.0001.h:0 "Нет ничего плохого в том, [reformed_culture.GetName] [culture|E]!"
+
+
+demd_vigor.0002.t:0 "Возрождение [reformed_culture.GetName] Культуры"
+demd_vigor.0002.desc:0 "Последние годы не оказались благосклонными к [reformed_culture.GetName] [culture|E]. Наши узы родства исчезли, и наши люди проявляют больше интереса к исполнению своих сиюминутных желаний, чем к соблюдению традиционных ценностей, которые скрепляли нашу культуру. \n\n[reformer.GetTitledFirstName], передовая жизнь [reformed_culture.GetName], почувствовал болезнь нашей культуры и решил вести нас в новом направлении.\n\n"
+demd_vigor.0002.a:0 "К новому веку, новой эре, новым людям!"
+
+demd_low_vigor_reset_addendum:0 "Все [culture_traditions|E] и [culture_pillars|E] которые уменьшают [vigor|E] будут заменены."
+demd_low_vigor_reset_communal:0 "Принимает $ethos_communal_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_vigor_reset_spiritual:0 "Принимает $ethos_spiritual_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_vigor_reset_bureaucratic:0 "Принимает $ethos_bureaucratic_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_vigor_reset_stoic:0 "Принимает $ethos_stoic_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_vigor_reset_bellicose:0 "Принимает $ethos_bellicose_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_vigor_reset_courtly:0 "Принимает $ethos_courtly_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_vigor_reset_egalitarian:0 "Принимает $ethos_egalitarian_name$ [ethos|E]. $demd_low_vigor_reset_addendum$"
+demd_low_fervor_reset:0 "Все [doctrines|E] которые уменьшают [fervor|E] есть 50% шанс быть замененным на следующий уровень выше"
+
+ demd_vigor.0002.ethos.bellicose:0 "Столкнувшись с растущим давлением как со стороны дикой природы, так и со стороны их конкурентов, [reformed_culture.GetCollectiveNounNoTooltip] становятся все более воинственными, поскольку они стремятся создавать и защищать свои средства к существованию силой оружия."
+ demd_vigor.0002.ethos.bureaucratic:1 "[reformed_culture.GetCollectiveNounNoTooltip] похоже, у них растет аппетит к многословным законам, длинным хроникам и запутанным уставам, они находят утешение в обществе, управляемом постоянно расширяющимися формальными практиками."
+ demd_vigor.0002.ethos.courtly:0 "С возрастающей приверженностью манерам и этикету, [reformed_culture.GetCollectiveNounNoTooltip] мы принимаем структурированный, придворный образ жизни, чтобы приблизить новую эру стабильности и процветания."
+ demd_vigor.0002.ethos.communal:0 "Помогая своим соседям пережить трагедию и разделяя их триумфы, [reformed_culture.GetCollectiveNounNoTooltip] формируют сплоченные узы сообщества, которые воспитывают чувство принадлежности и целеустремленности."
+ demd_vigor.0002.ethos.stoic:0 "Перед лицом опасного и непредсказуемого мира, [reformed_culture.GetCollectiveNounNoTooltip] мы начинаем ценить выдержку и решительность больше, чем когда-либо прежде."
+ demd_vigor.0002.ethos.spiritual:0 "Ища ответы как внутри себя, так и в мире в целом, [reformed_culture.GetCollectiveNounNoTooltip] становятся более духовными и набожными, чем когда-либо прежде."
+ demd_vigor.0002.ethos.egalitatian:0 "Признавая, что обстоятельства рождения человека не всегда предсказывают его способности и компетентность, [reformed_culture.GetCollectiveNounNoTooltip] становятся все более эгалитарными и открытыми как общество."
+ demd_vigor.0002.ethos.unchanged:0 "Если вы видите это, значит, все было напортачено"
+ 
+demd_vigor.0003.t:0 "Реформирование системы [reformed_faith.GetAdjective] Вера"
+demd_vigor.0003.desc:0 "В целях борьбы с ухудшением соблюдения религиозных обрядов среди [reformed_Faith.GetReligiousHead.GetAdherentNamePlural], [reformed_Faith.GetReligiousHead.GetTitledFirstName] созвал совет по реформированию [reformed_faith.GetAdjective] вера. Были повышены доктринальные стандарты, которые ранее были слабыми."
+demd_vigor.0003.a:0 "К новому веку, новой эре, новой вере!"
+

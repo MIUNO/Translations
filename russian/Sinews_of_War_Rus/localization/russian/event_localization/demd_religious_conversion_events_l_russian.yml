@@ -1,0 +1,107 @@
+﻿l_russian:
+
+demd_pop_religious_conversion_gain_lose_small:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_small')]"
+demd_pop_religious_conversion_gain_lose_medium:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_medium')]"
+demd_pop_religious_conversion_gain_lose_large:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_large')]"
+demd_pop_religious_conversion_gain_lose_huge:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_huge')]"
+
+demd_pop_religious_conversion_gain_lose_reverse_small:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_reverse_small')]"
+demd_pop_religious_conversion_gain_lose_reverse_medium:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_reverse_medium')]"
+demd_pop_religious_conversion_gain_lose_reverse_large:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_reverse_large')]"
+demd_pop_religious_conversion_gain_lose_reverse_huge:0 "[this.Custom,('demd_pop_religious_conversion_gain_lose_reverse_huge')]"
+
+demd_pop_religious_conversion_gain_small:0 "[county.GetName]: +10 [game_concept_demd_religious_conversion_progress|E]"
+demd_pop_religious_conversion_gain_medium:0 "[county.GetName]: +20 [game_concept_demd_religious_conversion_progress|E]"
+demd_pop_religious_conversion_gain_large:0 "[county.GetName]: +30 [game_concept_demd_religious_conversion_progress|E]"
+demd_pop_religious_conversion_gain_huge:0 "[county.GetName]: +50 [game_concept_demd_religious_conversion_progress|E]"
+
+demd_pop_religious_conversion_lose_small:0 "[county.GetName]: -10 [game_concept_demd_religious_conversion_progress|E]"
+demd_pop_religious_conversion_lose_medium:0 "[county.GetName]: -20 [game_concept_demd_religious_conversion_progress|E]"
+demd_pop_religious_conversion_lose_large:0 "[county.GetName]: -30 [game_concept_demd_religious_conversion_progress|E]"
+demd_pop_religious_conversion_lose_huge:0 "[county.GetName]: -50 [game_concept_demd_religious_conversion_progress|E]"
+
+# 1001: New Faith, Old Places 
+demd_pop_religious_conversion.1001.t:0 "[county.GetName]: Новая вера, старые места"
+demd_pop_religious_conversion.1001.desc:0 "Поскольку в [county.GetNameNoTierNoTooltip] продолжается обращение, мы не знаем, что делать с [undesirable_faith.GetName] [undesirable_faith.HouseOfWorshipPlural].\n\nНеудачный шаг может вызвать гнев недавнего новообращенных и истинно верующих. Наша политика в будущем должна учитывать не только недовольные места отправления культа, но и новые [undesirable_faith.HouseOfWorshipPlural]".
+
+demd_pop_religious_conversion.1001.a:0 "Игнорируйте их [undesirable_faith.HouseOfWorshipPlural]. Мы построим более [desirable_faith.HouseOfWorshipPlural] сами".
+demd_pop_religious_conversion.1001.b:0 "Преобразовать любой заброшенный [undesirable_faith.HouseOfWorshipPlural] в [desirable_faith.HouseOfWorshipPlural]".
+demd_pop_religious_conversion.1001.c:0 "Им запрещено строить любые новые [undesirable_faith.HouseOfWorshipPlural] без нашего согласия".
+demd_pop_religious_conversion.1001.d:0 "Сжечь все [undesirable_faith.HouseOfWorship] до последнего!" #Callous
+burned_local_temple: "Сожженные местные храмы"
+burned_local_temples_desc:0 "Сжечь еретиков!"
+
+# 1002: Sons of [undesirable_faith.WarGodName]
+demd_pop_religious_conversion.1002.t:0 "[county.GetName]: Сыновья [undesirable_faith.WarGodName]"
+demd_pop_religious_conversion.1002.desc:0 "Население [undesirable_faith.GetName] в [county.GetNameNoTierNoTooltip] в последнее время стало беспокойным. нападали на нашу [desirable_faith.PriestNeuterPlural] и оскверняли наш [desirable_faith.HouseOfWorshipPlural].\n\nХотя им долгое время удавалось уклоняться от захвата по большей части, нам наконец удалось загнать их в угол на одном из их подпольных собраний. запечатаны, так что теперь остается только решить их судьбу".
+
+demd_pop_religious_conversion.1002.a:0 " Клянусь [desirable_faith.HighGodName], сделайте их живыми или мертвыми!" #Wroth/Zealous loses stress
+demd_pop_religious_conversion.1002.a.success:0 "Бандиты [undesirable_faith.GetAdherentNamePlural] уничтожены."
+demd_pop_religious_conversion.1002.a.failure:0 "Вы ранены."
+demd_pop_religious_conversion.1002.b:0 "Главару, должно быть, удавалось уклоняться от моих агентов до сих пор. Сделайте ему предложение." #Gregarious loses stress
+demd_pop_religious_conversion.1002.b.success:0 "Вожак поступает ко мне на службу."
+demd_pop_religious_conversion.1002.b.failure:0 "Мое предложение обнаружено."
+demd_pop_religious_conversion.1002.c:0 "Убейте лидеров и заставьте остальных обратиться."
+demd_pop_religious_conversion.1002.d:0 "Пусть уходят те, кто может заплатить выкуп. Убейте остальных."
+demd_pop_religious_conversion.1002.e:0 "Давайте не будем рисковать. Заблокируйте выходы и сожгите все здание." #Callous/Sadistic/Paranoid
+
+# 1003: A Prayer to Whom It May Concern
+demd_pop_religious_conversion.1003.t:0 "[county.GetName]: Молитва тем, кого это может касаться" #Maybe only if Chaplain is Zealous?
+demd_pop_religious_conversion.1003.desc:0 "Мой придворный капеллан врывается в мой совет, явно обезумев:\n\n"Милорд,... [undesirable_faith.GetAdherentNamePlural] в [county.GetNameNoTierNoTooltip] медленно изучают заповеди [ желанная_вера.GetName], ну, не без мелких ересей конечно, но сегодня я поймал одного из пожилых язычников тайком молящегося "[undesirable_faith.HighGodName], [desirable_faith.HighGodName] и кого это может касаться..." Нельзя допустить, чтобы это продолжалось! Мы должны публично стегать нахального щенка, пока он не отречется от этого издевательства над нашими убеждениями!"
+
+demd_pop_religious_conversion.1003.a:0 "Приведи обидчика! Я сам нанесу удары плетью!" #You are Diligent/Callous/Sadistic/Zealous
+demd_pop_religious_conversion.1003.b:0 "Успокойтесь! Примите некоторые меры, но не переусердствуйте."
+demd_pop_religious_conversion.1003.c:0 "Требуются проповеди, а не побои. Синкретизм - нормальный шаг на пути к искуплению"
+demd_pop_religious_conversion.1003.d:0 "Я не вижу в этом вреда. Проинструктируйте его дальше, но не беспокойте этим сообщество."
+
+#1004: Beyond Death
+demd_pop_religious_conversion.1004.t:0 "[county.GetName]: За гранью смерти"
+demd_pop_religious_conversion.1004.desc:0 "Когда я посещаю местный храм среди множества неверных [county.GetNameNoTierNoTooltip], ко мне подходит один из миссионеров. Он объясняет, что местные жители начали сомневаться в окончательности своих душ и многое другое. в частности, их близких, которые не обратятся.\n\nСвященник разделился во мнениях относительно того, как им ответить, и хочет, чтобы я лично разобрался с этим, несмотря на мои многочисленные упреки. Должен ли я утешать их, чтобы исподтишка склонить к обращению, или напугать их худшая из всех сказок?"
+
+demd_pop_religious_conversion.1004.a:0 "A: Страдания неверных слишком велики, чтобы их можно было сосчитать в [desirable_faith.NegativeAfterlife]. Покайтесь или страдайте за последствия!"
+demd_pop_religious_conversion.1004.b:0 "B:Ты уже показал свою преданность истинной вере и теперь ты должен спасти души своих близких, даже если они не плохие люди."
+demd_pop_religious_conversion.1004.c:0 "Черт возьми [desirable_faith.PriestNeuter]!, это твоя работа! Разберись с этим как следует и спроси у своей иерархии"
+
+#1005: Quarter Troops
+demd_pop_religious_conversion.1005.t:0 "[county.GetName]: Квартерные войска"
+demd_pop_religious_conversion.1005.desc:0 "Мой маршал недавно обратился ко мне по поводу проблемы размещения войск среди язычников [County]. Мы не можем эффективно контролировать землю и защищать ее, по словам моего советника, и было бы лучше, если бы были какие-то небольшие ретрансляторы. среди населения. Эта мера вряд ли будет популярной, но мы можем ограничить ее населением, исповедующим [undesirable_faith.GetAdherentNamePlural] скорее всего, быстро мигрируют или перейдут в другую веру, чтобы прекратить эти неприятности".
+
+demd_pop_religious_conversion.1005.a:0 "Приказать расквартировать всех солдат и накормить их [undesirable_faith.GetAdherentNamePlural] домохозяйствами. Пресекать любые жалобы"
+demd_pop_religious_conversion.1005.b:0 "Четверть войск во всех домохозяйствах, но с дискриминацией против [undesirable_faith.GetAdherentNamePlural]."
+demd_pop_religious_conversion.1005.c:0 "Это ужасная идея, мои войска в большей безопасности за стенами, и так мои подданные более послушны."
+
+#1006: Book Burning
+demd_pop_religious_conversion.1006.t:0 "[county.GetName]: Сожжение книг" #Maybe if Chaplain is Zealous
+demd_pop_religious_conversion.1006.desc:0 "Сегодня нагрянул мой придворный капеллан, он разглагольствовал и бредил по поводу некоторых книг, содержащих оскорбления и ложь против [desirable_faith.HighGodName]. Он призвал к немедленному задержанию и публичному уничтожению этих книг. Дальнейшее исследование показало, что рассматриваемые книги являются традицией [undesirable_faith.GetAdherentNamePlural], [undesirable_faith.ReligiousText]!"
+
+demd_pop_religious_conversion.1006.a:0 "Приказать расквартировать всех солдат и накормить их [undesirable_faith.GetAdherentNamePlural] домохозяйствами. Пресекать любые жалобы"
+demd_pop_religious_conversion.1006.b:0 "Подготовьте дебаты между их выдающимся ученым и моим придворным капелланом."
+demd_pop_religious_conversion.1006.b.success:0 "Ученый [undesirable_faith.GetAdherentName] полностью разбит, а решимость [undesirable_faith.GetAdherentNamePlural] поколеблена!"
+demd_pop_religious_conversion.1006.b.failure:0 "Используя искусную риторику и логику, ученый [undesirable_faith.GetAdherentName] тщательно доказал свою правоту и... кажется, что мы злодеи? В любом случае сжигание книг будет менее значимым и более подстрекательским что мы изначально думали.
+demd_pop_religious_conversion.1006.c:0 "Откажитесь от этой глупой идеи прямо сейчас!"
+
+#1007: State Rites
+demd_pop_religious_conversion.1007.t:0 "[county.GetName]: Государственные обряды"
+demd_pop_religious_conversion.1007.desc:0 "Как правитель я регулярно должен внешне казаться благочестивым [desirable_faith.GetAdherentName]. С этой целью мы проводим государственные обряды, которые ставят мое правление под божественное управление [desirable_faith.HighGodName].\ n\nХотя мало кто из моих товарищей [desirable_faith.GetAdherentNamePlural] отказался бы от этого, это честь и обязанность, но дело чиновников [undesirable_faith.GetAdherentNamePlural] создает проблемы. Они говорят, что их вера не потворствует празднованию, как предписано моим собственной веры!\n\nДолжны ли мы включать их силой, позволять участвовать в этом всем, кто хочет, или просто исключать их полностью?"
+
+demd_pop_religious_conversion.1007.a:0 "Это главное дело! Они придут или уйдут в отставку."
+demd_pop_religious_conversion.1007.b:0 "Пусть идут, если хотят... Это отделит действительно верных слуг, на которых мы можем положиться"
+demd_pop_religious_conversion.1007.c:0 "Мда, они нам не нужны на #bold MY#! церемонии."
+
+#1008: Renouncing the Faith
+demd_pop_religious_conversion.1008.t:0 "[county.GetName]: Отречение от веры" #Should later only fire if Chaplain is Sadistic/Callous
+demd_pop_religious_conversion.1008.desc:0 "Когда они обращаются, бывшие [undesirable_faith.GetAdherentNamePlural] должны следовать обычным обычаям и обрядам, чтобы должным образом принять веру [desirable_faith.GetName].\n\nОднако у нас есть основания полагать, что ложные обращения могли иметь место, и некоторые из них не были искренними в своей приверженности [desirable_faith.HighGodName].\n\nМои писари предложили нам принять более радикальные меры, чтобы искоренить неуверенных и лжецов... Например, заставить их топтать или уничтожать символы их прежнего поклонения. Это может быть жестоко, но если их сердце в правильном месте, это должно быть легко сделать ".
+
+demd_pop_religious_conversion.1008.a:0 "Конфисковать несколько символов, чтобы проверить их вновь обретенную веру в [desirable_faith.HighGodName]!"
+demd_pop_religious_conversion.1008.b:0 "Нет, это жестоко, в этом нет необходимости"
+demd_pop_religious_conversion.1008.c:0 "Нет, это жестоко #S и#! ненужно. Что с тобой не так? Ты больше не мой [desirable_faith.PriestNeuter]!"
+#You are Compassionate, planned
+
+
+
+
+
+
+
+
+

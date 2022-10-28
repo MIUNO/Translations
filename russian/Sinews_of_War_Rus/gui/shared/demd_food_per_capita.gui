@@ -1,0 +1,98 @@
+﻿types FoodPerCapita
+{
+    type food_per_capita_breakdown_widget = widget
+    {
+        alwaystransparent = no
+        using = GeneralTooltipSetup
+        widget = {
+            name = "background"
+            using = DefaultTooltipBackground
+            size = { 100% 100% }
+            alwaystransparent = no
+			max_width = 450
+        }
+        vbox = {
+            set_parent_size_to_minimum = yes
+            margin = { 20 10 }
+            margin_bottom = 20
+            spacing = 3
+
+            text_multi = {
+                layoutpolicy_horizontal = expanding
+                raw_text = "#T @icon_demd_food!#  [demd_food|E] Произведено на душу населения:#! [Province.MakeScope.ScriptValue('food_produced_per_capita')|2]#!"
+                align = left
+				max_width = 450
+            }
+
+            vbox = {
+                layoutpolicy_horizontal = expanding
+                layoutpolicy_vertical = expanding
+                #margin = { 0 4 }
+                spacing = -1
+
+                text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#weak [demd_food|E] производятся путем [demd_job_artisans|E], и количество запасов продовольствия на душу населения, или [demd_capital|E], представляет собой ключевой компонент [barony|E] уровень жизни. [demd_capital|E] является ключевым фактором в [demd_migration_pull|E] и дает производственный бонус всем [demd_resources|E].#!"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "Базовая ставка: [Province.MakeScope.ScriptValue('food_base_output')|2]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+                text_multi = {
+                    layoutpolicy_horizontal = expanding
+					tooltipwidget = { 
+						soil_fertility_breakdown_widget = { 
+						
+						} 
+					}
+                    raw_text = "Почва [demd_fertility|E]: [Province.MakeScope.Var('soil_fertility_mult_target').GetValue|%1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+                text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('food_cultural_production_mult').GetValue|%1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('food_faith_production_mult').GetValue|%1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+                text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "От [demd_capital|E]: [Province.MakeScope.Var('capital_production_multiplier').GetValue|%1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "Из местных [demd_weather|E]: [Province.GetCounty.GetTitle.MakeScope.Var('county_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.ScriptValue('county_weather_fertility_mult_delta')|%1] Ежемесячно)"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "Из региональных [demd_weather|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Ежемесячно)"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }				
+            }
+        }
+    }
+}

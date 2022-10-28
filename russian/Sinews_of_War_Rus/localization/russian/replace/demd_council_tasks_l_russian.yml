@@ -1,0 +1,58 @@
+﻿l_russian:
+
+COUNCIL_TASK_FABRICATE_CLAIM:0 "Сфабриковать претензию"
+COUNCIL_TASK_FABRICATING_CLAIM:0 "Изготовление претензии: [ActiveCouncilTask.GetProgress|1/%]"
+#Court Chaplain
+ task_fabricate_claim:0 "Сфабриковать претензию на графство"
+ task_fabricate_claim_effect_desc:1 "#S At #V 100%#!#!:\n$TAB$Возможность получить [unpressed_claim|E]"
+ task_fabricate_claim_duchy_claim:0 "\n$EFFECT_LIST_BULLET$#P Претензии на герцогство#!"
+ task_fabricate_claim_vassal_opinion_loss:0 "\n$EFFECT_LIST_BULLET$#N Потеря мнения вассала#!"
+ task_fabricate_claim_piety_loss:0 "\n$EFFECT_LIST_BULLET$#N Потеря благочестия#!"
+ task_fabricate_claim_upset_target:0 "\n$EFFECT_LIST_BULLET$#N Расстроенная цель#!"
+ task_fabricate_claim_loss_of_prestige:0 "\n$EFFECT_LIST_BULLET$#N Потеря престижа#!"
+ task_fabricate_claim_notification_tooltip:0 "Из $task_fabricate_claim$"
+ task_fabricate_claim_desc_not_adjacent:0 "\n$TAB$Претендующий на не соседний округ — умножается на: #N $BREAKDOWN_MULTIPLICATION_PREFIX$#![SCOPE.ScriptValue('court_chaplain_fabricate_claim_not_adjacent_penalty')|-1]"
+ 
+COURT_CHAPLAIN_FABRICATE_CLAIM_FOREIGN_COUNTY:0 "[county.GetNameNoTier] за границей нашего [realm|E]"
+COURT_CHAPLAIN_FABRICATOR_PREVIOUS_CLAIMS:0 "Число [claims|E] ранее сфабрикованных вами"
+COURT_CHAPLAIN_TARGET_PREVIOUS_CLAIMS:0 "Число[claims|E] ранее сфабрикованных [county.GetTitle.GetHolder.GetTitledFirstName]" 
+
+FABRICATE_CLAIM_FAITH_HOSTILITY:0 "[faith_hostility|E]между вами и [title|E] держатель"
+FABRICATE_CLAIM_DYNASTY_PRESTIGE:0 "Родственник [dynasty_prestige|E] между вами и [title|E] держатель"
+FABRICATE_CLAIM_PRESTIGE:0 "Родственник [prestige|E] между вами и [title|E] держатель" 
+FABRICATE_CLAIM_RANK:0 "Родственник [rank|E] между вами и [title|E] держатель" 
+
+CLAIM_THRONE_ASTRAY:0 "Мы считаем, что их вера является [faith_astray|E]"
+CLAIM_THRONE_HOSTILE:0 "Мы считаем, что их вера является [faith_hostile|E]"
+CLAIM_THRONE_EVIL:0 "Мы считаем, что их вера является [faith_evil|E]"
+CLAIM_THRONE_TARGET_FABRICATOR:0 ""
+CLAIM_THRONE_EXCOMMUNICATED:0 "Вы отлучены от церкви|E]"
+CLAIM_THRONE_TARGET_EXCOMMUNICATED:0 "Цель отлучена от церкви|E]"
+CLAIM_THRONE_FABRICATOR:0 "У вас есть [GetTrait('claim_fabricator').GetName( GetNullCharacter )] [trait|E]"
+CLAIM_THRONE_TARGET_FABRICATOR:0 "Цель имеет [GetTrait('claim_fabricator').GetName( GetNullCharacter )] [trait|E]"
+
+COURT_CHAPLAIN_CONVERSION_FERVOR_COUNTY:3 "[demd_population|E]-масштабный [fervor|E] в [county.GetNameNoTier]"
+COURT_CHAPLAIN_CONVERSION_FERVOR_NEIGHBORS_POS:0 "[demd_population|E]-масштабный [fervor|E] соседней [councillor.GetFaith.GetAdjective] [counties|E]"
+COURT_CHAPLAIN_CONVERSION_FERVOR_NEIGHBORS_NEG:0 "[demd_population|E]-масштабный [fervor|E] соседней [county.GetProvince.GetCounty.GetFaith.GetAdjective] [counties|E]"
+COURT_CHAPLAIN_CONVERSION_TERRAIN_MALUS:0 "[terrain|E] неровность в [county.GetNameNoTier]"
+COURT_CHAPLAIN_CONVERSION_HOLY_SITE_OF_CONVERTED:0 "[county.GetNameNoTier] это [holy_site|E] [county.GetProvince.GetCounty.GetFaith.GetName]"
+COURT_CHAPLAIN_CONVERSION_HOLY_SITE_OF_CONVERTER:0 "[county.GetNameNoTier] это [holy_site|E] [councillor.GetFaith.GetName]"
+
+COURT_CHAPLAIN_CONVERSION_CAPITAL_BONUS:0 "[capital|E] [councillor_liege.GetName]"
+
+STEWARD_CONVERSION_CULTURE_COUNTY:0 "[demd_population|E] в [county.GetNameNoTier]"
+STEWARD_CONVERSION_CULTURE_NEIGHBORS_POS:0 "[demd_population|E] соседней [councillor.GetCulture.GetName] [counties|E]"
+STEWARD_CONVERSION_CULTURE_NEIGHBORS_NEG:0 "[demd_population|E] соседней [county.GetProvince.GetCounty.GetCulture.GetName] [counties|E]"
+STEWARD_PROMOTE_CULTURE_TERRAIN_MALUS:0 "[terrain|E] шероховатость в [county.GetNameNoTier]"
+STEWARD_PROMOTE_CULTURE_CAPITAL_BONUS:0 "[capital|E] [councillor_liege.GetName]"
+
+STEWARD_PROMOTE_CULTURE_LANGUAGE_BONUS:0 "То же [language|E]"
+STEWARD_PROMOTE_CULTURE_LANGUAGE_GROUP_BONUS:0 "То же [language_group|E]"
+STEWARD_PROMOTE_CULTURE_LANGUAGE_FAMILY_BONUS:0 "То же [language_family|E]"
+STEWARD_PROMOTE_CULTURE_LANGUAGE_UNION_BONUS:0 "То же [language_union|E]"
+
+STEWARD_PROMOTE_CULTURE_HERITAGE_BONUS:0 "То же [heritage|E]"
+STEWARD_PROMOTE_CULTURE_HERITAGE_GROUP_BONUS:0 "То же [heritage_group|E]"
+STEWARD_PROMOTE_CULTURE_HERITAGE_FAMILY_BONUS:0 "То же [heritage_family|E]"
+
+DEVELOP_COUNTY_CONSTRUCTION_CAPACITY:0 "Из неиспользованных [county|E] [demd_construction_cap|E]"

@@ -1,0 +1,29 @@
+﻿l_russian:
+
+demd_pop_war.1003.t:0 "Падение [county.GetNameNoTierNoTooltip]"
+demd_pop_war.1003.desc:0 "Графство [county.GetNameNoTierNoTooltip] перешло ко мне. У нас есть обширные участки земли и множество ценных предметов и сияющих сокровищ [previous_controller.GetTitledFirstName] на выбор. \n\nВойска готовы и ждут моего приказа."
+demd_pop_war.1003.a:0 "Захватить город"
+demd_pop_war.1003.b:0 "Разграбить город"
+demd_pop_war.1003.c:0 "Разрушить город"
+
+demd_pop_war.1004.t.occupied:0 "[county.GetNameNoTierNoTooltip] Захвачено!"
+demd_pop_war.1004.desc.occupied:0 "После взлома ворот поселения [county.GetNameNoTierNoTooltip] [occupier.GetTitledFirstName] держал войска [occupier.GetHerHis] на коротком поводке.\n\nБольшая часть сельской местности таким образом, мы избавлены от грабежей, но голодные [occupier.GetPrimaryTitle.GetAdjectiveNoTooltip] глаза обращаются в другую сторону..."
+
+demd_pop_war.1004.t.sacked:0 "[barony.GetNameNoTierNoTooltip] Разграблено!"
+demd_pop_war.1004.desc.sacked:0 "После напряженной осады [occupier.GetTitledFirstName] удалось проникнуть в укрепленное поселение [barony.GetNameNoTierNoTooltip] и заставить солдат [occupier.GetHerHis] разграбить все ценное. порядок, они лишат половину большего [county.GetNameNoTierNoTooltip] его богатства!"
+
+demd_pop_war.1004.t.razed:0 "[barony.GetNameNoTierNoTooltip] Разрушено!"
+demd_pop_war.1004.desc.razed:0 "После взлома ворот поселения [barony.GetNameNoTierNoTooltip] [occupier.GetTitledFirstName] оставил после себя только руины. Крестьяне рвут на себе волосы и оплакивают своих потерянных членов семьи."
+
+
+demd_pop_war.2001.t:0 "[barony.GetNameNoTierNoTooltip] подверглось налету!"
+demd_pop_war.2001.desc:0 "[raider.GetTitledFirstName] разграбил сельскую местность [barony.GetNameNoTierNoTooltip], сжигая поля и грабя те сокровища, которые крестьянство не могло ни спрятать, ни унести."
+demd_pop_war.2001.a:0 "[this.GetFaith.HighGodName] спаси нас!"
+
+demd_pop_war.3001.t:0 "[barony.GetNameNoTierNoTooltip] подвергся налету!"
+demd_pop_war.3001.desc:0 "Я разграбил сельскую местность [barony.GetNameNoTierNoTooltip], сжигая поля и грабя те сокровища, которые крестьянство не могло ни спрятать, ни унести."
+demd_pop_war.3001.a:0 "[this.GetFaith.HighGodName] поддерживает нас!"
+
+rival_sacked_county:0 "[CHARACTER.GetShortUIName|U] разграбил графство [county.GetNameNoTierNoTooltip]."
+rival_razed_county:0 "[CHARACTER.GetShortUIName|U] сравнял с землей графство [county.GetNameNoTierNoTooltip]."
+rival_raided_county:0 "[CHARACTER.GetShortUIName|U] совершил набег на графство [county.GetNameNoTierNoTooltip].

@@ -1,0 +1,6 @@
+﻿l_russian:
+
+demd_pop_avalanche.1002.t:0 "Лавины в [county.GetNameNoTierNoTooltip]!"
+demd_pop_avalanche.1002.desc:0 "Лавины обрушились на поселения в [county.GetNameNoTierNoTooltip]! Большие валуны раздавили дома и людей и мешают спасению..."
+demd_pop_avalanche.1002.a:0 "Проклятие! Нужно быстрее что-то делать с этим!"
+

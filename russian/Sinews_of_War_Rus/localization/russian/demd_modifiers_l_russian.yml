@@ -1,0 +1,105 @@
+﻿l_russian:
+
+
+
+demd_prov_development_modifier_big:0 "[development|E] из неиспользованных [demd_construction_cap|E]"
+demd_prov_development_modifier_medium:0 "[development|E] из неиспользованных [demd_construction_cap|E]"
+demd_prov_development_modifier_small:0 "[development|E] из неиспользованных [demd_construction_cap|E]"
+
+
+
+demd_prov_garrison_modifier_small:"Небольшое увеличение гарнизона"
+demd_prov_garrison_modifier_medium:"Среднее увеличение гарнизона"
+demd_prov_garrison_modifier_big:"Большое увеличение гарнизона"
+demd_prov_garrison_modifier_huge:"Огромное увеличение гарнизона"
+
+demd_prov_tax_modifier_huge:0 "[demd_population|E] Огромные налоги"
+demd_prov_tax_modifier_big:0 "[demd_population|E] Большие налоги"
+demd_prov_tax_modifier_medium:0 "[demd_population|E] Средние налоги"
+demd_prov_tax_modifier_small:0 "[demd_population|E] Небольшие налоги"
+
+demd_prov_levy_modifier_huge:"Огромное увеличение сбора"
+demd_prov_levy_modifier_big:"Большое увеличение сбора"
+demd_prov_levy_modifier_medium:"Среднее увеличение сбора"
+demd_prov_levy_modifier_small:"Небольшое увеличение сбора"
+
+demd_char_knight_capacity_modifier_big:"Большое увеличение вместимости рыцарей"
+demd_char_knight_capacity_modifier_medium:"Среднее увеличение вместимости рыцарей"
+demd_char_knight_capacity_modifier_small:"Небольшое увеличение вместимости рыцарей"
+
+demd_char_regiment_capacity_modifier_big:"Большие люди в вооружении увеличиваются"
+demd_char_regiment_capacity_modifier_medium:"Средние люди в вооружении увеличиваются"
+demd_char_regiment_capacity_modifier_small:"Маленькие люди в вооружении увеличиваются"
+
+faith_conversion_in_progress:0 "Обращение веры в процессе"
+faith_conversion_in_progress_desc:0 "Эта [county|E] в настоящее время преобразуется в другой [faith|E]."
+
+culture_conversion_in_progress:0 "Преобразование культуры в процессе"
+culture_conversion_in_progress_desc:0 "Эта [county|E] в настоящее время преобразуется в другойt [culture|E]."
+
+repressing_faith_conversion:0 "Подавление миссионеров"
+repressing_faith_conversion_desc:0 "[faith|E] попытка преобразовать это [county|E] подвергается репрессиям со стороны властей.\n#P +[EmptyScope.ScriptValue('demd_faith_repression_strength_modifier_pos')|0%]#! @icon_fervor_defense!#  [demd_faith_conversion_defense|E]"
+
+repressing_culture_conversion:0 "Репрессии против мигрантов"
+repressing_culture_conversion_desc:0 "[culture|E] попытка преобразовать это [county|E] подвергается репрессиям со стороны властей.\n#P +[EmptyScope.ScriptValue('demd_culture_repression_strength_modifier_pos')|0%]#! @icon_culture_defense!#  [demd_culture_conversion_defense|E]"
+
+county_increased_opinion_modifier:0 "Местные жители умиротворены"
+county_increased_opinion_modifier_desc:0 "#P [EmptyScope.ScriptValue('demd_pacified_revolt_levies_mult')|0%] [levies|E] в направлении [faction_military_power|E]."
+
+
+plague_present:0 "Чума"
+plague_present_desc:0 "Эта [county|E] переживает вспышку [demd_plague|E]."
+
+plague_immunity:0 "Иммунитет к чуме"
+plague_immunity_desc:0 "В связи с недавней вспышкой [demd_plague|E], эта [county|E] обладает иммунитетом к дальнейшему распространению."
+
+successful_relief:0 "Спасение от чумы"
+successful_relief_desc:0 "Усилия по оказанию чрезвычайной помощи смягчили разрушительные последствия [demd_plague|E] в этой [county|E]."
+
+no_relief:0 "Брошенный народ"
+no_relief_desc:0 "Неспособность правителя оказать помощь разозлила жителей этого графства."
+
+quarantine:0 "На карантине"
+quarantine_desc:0 "В отношении этого были введены обязательные карантинные меры. [county|E] чтобы избежать дальнейшего распространения [demd_plague|E].\n\n@icon_trade_power!#  [demd_trade_power|E]: #N [EmptyScope.ScriptValue('quarantine_trade_power_reduction')|0%]#!\n#P [EmptyScope.ScriptValue('quarantine_spread_chance_reduction_display')|0%]#! Вероятность распространения [demd_plague|E] к соседним [counties|E]"
+
+secluded_court: "Уединенный двор"
+secluded_court_desc: "Этот персонаж изолировал свой двор от [demd_plague|E], снижение риска их [courtiers|E] заразятся этим."
+
+razed:0 "Разрушен"
+razed_desc:0 "Этот [county|E] был разрушен враждебной державой, что привело к серьезной депопуляции."
+
+sacked:0 "Разграблен"
+sacked_desc:0 "Этот [county|E] был разграблен враждебной державой, что привело к умеренной депопуляции."
+
+captured:0 "Захвачен"
+captured_desc:0 "Этот [county|E] был оккупирован враждебной державой, что привело к умеренной депопуляции."
+
+raided:0 "Совершен набег"
+raided_desc:0 "Этот [county|E] подвергся набегу враждебной державы, что привело к умеренной депопуляции."
+
+razed_my_holding:0 "Разрушен мой холдинг"
+sacked_my_holding:0 "Разграблен мой холдинг"
+raided_my_holding:0 "На мой холдинг совершен набег"
+
+demd_flood_mild:0 "Умеренное наводнение"
+demd_flood_mild_desc:0 "В этом округе вода местами затопляет землю, забивая канализационные системы и затапливая посевы. Транспортировка продуктов затруднена."
+demd_flood_moderate:0 "Внушительное наводнение"
+demd_flood_moderate_desc:0 "Наводнение широко распространено, и вода скапливается повсюду, унося одних и убивая других. Транспортировка припасов действительно затруднена."
+demd_flood_severe:0 "Сильное наводнение"
+demd_flood_severe_desc:0 "Реки воды яростно разрывают все на своем пути, делая транспортировку припасов чрезвычайно сложной."
+
+demd_avalanche_mild:0 "Небольшой сход лавин"
+demd_avalanche_moderate:0 "Внушительный сход лавин"
+demd_avalanche_severe:0 "Сильные лавины"
+
+demd_drought:0 "Засуха"
+demd_drought_desc:0 "Округ переживает [demd_drought|E]. Почва испытывает жажду, и урожай страдает. В то время как активный местный [demd_weather|E] ухудшается за счет [EmptyScope.ScriptValue('drought_yearly_weather_modifier')|1%] каждый год. Есть [EmptyScope.ScriptValue('drought_end_chance')|0]% шанс, что засуха заканчивается каждый год. [demd_flood|E] немедленно положит конец [demd_drought|E]."
+
+let_city_burn:0 "Пусть город горит"
+let_city_burn_desc:0 "Крестьянство сердито на вас за ваши проступки."
+
+
+
+
+
+

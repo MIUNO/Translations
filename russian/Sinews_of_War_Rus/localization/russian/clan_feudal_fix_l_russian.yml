@@ -1,0 +1,9 @@
+﻿l_russian:
+ convert_from_clan_to_feudalism_decision:0 "Принять феодализм"
+ convert_from_clan_to_feudalism_decision_desc:0 "По мере того, как растет мое царство, растет и задача контролировать его. Если [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] чтобы продолжать расширяться, мы должны оставить старые пути позади и перейти к феодализму."
+ convert_from_clan_to_feudalism_decision_confirm:0 "Принять феодальные порядки"
+ convert_from_clan_to_feudalism_decision_tooltip:0 "Изменить [government|E] введите, став [feudal|E]"
+ convert_from_feudalism_to_clan_decision:0 "Принять клановую социальную структуру"
+ convert_from_feudalism_to_clan_decision_desc:0 "По мере того, как растет мое царство, растет и задача контролировать его. Если [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] чтобы продолжать расширяться, мы должны оставить старые пути позади и перейти к клановой социальной структуре.."
+ convert_from_feudalism_to_clan_decision_confirm:0 "Перенять клановые обычаи"
+ convert_from_feudalism_to_clan_decision_tooltip:0 "Изменить [government|E] введите, став [clan|E]"
