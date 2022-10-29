@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_manpower|E] пополняются используя [demd_population|E] с разной скоростью в зависимости от их [demd_job|E]. #defender_color Людской ресурс#! используется чтобы заполнить [garrison|E] и [levies|E] в [county|E] и чтобы были обеспечены [men_at_arms|E].#!"
+                    raw_text = "#weak [demd_manpower|E] пополняются используя [demd_population|E] с разной скоростью в зависимости от их [Concept('demd_job','Рабочих мест')|E]. #defender_color Людской ресурс#! используется чтобы заполнить [garrison|E] и [levies|E] в [Concept('county','Графстве')|E] и чтобы были обеспечены [men_at_arms|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -41,43 +41,21 @@
 			
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold Всего [demd_manpower|E]:#! [Province.MakeScope.ScriptValue('total_manpower_gui')|0]"
+                    raw_text = "#bold Всего [Concept('demd_manpower','Людского ресурса')|E]:#! [Province.MakeScope.ScriptValue('total_manpower_gui')|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[demd_population|E] [demd_manpower|E]: [Province.MakeScope.Var('manpower').GetValue|0]"
+                    raw_text = "[demd_population|E] вносящие [demd_manpower|E]: [Province.MakeScope.Var('manpower').GetValue|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[building|E] [demd_manpower|E]: [Province.MakeScope.ScriptValue('building_garrison_levies_gui')|0]"
-                    align = left
-					autoresize = yes
-					max_width = 400
-                }
-				spacer = { size = { 0 14 } }
-				text_multi = {
-                    layoutpolicy_horizontal = expanding
-                    raw_text = "#bold Total [garrison|E]:#! [Holding.GetCurrentGarrisonSize|0]/[Holding.GetMaxGarrisonSize|0]"
-                    align = left
-					autoresize = yes
-					max_width = 400
-                }
-				text_multi = {
-                    layoutpolicy_horizontal = expanding
-                    raw_text = "[demd_population|E] [garrison|E]: [Province.MakeScope.Var('garrison').GetValue|0]"
-                    align = left
-					autoresize = yes
-					max_width = 400
-                }
-				text_multi = {
-                    layoutpolicy_horizontal = expanding
-                    raw_text = "[building|E] [garrison|E]: [Province.MakeScope.ScriptValue('building_garrison_gui')|0]"
+                    raw_text = "[building|E] вносящие [demd_manpower|E]: [Province.MakeScope.ScriptValue('building_garrison_levies_gui')|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -85,21 +63,43 @@
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold Total [levies|E]:#! [Holding.GetMaxLevySize|0]"
+                    raw_text = "#bold Всего [garrison|E]:#! [Holding.GetCurrentGarrisonSize|0]/[Holding.GetMaxGarrisonSize|0]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "[demd_population|E] вносящие [garrison|E]: [Province.MakeScope.Var('garrison').GetValue|0]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "[building|E] вносящие [garrison|E]: [Province.MakeScope.ScriptValue('building_garrison_gui')|0]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#bold Всего [Concept('levies','Ополчения')|E]:#! [Holding.GetMaxLevySize|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[demd_population|E] [levies|E]: [Province.MakeScope.Var('levy').GetValue|0]"
+                    raw_text = "[demd_population|E] вносящие [levies|E]: [Province.MakeScope.Var('levy').GetValue|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[building|E] [levies|E]: [Province.MakeScope.ScriptValue('building_levies_gui')|0]"
+                    raw_text = "[building|E] вносящие [levies|E]: [Province.MakeScope.ScriptValue('building_levies_gui')|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -107,14 +107,14 @@
 				spacer = { size = { 0 14 } }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold Всего [men_at_arms|E]:#! [Province.MakeScope.Var('free_manpower').GetValue|0]"
+                    raw_text = "#bold Всего [Concept('men_at_arms','Профессионалов')|E]:#! [Province.MakeScope.Var('free_manpower').GetValue|0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[holder|E] [regiment|E] Лимит: +[Province.MakeScope.ScriptValue('regiment_limit_gui')|1]"
+                    raw_text = "[Concept('holder','Владелеющий')|E] имеет лимит [Concept('regiment','Полка')|E]: +[Province.MakeScope.ScriptValue('regiment_limit_gui')|1]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -142,14 +142,14 @@
                 }
 					text_multi = {
 						layoutpolicy_horizontal = expanding
-						raw_text = "    Базовое значение [supply_limit|E]: [Province.MakeScope.ScriptValue('base_supply_limit')|0]"
+						raw_text = "    Базовое значение [Concept('supply_limit','Максимума припасов')|E]: [Province.MakeScope.ScriptValue('base_supply_limit')|0]"
 						align = left
 						autoresize = yes
 						max_width = 400
 					}
 					text_multi = {
 						layoutpolicy_horizontal = expanding
-						raw_text = "    От [demd_food|E]: [Province.MakeScope.ScriptValue('supply_limit_from_food')|0]"
+						raw_text = "    От [Concept('demd_food','Продовольствия')|E]: [Province.MakeScope.ScriptValue('supply_limit_from_food')|0]"
 						align = left
 						autoresize = yes
 						max_width = 400

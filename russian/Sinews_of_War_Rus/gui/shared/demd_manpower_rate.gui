@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_manpower|E] Ставка - это процент от [county|E] [demd_population|E] который доступен для [ruler|E] как [demd_manpower|E], и используется для заполнения [garrison|E], [levies|E] и [men_at_arms|E].#!"
+                    raw_text = "#weak Ставка [Concept('demd_manpower','Людских ресурсов')|E] - это процент от [Concept('demd_population','Населения')|E] [counties|E] который доступен для [Concept('ruler','Правителя')|E] как [Concept('demd_manpower','Людской ресурс')|E], и используется для заполнения [Concept('garrison','Гарнизона')|E], [Concept('levies','Ополчения')|E] и [Concept('men_at_arms','Профессионалов')|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -47,35 +47,35 @@
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [culture|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_cultural_production_mult_display')|%1]"
+                    raw_text = "От [Concept('culture','Культуры')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_cultural_production_mult_display')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [faith|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_faith_production_mult_display')|%1]"
+                    raw_text = "От [Concept('faith','Религии')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_faith_production_mult_display')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [buildings|E]: [Province.MakeScope.ScriptValue('manpower_building_mult_display')|%1]"
+                    raw_text = "От [Concept('buildings','Зданий')|E]: [Province.MakeScope.ScriptValue('manpower_building_mult_display')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [county_opinion|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_opinion_factor_display')|%1]"
+                    raw_text = "От [Concept('county_opinion','Народного мнения')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_opinion_factor_display')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [government|E] тип: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_tribal_mult_display')|%1]"
+                    raw_text = "От типа [Concept('government','Правительства')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('manpower_tribal_mult_display')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400

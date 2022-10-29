@@ -32,7 +32,7 @@ types Excavation
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak #defender_color Excavations#! are expeditions to ancient ruins in search of treasure.#!"
+                    raw_text = "#weak #defender_color Раскопки#! это экспедиции к древним руинам в поисках сокровищ.#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -47,7 +47,7 @@ types Excavation
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "@icon_excavation_progress!#  [excavation_progress|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('excavation_stage_progress_display')|0]/[Province.GetCounty.GetTitle.MakeScope.ScriptValue('excavation_stage_progress_max_display')|0] (+[Province.GetCounty.GetTitle.MakeScope.ScriptValue('monthly_excavation_progress_display')|1]/mo.)"
+                    raw_text = "@icon_excavation_progress!#  [excavation_progress|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('excavation_stage_progress_display')|0]/[Province.GetCounty.GetTitle.MakeScope.ScriptValue('excavation_stage_progress_max_display')|0] (+[Province.GetCounty.GetTitle.MakeScope.ScriptValue('monthly_excavation_progress_display')|1]/месяц.)"
                     align = left
 					autoresize = yes
 					max_width = 400

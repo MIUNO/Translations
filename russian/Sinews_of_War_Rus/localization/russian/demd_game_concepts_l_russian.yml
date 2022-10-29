@@ -46,7 +46,7 @@ game_concept_demd_untilled_farmland:0 "Необработанные сельск
 game_concept_demd_untilled_farmland_desc:0 "#defender_color Необработанные сельскохозяйственные угодья#! является процентом от [county|E] максимального количества [demd_food_districts|E], которые не обработаны. Относится к [demd_migration_pull|E] и [demd_births|E]."
 
 game_concept_demd_population:0 "Население"
-game_concept_demd_population_desc:0 "#defender_color Население#! это общее количество людей, проживающих в [county|E]. #defender_color Население#! необходимо обеспечевать [demd_jobs|E] для поддержания экономики в стране."
+game_concept_demd_population_desc:0 "#defender_color Население#! - это общее число людей, проживающих в [Concept('county','Графстве')|E]. #defender_color Население#! необходимо для заполнения [Concept('demd_jobs','Рабочих мест')|E], которые стимулируют вашу экономику."
 
 game_concept_demd_growth:0 "Внутренний рост"
 game_concept_demd_growth_desc:0 "Внутренний рост [county|E] представляет собой процент, определяемый [demd_births|E] минус [demd_deaths|E]. Смерти от определенных событий, таких как [sieges|E], [raiding|E], и [demd_disasters|E] не включены в этот показатель."
@@ -112,9 +112,9 @@ game_concept_demd_job_farmer:0 "Фермер"
 game_concept_demd_job_farmers:0 "Фермеры"
 game_concept_demd_job_farmer_desc:0 "#defender_color Фермер#! представляют число [demd_jobs|E] и проживают в [demd_food_districts|E], так же производят [demd_food|E]."
 
-game_concept_demd_job:0 "Сословие"
-game_concept_demd_jobs:0 "Сословия"
-game_concept_demd_job_desc:0 "#defender_color Сословия#! предоставляются в [demd_districts|E] и требуют [demd_population|E] для производства [demd_resources|E]."
+game_concept_demd_job:0 "Рабочие места"
+game_concept_demd_jobs:0 "Рабочие места"
+game_concept_demd_job_desc:0 "#defender_color Рабочие места#! предоставляются [Concept('demd_districts','Округами')|E] и заполняются [Concept('demd_population','Населением')|E] для производства [Concept('demd_resources','Ресурсов')|E]."
 
 game_concept_demd_manpower:0 "Людские ресурсы"
 game_concept_demd_manpower_desc:0 "#defender_color Рекруты#! формируются из показателя - [demd_population|E] - с разной скоростью, в зависимости от их [demd_job|E]. #defender_color Рекруты#! используется для заполнения [garrison|E] в [county|E] и для обеспечения пополнения числа [men_at_arms|E] для владельца [county|E]."
@@ -123,9 +123,9 @@ game_concept_demd_resource:0 "Ресурс"
 game_concept_demd_resources:0 "Ресурсы"
 game_concept_demd_resource_desc:0 "#Ресурсы defender_color#! производятся [demd_population|E] и включают в себя: [demd_food|E], [demd_goods|E], [demd_knight_capacity|E] и [demd_research|E]."
 
-game_concept_demd_food:0 "Еда"
+game_concept_demd_food:0 "Продовольствие"
 game_concept_demd_famine:0 "Голод"
-game_concept_demd_food_desc:0 "#defer_color Еда#! производится [demd_job_farmers|E] и необходима для поддержания [demd_population|E] в [county|E]. Недостаток #еды defender_color#! приведет к смертям и миграции за границу. #defender_color Еда#! также является второстепенным фактором в [county|E] [demd_trade_value|E], [tax|E] и [demd_research|E] производстве."
+game_concept_demd_food_desc:0 "#defer_color Продовольствие#! производится местными [demd_job_farmers|E] и необходимо для поддержания численности [demd_population|E] в [counties|E]. Недостаточные запасы #defender_color Продовольствия#! приведут к смерти и внешней миграции. #defender_color Продольствие#! также является второстепенным фактором в [demd_trade_value|E] [counties|E], [tax|E] и [demd_research|E] производстве."
 
 game_concept_demd_fertility:0 "Плодородность"
 game_concept_demd_fertility_desc:0 "#defender_color Плодородность #! является мерой сельскохозяйственной продуктивности земли в графстве и основным фактором, определяющим, сколько [demd_food|E] производит каждый [demd_job_farmer|E]. Он делится на базовое значение, которое определяется рельефом, близостью к рекам, озерам, морям и [demd_winter|E], и переходным значением, которое определяется годовыми колебаниями [demd_weather|E] на уровень [county|E] и годовые колебания [demd_weather|E] на уровне региона."
