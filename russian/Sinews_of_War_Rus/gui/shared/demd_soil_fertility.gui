@@ -1,4 +1,4 @@
-types SoilFertility
+﻿types SoilFertility
 {
     type soil_fertility_breakdown_widget = widget
     {
@@ -19,7 +19,7 @@ types SoilFertility
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T Soil [demd_fertility|E]: [Province.MakeScope.Var('soil_fertility_mult_target').GetValue|%1]#!"
+                raw_text = "#T Почва [demd_fertility|E]: [Province.MakeScope.Var('soil_fertility_mult_target').GetValue|%1]#!"
                 align = left
 				max_width = 450
             }
@@ -32,7 +32,7 @@ types SoilFertility
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_fertility|E] is a measure of the agricultural productivity of the land in this county, and is the primary determinant of how much [demd_food|E] each [demd_job_farmer|E] produces.#!"
+                    raw_text = "#weak [demd_fertility|E] является мерой сельскохозяйственной продуктивности земли в этом округе и является основным фактором, определяющим, сколько [demd_food|E] каждый [demd_job_farmer|E] производит.#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -40,21 +40,21 @@ types SoilFertility
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [demd_water|E]: [Province.MakeScope.ScriptValue('demd_prov_water_fertility_bonus')|%1]"
+                    raw_text = "От [demd_water|E]: [Province.MakeScope.ScriptValue('demd_prov_water_fertility_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [winter|E] Severity: [Province.MakeScope.ScriptValue('demd_prov_winter_fertility_bonus')|%1]"
+                    raw_text = "От [winter|E] Строгость: [Province.MakeScope.ScriptValue('demd_prov_winter_fertility_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [terrain|E]: [Province.MakeScope.ScriptValue('demd_prov_terrain_fertility_bonus')|%1]"
+                    raw_text = "От [terrain|E]: [Province.MakeScope.ScriptValue('demd_prov_terrain_fertility_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400

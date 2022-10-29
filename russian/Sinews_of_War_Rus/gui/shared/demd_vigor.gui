@@ -1,4 +1,4 @@
-types VigorEquilibrium
+﻿types VigorEquilibrium
 {
     type vigor_equilibrium_breakdown_widget = widget
     {
@@ -20,7 +20,7 @@ types VigorEquilibrium
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T Vigor: [Culture.MakeScope.Var('vigor').GetValue|2]%#!"
+                raw_text = "#T Бодрость: [Culture.MakeScope.Var('vigor').GetValue|2]%#!"
                 align = left
 				max_width = 550
             }
@@ -41,7 +41,7 @@ types VigorEquilibrium
 				spacer = { size = { 0 14 } }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Yearly Gain: [Culture.MakeScope.ScriptValue('vigor_delta')|=+$]"
+                    raw_text = "Годовой прирост: [Culture.MakeScope.ScriptValue('vigor_delta')|=+$]"
                     align = left
 					autoresize = yes
 					max_width = 550
@@ -49,7 +49,7 @@ types VigorEquilibrium
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold Effects:#!"
+                    raw_text = "#bold Эффекты:#!"
                     align = left
 					autoresize = yes
 					max_width = 550

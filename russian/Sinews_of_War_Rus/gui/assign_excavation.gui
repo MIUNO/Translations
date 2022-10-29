@@ -18,7 +18,7 @@
     
                 blockoverride "header_text"
                 {
-                    raw_text = "Assign Excavation Leader"
+                    raw_text = "Назначить руководителя раскопок"
                 }
     
                 blockoverride "button_close"

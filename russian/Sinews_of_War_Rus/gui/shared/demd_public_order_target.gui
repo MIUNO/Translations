@@ -1,4 +1,4 @@
-types PublicOrder
+﻿types PublicOrder
 {
     type public_order_target_breakdown_widget = widget
     {
@@ -32,7 +32,7 @@ types PublicOrder
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_public_order|E] является показателем силы верховенства права среди [county|E] городское население. Низкий #defender_color Общественный порядок#! приведет к более быстрому городскому [demd_capital|E] амортизация пропорционально размеру дефицита. [demd_migration_pull|E] также будет сокращен. Сельский [demd_public_order|E] это всегда 100%.#!"
+                    raw_text = "#weak [demd_public_order|E] это показатель силы верховенства закона среди городского населени [counties|E]. Низкий #defender_color Общественный порядок#! приведет к более быстрому обесцениванию городского [demd_capital|E] пропорционально размеру дефицита. [demd_migration_pull|E] также будет сокращен. Сельский [demd_public_order|E] это всегда 100%.#!"
                     align = left
 					autoresize = yes
 					max_width = 400

@@ -19,7 +19,7 @@ types Trade
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_trade_value!#  Trade:#!"
+                raw_text = "#T @icon_trade_value!#  Торговля:#!"
                 align = left
 				max_width = 450
             }

@@ -1,4 +1,4 @@
-types TradePower
+﻿types TradePower
 {
     type trade_power_breakdown_widget = widget
     {
@@ -32,7 +32,7 @@ types TradePower
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_trade_power|E] is a measure of a [county|E]'s influence on local and global trade. #defender_color Trade Power#! determines the share this [county|E] receives of [demd_trade_value|E] that its [demd_trade_node|E] collects, and contributes to its [demd_trade_node|E]'s [demd_trade_power|E], which determines how much [demd_trade_value|E] is collected by that node. [demd_trade_power|E] is calculated from a [county|E]'s locally produced [demd_trade_value|E] multiplied by bonuses from [terrain|E] and [demd_edicts|E].#!"
+                    raw_text = "#weak [demd_trade_power|E] является мерой [county|E] влияние на местную и глобальную торговлю. #defender_color Торговая мощь#! определяет долю, которую этот [county|E] получает от [demd_trade_value|E] что его [demd_trade_node|E] собирает и вносит свой вклад в его [demd_trade_node|E] [demd_trade_power|E], который определяет, сколько [demd_trade_value|E] собирается этим узлом. [demd_trade_power|E] рассчитывается на основе [county|E] местного производства [demd_trade_value|E] умножается на бонусы от [terrain|E] и [demd_edicts|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -40,56 +40,56 @@ types TradePower
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From Produced [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('produced_trade_value').GetValue|2]"
+                    raw_text = "Из произведенных [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('produced_trade_value').GetValue|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [terrain|E]: [Province.GetCounty.GetTitle.MakeScope.Var('terrain_trade_power_bonus').GetValue|%0]"
+                    raw_text = "От [terrain|E]: [Province.GetCounty.GetTitle.MakeScope.Var('terrain_trade_power_bonus').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_trade_power_bonus')|%0]"
+                    raw_text = "От [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_trade_power_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [buildings|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('building_trade_power_bonus')|%0]"
+                    raw_text = "От [buildings|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('building_trade_power_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('trade_power_cultural_production_mult').GetValue|%0]"
+                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('trade_power_cultural_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('trade_power_faith_production_mult').GetValue|%0]"
+                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('trade_power_faith_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [ruler|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_ruler_bonus')|%1]"
+                    raw_text = "От [ruler|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_ruler_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [demd_quarantine|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_quarantine_malus')|%1]"
+                    raw_text = "От [demd_quarantine|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_quarantine_malus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400

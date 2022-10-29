@@ -1,4 +1,4 @@
-types TradeNode
+﻿types TradeNode
 {
     type trade_node_breakdown_widget = widget
     {
@@ -32,7 +32,7 @@ types TradeNode
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak A [demd_trade_node|E] is where [demd_trade_value|E] is aggregated before being passed through the trade network. The greater share a [county|E] has of its node's [demd_trade_power|E], the more of its collected [demd_trade_value|E] it will receive after inter-node trade has been conducted.#!"
+                    raw_text = "#weak [demd_trade_node|E] находится там, где [demd_trade_value|E] агрегируется перед передачей через торговую сеть. Чем больше доля [county|E] имеет один из своих узлов [demd_trade_power|E], чем больше его собрано [demd_trade_value|E] он будет получен после того, как будет проведена межузловая торговля.#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -40,7 +40,7 @@ types TradeNode
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Collected [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('collected_trade_value').GetValue|2]"
+                    raw_text = "Собранный [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('collected_trade_value').GetValue|2]"
                     align = left
 					autoresize = yes
 					max_width = 400

@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_manpower|E] производится путем [demd_population|E] с разной скоростью в зависимости от их [demd_job|E]. #defender_color Manpower#! используется для заполнения [county|E] [garrison|E] и [levies|E] и обеспечить [men_at_arms|E] способность к [county|E] владелец.#!"
+                    raw_text = "#weak [demd_manpower|E] пополняются используя [demd_population|E] с разной скоростью в зависимости от их [demd_job|E]. #defender_color Людской ресурс#! используется чтобы заполнить [garrison|E] и [levies|E] в [county|E] и чтобы были обеспечены [men_at_arms|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400

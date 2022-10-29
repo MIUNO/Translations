@@ -12,15 +12,15 @@ window_culture_vigor_target:0 " #help ([Culture.MakeScope.ScriptValue('vigor_tar
 
 window_culture_vigor_delta:0 "[Culture.MakeScope.ScriptValue('vigor_delta')|2=+$]"
 
-vigor_baseline_breakdown_string:0 "#bold Baseline Breakdown:#!"
+vigor_baseline_breakdown_string:0 "#bold Разбивка исходных данных:#!"
 
-vigor_baseline_target_string:0 "Baseline Equilibrium Point:"
+vigor_baseline_target_string:0 "Исходная точка равновесия:"
 
 vigor_from_dominant_faith_fervor_string:0 "[Culture.MakeScope.Var('dominant_faith').Faith.GetFervor|0]% [Culture.MakeScope.Var('dominant_faith').Faith.GetName] [fervor|E]:"
 
 vigor_from_culture_expanse_string:0 "[Culture.MakeScope.ScriptValue('culture_number_of_counties_display')|0] [Culture.GetName] [counties|E]:"
 
-vigor_cultural_production_mult_string:0 "[Culture.GetName] Pillars and Traditions:"
+vigor_cultural_production_mult_string:0 "[Culture.GetName] Столпы и традиции:"
 
 vigor_faith_production_mult_string:0 "[Culture.MakeScope.Var('dominant_faith').Faith.GetAdjective] [doctrines|E]:"
 
@@ -32,15 +32,15 @@ vigor_from_piety_level_string:0 "[culture_head|E] [piety_level|E]:"
 
 vigor_from_culture_head_tyranny_string:0 "[culture_head|E] [tyranny|E]:"
 
-vigor_from_urbanization_string:0 "[Culture.MakeScope.ScriptValue('culture_urbanization')|0%] Urbanization in [Culture.GetName] [counties|E]:"
+vigor_from_urbanization_string:0 "[Culture.MakeScope.ScriptValue('culture_urbanization')|0%] Урбанизация в [Culture.GetName] [counties|E]:"
 
-vigor_from_culture_head_virtues_sins_string:0 "[culture_head|E] [Culture.MakeScope.Var('dominant_faith').Faith.GetAdjective] [virtues|E] and [sins|E]:"
+vigor_from_culture_head_virtues_sins_string:0 "[culture_head|E] [Culture.MakeScope.Var('dominant_faith').Faith.GetAdjective] [virtues|E] и [sins|E]:"
 
-vigor_from_different_culture_head_faith_string:0 "[culture_head|E] is not [Culture.MakeScope.Var('dominant_faith').Faith.GetAdherentName]:"
+vigor_from_different_culture_head_faith_string:0 "[culture_head|E] не является [Culture.MakeScope.Var('dominant_faith').Faith.GetAdherentName]:"
 
-vigor_from_religious_disunity_string:0 "[Culture.MakeScope.ScriptValue('religious_disunity_percentage')|%0] of [Culture.GetName] [demd_population|E] not [Culture.MakeScope.Var('dominant_faith').Faith.GetAdherentName]:"
+vigor_from_religious_disunity_string:0 "[Culture.MakeScope.ScriptValue('religious_disunity_percentage')|%0] или [Culture.GetName] [demd_population|E] нет [Culture.MakeScope.Var('dominant_faith').Faith.GetAdherentName]:"
 
-vigor_from_political_disunity_string:0 "[Culture.MakeScope.ScriptValue('political_disunity_percentage')|%0] of [Culture.GetName] [demd_population|E] not ruled by [culture_head|E]:"
+vigor_from_political_disunity_string:0 "[Culture.MakeScope.ScriptValue('political_disunity_percentage')|%0] или [Culture.GetName] [demd_population|E] не управляется [culture_head|E]:"
 
 ###########Values############
 

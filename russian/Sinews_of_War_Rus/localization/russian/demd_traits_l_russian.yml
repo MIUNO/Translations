@@ -1,12 +1,12 @@
 ﻿l_russian:
 
-trait_claim_fabricator:0 "Claim Forger"
-trait_claim_fabricator_desc:0 "This character has been caught fabricating false claims to titles they had no right to. They will no longer be able to use the Fabricate Claim task."
-trait_claim_fabricator_character_desc:0 "This character has been caught fabricating false claims to titles they had no right to.  They will no longer be able to use the Fabricate Claim task."
+trait_claim_fabricator:0 "Фальсификатор претензий"
+trait_claim_fabricator_desc:0 "Этот персонаж был пойман на фабрикации ложных претензий на титулы, на которые он не имел права. Они больше не смогут использовать задачу сфабриковать претензию."
+trait_claim_fabricator_character_desc:0 "Этот персонаж был пойман на фабрикации ложных претензий на титулы, на которые он не имел права.  Они больше не смогут использовать задачу сфабриковать претензию."
 
-adjective_charismatic:0 "Charismatic"
-adjective_strong:0 "Strong"
-adjective_crafty:0 "Crafty"
-adjective_shrewd:0 "Shrewd"
-adjective_clever:0 "Clever"
-adjective_neutral:0 "Neutral"
+adjective_charismatic:0 "Харизматичный"
+adjective_strong:0 "Сильный"
+adjective_crafty:0 "Хитрый"
+adjective_shrewd:0 "Проницательный"
+adjective_clever:0 "Умный"
+adjective_neutral:0 "Нейтральный"

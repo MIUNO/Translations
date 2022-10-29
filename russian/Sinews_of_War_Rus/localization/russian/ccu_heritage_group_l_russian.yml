@@ -7,14 +7,14 @@
 # It should never be manually edited.
 #############################################
 
-culture_parameter_heritage_group_arabic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими арабский [heritage_group|E]"
+culture_parameter_heritage_group_arabic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Арабский [heritage_group|E]"
 culture_parameter_heritage_group_balto_finnic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Балто-финский [heritage_group|E]"
 culture_parameter_heritage_group_balto_slavic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Балто-славянский [heritage_group|E]"
 culture_parameter_heritage_group_berber:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Берберский [heritage_group|E]"
 culture_parameter_heritage_group_burmese:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Бирманский [heritage_group|E]"
 culture_parameter_heritage_group_byzantine:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Византийский [heritage_group|E]"
 culture_parameter_heritage_group_celtic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Кельтский [heritage_group|E]"
-culture_parameter_heritage_group_central_african:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Центрально-Африканская [heritage_group|E]"
+culture_parameter_heritage_group_central_african:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Центрально-африканский [heritage_group|E]"
 culture_parameter_heritage_group_chinese:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Китайский [heritage_group|E]"
 culture_parameter_heritage_group_dravidian:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Дравидийский [heritage_group|E]"
 culture_parameter_heritage_group_east_african:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Восточноафриканский [heritage_group|E]"
@@ -27,8 +27,8 @@ culture_parameter_heritage_group_levantine:0 "#P +[EmptyScope.ScriptValue('same_
 culture_parameter_heritage_group_mongolic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Монголия [heritage_group|E]"
 culture_parameter_heritage_group_sahelian:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Сахелианский [heritage_group|E]"
 culture_parameter_heritage_group_siberian:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Сибирский [heritage_group|E]"
-culture_parameter_heritage_group_tibeto_qiangic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Тибето-Цянгский [heritage_group|E]"
-culture_parameter_heritage_group_tocharian:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Тохариан [heritage_group|E]"
+culture_parameter_heritage_group_tibeto_qiangic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Тибето-цянгский [heritage_group|E]"
+culture_parameter_heritage_group_tocharian:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Тохарианский [heritage_group|E]"
 culture_parameter_heritage_group_turkic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Тюркский [heritage_group|E]"
 culture_parameter_heritage_group_ugro_permian:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Угро-пермский [heritage_group|E]"
 culture_parameter_heritage_group_volga_finnic:0 "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] с культурами, разделяющими Волжско-финский [heritage_group|E]"

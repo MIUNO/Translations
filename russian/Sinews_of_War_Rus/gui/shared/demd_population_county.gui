@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_population|E] необходимо заполнить [demd_jobs|E] которые стимулируют вашу экономику.#!"
+                    raw_text = "#weak [demd_population|E] необходимо для заполнения [demd_jobs|E] которые движут вашей экономикой.#!"
                     align = left
 					autoresize = yes
 					max_width = 400

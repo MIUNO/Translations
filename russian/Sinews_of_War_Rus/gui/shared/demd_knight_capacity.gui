@@ -19,7 +19,7 @@
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_demd_knight_capacity!#  [demd_knight_capacity|E] Produced: [Province.MakeScope.Var('knight_capacity_produced').GetValue|2]#!"
+                raw_text = "#T @icon_demd_knight_capacity!#  [demd_knight_capacity|E] Произведенно: [Province.MakeScope.Var('knight_capacity_produced').GetValue|2]#!"
                 align = left
 				max_width = 450
             }
@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_knight_capacity|E] производится путем [demd_job_nobles|E]. Это увеличивает количество [knights|E] [county|E] владелец может поддержать.#!"
+                    raw_text = "#weak [demd_knight_capacity|E] вырабатывают [demd_job_nobles|E]. Это увеличивает количество [knights|E], которых может поддерживать владелец [counties|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400

@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_goods|E] производятся путем [demd_job_artisans|E], и количество товаров, накопленных на душу населения, или [demd_capital|E], представляет собой ключевой компонент [barony|E] уровень жизни. [demd_capital|E] является ключевым фактором в [demd_migration_pull|E] и дает производственный бонус всем [demd_resources|E].#!"
+                    raw_text = "#weak [demd_goods|E] производят [demd_job_artisans|E], и количество товаров, накопленных на душу населения, или [demd_capital|E], представляет собой ключевой компонент уровня жизни [barony|E]. [demd_capital|E] является ключевым фактором для [demd_migration_pull|E] и дает производственный бонус ко всем [demd_resources|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400

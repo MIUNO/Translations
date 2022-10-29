@@ -19,7 +19,7 @@
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_demd_food!#  Consumption Ratio: [Province.MakeScope.Var('food_ratio').GetValue|%0]"
+                raw_text = "#T @icon_demd_food!#  Коэффициент потребления: [Province.MakeScope.Var('food_ratio').GetValue|%0]"
                 align = left
 				max_width = 450
             }
@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_food|E] производится путем [demd_job_farmers|E], и необходимо для поддержания [county|E] [demd_population|E]. Недостаток поставки #defender_color Еды#! приведет к снижению рождаемости, увеличению смертности и внешней миграции.#!"
+                    raw_text = "#weak [demd_food|E] производят местные [demd_job_farmers|E], и необходимо для поддержания численности [demd_population|E] [county|E]. Недостаточные запасы #defender_color Еды#! приведет к снижению рождаемости, увеличению смертности и внешней миграции.#!"
                     align = left
 					autoresize = yes
 					max_width = 400

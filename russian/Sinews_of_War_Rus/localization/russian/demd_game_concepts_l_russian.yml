@@ -146,10 +146,10 @@ game_concept_demd_knight_capacity:0 "Вместимость рыцарей"
 game_concept_demd_knight_capacity_desc:0 "#defender_color Вместимость рыцарей#! пополняются из числа [demd_job_nobles|E]. Это увеличивает количество [knights|E], которых может использовать владелец [county|E]."
 
 game_concept_demd_research:0 "Исследование"
-game_concept_demd_research_desc:0 «#defender_color Research#! — это вторичный ресурс, определяемый в значительной степени производством [demd_goods|E] с дополнительным вкладом от [demd_food|E] и [demd_trade_value|E]. #defender_color Исследование#! можно увеличить с помощью построением [demd_university|E ]."
+game_concept_demd_research_desc:0 "#defender_color Research#! — это вторичный ресурс, определяемый в значительной степени производством [demd_goods|E] с дополнительным вкладом от [demd_food|E] и [demd_trade_value|E]. #defender_color Исследование#! можно увеличить с помощью построением [demd_university|E ]."
 
-game_concept_demd_trade_value:0 "Торговая стоимость"
-game_concept_demd_trade_value_desc:0 "#Defender_color Торговая ценность#! является вторичным ресурсом, определяемым в значительной степени производством [demd_goods|E] со вторичным вкладом от [demd_food|E]. #Половина торговой стоимости defender_color#! всегда остается локальной, а другая половина отправляется [county|E] в [demd_trade_node|E]. #Торговая ценность defender_color#! [county|E] преобразуется в [налоги|E] путем умножения на налоговую ставку [county|E]."
+game_concept_demd_trade_value:0 "Торговая ценность"
+game_concept_demd_trade_value_desc:0 "#Defender_color Торговая ценность#! — это вторичный ресурс, определяемый в значительной степени производством [demd_goods|E] с вторичным вкладом [demd_food|E]. Половина #defender_color Торговой ценности#! всегда остается локальной, в то время как другая половина отправляется в [county|E] в [demd_trade_node|E]. #defender_color Торговая ценность#! [counties|E] преобразуется в [taxes|E] путем умножения на налоговую ставку [counties|E]."
 
 game_concept_demd_tariffs:0 "Тарифы"
 game_concept_demd_tariffs_desc:0 "#Defender_color Тарифы#! — это процент от [demd_trade_value|E], который переходит к владельцу [county|E] в качестве [налогов|E]. #defender_color Тарифы#! равны [demd_trade_value|E], умноженному на эффективную налоговую ставку."
@@ -157,14 +157,14 @@ game_concept_demd_tariffs_desc:0 "#Defender_color Тарифы#! — это пр
 game_concept_demd_wealth:0 "Богатство на душу населения"
 game_concept_demd_wealth_desc:0 "#defender_color Богатство на душу населения#! является мерилом благосостояния среднего гражданина. Он масштабируется линейно с [demd_goods|E] и [demd_trade_value|E], произведенными в [county|E], и обратно пропорционально [demd_population|E], и является основным фактором регулирующим [demd_migration_pull|E]."
 
-game_concept_demd_trade_power:0 "Торговая власть"
-game_concept_demd_trade_power_desc:0 «#defender_color Торговая власть#! — это мера влияния [county|E] на местную и глобальную торговлю. #defender_color Торговая мощь#! [demd_trade_node|E] собирает и вносит свой вклад в #торговый потенциал defender_color#! [demd_trade_node|E] своего [demd_trade_node|E], который определяет, сколько [demd_trade_value|E] получает этот узел. [county|E] местного производства [demd_trade_value|E], умноженное на бонусы от [terrain|E] и [demd_edicts|E]».
+game_concept_demd_trade_power:0 "Торговая мощь"
+game_concept_demd_trade_power_desc:0 "#defender_color Торговая мощь#! — это мера влияния [counties|E] на местную и глобальную торговлю. #defender_color Торговая мощь#! собирает и вносит свой вклад в #defender_color Торговый потенциал#! своего [demd_trade_node|E], который определяет, сколько [demd_trade_value|E] получает этот узел. #defender_color Торговая мощь#! рассчитывается на основе [demd_trade_value|E] местного производства [counties|E] умноженной на бонусы от [terrain|E] и [demd_edicts|E]."
 
 game_concept_demd_tax_rate:0 "Ставка налога"
 game_concept_demd_tax_rate_desc:0 "#defender_color Ставка налога#! — это процент [demd_food|E], [demd_goods|E] и [demd_trade_value|E] [demd_food|E] в [county|E], конфискованных [ruler|E]."
 
 game_concept_demd_manpower_rate:0 "Уровень людских ресурсов"
-game_concept_demd_manpower_rate_desc:0 "#defender_color Manpower Rate#! это процент от [county|E] [demd_population|E] который доступен [ruler|E] в виде [demd_manpower|E],и используется для заполнения [garrison|E], [levies|E] и [men_at_arms|E]."
+game_concept_demd_manpower_rate_desc:0 "#defender_color Manpower Rate#! — это процент от [county|E] [demd_population|E] который доступен [ruler|E] в виде [demd_manpower|E],и используется для заполнения [garrison|E], [levies|E] и [men_at_arms|E]."
 
 game_concept_demd_trade_node:0 "Торговый узел"
 game_concept_demd_trade_node_desc:0 "Каждая [county|E] стоит на каком либо #defender_color торговом узле#!."
@@ -190,43 +190,43 @@ game_concept_demd_culture_conversion_progress:0 "Прогресс преобра
 game_concept_demd_culture_conversion_progress_desc:0 "..."
 
 game_concept_demd_culture_conversion_regular:0 "Обычная конверсия культуры"
-game_concept_demd_culture_conversion_regular_desc:0 "#defender_color Regular Culture Conversions#! are [county|E] to adjacent [county|E]. Yearly Progress is related to the difference between the [demd_culture_conversion_attack|E] of the attacking [counties|E] and the [demd_culture_conversion_defense|E] of the defending [county|E]."
+game_concept_demd_culture_conversion_regular_desc:0 "#defender_color Обычная конверсия культуры#! [county|E] к смежным [county|E]. Ежегодный прогресс связан с разницей между [demd_culture_conversion_attack|E] из нападающих [counties|E] и [demd_culture_conversion_defense|E] из защищающихся [county|E]."
 
 game_concept_demd_culture_conversion_settler:0 "Преобразование культуры поселенцев"
-game_concept_demd_culture_conversion_settler_desc:0 "#defender_color Settler Culture Conversions#! are from [county|E] to [county|E]. Yearly Progress is related to the difference between the sum of the [demd_culture_conversion_attack|E] of the attacking [county|E] and all counties of the same [culture|E] that neighbor it and the [demd_culture_conversion_defense|E] of the defending [county|E]."
+game_concept_demd_culture_conversion_settler_desc:0 "#defender_color Преобразование культуры поселенцев#! являются из [county|E] к [county|E]. Годовой прогресс связан с разницей между суммой [demd_culture_conversion_attack|E] из нападающих [county|E] и все округа одного и того же [culture|E] что соседствует с ним и с [demd_culture_conversion_defense|E] из защищающихся [county|E]."
 
 game_concept_demd_faith_conversion_regular:0 "Обычное обращение веры"
-game_concept_demd_faith_conversion_regular_desc:0 "#defender_color Regular Faith Conversions#! are [county|E] to adjacent [county|E]. Yearly Progress is related to the difference between the [demd_faith_conversion_attack|E] of the attacking [counties|E] and the [demd_faith_conversion_defense|E] of the defending [county|E]."
+game_concept_demd_faith_conversion_regular_desc:0 "#defender_color Обычное обращение веры#! [county|E] к смежным [county|E]. Ежегодный прогресс связан с разницей между [demd_faith_conversion_attack|E] из нападающих [counties|E] и [demd_faith_conversion_defense|E] из защищающихся [county|E]."
 
 game_concept_demd_faith_conversion_heresy:0 "Обращение в ересь"
-game_concept_demd_faith_conversion_heresy_desc:0 "#defender_color Heresy Faith Conversions#! are from a [county|E] against itself. Yearly Progress is related to the difference between the heresy [demd_faith_conversion_attack|E], and the [demd_faith_conversion_defense|E] of the defending [county|E]."
+game_concept_demd_faith_conversion_heresy_desc:0 "#defender_color Обращение в ересь#! являются из [county|E] против самого себя. Ежегодный прогресс связан с различием между ересью [demd_faith_conversion_attack|E], и [demd_faith_conversion_defense|E] из защищающихся [county|E]."
 
 game_concept_demd_faith_conversion_missionary:0 "Миссионерское обращение веры"
-game_concept_demd_faith_conversion_missionary_desc:0 "#defender_color Missionary Faith Conversions#! are from [county|E] to [county|E]. Yearly Progress is related to the difference between the sum of the [demd_faith_conversion_attack|E] of the attacking [county|E] and all counties of the same [faith|E] that neighbor it and the [demd_faith_conversion_defense|E] of the defending [county|E]."
+game_concept_demd_faith_conversion_missionary_desc:0 "#defender_color Миссионерское обращение веры#! являются из [county|E] к [county|E]. Годовой прогресс связан с разницей между суммой [demd_faith_conversion_attack|E] из нападающих [county|E] и все округа одного и того же [faith|E] что соседствует с ним и с [demd_faith_conversion_defense|E] из защищающихся [county|E]."
 
 game_concept_demd_faith_conversion_learning:0 "Обучение обращению веры"
-game_concept_demd_faith_conversion_learning_desc:0 "#defender_color Learning Faith Conversions#! are from a [ruler|E] against the [capital|E] [county|E]. Yearly Progress is related to the difference between the sum of the average of the [ruler|E]'s and his [realm_priest|E]'s [learning|E] skill and his [faith|E]'s [fervor|E] and the [demd_faith_conversion_defense|E] of the defending [county|E]."
+game_concept_demd_faith_conversion_learning_desc:0 "#defender_color Обучение обращению веры#! являются из [ruler|E] против [capital|E] [county|E]. Годовой прогресс связан с разницей между суммой средних показателей [ruler|E] и его [realm_priest|E] [learning|E] мастерство и его [faith|E] [fervor|E] и [demd_faith_conversion_defense|E] из защищающихся [county|E]."
 
 game_concept_demd_faith_conversion_attack:0 "Сила преобразования веры"
-game_concept_demd_faith_conversion_attack_desc:0 "#defender_color Faith Conversion Attack#! is calculated as a percentage of [demd_faith_conversion_defense|E]. If the summed #defender_color Faith Conversion Attack#! of all [counties|E] bordering the defending [county|E] is higher than the [demd_faith_conversion_defense|E] of the defending [counties|E] a [faith|E] conversion attempt will be initiated."
+game_concept_demd_faith_conversion_attack_desc:0 "#defender_color Сила преобразования веры#! рассчитывается в процентах от [demd_faith_conversion_defense|E]. Если суммированный #defender_color Сила преобразования веры#! из всех [counties|E] граничащий с обороняющимся [county|E] находится выше, чем [demd_faith_conversion_defense|E] из защищающихся [counties|E] [faith|E] будет инициирована попытка преобразования."
 
 game_concept_demd_faith_conversion_defense:0 "Защита от обращения в иную веру"
-game_concept_demd_faith_conversion_defense_desc:0 "#defender_color Faith Conversion Defense#! is calculated as [fervor|E] plus a contribution from local temple buildings. The #defender_color Faith Conversion Defense#! of neighboring [counties|E] of the same [faith|E] is then added. If #defender_color Faith Conversion Defense#! is stronger than the combined [demd_faith_conversion_attack|E] of all neighboring [counties|E] of a given different [faith|E], this county will be protected from [faith|E] conversion attempts."
+game_concept_demd_faith_conversion_defense_desc:0 "#defender_color Защита от обращения в иную веру#! рассчитывается как [fervor|E] плюс пожертвования от местных храмовых зданий. То #defender_color Защита от обращения в иную веру#! из соседних [counties|E] из того же [faith|E] затем добавляется. Если #defender_color Защита от обращения в иную веру#! является более сильным, чем комбинированный [demd_faith_conversion_attack|E] из всех соседних [counties|E] из данного другого [faith|E], этот округ будет защищен от [faith|E] попытки преобразования."
 
 game_concept_demd_culture_conversion_attack:0 "Сила преобразования культуры"
-game_concept_demd_culture_conversion_attack_desc:0 "#defender_color Culture Conversion Attack#! is calculated as a percentage of [demd_culture_conversion_defense|E]. If #defender_color Culture Conversion Attack#! is stronger than the [demd_culture_conversion_defense|E] of neighboring [counties|E] a [culture|E] conversion attempt will result."
+game_concept_demd_culture_conversion_attack_desc:0 "#defender_color Сила преобразования культуры#! рассчитывается в процентах от [demd_culture_conversion_defense|E]. Если #defender_color Сила преобразования культуры#! является более сильной, чем [demd_culture_conversion_defense|E] из соседних [counties|E] [culture|E] результатом будет попытка преобразования."
 
 game_concept_demd_culture_conversion_defense:0 "Защита от преобразования в другую культуру"
-game_concept_demd_culture_conversion_defense_desc:0 "#defender_color Culture Conversion Defense#! is calculated as [demd_culture_power|E] multiplied by [demd_population|E] multiplied by the contribution from local [buildings|E] and other factors. If #defender_color Culture Conversion Defense#! is stronger than the [demd_culture_conversion_attack|E] of neighboring [counties|E], this county will be protected from [culture|E] conversion attempts."
+game_concept_demd_culture_conversion_defense_desc:0 "#defender_color Защита от преобразования в другую культуру#! рассчитывается как [demd_culture_power|E] умноженный на [demd_population|E] умноженный на вклад местных [buildings|E] и другие факторы. Если #defender_color Culture Conversion Defense#! является более сильным, чем [demd_culture_conversion_attack|E] из соседних [counties|E], этот округ будет защищен от [culture|E] попытки преобразования."
 
 game_concept_demd_culture_power:0 "Сила культуры"
-game_concept_demd_culture_power_desc:0 "#defender_color Culture Power#! is a measure of how advanced a culture is in terms of number of [innovations|E] unlocked. It is a key component in the calculation of [demd_culture_conversion_defense|E] and [demd_culture_conversion_attack|E]."
+game_concept_demd_culture_power_desc:0 "#defender_color Сила культуры#! является мерой того, насколько развита культура с точки зрения количества [innovations|E] разблокирован. Это ключевой компонент при расчете [demd_culture_conversion_defense|E] и [demd_culture_conversion_attack|E]."
 
 game_concept_demd_influence:0 "Влияние"
-game_concept_demd_influence_desc:0 "#defender_color Influence#! is a measure of the relative power of the estates in a [county|E]. It is chiefly determined by [demd_urbanization|E] and [demd_land_ownership|E]."
+game_concept_demd_influence_desc:0 "#defender_color Влияние#! является мерой относительной власти сословий в [county|E]. Это главным образом определяется [demd_urbanization|E] и [demd_land_ownership|E]."
 
 game_concept_demd_land_ownership:0 "Дворянское землевладение"
-game_concept_demd_land_ownership_desc:0 "#defender_color Noble Land Ownership#! is a measure of the percent of productive land owned by the nobility as opposed to the clergy in a [county|E]. It is a key component in computing [demd_influence|E]."
+game_concept_demd_land_ownership_desc:0 "#defender_color Дворянское землевладение#! является мерой процента продуктивной земли, принадлежащей дворянству в отличие от духовенства в [county|E]. Это ключевой компонент в вычислительной технике [demd_influence|E]."
 
 game_concept_demd_noble_estate:0 "Дворянское поместье"
 game_concept_demd_noble_estate_desc:0 "#defender_color Дворянское поместье#! ..."
@@ -288,8 +288,8 @@ game_concept_demd_university:0 "Университет"
 game_concept_demd_universities:0 "Университеты"
 game_concept_demd_university_desc:0 "#defender_color Университетные [buildings|E]#! увеличивают [demd_research|E]. В каждом [county|E] может быть построено ограниченное количество университетов, определяемое прогрессом [inovations|E]."
 
-game_concept_demd_migration_pull:0 "Миграционный пул"
-game_concept_demd_migration_pull_desc:0 "#defender_color Миграция#! является мерой того, насколько желательно жить в [county|E]. Если [графство|E] имеет более высокий #defender_color миграционный приток#! чем соседние [counties|E], [demd_population|E] будут мигрировать к нему."
+game_concept_demd_migration_pull:0 "Миграционный приток"
+game_concept_demd_migration_pull_desc:0 "#defender_color Миграция#! является мерой того, насколько желательно жить в [county|E]. Если [county|E] имеет более высокий #defender_color Миграционный приток#! чем соседние [counties|E], [demd_population|E] будут мигрировать к нему."
 
 game_concept_demd_migration:0 "Миграция"
-game_concept_demd_migration_desc:0 "перенаправляет [demd_population|E] между соседними [counties|E] на основе разницы показателя [demd_migration_pull|E] и показателем населения. Скорость #defender_color Миграции#! может замедлятся из-за различий [faith_hostility|E] и [culture|E]."
+game_concept_demd_migration_desc:0 "Перенаправляет [demd_population|E] между соседними [counties|E] на основе разницы показателя [demd_migration_pull|E] и показателем населения. Скорость #defender_color Миграции#! может замедлятся из-за различий [faith_hostility|E] и [culture|E]."

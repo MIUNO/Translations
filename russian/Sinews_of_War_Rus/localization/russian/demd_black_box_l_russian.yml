@@ -1,6 +1,6 @@
 ﻿l_russian:
 
-demd_create_ruin:0 "A new [excavation|E] location is discovered."
+demd_create_ruin:0 "Обнаружено новое место [excavation|E]."
 
 ######################
 # Influence Tooltips
@@ -360,16 +360,16 @@ demd_add_imperial_decay_CB_huge:0 "[empire_title.GetName]: @icon_imperial_decay!
 # Edicts
 ############################
 
-demd_increment_tax_edict_setting:0 "[tax|E] Rate [demd_edict|E] увеличивается на один уровень"
-demd_increment_manpower_edict_setting:0 "[demd_manpower|E] Rate [demd_edict|E] увеличивается на один уровень"
+demd_increment_tax_edict_setting:0 "[tax|E] Ставка [demd_edict|E] увеличивается на один уровень"
+demd_increment_manpower_edict_setting:0 "[demd_manpower|E] Ставка [demd_edict|E] увеличивается на один уровень"
 demd_increment_sanitation_edict_setting:0 "[demd_sanitation|E] [demd_edict|E] увеличивается на один уровень"
-demd_increment_irrigation_edict_setting:0 "Irrigation [demd_edict|E] увеличивается на один уровень"
-demd_increment_infrastructure_edict_setting:0 "Infrastructure [demd_edict|E] увеличивается на один уровень"
+demd_increment_irrigation_edict_setting:0 "Орошение [demd_edict|E] увеличивается на один уровень"
+demd_increment_infrastructure_edict_setting:0 "Инфраструктура [demd_edict|E] увеличивается на один уровень"
 demd_increment_public_order_edict_setting:0 "[demd_public_order|E] [demd_edict|E] увеличивается на один уровень"
 
-demd_decrement_tax_edict_setting:0 "[tax|E] Rate [demd_edict|E] уменьшается на один уровень"
-demd_decrement_manpower_edict_setting:0 "[demd_manpower|E] Rate [demd_edict|E] уменьшается на один уровень"
+demd_decrement_tax_edict_setting:0 "[tax|E] Ставка [demd_edict|E] уменьшается на один уровень"
+demd_decrement_manpower_edict_setting:0 "[demd_manpower|E] Ставка [demd_edict|E] уменьшается на один уровень"
 demd_decrement_sanitation_edict_setting:0 "[demd_sanitation|E] [demd_edict|E] уменьшается на один уровень"
-demd_decrement_irrigation_edict_setting:0 "Irrigation [demd_edict|E] уменьшается на один уровень"
-demd_decrement_infrastructure_edict_setting:0 "Infrastructure [demd_edict|E] уменьшается на один уровень"
+demd_decrement_irrigation_edict_setting:0 "Орошение [demd_edict|E] уменьшается на один уровень"
+demd_decrement_infrastructure_edict_setting:0 "Инфраструктура [demd_edict|E] уменьшается на один уровень"
 demd_decrement_public_order_edict_setting:0 "[demd_public_order|E] [demd_edict|E] уменьшается на один уровень"

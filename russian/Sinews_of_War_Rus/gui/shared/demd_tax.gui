@@ -1,4 +1,4 @@
-types Tax
+﻿types Tax
 {
     type tax_breakdown_widget = widget
     {
@@ -19,7 +19,7 @@ types Tax
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_taxes!# Total [taxes|E]: [Province.GetHolding.GetIncome|2]#!"
+                raw_text = "#T @icon_taxes!# Всего [taxes|E]: [Province.GetHolding.GetIncome|2]#!"
                 align = left
 				max_width = 450
             }
@@ -32,7 +32,7 @@ types Tax
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [tax|E] is produced by [demd_population|E] via the confiscation of a percent of [demd_resources|E] from what the [demd_population|E] produces. Confiscated [demd_resources|E] are then converted to [gold|E], with the partial exception of [demd_food|E], where a percent is also sent to the [ruler|E]'s [capital|E].#!"
+                    raw_text = "#weak [tax|E] производится путем [demd_population|E] посредством конфискации процента от [demd_resources|E] из того, что [demd_population|E] производит. Конфискованный [demd_resources|E] затем преобразуются в [gold|E], за частичным исключением [demd_food|E], где процент также отправляется на [ruler|E] [capital|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -40,7 +40,7 @@ types Tax
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold From [demd_population|E]: [Province.MakeScope.ScriptValue('population_tax')|2]#!"
+                    raw_text = "#bold От [demd_population|E]: [Province.MakeScope.ScriptValue('population_tax')|2]#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -52,7 +52,7 @@ types Tax
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From [demd_job_farmers|E]:  +[Province.MakeScope.ScriptValue('food_producers_tax')|2]"
+                    raw_text = "От [demd_job_farmers|E]:  +[Province.MakeScope.ScriptValue('food_producers_tax')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -60,7 +60,7 @@ types Tax
                 text_multi = {
                     layoutpolicy_horizontal = expanding
 					visible = "[Province.GetTitle.IsCountyCapital]"
-                    raw_text = "From [demd_job_artisans|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('goods_producers_tax')|2]"
+                    raw_text = "От [demd_job_artisans|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('goods_producers_tax')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -68,7 +68,7 @@ types Tax
                 text_multi = {
                     layoutpolicy_horizontal = expanding
 					visible = "[Province.GetTitle.IsCountyCapital]"
-                    raw_text = "From [demd_tariffs|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('tariff_tax')|2]"
+                    raw_text = "От [demd_tariffs|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('tariff_tax')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -76,7 +76,7 @@ types Tax
 				text_multi = {
                     layoutpolicy_horizontal = expanding
 					visible = "[Province.GetTitle.IsCountyCapital]"
-                    raw_text = "From [demd_edicts|E]:  -[Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_total_edict_expense')|2]"
+                    raw_text = "От [demd_edicts|E]:  -[Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_total_edict_expense')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -84,7 +84,7 @@ types Tax
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold [tax|E] Rate: [Province.GetCounty.GetTitle.MakeScope.Var('effective_tax_rate').GetValue|1%]#!"
+                    raw_text = "#bold [tax|E] Ставка: [Province.GetCounty.GetTitle.MakeScope.Var('effective_tax_rate').GetValue|1%]#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -92,7 +92,7 @@ types Tax
 				spacer = { size = { 0 14 } }
 				text_multi = {
 					layoutpolicy_horizontal = expanding
-					raw_text = "[county|E] Occupy [gold|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_occupy_gold_value')|1]"
+					raw_text = "[county|E] Занимать [gold|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_occupy_gold_value')|1]"
 					align = left
 					autoresize = yes
 					max_width = 400
@@ -103,7 +103,7 @@ types Tax
 				}
 				text_multi = {
 					layoutpolicy_horizontal = expanding
-					raw_text = "[county|E] Sack [gold|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_sack_gold_value')|1]"
+					raw_text = "[county|E] Мешок [gold|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_sack_gold_value')|1]"
 					align = left
 					autoresize = yes
 					max_width = 400
@@ -114,7 +114,7 @@ types Tax
 				}
 				text_multi = {
 					layoutpolicy_horizontal = expanding
-					raw_text = "[county|E] Raze [gold|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_raze_gold_value')|1]"
+					raw_text = "[county|E] Сносить [gold|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_raze_gold_value')|1]"
 					align = left
 					autoresize = yes
 					max_width = 400
@@ -126,7 +126,7 @@ types Tax
 				spacer = { size = { 0 14 } }
 				text_multi = {
 					layoutpolicy_horizontal = expanding
-					raw_text = "[county|E] Raid [gold|E] (spared): [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_raid_spared_gold_value')|1]"
+					raw_text = "[county|E] Налет [gold|E] (сбереженный): [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_raid_spared_gold_value')|1]"
 					align = left
 					autoresize = yes
 					max_width = 400
@@ -137,7 +137,7 @@ types Tax
 				}
 				text_multi = {
 					layoutpolicy_horizontal = expanding
-					raw_text = "[county|E] Raid [gold|E] (plundered): [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_raid_plunder_gold_value')|1]"
+					raw_text = "[county|E] Налет [gold|E] (разграбленный): [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_raid_plunder_gold_value')|1]"
 					align = left
 					autoresize = yes
 					max_width = 400

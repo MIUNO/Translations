@@ -660,7 +660,7 @@ window = {
 						onclick = "[GetVariableSystem.Set( 'demd_county_view', 'law_tab' )]"
 						
 						text_single = {
-							raw_text = "Edicts"
+							raw_text = "Указы"
 							default_format = "#high"
 							using = Font_Size_Big
 							parentanchor = hcenter|vcenter
@@ -679,7 +679,7 @@ window = {
 						onclick = "[GetVariableSystem.Set( 'demd_county_view', 'excavation_tab' )]"
 						
 						text_single = {
-							raw_text = "Ruins"
+							raw_text = "Руины"
 							default_format = "#high"
 							using = Font_Size_Big
 							parentanchor = hcenter|vcenter
@@ -863,7 +863,7 @@ window = {
 
 					text_single = {
 						parentanchor = center
-						raw_text = "[Province.MakeScope.ScriptValue('holding_construction_years_left')|0] Year(s)"
+						raw_text = "[Province.MakeScope.ScriptValue('holding_construction_years_left')|0] Лет"
 						default_format = "#high"
 						align = nobaseline
 						using = Font_Size_Medium
