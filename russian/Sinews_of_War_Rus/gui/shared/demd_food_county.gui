@@ -19,7 +19,7 @@
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_demd_food!#  [demd_food|E] Коэффициент потребления: [Province.GetCounty.GetTitle.MakeScope.Var('food_ratio').GetValue|%0]#!"
+                raw_text = "#T @icon_demd_food!#  Коэф. потребления [Concept('demd_food','Продовольствия')|E]: [Province.GetCounty.GetTitle.MakeScope.Var('food_ratio').GetValue|%0]#!"
                 align = left
 				max_width = 450
             }

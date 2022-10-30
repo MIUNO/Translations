@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_migration_pull|E] это показатель того, насколько желательно место для жизни. Если в [county|E] имеет более высокий #defender_color Миграционная тяга#! чем соседние [counties|E], [demd_population|E] будет мигрировать к нему.#!"
+                    raw_text = "#weak [demd_migration_pull|E] это показатель того, насколько желательно место для жизни. Если в [county|E] имеет более высокую #defender_color Миграционную тягу#! чем соседние [county|E], [demd_population|E] будет мигрировать к нему.#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -40,49 +40,49 @@
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_food|E]: [Province.MakeScope.ScriptValue('migration_pull_from_food')|%0]"
+                    raw_text = "От [Concept('demd_food','Продовольствия')|E]: [Province.MakeScope.ScriptValue('migration_pull_from_food')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_sanitation|E]: [Province.MakeScope.ScriptValue('migration_pull_from_sanitation_max')|%0]"
+                    raw_text = "От [Concept('demd_sanitation','Санитарии')|E]: [Province.MakeScope.ScriptValue('migration_pull_from_sanitation_max')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_public_order|E]: [Province.MakeScope.ScriptValue('migration_pull_from_public_order_max')|%0]"
+                    raw_text = "От [Concept('demd_public_order','Общественного порядка')|E]: [Province.MakeScope.ScriptValue('migration_pull_from_public_order_max')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }                
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_capital|E]: [Province.MakeScope.ScriptValue('migration_pull_from_capital')|%0]"
+                    raw_text = "От [Concept('demd_capital','Капитала')|E]: [Province.MakeScope.ScriptValue('migration_pull_from_capital')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [vigor|E]: [Province.MakeScope.ScriptValue('migration_pull_from_vigor')|%0]"
+                    raw_text = "От [Concept('vigor','Бодрости')|E]: [Province.MakeScope.ScriptValue('migration_pull_from_vigor')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [county_opinion|E]: [Province.MakeScope.ScriptValue('prov_opinion_migration_pull')|%0]"
+                    raw_text = "От [Concept('county_opinion','Мнения графства')|E]: [Province.MakeScope.ScriptValue('prov_opinion_migration_pull')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Из неиспользованных [demd_food_districts|E]: [Province.MakeScope.ScriptValue('migration_pull_from_empty_farmland')|%0]"
+                    raw_text = "Из неиспользованных [Concept('demd_food_districts','Продовольствия округа')|E]: [Province.MakeScope.ScriptValue('migration_pull_from_empty_farmland')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400

@@ -96,23 +96,23 @@ game_concept_demd_earthquakes_desc:0 "#defender_color Землетрясения
 
 game_concept_demd_tsunami:0 "Цунами"
 game_concept_demd_tsunamis:0 "Цунами"
-game_concept_demd_tsunamis_desc:0 "#defender_color Цунами#! разрушительные приливные волны, вызванные подводными сейсмическими возмущениями. Греческий историк Фукидид был первым, кто утверждал, что океанские землетрясения должны быть причиной #defender_color Tsunamis#!."
+game_concept_demd_tsunamis_desc:0 "#defender_color Цунами#! разрушительные приливные волны, вызванные подводными сейсмическими возмущениями. Греческий историк Фукидид был первым, кто утверждал, что океанские землетрясения должны быть причиной #defender_color Цунами#!."
 
 ###
 
-game_concept_demd_job_noble:0 "Дворянин"
+game_concept_demd_job_noble:0 "Дворянин" #+
 game_concept_demd_job_nobles:0 "Дворяне"
-game_concept_demd_job_noble_desc:0 "#defender_color Дворяне#! представляют число [demd_jobs|E] и проживают в [demd_food_districts|E], так же влияют на [demd_knight_capacity|E]."
+game_concept_demd_job_noble_desc:0 "#defender_color Дворяне#! представляют число [Concept('demd_jobs','Рабочих мест')|E] и проживают в [Concept('demd_food_districts','Сельском округе')|E], так же влияют на [demd_knight_capacity|E]."
 
-game_concept_demd_job_artisan:0 "Ремесленник"
+game_concept_demd_job_artisan:0 "Ремесленник" #+
 game_concept_demd_job_artisans:0 "Ремесленники"
-game_concept_demd_job_artisan_desc:0 "#defender_color Ремесленники #! представляют число [demd_jobs|E] и проживают в [demd_goods_districts|E], так же производят [demd_goods|E]."
+game_concept_demd_job_artisan_desc:0 "#defender_color Ремесленники #! представляют число [Concept('demd_jobs','Рабочих мест')|E] и проживают в [Concept('demd_goods_districts','Производственном округе')|E], так же производят [demd_goods|E]."
 
-game_concept_demd_job_farmer:0 "Фермер"
+game_concept_demd_job_farmer:0 "Фермер" #+
 game_concept_demd_job_farmers:0 "Фермеры"
-game_concept_demd_job_farmer_desc:0 "#defender_color Фермер#! представляют число [demd_jobs|E] и проживают в [demd_food_districts|E], так же производят [demd_food|E]."
+game_concept_demd_job_farmer_desc:0 "#defender_color Фермер#! представляют число [Concept('demd_jobs','Рабочих мест')|E] и проживают в [Concept('demd_food_districts','Сельском округе')|E], так же производят [demd_food|E]."
 
-game_concept_demd_job:0 "Рабочие места"
+game_concept_demd_job:0 "Рабочие места" #+
 game_concept_demd_jobs:0 "Рабочие места"
 game_concept_demd_job_desc:0 "#defender_color Рабочие места#! предоставляются [Concept('demd_districts','Округами')|E] и заполняются [Concept('demd_population','Населением')|E] для производства [Concept('demd_resources','Ресурсов')|E]."
 
@@ -123,9 +123,9 @@ game_concept_demd_resource:0 "Ресурс"
 game_concept_demd_resources:0 "Ресурсы"
 game_concept_demd_resource_desc:0 "#Ресурсы defender_color#! производятся [demd_population|E] и включают в себя: [demd_food|E], [demd_goods|E], [demd_knight_capacity|E] и [demd_research|E]."
 
-game_concept_demd_food:0 "Продовольствие"
+game_concept_demd_food:0 "Продовольствие" #+
 game_concept_demd_famine:0 "Голод"
-game_concept_demd_food_desc:0 "#defer_color Продовольствие#! производится местными [demd_job_farmers|E] и необходимо для поддержания численности [demd_population|E] в [counties|E]. Недостаточные запасы #defender_color Продовольствия#! приведут к смерти и внешней миграции. #defender_color Продольствие#! также является второстепенным фактором в [demd_trade_value|E] [counties|E], [tax|E] и [demd_research|E] производстве."
+game_concept_demd_food_desc:0 "#defer_color Продовольствие#! производится местными [Concept('demd_job_farmers','Фермерами')|E] и необходимо для поддержания численности [Concept('demd_population','Населения')|E] в [Concept('counties','Графстве')|E]. Недостаточные запасы #defender_color Продовольствия#! приведут к смерти и внешней миграции. #defender_color Продольствие#! также является второстепенным фактором в [Concept('demd_trade_value','Торговой ценности')|E] [counties|E], [tax|E] и [demd_research|E] производстве."
 
 game_concept_demd_fertility:0 "Плодородность"
 game_concept_demd_fertility_desc:0 "#defender_color Плодородность #! является мерой сельскохозяйственной продуктивности земли в графстве и основным фактором, определяющим, сколько [demd_food|E] производит каждый [demd_job_farmer|E]. Он делится на базовое значение, которое определяется рельефом, близостью к рекам, озерам, морям и [demd_winter|E], и переходным значением, которое определяется годовыми колебаниями [demd_weather|E] на уровень [county|E] и годовые колебания [demd_weather|E] на уровне региона."
@@ -252,27 +252,27 @@ game_concept_demd_sanitation_desc:0 "#defender_color Санитария#! явл
 game_concept_demd_squalor:0 "Нищета"
 game_concept_demd_squalor_desc:0 "#defender_color Нищета#! появляется из числа [demd_population|E]. Если #defender_color Нищета#! превышает [demd_sanitation|E], избыточная смертность будет происходить пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
 
-game_concept_demd_edict:0 "Указ"
+game_concept_demd_edict:0 "Указ" #+
 game_concept_demd_edicts:0 "Указы"
-game_concept_demd_edict_desc:0 "#defender_color Указы#! являются законами уровня [county|E], которые могут быть приняты владельцем [county|E] из вкладки #defender_color Указы#! в диалоговом окне [county|E]."
+game_concept_demd_edict_desc:0 "#defender_color Указы#! являются законами уровня [counties|E], которые могут быть приняты владельцем [counties|E] из вкладки #defender_color Указы#! в диалоговом окне [counties|E]."
 
-game_concept_demd_urbanization:0 "Урбанизация"
-game_concept_demd_urbanization_desc:0 "#defender_color Урбанизация#! определяется количеством [demd_goods_districts|E] в [county|E], деленным на общее количество [demd_districts|E]."
+game_concept_demd_urbanization:0 "Урбанизация" #+
+game_concept_demd_urbanization_desc:0 "#defender_color Урбанизация#! определяется количеством [Concept('demd_goods_districts','Производственных округов')|E] в [Concept('county','Графстве')|E], деленным на общее количество [Concept('demd_districts','Округов')|E]."
 
-game_concept_demd_construction_cap:0 "Строительная вместимость"
+game_concept_demd_construction_cap:0 "Строительная вместимость" #+
 game_concept_demd_construction_cap_desc:0 "#defender_color Строительная вместимость #! это максимальное количество [demd_districts|E], которое [county|E] может построить каждый год. Он определяется количеством [demd_goods_districts|E], присутствующих в [county|E]. Бонусы к #defender_color Строительной вместимости#! также улучшит скорость строительства [building|E]."
 
-game_concept_demd_food_district:0 "Сельский округ"
+game_concept_demd_food_district:0 "Сельский округ" #+
 game_concept_demd_food_districts:0 "Сельский округа"
-game_concept_demd_food_district_desc:0 "#defender_color Сельское [demd_districts|E]#! предоставьте [demd_job_farmer|E] и [demd_job_noble|E] [demd_jobs|E]. Количество #defender_color Сельского [demd_districts|E]#! которые можно построить в округе, ограничены количеством и качеством пахотных земель."
+game_concept_demd_food_district_desc:0 "#defender_color Сельский [Concept('demd_districts','Округ')|E]#! предоставляет [Concept('demd_job_farmer','Фермерам')|E] и [Concept('demd_job_noble','Дворянам')|E] [demd_jobs|E]. Количество #defender_color Сельских [Concept('demd_districts','Округов')|E]#! которые можно построить в округе, ограничены количеством и качеством пахотных земель."
 
-game_concept_demd_goods_district:0 "Городской округ"
-game_concept_demd_goods_districts:0 "Городской округа"
-game_concept_demd_goods_district_desc:0 "#defender_color Городское [demd_districts|E]#! предоставить [demd_job_artisan|E] [demd_jobs|E]. Процент городских округов #defender_color#! в округе определяет уровень [demd_urbanization|E]. Неограниченное количество #defender_color Городское [demd_districts|E]#! можно разместить в уезде."
+game_concept_demd_goods_district:0 "Производственный округ" #+
+game_concept_demd_goods_districts:0 "Производственные округа"
+game_concept_demd_goods_district_desc:0 "#defender_color Производственный [demd_district|E]#! предоставляет [Concept('demd_job_farmer','Фермерам')|E] [demd_jobs|E]. Процент #defender_color Производственных округов#! в округе определяет уровень [Concept('demd_urbanization','Урбанизации')|E]. Неограниченное количество #defender_color Производственный [demd_district|E]#! можно разместить в уезде."
 
-game_concept_demd_district:0 "Округ"
+game_concept_demd_district:0 "Округ" #+
 game_concept_demd_districts:0 "Округа"
-game_concept_demd_district_desc:0 "#defender_color Округа#! создаются в [counties|E], чтобы обеспечить [demd_jobs|E] для [demd_population|E]. [demd_goods_districts|E] предоставляют [demd_job_artisan|E] [demd_jobs|E], а [demd_food_districts|E] предоставляют [demd_job_farmer|E] и [demd_job_noble|E] [demd_jobs|E]. Количество районов, которые округ может строить каждый год, ограничено его [demd_construction_cap|E]."
+game_concept_demd_district_desc:0 "#defender_color Округа#! создаются в [Concept('counties','Графстве')|E], чтобы обеспечить [demd_jobs|E] для [demd_population|E]. [demd_goods_districts|E] предоставляют [Concept('demd_job_artisan','Ремесленникам')|E] [demd_jobs|E], а [demd_food_district|E] предоставляют [Concept('demd_job_farmer','Фермерам')|E] и [Concept('demd_job_noble','Дворянам')|E] [demd_jobs|E]. Количество районов, которые округ может строить каждый год, ограничено его [Concept('demd_construction_cap','Строительной вместимостью')|E]."
 
 ###
 
@@ -291,5 +291,5 @@ game_concept_demd_university_desc:0 "#defender_color Университетны�
 game_concept_demd_migration_pull:0 "Миграционный приток"
 game_concept_demd_migration_pull_desc:0 "#defender_color Миграция#! является мерой того, насколько желательно жить в [county|E]. Если [county|E] имеет более высокий #defender_color Миграционный приток#! чем соседние [counties|E], [demd_population|E] будут мигрировать к нему."
 
-game_concept_demd_migration:0 "Миграция"
-game_concept_demd_migration_desc:0 "Перенаправляет [demd_population|E] между соседними [counties|E] на основе разницы показателя [demd_migration_pull|E] и показателем населения. Скорость #defender_color Миграции#! может замедлятся из-за различий [faith_hostility|E] и [culture|E]."
+game_concept_demd_migration:0 "Миграция" #+
+game_concept_demd_migration_desc:0 "Перенаправляет [demd_population|E] между соседними [Concept('counties','Графствами')|E] на основе разницы показателя [Concept('demd_migration_pull','Миграционного притока')|E] и показателем населения. Скорость #defender_color Миграции#! может замедлятся из-за различий [Concept('faith_hostility','Враждебности религии')|E] и [Concept('culture','Культуры')|E]."

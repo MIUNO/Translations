@@ -19,7 +19,7 @@
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_demd_food!#  Коэффициент потребления: [Province.MakeScope.Var('food_ratio').GetValue|%0]"
+                raw_text = "#T @icon_demd_food!#  Коэф. потребления: [Province.MakeScope.Var('food_ratio').GetValue|%0]"
                 align = left
 				max_width = 450
             }
@@ -84,14 +84,14 @@
 						
 						} 
 					}
-                    raw_text = "[demd_food_districts|E] Построенно: [Province.MakeScope.Var('food_districts_count').GetValue|1]/[Province.MakeScope.Var('food_districts_max').GetValue|1]"
+                    raw_text = "Созданно в [Concept('demd_food_districts','Сельском округе')|E]: [Province.MakeScope.Var('food_districts_count').GetValue|1]/[Province.MakeScope.Var('food_districts_max').GetValue|1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[demd_job_farmers|E]#! Занято: [Province.MakeScope.Var('food_producers_count').GetValue|1]k/[Province.MakeScope.Var('food_producers_max').GetValue|1]k"
+                    raw_text = "[Concept('demd_job_farmers','Фермеров')|E] занято: [Province.MakeScope.Var('food_producers_count').GetValue|1]k/[Province.MakeScope.Var('food_producers_max').GetValue|1]k"
                     align = left
 					autoresize = yes
 					max_width = 400

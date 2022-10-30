@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_public_order|E] это показатель силы верховенства закона среди городского населени [counties|E]. Низкий #defender_color Общественный порядок#! приведет к более быстрому обесцениванию городского [demd_capital|E] пропорционально размеру дефицита. [demd_migration_pull|E] также будет сокращен. Сельский [demd_public_order|E] это всегда 100%.#!"
+                    raw_text = "#weak [demd_public_order|E] это показатель силы верховенства закона среди городского населени [counties|E]. Низкий #defender_color Общественный порядок#! приведет к более быстрому обесцениванию городского [Concept('demd_capital','Капитала')|E] пропорционально размеру дефицита. [demd_migration_pull|E] также будет сокращен. Сельский [demd_public_order|E] это всегда 100%.#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -54,63 +54,63 @@
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [development|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('public_order_from_development')|%0]"
+                    raw_text = "От [Concept('development','Развития')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('public_order_from_development')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_urbanization|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('public_order_from_urbanization')|%0]"
+                    raw_text = "От [Concept('demd_urbanization','Урбанизации')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('public_order_from_urbanization')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_deaths|E] : -[Province.GetCounty.GetTitle.MakeScope.Var('total_death_rate').GetValue|%0]"
+                    raw_text = "От [Concept('demd_deaths','Смертности')|E] : -[Province.GetCounty.GetTitle.MakeScope.Var('total_death_rate').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_public_order_bonus')|%0]"
+                    raw_text = "От [Concept('demd_edicts','Указов')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_public_order_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [buildings|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('building_public_order_bonus')|%0]"
+                    raw_text = "От [Concept('buildings','Зданий')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('building_public_order_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('public_order_cultural_production_mult').GetValue|%0]"
+                    raw_text = "От [Concept('culture','Культуры')|E]: [Province.GetCounty.GetCulture.MakeScope.Var('public_order_cultural_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('public_order_faith_production_mult').GetValue|%0]"
+                    raw_text = "От [Concept('faith','Религии')|E]: [Province.GetCounty.GetFaith.MakeScope.Var('public_order_faith_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [county_opinion|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('opinion_public_order')|%0]"
+                    raw_text = "От [Concept('county_opinion','Народного мнения')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('opinion_public_order')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [vigor|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('public_order_from_vigor')|%0]"
+                    raw_text = "От [Concept('vigor','Бодрости')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('public_order_from_vigor')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400

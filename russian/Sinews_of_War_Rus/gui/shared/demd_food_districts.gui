@@ -19,7 +19,7 @@
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T @icon_demd_food!#  Максимум [demd_food_districts|E]: [Province.MakeScope.Var('food_districts_max').GetValue|1]#!"
+                raw_text = "#T @icon_demd_food!#  Максимум в [Concept('demd_food_districts','Сельском округе')|E]: [Province.MakeScope.Var('food_districts_max').GetValue|1]#!"
                 align = left
 				max_width = 450
             }
@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_food|E] производятся [demd_job_artisans|E], и количество запасов продовольствия на душу населения, или [demd_capital|E], представляет собой ключевой компонент уровня жизни [barony|E]. [demd_capital|E] является ключевым фактором [demd_migration_pull|E] и дает производственный бонус ко всем [demd_resources|E].#!"
+                    raw_text = "#weak [demd_food|E] производятся [Concept('demd_job_artisans','Ремесленниками')|E], и количество запасов продовольствия на душу населения, или [demd_capital|E], представляет собой ключевой компонент уровня жизни [barony|E]. [demd_capital|E] является ключевым фактором [Concept('demd_migration_pull','Миграционного притока')|E] и дает производственный бонус ко всем [Concept('demd_resources','Ресурсам')|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -50,35 +50,35 @@
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('food_districts_faith_production_mult').GetValue|%1]"
+                    raw_text = "От [Concept('faith','Религии')|E]: [Province.GetCounty.GetFaith.MakeScope.Var('food_districts_faith_production_mult').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('food_districts_cultural_production_mult').GetValue|%1]"
+                    raw_text = "От [Concept('culture','Культуры')|E]: [Province.GetCounty.GetCulture.MakeScope.Var('food_districts_cultural_production_mult').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_food_districts_bonus')|%1]"
+                    raw_text = "От [Concept('demd_edicts','Указов')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_food_districts_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [buildings|E]: [Province.MakeScope.ScriptValue('building_food_districts_bonus')|%1]"
+                    raw_text = "От [Concept('buildings','Зданий')|E]: [Province.MakeScope.ScriptValue('building_food_districts_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [development|E]: [Province.MakeScope.ScriptValue('food_districts_max_development_mult')|%1]"
+                    raw_text = "От [Concept('development','Развития')|E]: [Province.MakeScope.ScriptValue('food_districts_max_development_mult')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400

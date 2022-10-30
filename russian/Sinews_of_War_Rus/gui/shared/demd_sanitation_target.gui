@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_sanitation|E] это показатель того, насколько хорошо защищено ваше городское население от болезней. Если #defender_color Санитария#! составляет менее 100%, избыточная смертность будет происходить пропорционально размеру дефицита, в этом [county|E] с большей вероятностью возникнут [demd_plagues|E], а [characters|E] в этом [county|E] с большей вероятностью подхватят болезни. [demd_migration_pull|E] в городской центр округа также будет сокращен. Сельский [demd_sanitation|E] это всегда 100%#!"
+                    raw_text = "#weak [demd_sanitation|E] это показатель того, насколько хорошо защищено ваше городское население от болезней. Если #defender_color Санитария#! составляет менее 100%, избыточная смертность будет происходить пропорционально размеру дефицита, в этом [Concept('county','Графстве')|E] с большей вероятностью возникнут [demd_plagues|E], а [characters|E] в этом [Concept('county','Графстве')|E] с большей вероятностью подхватят болезни. [demd_migration_pull|E] в городской центр графства также будет сокращен. Сельская [demd_sanitation|E] это всегда 100%#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -57,7 +57,7 @@
                 # Number of Temples
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [development|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('sanitation_from_development')|%0]"
+                    raw_text = "От [Concept('development','Развития')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('sanitation_from_development')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -65,14 +65,14 @@
 				# Sins & Virtues
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_urbanization|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('sanitation_from_urbanization')|%0]"
+                    raw_text = "От [Concept('demd_urbanization','Урбанизации')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('sanitation_from_urbanization')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [terrain|E]: [Province.GetCounty.GetTitle.MakeScope.Var('terrain_sanitation_bonus').GetValue)|%0]"
+                    raw_text = "От [Concept('terrain','Типа местности')|E]: [Province.GetCounty.GetTitle.MakeScope.Var('terrain_sanitation_bonus').GetValue)|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -80,7 +80,7 @@
 				# Missing HoF
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_sanitation_bonus')|%0]"
+                    raw_text = "От [Concept('demd_edicts','Указов')|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_sanitation_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -88,7 +88,7 @@
 				# Ecclesiarchy
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('sanitation_cultural_production_mult').GetValue|%0]"
+                    raw_text = "От [Concept('culture','Кульутры')|E]: [Province.GetCounty.GetCulture.MakeScope.Var('sanitation_cultural_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -97,7 +97,7 @@
 				# Leader of the Council of the Eight
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('sanitation_faith_production_mult').GetValue|%0]"
+                    raw_text = "От [Concept('faith','Религии')|E]: [Province.GetCounty.GetFaith.MakeScope.Var('sanitation_faith_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400

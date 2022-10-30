@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_food|E] производятся [demd_job_artisans|E], и количество запасов продовольствия на душу населения, или [demd_capital|E], представляет собой ключевой компонент уровня жизни [barony|E]. [demd_capital|E] является ключевым фактором [demd_migration_pull|E] и дает производственный бонус ко всем [demd_resources|E].#!"
+                    raw_text = "#weak [demd_food|E] производятся [Concept('demd_job_artisans','Ремесленниками')|E], и количество запасов продовольствия на душу населения, или [demd_capital|E], представляет собой ключевой компонент уровня жизни [barony|E]. [demd_capital|E] является ключевым фактором [Concept('demd_migration_pull','Миграционного притока')|E] и дает производственный бонус ко всем [Concept('demd_resources','Ресурсам')|E].#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -52,42 +52,42 @@
 						
 						} 
 					}
-                    raw_text = "Почва [demd_fertility|E]: [Province.MakeScope.Var('soil_fertility_mult_target').GetValue|%1]"
+                    raw_text = "Почва [Concept('demd_fertility','Плодородна')|E]: [Province.MakeScope.Var('soil_fertility_mult_target').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('food_cultural_production_mult').GetValue|%1]"
+                    raw_text = "От [Concept('culture','Культуры')|E]: [Province.GetCounty.GetCulture.MakeScope.Var('food_cultural_production_mult').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('food_faith_production_mult').GetValue|%1]"
+                    raw_text = "От [Concept('faith','Религии')|E]: [Province.GetCounty.GetFaith.MakeScope.Var('food_faith_production_mult').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_capital|E]: [Province.MakeScope.Var('capital_production_multiplier').GetValue|%1]"
+                    raw_text = "От [Concept('demd_capital','Капитала')|E]: [Province.MakeScope.Var('capital_production_multiplier').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Из местных [demd_weather|E]: [Province.GetCounty.GetTitle.MakeScope.Var('county_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.ScriptValue('county_weather_fertility_mult_delta')|%1] Ежемесячно)"
+                    raw_text = "От местной [Concept('demd_weather','Погоды')|E]: [Province.GetCounty.GetTitle.MakeScope.Var('county_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.ScriptValue('county_weather_fertility_mult_delta')|%1] Ежемесячно)"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Из региональных [demd_weather|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Ежемесячно)"
+                    raw_text = "От региональной [Concept('demd_weather','Погоды')|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Ежемесячно)"
                     align = left
 					autoresize = yes
 					max_width = 400

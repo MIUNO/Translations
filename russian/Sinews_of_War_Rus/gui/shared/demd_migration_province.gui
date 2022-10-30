@@ -32,7 +32,7 @@
 
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#weak [demd_population|E] может мигрировать как между соседними [counties|E]ми, так и внутри [counties|E] в зависимости от относительной [demd_migration_pull|E]. Чем больше разница в тяге, тем больше людей будет мигрировать.#!"
+                    raw_text = "#weak [demd_population|E] может мигрировать как между соседними [Concept('counties','Графствами')|E], так и внутри [counties|E] в зависимости от относительного [Concept('demd_migration_pull','Миграционного потока')|E]. Чем больше разница в тяге, тем больше людей будет мигрировать.#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -40,7 +40,7 @@
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Ежегодный внутренний [demd_migration|E]:#! [Province.MakeScope.Var('internal_migration_growth_percent').GetValue|%1]"
+                    raw_text = "Ежегодная внутренния [demd_migration|E]:#! [Province.MakeScope.Var('internal_migration_growth_percent').GetValue|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400

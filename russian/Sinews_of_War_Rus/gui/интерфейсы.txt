@@ -1,0 +1,43 @@
++ demd_excavation.gui
++ demd_fonts.gui
++ demd_food.gui
++ demd_food_county.gui
++ demd_food_districts.gui
++ demd_food_per_capita.gui
+demd_goods.gui
+demd_goods_per_capita.gui
+demd_goods_prov.gui
+demd_growth_county.gui
+demd_growth_prov.gui
+demd_holding_expansion.gui
+demd_imperial_decay.gui
+demd_knight_capacity.gui
++ demd_manpower.gui
++ demd_manpower_rate.gui
++ demd_migration_county.gui
++ demd_migration_province.gui
++ demd_migration_pull_county.gui
++ demd_migration_pull_province.gui
++ demd_population_county.gui
++ demd_population_prov.gui
++ demd_public_order_target.gui
++ demd_sanitation_target.gui
++ demd_soil_fertility.gui
++ demd_tax.gui
+demd_trade.gui
+demd_trade_node.gui
+demd_trade_power.gui
+demd_trade_value.gui
+demd_vigor.gui
+demd_vigor_baseline.gui
+
+assign_excavation.gui
+demd_excavation_backgrounds.gui
+demd_fervor_text_icons.gui
+demd_text_icons.gui
++ window_county_view.gui
+window_culture.gui
+window_faith.gui
+window_menatarms_type_view.gui
+window_military.gui
+window_title.gui
