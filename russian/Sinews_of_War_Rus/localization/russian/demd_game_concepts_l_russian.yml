@@ -4,63 +4,63 @@
 # MaA
 ##########
 
-field_artillery_damage_mult: "[field_artillery|E] [damage|E]"
-field_artillery_toughness_mult: "[field_artillery|E] [toughness|E]"
+field_artillery_damage_mult: "[field_artillery|E] [damage|E]" #+
+field_artillery_toughness_mult: "[field_artillery|E] [toughness|E]" #+
 
-game_concept_heavy_infantry:0 "Тяжелая пехота"
-game_concept_heavy_infantry_desc:0 "Тяжелая пехота [men_at_arms|E] пехота с более тяжелой броней и оружием."
+game_concept_heavy_infantry:0 "Тяжелая пехота" #+
+game_concept_heavy_infantry_desc:0 "Тяжелая пехота - [Concept('men_at_arms','Профессиональная')|E] пехота с более тяжелой броней и оружием."
 
-game_concept_heavy_cavalry:0 "Средняя кавалерия"
-game_concept_heavy_cavalry_desc:0 "Средняя кавалерия [men_at_arms|E] быстрые наездники на лошадях со средним вооружением."
+# game_concept_heavy_cavalry:0 "Средняя кавалерия" #+
+# game_concept_heavy_cavalry_desc:0 "Средняя кавалерия - [Concept('men_at_arms','Профессиональная')|E] быстрые наездники на лошадях со средним вооружением."
 
-game_concept_heavy_cavalry:0 "Тяжелая конница"
-game_concept_heavy_cavalry_desc:0 "Тяжелая кавалерия, медленная но с тяжелым вооружением [men_at_arms|E]".
+game_concept_heavy_cavalry:0 "Тяжелая кавалерия" #+
+game_concept_heavy_cavalry_desc:0 "Тяжелая кавалерия - медленная [Concept('men_at_arms','Профессиональная')|E] кавалерия с тяжелым вооружением".
 
-game_concept_light_cavalry:0 "Стрелковая кавалерия"
-game_concept_light_cavalry_desc:0 "Стрелковая кавалерия - это конные [men_at_arms|E], которые умеют вести перестрелки на расстоянии с использованием оружия дальнего боя."
+game_concept_light_cavalry:0 "Стрелковая кавалерия" #+
+game_concept_light_cavalry_desc:0 "Стрелковая кавалерия - [Concept('men_at_arms','Профессиональная')|E] кавалерия, которая умеет вести перестрелки на расстоянии с использованием оружия дальнего боя."
 
-game_concept_missile_infantry:0 "Лучники"
-game_concept_missile_infantry_desc:0 "$game_concept_archers$ - это [men_at_arms|E], которые оснащены управляемым человеком ракетным оружием, таким как луки или дротики."
+game_concept_missile_infantry:0 "Лучники" #+
+game_concept_missile_infantry_desc:0 "$game_concept_archers$ - это [men_at_arms|E], которые оснащены управляемым человеком метательным оружием, таким как луки или дротики."
 
-game_concept_archers:0 "Снайперы"
+game_concept_archers:0 "Снайперы" #+
 game_concept_archers_desc:0 "$game_concept_archers$ - это [men_at_arms|E], которые оснащены ручными арбалетами или огнестрельным оружием."
 
-game_concept_field_artillery:0 "Полевая артиллерия"
+game_concept_field_artillery:0 "Полевая артиллерия" #+
 game_concept_field_artillery_desc:0 "$game_concept_field_artillery$ - это [men_at_arms|E], которые снабжаются пушками, чаще всего легкая артиллерия, обслуживаемая экипажем, предназначенная для использования на поле боя, а не во время осады."
 
-game_concept_war_beasts:0 "Боевые звери"
+game_concept_war_beasts:0 "Боевые звери" #+
 game_concept_war_beasts_desc:0 "$game_concept_war_beasts$ - это [man_at_arms|E], которые едут на боевых слонах в бой".
 
-game_concept_recently_acquired_holding:0 "Удержание выше предела домена"
-game_concept_recently_acquired_holdings:0 "Владения выше предела домена"
-game_concept_recently_acquired_holding_desc:0 "[holdings|E] которыми управляет лидер выше [domain_limit|E] что бы проводить [taxes|E] или [levies|E]."
+game_concept_recently_acquired_holding:0 "Удержание выше предела домена" #+
+game_concept_recently_acquired_holdings:0 "Владения выше предела домена" #+
+game_concept_recently_acquired_holding_desc:0 "[holdings|E] которыми управляет лидер выше [domain_limit|E] не облагаются [Concept('taxes','налогами')|E] или [levies|E]." #+
 
 ##########
 # Population
 ##########
 
-game_concept_demd_water:0 "Вода"
-game_concept_demd_water_desc:0 "#defender_color Вода#! Такие источники, как реки, озера и океаны, являются важными ресурсами, способствующими развивитию [county|E] [fertility|E] и [fort_level|E]."
+game_concept_demd_water:0 "Вода" #+
+game_concept_demd_water_desc:0 "#defender_color Вода#! - это такие источники, как реки, озера и океаны, являются важными ресурсами, способствующими развивитию [Concept('fertility','Плодородия')|E] [counties|E] и [Concept('fort_level','Уровня форта')|E]."
 
-game_concept_demd_untilled_farmland:0 "Необработанные сельскохозяйственные угодья"
-game_concept_demd_untilled_farmland_desc:0 "#defender_color Необработанные сельскохозяйственные угодья#! является процентом от [county|E] максимального количества [demd_food_districts|E], которые не обработаны. Относится к [demd_migration_pull|E] и [demd_births|E]."
+game_concept_demd_untilled_farmland:0 "Необработанные сельскохозяйственные угодья" #+
+game_concept_demd_untilled_farmland_desc:0 "#defender_color Необработанные сельскохозяйственные угодья#! - это процент от максимального количества необработанных [Concept('demd_food_districts','Сельских округов')|E] [counties|E]. Относится к [Concept('demd_migration_pull','Миграционному притоку')|E] и [Concept('demd_births','Рождаемости')|E]."
 
-game_concept_demd_population:0 "Население"
+game_concept_demd_population:0 "Население" #+
 game_concept_demd_population_desc:0 "#defender_color Население#! - это общее число людей, проживающих в [Concept('county','Графстве')|E]. #defender_color Население#! необходимо для заполнения [Concept('demd_jobs','Рабочих мест')|E], которые стимулируют вашу экономику."
 
-game_concept_demd_growth:0 "Внутренний рост"
-game_concept_demd_growth_desc:0 "Внутренний рост [county|E] представляет собой процент, определяемый [demd_births|E] минус [demd_deaths|E]. Смерти от определенных событий, таких как [sieges|E], [raiding|E], и [demd_disasters|E] не включены в этот показатель."
+game_concept_demd_growth:0 "Внутренний рост" #+
+game_concept_demd_growth_desc:0 "Внутренний рост [counties|E] представляет собой процент, определяемый [Concept('demd_births','Рождаемостью')|E] минус [demd_deaths|E]. Смерти от определенных событий, таких как [sieges|E], [raiding|E], и [demd_disasters|E] не включены в этот показатель."
 
-game_concept_demd_births:0 "Рождаемость"
-game_concept_demd_births_desc:0 "#defender_color Рождаемость#! в [county|E] это число естественных рождений, деленное на общее [demd_population|E]. [culture|E] и [faith|E] - значения влияющие на #defender_color Рождаемость#!."
+game_concept_demd_births:0 "Рождаемость" #+
+game_concept_demd_births_desc:0 "#defender_color Рождаемость#! в [Concept('county','Графстве')|E] это число естественных рождений, деленное на общее [demd_population|E]. [culture|E] и [faith|E] - значения влияющие на #defender_color Рождаемость#!."
 
-game_concept_demd_deaths:0 "Смертность"
-game_concept_demd_deaths_desc:0 "#defender_color Смертность#! в [county|E] общее число смертей от всех возможных причин, кроме следующих: [sieges|E], [raiding|E], и [demd_disasters|E], смерти делятся на общее число показателя - [demd_population|E]. Причины смерти - естественная смерть, низкая [demd_sanitation|E], [demd_plagues|E], [demd_famine|E], и [demd_persecution|E]"
+game_concept_demd_deaths:0 "Смертность" #+
+game_concept_demd_deaths_desc:0 "#defender_color Смертность#! в [Concept('county','Графстве')|E] общее число смертей от всех возможных причин, кроме следующих: [sieges|E], [raiding|E], и [demd_disasters|E], смерти делятся на общее число показателя - [Concept('demd_population','Населения')|E]. Причины смерти - естественная смерть, низкая [demd_sanitation|E], [demd_plagues|E], [demd_famine|E], и [demd_persecution|E]"
 
-game_concept_demd_persecution:0 "Преследование"
+game_concept_demd_persecution:0 "Преследование" #+
 game_concept_demd_persecuted:0 "Преследуемый"
 game_concept_demd_tolerance:0 "Терпимость"
-game_concept_demd_persecution_desc:0 "Когда уровень культурной или религиозной терпимости, установленный [county|E] некоторыми [demd_edicts|E] не распространяется на текущую [culture|E] или [faith|E], [demd_population|E] становится #defender_color преследуемой#!. Это приводит к увеличению [demd_deaths|E], уменьшению [demd_migration_pull|E] и понижению [county_opinion|E], но также снижает [demd_culture_conversion_defense|E] или [demd_faith_conversion_defense|E], соответственно, что упрощает преобразование [county|E] в вашу собственную [culture|E] или [faith|E]."
+game_concept_demd_persecution_desc:0 "Когда уровень культурной или религиозной терпимости, установленный [Concept('county','Графстве')|E] некоторыми [Concept('demd_edicts','Указами')|E] не распространяется на текущую [Concept('culture','Культуру')|E] или [Concept('faith','Религию')|E], [demd_population|E] становится #defender_color Преследуемым#!. Это приводит к увеличению [demd_deaths|E], уменьшению [Concept('demd_migration_pull','Миграционного притока')|E] и понижению [county_opinion|E], но также снижает [Concept('demd_culture_conversion_defense','Защиту от преобразования в другую культуру')|E] или [Concept('demd_faith_conversion_defense','Защиту от обращения в иную веру')|E], соответственно, что упрощает преобразование [counties|E] в вашу собственную [Concept('culture','Культуру')|E] или [Concept('faith','Религию')|E]."
 
 game_concept_demd_plagues:0 "Болезни"
 game_concept_demd_plague:0 "Чума"
@@ -94,7 +94,7 @@ game_concept_demd_earthquake:0 "Землетрясение"
 game_concept_demd_earthquakes:0 "Землетрясения"
 game_concept_demd_earthquakes_desc:0 "#defender_color Землетрясения#! были причиной опустошения средневековой Европы. В некоторых случаях они также вызывали разрушительные [demd_tsunamis|E]."
 
-game_concept_demd_tsunami:0 "Цунами"
+game_concept_demd_tsunami:0 "Цунами" #+
 game_concept_demd_tsunamis:0 "Цунами"
 game_concept_demd_tsunamis_desc:0 "#defender_color Цунами#! разрушительные приливные волны, вызванные подводными сейсмическими возмущениями. Греческий историк Фукидид был первым, кто утверждал, что океанские землетрясения должны быть причиной #defender_color Цунами#!."
 
@@ -116,25 +116,25 @@ game_concept_demd_job:0 "Рабочие места" #+
 game_concept_demd_jobs:0 "Рабочие места"
 game_concept_demd_job_desc:0 "#defender_color Рабочие места#! предоставляются [Concept('demd_districts','Округами')|E] и заполняются [Concept('demd_population','Населением')|E] для производства [Concept('demd_resources','Ресурсов')|E]."
 
-game_concept_demd_manpower:0 "Людские ресурсы"
-game_concept_demd_manpower_desc:0 "#defender_color Рекруты#! формируются из показателя - [demd_population|E] - с разной скоростью, в зависимости от их [demd_job|E]. #defender_color Рекруты#! используется для заполнения [garrison|E] в [county|E] и для обеспечения пополнения числа [men_at_arms|E] для владельца [county|E]."
+game_concept_demd_manpower:0 "Людские ресурсы" #+
+game_concept_demd_manpower_desc:0 "#defender_color Людские ресурсы#! формируются из показателя - [demd_population|E] с разной скоростью, в зависимости от их [Concept('demd_job','Рабочих мест')|E]. #defender_color Людские ресурсы#! используется для заполнения [Concept('garrison','Гарнизона')|E] в [Concept('county','Графстве')|E] и для обеспечения пополнения числа [Concept('men_at_arms','Профессионалов')|E] для владельца [counties|E]."
 
-game_concept_demd_resource:0 "Ресурс"
+game_concept_demd_resource:0 "Ресурс" #+
 game_concept_demd_resources:0 "Ресурсы"
-game_concept_demd_resource_desc:0 "#Ресурсы defender_color#! производятся [demd_population|E] и включают в себя: [demd_food|E], [demd_goods|E], [demd_knight_capacity|E] и [demd_research|E]."
+game_concept_demd_resource_desc:0 "#Ресурсы defender_color#! производятся [Concept('demd_population','Населением')|E] и включают в себя: [demd_food|E], [demd_goods|E], [demd_knight_capacity|E] и [demd_research|E]."
 
 game_concept_demd_food:0 "Продовольствие" #+
 game_concept_demd_famine:0 "Голод"
 game_concept_demd_food_desc:0 "#defer_color Продовольствие#! производится местными [Concept('demd_job_farmers','Фермерами')|E] и необходимо для поддержания численности [Concept('demd_population','Населения')|E] в [Concept('counties','Графстве')|E]. Недостаточные запасы #defender_color Продовольствия#! приведут к смерти и внешней миграции. #defender_color Продольствие#! также является второстепенным фактором в [Concept('demd_trade_value','Торговой ценности')|E] [counties|E], [tax|E] и [demd_research|E] производстве."
 
-game_concept_demd_fertility:0 "Плодородность"
-game_concept_demd_fertility_desc:0 "#defender_color Плодородность #! является мерой сельскохозяйственной продуктивности земли в графстве и основным фактором, определяющим, сколько [demd_food|E] производит каждый [demd_job_farmer|E]. Он делится на базовое значение, которое определяется рельефом, близостью к рекам, озерам, морям и [demd_winter|E], и переходным значением, которое определяется годовыми колебаниями [demd_weather|E] на уровень [county|E] и годовые колебания [demd_weather|E] на уровне региона."
+game_concept_demd_fertility:0 "Плодородность" #+
+game_concept_demd_fertility_desc:0 "#defender_color Плодородность #! является мерой сельскохозяйственной продуктивности земли в графстве и основным фактором, определяющим, сколько [Concept('demd_food','Продовольствия')|E] производит каждый [demd_job_farmer|E]. Он делится на базовое значение, которое определяется рельефом, близостью к рекам, озерам, морям и [Concept('demd_winter','Зимней суровостью')|E], и переходным значением, которое определяется годовыми колебаниями [Concept('demd_weather','Погоды')|E] на уровень [counties|E] и годовые колебания [Concept('demd_weather','Погоды')|E] на уровне региона."
 
-game_concept_demd_weather:0 "Погода"
-game_concept_demd_weather_desc:0 "#defender_color Погода#! колеблется каждый год как на уровне [county|E], так и на региональном уровне, что приводит к временным изменениям в том, сколько [demd_food|E] производит каждый [demd_job_farmer|E]."
+game_concept_demd_weather:0 "Погода" #+
+game_concept_demd_weather_desc:0 "#defender_color Погода#! колеблется каждый год как на уровне [counties|E], так и на региональном уровне, что приводит к временным изменениям в том, сколько [Concept('demd_food','Продовольствия')|E] производит каждый [demd_job_farmer|E]."
 
-game_concept_demd_winter:0 "Зимняя суровость"
-game_concept_demd_winter_desc:0 "#defender_color Зимняя суровость#! является важным фактором, который потенциально снижает показатель - [fertility|E] в [county|E]."
+game_concept_demd_winter:0 "Зимняя суровость" #+
+game_concept_demd_winter_desc:0 "#defender_color Зимняя суровость#! является важным фактором, который потенциально снижает показатель - [Concept('fertility','Плодородия')|E] в [Concept('county','Графстве')|E]."
 
 game_concept_demd_goods:0 "Товары"
 game_concept_demd_goods_desc:0 "#defender_color Товары#! производятся [demd_job_artisans|E] и отражают общий уровень жизни в [county|E]. Производство #defender_color товаров#! является ключевым фактором влияющим на [demd_migration_pull|E]. Так же прямо влияет на следующие показатели: [demd_trade_value|E], [taxes|E] и [demd_research|E]."
@@ -169,7 +169,7 @@ game_concept_demd_manpower_rate_desc:0 "#defender_color Manpower Rate#! — эт
 game_concept_demd_trade_node:0 "Торговый узел"
 game_concept_demd_trade_node_desc:0 "Каждая [county|E] стоит на каком либо #defender_color торговом узле#!."
 
-game_concept_demd_loan:0 "Заем"
+game_concept_demd_loan:0 "Заём"
 game_concept_demd_loans:0 "Займы"
 game_concept_demd_loan_desc:0 "[rulers|E] могут брать #кредиты defender_color#! чтобы покрыть расходы, которые их [income|E] не может покрыть. Однако должно быть возвращено больше [gold|E], чем было взято взаймы, иначе есть риск дефолта, который повлечет за собой последствия."
 
@@ -216,41 +216,41 @@ game_concept_demd_faith_conversion_defense_desc:0 "#defender_color Защита 
 game_concept_demd_culture_conversion_attack:0 "Сила преобразования культуры"
 game_concept_demd_culture_conversion_attack_desc:0 "#defender_color Сила преобразования культуры#! рассчитывается в процентах от [demd_culture_conversion_defense|E]. Если #defender_color Сила преобразования культуры#! является более сильной, чем [demd_culture_conversion_defense|E] из соседних [counties|E] [culture|E] результатом будет попытка преобразования."
 
-game_concept_demd_culture_conversion_defense:0 "Защита от преобразования в другую культуру"
-game_concept_demd_culture_conversion_defense_desc:0 "#defender_color Защита от преобразования в другую культуру#! рассчитывается как [demd_culture_power|E] умноженный на [demd_population|E] умноженный на вклад местных [buildings|E] и другие факторы. Если #defender_color Culture Conversion Defense#! является более сильным, чем [demd_culture_conversion_attack|E] из соседних [counties|E], этот округ будет защищен от [culture|E] попытки преобразования."
+game_concept_demd_culture_conversion_defense:0 "Защита от преобразования в другую культуру" #+
+game_concept_demd_culture_conversion_defense_desc:0 "#defender_color Защита от преобразования в другую культуру#! рассчитывается как [demd_culture_power|E] умноженный на [demd_population|E] умноженный на вклад местных [buildings|E] и другие факторы. Если #defender_color Защита от преобразования в другую культуру#! является более сильной, чем [demd_culture_conversion_attack|E] из соседних [Concept('counties','Графств')|E], этот округ будет защищен от попытки преобразования [Concept('culture','Культуры')|E]."
 
-game_concept_demd_culture_power:0 "Сила культуры"
-game_concept_demd_culture_power_desc:0 "#defender_color Сила культуры#! является мерой того, насколько развита культура с точки зрения количества [innovations|E] разблокирован. Это ключевой компонент при расчете [demd_culture_conversion_defense|E] и [demd_culture_conversion_attack|E]."
+game_concept_demd_culture_power:0 "Сила культуры" #+
+game_concept_demd_culture_power_desc:0 "#defender_color Сила культуры#! является мерой того, насколько развита культура с точки зрения количества [Concept('innovations','Иноваций')|E] разблокировано. Это ключевой компонент при расчете [Concept('demd_culture_conversion_defense','Защиты от преобразования в другую культуру')|E] и [Concept('demd_culture_conversion_attack','Силы преобразования культуры')|E]."
 
-game_concept_demd_influence:0 "Влияние"
-game_concept_demd_influence_desc:0 "#defender_color Влияние#! является мерой относительной власти сословий в [county|E]. Это главным образом определяется [demd_urbanization|E] и [demd_land_ownership|E]."
+game_concept_demd_influence:0 "Влияние" #+
+game_concept_demd_influence_desc:0 "#defender_color Влияние#! является мерой относительной власти сословий в [Concept('county','Графстве')|E]. Это главным образом определяется [Concept('demd_urbanization','Урбанизацией')|E] и [Concept('demd_land_ownership','Дворянскими землевладениями')|E]."
 
-game_concept_demd_land_ownership:0 "Дворянское землевладение"
-game_concept_demd_land_ownership_desc:0 "#defender_color Дворянское землевладение#! является мерой процента продуктивной земли, принадлежащей дворянству в отличие от духовенства в [county|E]. Это ключевой компонент в вычислительной технике [demd_influence|E]."
+game_concept_demd_land_ownership:0 "Дворянское землевладение" #+
+game_concept_demd_land_ownership_desc:0 "#defender_color Дворянское землевладение#! является мерой процента продуктивной земли, принадлежащей дворянству в отличие от духовенства в [Concept('county','Графстве')|E]. Это ключевой компонент в вычислении [Concept('demd_influence','Влияния')|E]."
 
-game_concept_demd_noble_estate:0 "Дворянское поместье"
+game_concept_demd_noble_estate:0 "Дворянское поместье" #+
 game_concept_demd_noble_estate_desc:0 "#defender_color Дворянское поместье#! ..."
 
-game_concept_demd_clergy_estate:0 "Поместье духовенства"
+game_concept_demd_clergy_estate:0 "Поместье духовенства" #+
 game_concept_demd_clergy_estate_desc:0 "#defender_color Поместье духовенства#! ..."
 
-game_concept_demd_burgher_estate:0 "Поместье бюргеров"
+game_concept_demd_burgher_estate:0 "Поместье бюргеров" #+
 game_concept_demd_burgher_estate_desc:0 "#defender_color Поместье бюргеров#! ..."
 
 
 ###
 
-game_concept_demd_public_order:0 "Общественный порядок"
-game_concept_demd_public_order_desc:0 "#Defender_color Общественный порядок#! является обратным показателем степени преступности в [county|E]. Низкий общественный порядок приведет к более быстрому изменению [demd_capital|E] пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
+game_concept_demd_public_order:0 "Общественный порядок" #+
+game_concept_demd_public_order_desc:0 "#Defender_color Общественный порядок#! является обратным показателем степени преступности в [Concept('county','Графстве')|E]. Низкий общественный порядок приведет к более быстрому изменению [Concept('demd_capital','Капитала')|E] пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
 
-game_concept_demd_crime:0 "Преступление"
-game_concept_demd_crime_desc:0 "#defer_color Преступление#! происходят в зависимости от числа показателя - [demd_population|E]. Если [demd_crime|E] превышает #defender_color Общественный порядок#!, эффективность производства всех [demd_resources|E] будет снижена пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
+game_concept_demd_crime:0 "Преступность" #+
+game_concept_demd_crime_desc:0 "#defer_color Преступность#! зависит от показателя [Concept('demd_population','Населения')|E]. Если [demd_crime|E] превышают #defender_color Общественный порядок#!, то эффективность производства всех [Concept('demd_resources','Ресурсов')|E] будет снижена пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
 
-game_concept_demd_sanitation:0 "Санитария"
-game_concept_demd_sanitation_desc:0 "#defender_color Санитария#! является мерой того, насколько хорошо ваше городское население защищено от болезней. Если #defender_color Санитария#! меньше 100%, избыточные смерти будут происходить пропорционально размеру дефицита, [demd_plagues|E] с большей вероятностью появятся в этом [county|E], и [characters|E] в этом [county|E] чаще подхватывают болезни. [demd_migration_pull|E] в городской центр округа также будет сокращен."
+game_concept_demd_sanitation:0 "Санитария" #+
+game_concept_demd_sanitation_desc:0 "#defender_color Санитария#! является мерой того, насколько хорошо ваше городское население защищено от болезней. Если #defender_color Санитария#! меньше 100%, избыточные смерти будут происходить пропорционально размеру дефицита, [demd_plagues|E] с большей вероятностью появятся в этом [Concept('county','Графстве')|E], и [characters|E] в этом [county|E] чаще подхватывают болезни. [demd_migration_pull|E] в городской центр округа также будет сокращен."
 
-game_concept_demd_squalor:0 "Нищета"
-game_concept_demd_squalor_desc:0 "#defender_color Нищета#! появляется из числа [demd_population|E]. Если #defender_color Нищета#! превышает [demd_sanitation|E], избыточная смертность будет происходить пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
+game_concept_demd_squalor:0 "Нищета" #+
+game_concept_demd_squalor_desc:0 "#defender_color Нищета#! появляется из числа [Concept('demd_population','Населения')|E]. Если #defender_color Нищета#! превышает [Concept('demd_sanitation','Санитарию')|E], избыточная смертность будет происходить пропорционально размеру дефицита. [demd_migration_pull|E] также будет уменьшен."
 
 game_concept_demd_edict:0 "Указ" #+
 game_concept_demd_edicts:0 "Указы"
@@ -276,20 +276,20 @@ game_concept_demd_district_desc:0 "#defender_color Округа#! создают
 
 ###
 
-game_concept_demd_court:0 "Суд"
+game_concept_demd_court:0 "Суд" #+
 game_concept_demd_courts:0 "Суды"
-game_concept_demd_court_desc:0 "#defender_color Судебные [buildings|E]#! производят [demd_public_order|E]. В каждом [county|E] можно построить неограниченное количество судов."
+game_concept_demd_court_desc:0 "#defender_color Судебные [buildings|E]#! производят [demd_public_order|E]. В каждом [Concept('county','Графстве')|E] можно построить неограниченное количество судов."
 
-game_concept_demd_sewer:0 "Канализация"
+game_concept_demd_sewer:0 "Канализация" #+
 game_concept_demd_sewers:0 "Канализации"
-game_concept_demd_sewer_desc:0 "#defender_color Канализационные [buildings|E]#! создают [demd_sanitation|E]. В каждом [county|E] можно построить неограниченное количество канализаций."
+game_concept_demd_sewer_desc:0 "#defender_color Канализационные [buildings|E]#! создают [demd_sanitation|E]. В каждом [Concept('county','Графстве')|E] можно построить неограниченное количество канализаций."
 
-game_concept_demd_university:0 "Университет"
+game_concept_demd_university:0 "Университет" #+
 game_concept_demd_universities:0 "Университеты"
-game_concept_demd_university_desc:0 "#defender_color Университетные [buildings|E]#! увеличивают [demd_research|E]. В каждом [county|E] может быть построено ограниченное количество университетов, определяемое прогрессом [inovations|E]."
+game_concept_demd_university_desc:0 "#defender_color Университетные [buildings|E]#! увеличивают [Concept('demd_research','Исследования')|E]. В каждом [Concept('county','Графстве')|E] может быть построено ограниченное количество университетов, определяемое прогрессом [inovations|E]."
 
-game_concept_demd_migration_pull:0 "Миграционный приток"
-game_concept_demd_migration_pull_desc:0 "#defender_color Миграция#! является мерой того, насколько желательно жить в [county|E]. Если [county|E] имеет более высокий #defender_color Миграционный приток#! чем соседние [counties|E], [demd_population|E] будут мигрировать к нему."
+game_concept_demd_migration_pull:0 "Миграционный приток" #+
+game_concept_demd_migration_pull_desc:0 "#defender_color Миграция#! является мерой того, насколько желательно жить в [Concept('county','Графстве')|E]. Если [county|E] имеет более высокий #defender_color Миграционный приток#! чем соседние [counties|E], [demd_population|E] будут мигрировать к нему."
 
 game_concept_demd_migration:0 "Миграция" #+
 game_concept_demd_migration_desc:0 "Перенаправляет [demd_population|E] между соседними [Concept('counties','Графствами')|E] на основе разницы показателя [Concept('demd_migration_pull','Миграционного притока')|E] и показателем населения. Скорость #defender_color Миграции#! может замедлятся из-за различий [Concept('faith_hostility','Враждебности религии')|E] и [Concept('culture','Культуры')|E]."
