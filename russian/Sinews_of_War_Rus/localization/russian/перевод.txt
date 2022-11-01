@@ -1,0 +1,83 @@
+credits >
+demd_credits_l_russian.yml
+---------------------------------------------
+culture >
+demd_cultural_maa_innovations_l_russian.yml
+---------------------------------------------
+event_localization >
+demd_councillor_events_l_russian.yml
+demd_culture_conversion_events_l_russian.yml
+demd_disaster_avalanche_events_l_russian.yml
+demd_disaster_fire_events_l_russian.yml
+demd_disaster_flood_events_l_russian.yml
+demd_disease_events_l_russian.yml
+demd_innovation_events_l_russian.yml
+demd_religious_conversion_events_l_russian.yml
+demd_vigor_events_l_russian.yml
+demd_war_events_l_russian.yml
+---------------------------------------------
+excavation >
+excavation_beginning_l_russian.yml
+excavation_events_l_russian.yml
+excavation_final_l_russian.yml
+excavation_gui_l_russian.yml
+excavation_intermediate_l_russian.yml
+excavation_l_russian.yml
+excavation_minor_l_russian.yml
+excavation_tips_l_russian.yml
+excavation_unique_l_russian.yml
+---------------------------------------------
+opinions >
+demd_general_opinions_l_russian.yml
+---------------------------------------------
+replace >
+ccu_gui_l_russian.yml
+demd_buildings_l_russian.yml
+demd_council_tasks_l_russian.yml
+demd_effects_l_russian.yml
+demd_holding_view_l_russian.yml
+demd_titles_l_russian.yml
+demd_traditions_l_russian.yml
+---------------------------------------------
+ccu_debug_l_russian.yml
+ccu_game_concepts_l_russian.yml
+ccu_heritage_family_l_russian.yml
+ccu_heritage_group_l_russian.yml
+ccu_language_family_l_russian.yml
+ccu_language_group_l_russian.yml
+ccu_language_union_l_russian.yml
+ccu_script_value_breakdowns_l_russian.yml
+clan_feudal_fix_l_russian.yml
+demd_artifacts_l_russian.yml
+demd_black_box_l_russian.yml
+demd_buildings_l_russian.yml
+demd_casus_belli_l_russian.yml
+demd_char_interactions_l_russian.yml
+demd_contracts_l_russian.yml
+demd_custom_tooltip_2_l_russian.yml
+demd_custom_tooltip_l_russian.yml
+demd_death_reasons_l_russian.yml
+demd_decisions_l_russian.yml
++ demd_game_concepts_l_russian.yml
+demd_game_rules_l_russian.yml
+demd_imperial_decay_l_russian.yml
+demd_law_tab_l_russian.yml
+demd_legacies_tab_l_russian.yml
+demd_modifiers_l_russian.yml
+demd_nicknames_l_russian.yml
+demd_pop_custom_loc_l_russian.yml
+demd_pop_messages_l_russian.yml
+demd_pop_trade_l_russian.yml
+demd_regiments_l_russian.yml
+demd_religion_l_russian.yml
+demd_suggestions_l_russian.yml
+demd_traditions_l_russian.yml
+demd_traits_l_russian.yml
+demd_vigor_baseline_tooltip_l_russian.yml
+demd_vigor_l_russian.yml
+demd_window_county_view_l_russian.yml
+demd_window_culture_l_russian.yml
+demd_window_faith_l_russian.yml
+demd_window_military_view_l_russian.yml
+demd_window_title_view_l_russian.yml
+terrains_l_russian_savanna.yml
