@@ -1,6 +1,6 @@
 ﻿l_russian:
 
 ek_excavation.0001.t:0 "Раскопки завершены"
-ek_excavation.0001.desc:0 "(placeholder) Продать [minor_artifacts|E] или использовать для [capital|E] [county|E] [development|E]."
+ek_excavation.0001.desc:0 "(placeholder) Продать [minor_artifacts|E] или использовать для [Concept('development','Развития')|E] в [Concept('capital','Столице')|E] [Concept('county','Графства')|E]."
 ek_excavation.0001.a:0 "Продать все."
 ek_excavation.0001.b:0 "Изучить все."

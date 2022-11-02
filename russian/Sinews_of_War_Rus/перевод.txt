@@ -1,24 +1,24 @@
 credits >
-demd_credits_l_russian.yml
++ demd_credits_l_russian.yml
 ---------------------------------------------
 culture >
-demd_cultural_maa_innovations_l_russian.yml
++ demd_cultural_maa_innovations_l_russian.yml
 ---------------------------------------------
 event_localization >
-demd_councillor_events_l_russian.yml
++ demd_councillor_events_l_russian.yml
 demd_culture_conversion_events_l_russian.yml
-demd_disaster_avalanche_events_l_russian.yml
-demd_disaster_fire_events_l_russian.yml
-demd_disaster_flood_events_l_russian.yml
-demd_disease_events_l_russian.yml
++ demd_disaster_avalanche_events_l_russian.yml
++ demd_disaster_fire_events_l_russian.yml
++ demd_disaster_flood_events_l_russian.yml
++ demd_disease_events_l_russian.yml
 demd_innovation_events_l_russian.yml
 demd_religious_conversion_events_l_russian.yml
 demd_vigor_events_l_russian.yml
 demd_war_events_l_russian.yml
 ---------------------------------------------
 excavation >
-excavation_beginning_l_russian.yml
-excavation_events_l_russian.yml
++ excavation_beginning_l_russian.yml
++ eexcavation_events_l_russian.yml
 excavation_final_l_russian.yml
 excavation_gui_l_russian.yml
 excavation_intermediate_l_russian.yml

@@ -8,7 +8,7 @@ demd_pop_disease.1002.c:0 "Поместить округ в карантин"
 demd_pop_disease.1002.d:0 "Выполнить и то, и другое"
 demd_pop_disease.1002.relief_success:0 "Облегчение выполнено успешно."
 demd_pop_disease.1002.relief_failure:0 "Облегчение провалено."
-demd_plague_relief:0 "Попытаться остановить распространение [demd_plague|E] и оказать помощь зараженным."
+demd_plague_relief:0 "Попытаться остановить распространение [demd_plagues|E] и оказать помощь зараженным."
 
 demd_pop_disease.1003.t:0 "Облегчение [county.GetNameNoTierNoTooltip]"
 demd_pop_disease.1003.desc:0 "Оказание помощи увенчалось успехом."

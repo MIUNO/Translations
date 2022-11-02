@@ -1,15 +1,4 @@
 shared >
-assign_excavation.gui
-demd_excavation_backgrounds.gui
-demd_fervor_text_icons.gui
-demd_text_icons.gui
-+ window_county_view.gui
-window_culture.gui
-window_faith.gui
-window_menatarms_type_view.gui
-window_military.gui
-window_title.gui
----------------------------------------------
 + demd_excavation.gui
 + demd_fonts.gui
 + demd_food.gui
@@ -42,3 +31,14 @@ demd_trade_power.gui
 demd_trade_value.gui
 demd_vigor.gui
 demd_vigor_baseline.gui
+---------------------------------------------
++ assign_excavation.gui
++ demd_excavation_backgrounds.gui
++ demd_fervor_text_icons.gui
++ demd_text_icons.gui
++ window_county_view.gui
++ window_culture.gui
++ window_faith.gui
++ window_menatarms_type_view.gui
++ window_military.gui
++ window_title.gui
