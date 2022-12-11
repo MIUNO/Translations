@@ -87,7 +87,7 @@
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От региональной [Concept('demd_weather','Погоды')|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Ежемесячно)"
+                    raw_text = "От региональной [Concept('demd_weather','Погоды')|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Ежемесячно)"
                     align = left
 					autoresize = yes
 					max_width = 400

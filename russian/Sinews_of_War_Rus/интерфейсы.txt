@@ -19,6 +19,8 @@ demd_knight_capacity.gui
 + demd_migration_province.gui
 + demd_migration_pull_county.gui
 + demd_migration_pull_province.gui
+demd_node_efficiency.gui - нет перевода
+demd_node_trade_value.gui - нет перевода
 + demd_population_county.gui
 + demd_population_prov.gui
 + demd_public_order_target.gui
@@ -26,6 +28,7 @@ demd_knight_capacity.gui
 + demd_soil_fertility.gui
 + demd_tax.gui
 demd_trade.gui
+demd_trade_linkage.gui
 demd_trade_node.gui
 demd_trade_power.gui
 demd_trade_value.gui
@@ -42,3 +45,5 @@ demd_vigor_baseline.gui
 + window_menatarms_type_view.gui
 + window_military.gui
 + window_title.gui
+window_struggle.gui - нет перевода
+window_struggle_involvement.gui - нет перевода

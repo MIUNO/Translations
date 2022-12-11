@@ -1,5 +1,11 @@
 ﻿l_russian:
 
+expand_trade_network_interaction:0 "Расширять торговую сеть"
+expand_trade_network_interaction_desc:0 "Приобретите доступ к торговым должностям, которые получатель занимает в своих собственных округах"
+
+demd_transfer_trade_post_ownership_interaction:0 "[actor.GetName] получает контроль над [target.GetNameNoTier] торговый пост"
+demd_transfer_trade_post_ownership_war:0 "[attacker.GetName] получает контроль над [target.GetNameNoTier] торговый пост"
+
 BUY_CLAIM_NO_EXCOMMUNICATION:0 "Вы не можете быть [excommunicated|E]"
 BUY_CLAIM_NO_EXCOMMUNICATION_OR_DIFF_FAITH:0 "Цель должна быть [excommunicated|E] или иметь возможность [GetTrait('claim_fabricator').GetName( GetNullCharacter )] [trait|E] или быть из [faith|E] мы рассматриваем меньше, чем [faith_righteous|E] или иметь [piety_level|E] от нуля."
 BUY_CLAIM_PIETY_LEVEL:0 "Ваш [piety_level|E] должно быть больше или равно уровню заголовка"

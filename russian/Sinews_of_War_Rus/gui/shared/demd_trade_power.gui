@@ -47,53 +47,77 @@
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [terrain|E]: [Province.GetCounty.GetTitle.MakeScope.Var('terrain_trade_power_bonus').GetValue|%0]"
+                    raw_text = "    От [terrain|E]: [Province.GetCounty.GetTitle.MakeScope.Var('terrain_trade_power_bonus').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_trade_power_bonus')|%0]"
+                    raw_text = "    От [demd_edicts|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('edicts_trade_power_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [buildings|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('building_trade_power_bonus')|%0]"
+                    raw_text = "    От [buildings|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('building_trade_power_bonus')|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('trade_power_cultural_production_mult').GetValue|%0]"
+                    raw_text = "    От [culture|E]: [Province.GetCounty.GetCulture.MakeScope.Var('trade_power_cultural_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('trade_power_faith_production_mult').GetValue|%0]"
+                    raw_text = "    От [faith|E]: [Province.GetCounty.GetFaith.MakeScope.Var('trade_power_faith_production_mult').GetValue|%0]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [ruler|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_ruler_bonus')|%1]"
+                    raw_text = "    От [ruler|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_ruler_bonus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [demd_quarantine|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_quarantine_malus')|%1]"
+                    raw_text = "    От [demd_quarantine|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('trade_power_quarantine_malus')|%1]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
+								text_multi = {
+                    layoutpolicy_horizontal = expanding
+					visible = "[GetScriptedGui('demd_is_county_strategic_location_gui').IsShown( GuiScope.SetRoot( Province.GetCounty.GetTitle.MakeScope ).End)]"
+                    raw_text = "    От [demd_node_strategic_location|E] in [demd_trade_node|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('strategic_location_trade_power_bonus')|%1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+					visible = "[GetScriptedGui('demd_is_county_owned_by_node_owner_gui').IsShown( GuiScope.SetRoot( Province.GetCounty.GetTitle.MakeScope ).End)]"
+                    raw_text = "    От обладания [demd_node_owner|E] из местных [demd_trade_node|E]: [Province.GetCounty.GetTitle.MakeScope.ScriptValue('node_owner_trade_power_bonus')|%1]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+					visible = "[GetScriptedGui('demd_is_county_open_to_trade_gui').IsShown( GuiScope.SetRoot( Province.GetCounty.GetTitle.MakeScope ).End)]"
+                    text = "county_is_blockaded"
+                    align = left
+					autoresize = yes
+					max_width = 400
+				}
             }
         }
     }

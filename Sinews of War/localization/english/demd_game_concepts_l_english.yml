@@ -166,9 +166,6 @@ game_concept_demd_tax_rate_desc:0 "#defender_color Tax Rate#! is the percent of 
 game_concept_demd_manpower_rate:0 "Manpower Rate"
 game_concept_demd_manpower_rate_desc:0 "#defender_color Manpower Rate#! is the percent of a [county|E]'s [demd_population|E] that is available the [ruler|E] as [demd_manpower|E], and used to fill [garrison|E], [levies|E] and [men_at_arms|E]."
 
-game_concept_demd_trade_node:0 "Trade Node"
-game_concept_demd_trade_node_desc:0 "Every [county|E] belongs to a #defender_color Trade Node#!."
-
 game_concept_demd_loan:0 "Loan"
 game_concept_demd_loans:0 "Loans"
 game_concept_demd_loan_desc:0 "[rulers|E] can take out #defender_color Loans#! to cover expenses that their [income|E] can't cover. However, more [gold|E] must be paid back than was borrowed, and default may come with consequences."
@@ -293,3 +290,6 @@ game_concept_demd_migration_pull_desc:0 "#defender_color Migration Pull#! is a m
 
 game_concept_demd_migration:0 "Migration"
 game_concept_demd_migration_desc:0 "[demd_population|E] will #defender_color Migrate#! in between neighboring [counties|E] based on the difference in [demd_migration_pull|E] between the two. #defender_color Migration#! rate is slowed by [faith_hostility|E] and [culture|E] differences."
+
+game_concept_demd_standard_of_living:0 "Standard of Living"
+game_concept_demd_standard_of_living_desc:0 "Placeholder"

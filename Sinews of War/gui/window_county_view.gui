@@ -592,8 +592,7 @@ window = {
 		divider = {
 			layoutpolicy_horizontal = expanding
 		}
-		
-		# Tabs menu
+
 		hbox = {
 			layoutpolicy_horizontal = expanding
 			
@@ -1190,7 +1189,7 @@ window = {
 					datacontext = "[HoldingView.GetGUIHoldingBuilding]"
 					datacontext = "[HoldingView.GetTitle]"
 					datacontext = "[HoldingView.GetHolder]"
-					visible = "[HoldingView.HasHolding]"	
+					visible = "[And(GetVariableSystem.HasValue( 'demd_county_view', 'overview_tab' ),Character.IsPlayerInteractionWithTargetTitleValid('convert_holding_interaction', Title.Self))]"
 					enabled = "[Character.IsPlayerInteractionWithTargetTitleValid('convert_holding_interaction', Title.Self)]"
 					tooltip = "[Character.GetPlayerInteractionWithTargetTitleTooltip('convert_holding_interaction', Title.Self)]"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_pointer_over"
@@ -1531,7 +1530,7 @@ window = {
                                             
                                             } 
                                         }
-									}									
+									}
 								}
 								spacer = { size = { 5 0 } }
 								flowcontainer = {

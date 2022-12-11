@@ -47,7 +47,7 @@ types TradeValue
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[demd_goods|E] Produced: [Province.GetCounty.GetTitle.MakeScope.Var('goods_produced').GetValue|2] x [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_goods_to_trade_power')|2] #weak ([demd_goods|E] to [demd_trade_value|E] multiplier)#!"
+                    raw_text = "[demd_goods|E] Produced: [Province.GetCounty.GetTitle.MakeScope.Var('goods_produced').GetValue|2] x [Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_goods_to_trade_value_constant')|2] #weak ([demd_goods|E] to [demd_trade_value|E] multiplier)#!"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -77,6 +77,14 @@ types TradeValue
 				text_multi = {
                     layoutpolicy_horizontal = expanding
                     raw_text = "#bold Collected [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('collected_trade_value').GetValue|2]#!"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				spacer = { size = { 0 14 } }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+                    raw_text = "#bold [demd_trade_node|E] Linkage Tariff [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('collected_trade_linkage_tariffs').GetValue|2]#!"
                     align = left
 					autoresize = yes
 					max_width = 400

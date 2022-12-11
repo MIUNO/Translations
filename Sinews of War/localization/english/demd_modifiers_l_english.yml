@@ -1,6 +1,10 @@
 ﻿l_english:
 
+demd_strategic_location:0 "Strategic Location"
+demd_strategic_location_desc:0 "#P +[EmptyScope.ScriptValue('strategic_location_modifier_bonus')|0%]#! @icon_trade_power!# [demd_trade_power|E]\n\nThis [county|E] is a strategic location within its [demd_trade_node|E]. It receives a large [demd_trade_power|E] multiple and is a key location in gaining and maintaining control of the [demd_trade_node|E]. It also enables the holder and his lieges to use the $task_raid_trade_routes$ marshal task."
 
+demd_trade_linkage:0 "Trade Linkage"
+demd_strategic_location_desc:0 "This [county|E] links this [demd_trade_node|E] to another. It receives a portion of the [demd_trade_value|E] that passes between the two [demd_trade_nodes|E]."
 
 demd_prov_development_modifier_big:0 "[development|E] from Unused [demd_construction_cap|E]"
 demd_prov_development_modifier_medium:0 "[development|E] from Unused [demd_construction_cap|E]"

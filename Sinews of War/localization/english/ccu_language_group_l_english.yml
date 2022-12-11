@@ -1,7 +1,7 @@
 ﻿l_english:
 
 #############################################
-# CCU Patcher
+# Sinews of War Patcher
 # by Vertimnus
 # This file was compiled by a machine.
 # It should never be manually edited.
@@ -11,17 +11,21 @@ culture_parameter_language_group_armenian:0 "#P +[EmptyScope.ScriptValue('same_l
 culture_parameter_language_group_avar_andic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Avar-Andic [language_group|E]"
 culture_parameter_language_group_balto_slavic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Balto-Slavic [language_group|E]"
 culture_parameter_language_group_basque:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Basque [language_group|E]"
+culture_parameter_language_group_beothuk:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Beothuk [language_group|E]"
 culture_parameter_language_group_berber:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Berber [language_group|E]"
 culture_parameter_language_group_burusho:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Burusho [language_group|E]"
 culture_parameter_language_group_celtic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Celtic [language_group|E]"
 culture_parameter_language_group_chadic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Chadic [language_group|E]"
 culture_parameter_language_group_circassian:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Circassian [language_group|E]"
+culture_parameter_language_group_cree:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Cree [language_group|E]"
 culture_parameter_language_group_cushitic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Cushitic [language_group|E]"
 culture_parameter_language_group_finno_saamic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Finno-Saamic [language_group|E]"
 culture_parameter_language_group_germanic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Germanic [language_group|E]"
 culture_parameter_language_group_hellenic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Hellenic [language_group|E]"
 culture_parameter_language_group_indo_aryan:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Indo-Aryan [language_group|E]"
 culture_parameter_language_group_indo_iranian:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Indo-Iranian [language_group|E]"
+culture_parameter_language_group_inuit:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Inuit [language_group|E]"
+culture_parameter_language_group_iroquoian:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Iroquoian [language_group|E]"
 culture_parameter_language_group_karto_zan:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Karto-Zan [language_group|E]"
 culture_parameter_language_group_kru:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Kru [language_group|E]"
 culture_parameter_language_group_lezgic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Lezgic [language_group|E]"
@@ -31,6 +35,7 @@ culture_parameter_language_group_mongolic:0 "#P +[EmptyScope.ScriptValue('same_l
 culture_parameter_language_group_nivkh:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Nivkh [language_group|E]"
 culture_parameter_language_group_north_dravidian:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the North-Dravidian [language_group|E]"
 culture_parameter_language_group_oghuric:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Oghuric [language_group|E]"
+culture_parameter_language_group_ojibwe:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Ojibwe [language_group|E]"
 culture_parameter_language_group_omotic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Omotic [language_group|E]"
 culture_parameter_language_group_qiangic:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Qiangic [language_group|E]"
 culture_parameter_language_group_romance:0 "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Romance [language_group|E]"

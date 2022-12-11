@@ -14,6 +14,7 @@
  demd_sack_acceptance_change:0 "Sacked [county|E]"
  demd_raid_acceptance_change:0 "Raided [county|E]"
  
+ raided_my_trade_opinion:0 "Raided my [demd_trade_node|E]"
  raided_me_opinion:0 "Raided my [county|E]"
  razed_me_opinion:0 "Razed my [county|E]"
  sacked_me_opinion:0 "Sacked my [county|E]"

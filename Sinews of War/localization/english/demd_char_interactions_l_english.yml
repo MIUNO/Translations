@@ -1,5 +1,15 @@
 ﻿l_english:
 
+expand_trade_network_interaction:0 "Expand Trade Network"
+expand_trade_network_interaction_desc:0 "Purchase access to trade posts that the recipient holds in their own counties"
+
+demd_transfer_trade_post_ownership_interaction:0 "[actor.GetName] gains control of the [target.GetNameNoTier] trade post"
+demd_transfer_trade_post_ownership_war:0 "[attacker.GetName] gains control of the [target.GetNameNoTier] trade post"
+
+
+
+
+
 BUY_CLAIM_NO_EXCOMMUNICATION:0 "You cannot be [excommunicated|E]"
 BUY_CLAIM_NO_EXCOMMUNICATION_OR_DIFF_FAITH:0 "Target must be [excommunicated|E] or have the [GetTrait('claim_fabricator').GetName( GetNullCharacter )] [trait|E] or be of a [faith|E] we consider less than [faith_righteous|E] or have a [piety_level|E] of zero."
 BUY_CLAIM_PIETY_LEVEL:0 "Your [piety_level|E] must be greater than or equal to the title tier"

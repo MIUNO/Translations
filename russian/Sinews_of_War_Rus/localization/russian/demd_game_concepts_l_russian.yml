@@ -166,9 +166,6 @@ game_concept_demd_tax_rate_desc:0 "#defender_color Налоговая ставк
 game_concept_demd_manpower_rate:0 "Уровень людских ресурсов" #+
 game_concept_demd_manpower_rate_desc:0 "#defender_color Уровень людских ресурсов#! — это процент от [Concept('demd_population','Населения')|E] в [Concept('county','Графстве')|E] который доступен [Concept('ruler','Правителю')|E] в виде [Concept('demd_manpower','Людских ресурсов')|E],и используется для заполнения [Concept('garrison','Гарнизона')|E], [Concept('levies','Ополчения')|E] и [Concept('men_at_arms','Профессионалов')|E]."
 
-game_concept_demd_trade_node:0 "Торговый узел" #+
-game_concept_demd_trade_node_desc:0 "Каждое [counties|E] стоит на каком либо #defender_color Торговом узле#!."
-
 game_concept_demd_loan:0 "Заём" #+
 game_concept_demd_loans:0 "Займы"
 game_concept_demd_loan_desc:0 "[rulers|E] могут брать #defender_color Займы#! чтобы покрыть расходы, которые их [income|E] не может покрыть. Однако должно быть возвращено больше [Concept('gold','Золота')|E], чем было взято взаймы, иначе есть риск дефолта, который повлечет за собой последствия."
@@ -293,3 +290,6 @@ game_concept_demd_migration_pull_desc:0 "#defender_color Миграция#! яв
 
 game_concept_demd_migration:0 "Миграция" #+
 game_concept_demd_migration_desc:0 "Перенаправляет [demd_population|E] между соседними [Concept('counties','Графствами')|E] на основе разницы показателя [Concept('demd_migration_pull','Миграционного притока')|E] и показателем населения. Скорость #defender_color Миграции#! может замедлятся из—за различий [Concept('faith_hostility','Враждебности религии')|E] и [Concept('culture','Культуры')|E]."
+
+game_concept_demd_standard_of_living:0 "Уровень жизни"
+game_concept_demd_standard_of_living_desc:0 "Заполнитель"

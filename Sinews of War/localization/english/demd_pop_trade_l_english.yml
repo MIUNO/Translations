@@ -1,5 +1,7 @@
 ﻿l_english:
 
+
+
 game_concept_demd_trade_resource:0 "Luxury Resource"
 game_concept_demd_trade_resources:0 "Luxury Resources"
 game_concept_demd_trade_resources_desc:0 "The presence of a #defender_color Luxury Resource!# in a [county|E] increases its production of [demd_trade_value|E] by a large factor."

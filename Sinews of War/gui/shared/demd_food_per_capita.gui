@@ -87,7 +87,7 @@ types FoodPerCapita
                 }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "From Regional [demd_weather|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Monthly)"
+                    raw_text = "From Regional [demd_weather|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.MakeScope.Var('node_weather_fertility_mult').GetValue|%0] ([Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.MakeScope.ScriptValue('node_weather_fertility_mult_delta')|%1] Monthly)"
                     align = left
 					autoresize = yes
 					max_width = 400

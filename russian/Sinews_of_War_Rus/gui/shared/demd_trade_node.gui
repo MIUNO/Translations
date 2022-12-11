@@ -19,7 +19,7 @@
 
             text_multi = {
                 layoutpolicy_horizontal = expanding
-                raw_text = "#T [demd_trade_node|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.GetBaseNameNoTier]#!"
+                raw_text = "#T [demd_trade_node|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.GetName]#!"
                 align = left
 				max_width = 450
             }
@@ -40,14 +40,14 @@
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "Собранный [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('collected_trade_value').GetValue|2]"
+                    raw_text = "Собранный [demd_trade_value|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.MakeScope.Var('collected_trade_value').GetValue|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "[demd_trade_power|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Title.MakeScope.Var('trade_power').GetValue|2]"
+                    raw_text = "[demd_trade_power|E]: [Province.GetCounty.GetTitle.MakeScope.Var('trade_node').Struggle.MakeScope.Var('trade_power').GetValue|2]"
                     align = left
 					autoresize = yes
 					max_width = 400

@@ -68,6 +68,8 @@ demd_nicknames_l_russian.yml
 demd_pop_custom_loc_l_russian.yml
 demd_pop_messages_l_russian.yml
 demd_pop_trade_l_russian.yml
+demd_population_struggle_custom_l_russian.yml - нет перевода
+demd_population_struggle_l_russian.yml - нет перевода
 demd_regiments_l_russian.yml
 demd_religion_l_russian.yml
 demd_suggestions_l_russian.yml

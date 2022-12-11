@@ -25,3 +25,5 @@ ruins_fallback_error_1:0 "Неизвестный тип руин"
 ruins_fallback_error_2:0 "Неизвестные руины"
 
 excavation_stage_intermediate_tt:0 "#T @icon_excavation!#  [excavation_stage|E] Конец\n\n#P [Province.GetCounty.GetTitle.MakeScope.Var('active_excavation').Story.MakeScope.ScriptValue('excavation_breakthrough_chance')|0]%#! шанс на [excavation_breakthrough|E]\n\n$TAB$#P Вероятность увеличения [excavation_quality|E]#!\n"
+
+icon_trade_post_generic:0 "@icon_trade_post_generic!#"

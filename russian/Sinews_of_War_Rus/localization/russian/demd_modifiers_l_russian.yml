@@ -1,6 +1,10 @@
 ﻿l_russian:
 
+demd_strategic_location:0 "Стратегическое расположение"
+demd_strategic_location_desc:0 "#P +[EmptyScope.ScriptValue('strategic_location_modifier_bonus')|0%]#! @icon_trade_power!# [demd_trade_power|E]\n\nЭтот [county|E] является стратегическим местоположением в пределах его [demd_trade_node|E]. Он получает большой [demd_trade_power|E] множественный и является ключевым местом в получении и поддержании контроля над [demd_trade_node|E]. Это также позволяет владельцу и его вассалам использовать $task_raid_trade_routes$ задача маршала."
 
+demd_trade_linkage:0 "Торговая связь"
+demd_strategic_location_desc:0 "Этот [county|E] связывает это [demd_trade_node|E] к другому. Он получает часть [demd_trade_value|E] который проходит между двумя [demd_trade_nodes|E]."
 
 demd_prov_development_modifier_big:0 "[development|E] из неиспользованных [demd_construction_cap|E]"
 demd_prov_development_modifier_medium:0 "[development|E] из неиспользованных [demd_construction_cap|E]"

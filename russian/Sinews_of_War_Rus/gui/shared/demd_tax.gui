@@ -52,7 +52,7 @@
                 }
                 text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "От [Concept('demd_job_farmers','Фермеров')|E]:  +[Province.MakeScope.ScriptValue('food_producers_tax')|2]"
+                    raw_text = "   От [Concept('demd_job_farmers','Фермеров')|E]:  +[Province.MakeScope.ScriptValue('food_producers_tax')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -60,7 +60,7 @@
                 text_multi = {
                     layoutpolicy_horizontal = expanding
 					visible = "[Province.GetTitle.IsCountyCapital]"
-                    raw_text = "От [Concept('demd_job_artisans','Ремесленников')|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('goods_producers_tax')|2]"
+                    raw_text = "   От [Concept('demd_job_artisans','Ремесленников')|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('goods_producers_tax')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -68,7 +68,15 @@
                 text_multi = {
                     layoutpolicy_horizontal = expanding
 					visible = "[Province.GetTitle.IsCountyCapital]"
-                    raw_text = "От [Concept('demd_tariffs','Тарифов')|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('tariff_tax')|2]"
+                    raw_text = "   От [Concept('demd_tariffs','Тарифов')|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('tariff_tax')|2]"
+                    align = left
+					autoresize = yes
+					max_width = 400
+                }
+				text_multi = {
+                    layoutpolicy_horizontal = expanding
+					visible = "[GetScriptedGui('demd_is_county_owned_by_node_owner_gui').IsShown( GuiScope.SetRoot( Province.GetCounty.GetTitle.MakeScope ).End)]"
+                    raw_text = "   От [demd_node_owner_dividend|E]:  +[Province.GetCounty.GetTitle.MakeScope.ScriptValue('node_owner_dividend_from_county_scope')
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -76,7 +84,7 @@
 				text_multi = {
                     layoutpolicy_horizontal = expanding
 					visible = "[Province.GetTitle.IsCountyCapital]"
-                    raw_text = "От [Concept('demd_edicts','Указов')|E]:  -[Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_total_edict_expense')|2]"
+                    raw_text = "   От [Concept('demd_edicts','Указов')|E]:  -[Province.GetCounty.GetTitle.MakeScope.ScriptValue('demd_total_edict_expense')|2]"
                     align = left
 					autoresize = yes
 					max_width = 400
@@ -84,7 +92,7 @@
 				spacer = { size = { 0 14 } }
 				text_multi = {
                     layoutpolicy_horizontal = expanding
-                    raw_text = "#bold [Concept('tax','Налоговая')|E] ставка: [Province.GetCounty.GetTitle.MakeScope.Var('effective_tax_rate').GetValue|1%]#!"
+                    raw_text = "   #bold [Concept('tax','Налоговая')|E] ставка: [Province.GetCounty.GetTitle.MakeScope.Var('effective_tax_rate').GetValue|1%]#!"
                     align = left
 					autoresize = yes
 					max_width = 400

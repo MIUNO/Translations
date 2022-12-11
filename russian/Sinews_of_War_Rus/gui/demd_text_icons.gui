@@ -1,4 +1,14 @@
 texticon = {
+	icon = icon_demd_raid
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/jomsviking_pirates.dds"	
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = icon_sinews_of_war
 	iconsize = {
 		texture = "gfx/interface/icons/demd/sinews_of_war.png"	
@@ -25,6 +35,16 @@ texticon = {
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = icon_trade_post_generic
+	iconsize = {
+		texture = "gfx/interface/icons/demd/features/trading_post.jpg"	
+		size = { 680 380 }
+		offset = { 0 0 }
+		fontsize = 100%
 	}
 }
 

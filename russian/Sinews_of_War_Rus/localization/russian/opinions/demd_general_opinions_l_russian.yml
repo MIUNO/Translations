@@ -14,6 +14,7 @@
  demd_sack_acceptance_change:0 "Разграбил [county|E]"
  demd_raid_acceptance_change:0 "Совершил набег на [county|E]"
  
+ raided_my_trade_opinion:0 "Совершил набег на мой [demd_trade_node|E]"
  raided_me_opinion:0 "Совершил набег на мой [county|E]"
  razed_me_opinion:0 "Разрушил мой [county|E]"
  sacked_me_opinion:0 "Разграбил мой [county|E]"
