@@ -1,0 +1,52 @@
++ bar_nation_formation_l_russian.yml
++ ba_alerts_l_russian.yml
++ ba_army_l_russian.yml
+ba_babylon_mission_l_russian.yml
+ba_buildings_l_russian.yml
+ba_drought_l_russian.yml
+ba_events_l_russian.yml
+ba_flavor_l_russian.yml
++ ba_interface_l_russian.yml
+ba_laws_l_russian.yml
+ba_migration_l_russian.yml
++ ba_mil_trads_l_russian.yml
++ ba_modifiers_l_russian.yml
++ ba_names_2_l_russian.yml
++ ba_names_l_russian.yml
+ba_off_map_trade_l_russian.yml
+ba_proclaim_dynasty_mission_events_l_russian.yml
+ba_tech_l_russian.yml
+ba_trade_goods_flavour_l_russian.yml
+в работе - ba_various_l_russian.yml
+core_l_russian.yml
++ countries_l_russian.yml
++ cultures_l_russian.yml
+disasters_l_russian.yml
++ great_works_l_russian_inv_1_0.yml
+kush_missions_l_russian.yml
++ load_tips_l_russian.yml
++ macroregions_l_russian.yml
++ map_tooltips_invictus_l_russian.yml
+military_traditions_l_russian.yml
+modifiers_l_russian.yml
++ provincenames_l_russian.yml
++ regionnames_l_russian.yml
+в работе - text_l_russian.yml
+treasures_l_russian.yml
++ units_custom_l_russian.yml
+units_l_russian.yml
+waset_mission_events_l_russian.yml
+waset_mission_l_russian.yml
+
+deities:
+deities_aegean_l_russian.yml
+deities_canaanite_l_russian.yml
+deities_egyptian_l_russian.yml
+deities_elamite_l_russian.yml
+deities_hellenic_l_russian.yml
+deities_hurrian_l_russian.yml
+deities_luwian_l_russian.yml
+deities_megalithic_inv_l_russian.yml
+deities_mesopotamian_l_russian.yml
+
++ load_tips_l_russian.yml

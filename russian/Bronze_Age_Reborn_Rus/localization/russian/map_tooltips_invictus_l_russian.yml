@@ -1,0 +1,4 @@
+﻿l_russian:
+ # Players
+ PROVINCE_TOOLTIP_players:2 "[GetPlayerName(PROVINCE.GetOwner)]\n\nПозиция: [PROVINCE.GetOwner.GetDiplomaticStance.GetName]\n\nКорабли: [PROVINCE.GetOwner.GetTotalNumOfShips|Y]\nСтабильность: [PROVINCE.GetOwner.GetStability|0Y]\nТерритории: [PROVINCE.GetOwner.GetOwnedProvinceCount|Y]\nПопуляция: [PROVINCE.GetOwner.GetTotalPopulation|Y]"
+ slave_revolts.3.b.tt:0 "Треть всех восставших рабов будет переселена на наши территории в наш столичный регион."

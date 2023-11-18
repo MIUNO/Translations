@@ -1,0 +1,3 @@
+﻿l_russian:
+ ALERT_UNSPENT_CIVILIZATION_POINTS:0 "#T Очки технологий цивилизации#!\nВ настоящее время у нас есть [GuiScope.SetRoot(Player.MakeScope).ScriptValue('civ_tech_tech_diff_UI_svalue')|0|Y] неизрасходованных баллов."
+ 

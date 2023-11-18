@@ -1,0 +1,3 @@
+﻿l_russian:
+ area_drought_small_tt:0 "[SCOPE.sP('targetarea').GetArea.GetName]"
+ region_drought_small_tt:0 "[SCOPE.sP('targetregion').GetArea.GetRegion.GetName]"

@@ -1,0 +1,54 @@
+﻿l_russian:
+
+ ### I kept the loc in case JULIANOS' stuff will be added at some point. I've added a BA section at the end.
+
+
+ #### Julianos Great Works
+
+ ### GW Modules
+ gw_building_06_base_JULIANOS:0 "Академия"
+ gw_building_07_base_JULIANOS:0 "Оракул"
+ gw_building_09_base_JULIANOS:0 "Возвышенный Толос"
+ gw_building_08_base_JULIANOS:0 "Повышенный Наос"
+ gw_building_10_base_JULIANOS:0 "Храм Пилон"
+ gw_building_11_base_JULIANOS:0 "Базилика Юлия"
+ gw_building_12_base_JULIANOS:0 "Театр"
+ gw_building_13_base_JULIANOS:0 "Форум"
+
+ gw_building_06_roof_JULIANOS:0 "Закругленная крыша"
+ gw_building_07_roof_JULIANOS:0 "Крыша со статуями"
+ gw_building_08_roof_JULIANOS:0 "Пилонная крыша"
+
+ #### From Mod - Added Wonders
+
+ #Wonders
+ wonder_knossos_palace:0 "Большой Минойский дворец" #Ideally dynamic
+ wonder_knossos_palace_desc:0 "Один из старейших городов Европы, Кносс со временем стал церемониальным и политическим центром древней минойской цивилизации, ныне являющейся тенью своего прежнего «я». В греческих легендах во дворце жил древний царь Минос, строитель лабиринта, в котором находился легендарный Минотавр.."
+
+ wonder_ur_ziggurat:0 "Великий зиккурат Нанны"
+ wonder_ur_ziggurat_desc:0 "Этот многоярусный храм возвышается в царстве богов, построенный шумерами и посвященный богу Луны Нанне.."
+
+ #Decisions
+ build_the_ziggurat:0 "Постройте Великий Зиккурат"
+ build_the_ziggurat_desc:0 "В честь наших богов мы построим великий Зиккурат, подобного которому мир еще не видел! \n\nКроме Великих пирамид, конечно."
+ build_the_palace:0 "Постройте Большой Дворец"
+ build_the_palace_desc:0 "Дворец, настолько величественный, что даже богатые восточные народы позеленеют от зависти."
+ ziggurat_tooltip:0 "Строительство Большого Зиккурата, посвященного Нанне в [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] начнется."
+ palace_tooltip:0 "Строительство Большого дворца в [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] начнется."
+
+ #Events
+ ba_wonders.1.t:0 "Большой Зиккурат [SCOPE.GetRootScope.GetCountry.GetCapital.GetName]"
+ ba_wonders.1.desc:0 "После многих лет строительства Большой Зиккурат, посвященный Нанне, наконец-то был завершен, и труды стольких людей теперь вознаграждены завершением такого грандиозного проекта."
+ ba_wonders.1.a:0 "Finally!"
+ ba_wonders.2.t:0 "Большой дворец [SCOPE.GetRootScope.GetCountry.GetCapital.GetName]"
+ ba_wonders.2.desc:0 "Большой дворец был построен, и его красота уже начала привлекать многих иностранных гостей, ошеломленных, увидев такую ​​красоту на этом далеком для них острове."
+ ba_wonders.2.a:0 "Окончание!"
+
+ # Effects
+ gw_effect_knossos:0 "Большой дворец"
+ gw_effect_knossos_DESC:0 "Большой дворец на Крите является свидетельством минойской культуры и цивилизации бронзового века."
+ gw_effect_ur_ziggurat:0 "Великий Зиккурат"
+ gw_effect_ur_ziggurat_DESC:0 "Старый зиккурат народов Месопотамии, он был посвящен богу Луны Нанне. Многие приносили сюда свою еду, чтобы сохранить ее."
+ gw_effect_pyramids:0 "Великие пирамиды Гизы"
+ gw_effect_pyramids_DESC:0 "Большие пирамиды Гизы старше цивилизаций, возвышаются над всеми и вся, их существование является свидетельством их строителей, а их контроль – претензией на власть."
+ gw_effect_stonehenge_event:0 "Стоунхендж"
