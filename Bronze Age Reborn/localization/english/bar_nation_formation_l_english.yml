@@ -1,0 +1,14 @@
+﻿l_english:
+ #Tehenu
+ form_meshwesh:0 "Form Tehenu"
+ form_meshwesh_desc:0 "For as long as the sands have flowed in the desert, we have lived in the shadow of our Egyptian neighbors, scavenging for scraps while they feast like kings and erect exorbitant tombs. No more! We shall be the Pharaohs now and take what is rightfully ours!"
+ MESHWESH_NAME:0 "Tehenu"
+ MESHWESH_ADJECTIVE:0 "Tehenu"
+ meshwesh_not_exists:0 "#Y Tehenu#! must NOT exist."
+
+ #Cycladia
+ form_cycladia:0 "Form Cycladia"
+ form_cycladia_desc:0 "We Cycladians are the dominant force in the Aegean, a maritime people whose influence spans the countless islands bridging the gap between Europe and Asia. However, our Minoan neighbors to the south are beginning to consolidate; if left unchecked, they will soon be in a position to take our place, and we will become nothing more then a distant memory. By unifying the Cyclades under a single banner, we might yet avoid this fate and ensure our supremacy for generations to come."
+ CYCLADIA_NAME:0 "Cycladia"
+ CYCLADIA_ADJECTIVE:0 "Cycladian"
+ cycladia_not_exists:0 "#Y Cycladia#! must NOT exist."

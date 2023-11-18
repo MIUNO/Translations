@@ -1,0 +1,54 @@
+﻿l_english:
+
+ ### I kept the loc in case JULIANOS' stuff will be added at some point. I've added a BA section at the end.
+
+
+ #### Julianos Great Works
+
+ ### GW Modules
+ gw_building_06_base_JULIANOS:0 "Academy"
+ gw_building_07_base_JULIANOS:0 "Oracle"
+ gw_building_09_base_JULIANOS:0 "Elevated Tholos"
+ gw_building_08_base_JULIANOS:0 "Elevated Naos"
+ gw_building_10_base_JULIANOS:0 "Pylon Temple"
+ gw_building_11_base_JULIANOS:0 "Basilica Julia"
+ gw_building_12_base_JULIANOS:0 "Theater"
+ gw_building_13_base_JULIANOS:0 "Forum"
+
+ gw_building_06_roof_JULIANOS:0 "Rounded roof"
+ gw_building_07_roof_JULIANOS:0 "Roof with statues"
+ gw_building_08_roof_JULIANOS:0 "Pylon roof"
+
+ #### From Mod - Added Wonders
+
+ #Wonders
+ wonder_knossos_palace:0 "Great Minoan Palace" #Ideally dynamic
+ wonder_knossos_palace_desc:0 "One of Europe's oldest cities, Knossos eventually became the ceremonial and political center of the ancient Minoan civilization, now a shadow of its former self. In Greek legends, King Minos of old dwelt in the palace, builder of the labyrinth holding the fabled Minotaur."
+
+ wonder_ur_ziggurat:0 "Great Ziggurat of Nanna"
+ wonder_ur_ziggurat_desc:0 "This tiered temple rises to the realm of the gods, constructed by the Sumerians and consecrated to their Moon God Nanna."
+
+ #Decisions
+ build_the_ziggurat:0 "Build the Great Ziggurat"
+ build_the_ziggurat_desc:0 "In the honor of our gods, we will build a great Ziggurat, the likes of which the world has never seen! \n\nBesides the Great Pyramids of course"
+ build_the_palace:0 "Build a Grand Palace"
+ build_the_palace_desc:0 "A Palace, so grand so that even the rich eastern peoples will be green with envy."
+ ziggurat_tooltip:0 "The construction of the Grand Ziggurat dedicated to Nanna in [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] will begin."
+ palace_tooltip:0 "The construction of the Grand Palace in [SCOPE.GetRootScope.GetCountry.GetCapital.GetName] will begin."
+
+ #Events
+ ba_wonders.1.t:0 "The Grand Ziggurat of [SCOPE.GetRootScope.GetCountry.GetCapital.GetName]"
+ ba_wonders.1.desc:0 "After many years of construction, the Grand Ziggurat dedicated to Nanna has finally been completed and the works of so many people is now rewarded with the fulfilment of having completed such a grand project."
+ ba_wonders.1.a:0 "Finally!"
+ ba_wonders.2.t:0 "The Grand Palace of [SCOPE.GetRootScope.GetCountry.GetCapital.GetName]"
+ ba_wonders.2.desc:0 "The Grand Palace has been constructed and its beauty already started to attract many foreign visitors, stunned to see such a beauty on this, for them, far-away island."
+ ba_wonders.2.a:0 "Finally!"
+
+ # Effects
+ gw_effect_knossos:0 "Grand Palace"
+ gw_effect_knossos_DESC:0 "The Grand Palace on Kreta is a testament to the Minoan culture and civilization of the Bronze Age."
+ gw_effect_ur_ziggurat:0 "Great Ziggurat"
+ gw_effect_ur_ziggurat_DESC:0 "An old Ziggurat of the Mesopotamian peoples, it was dedicated to the Moon God Nanna. Many brought their food here to preserve it."
+ gw_effect_pyramids:0 "The Great Pyramids of Giza"
+ gw_effect_pyramids_DESC:0 "Older than civilizations, the large Pyramids of Giza tower over any and all, their exitence a testament to their builders and their control a claim of power."
+ gw_effect_stonehenge_event:0 "Stonehenge"
