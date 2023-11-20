@@ -75,6 +75,16 @@ fontfiles = {
         files = { "fonts/Cinzel-Bold.ttf" "fonts/LusitanaCyr-Regular.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
     }
 }
+
+fontfiles = {
+    name = "Caesar-Dressing-Cyrillic"
+	always_load = yes
+
+    group = {
+        languages = { "l_russian" }
+        files = { "fonts/caesar-dressing-cyrillic.otf" }
+    }
+}
 #fontfiles = {
 #    name = "IMFellDoublePicaSC-Regular"
 #	always_load = yes
@@ -168,6 +178,15 @@ font = {
 	}
 }
 
+font = {
+	name = "CaesarDressingCyrillic"
+	
+	fontstyle = {
+		style = regular
+		fontfiles = "Caesar-Dressing-Cyrillic"
+	}
+}
+
 #MAP
 font = {
 	name = "map_province_name_font"
@@ -207,7 +226,7 @@ fontfiles = {
     group = {
         languages = { "l_russian" }
         files = { "fonts/lusitana_regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" "fonts/IMFellDoublePicaSC-Regular.ttf" }
-        files = { "fonts/Cinzel-Bold.ttf" "fonts/LusitanaCyr-Regular.ttf" "fonts/NotoSansCJKsc-Regular.otf" }
+        files = { "fonts/Cinzel-Bold.ttf" "fonts/LusitanaCyr-Regular.ttf" "fonts/NotoSansCJKsc-Regular.otf" "fonts/caesar-dressing-cyrillic.otf" }
     }
 }
 
