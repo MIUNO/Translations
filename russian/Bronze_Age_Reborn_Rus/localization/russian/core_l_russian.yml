@@ -479,7 +479,7 @@
  SKILL_GOOD:0 "Хороший"
  SKILL_EXCELLENT:0 "Отличный"
  THE_WORLD:1 "[GetDateString] AVC ([GetChristianDateString])"
- THE_WORLD_CATCHING_UP:0 "Выполняется синхронизация с хостом ([GetDateString] AVC)"
+ THE_WORLD_CATCHING_UP:0 "Синхронизация с хостом ([GetDateString] AVC)"
  THE_WORLD_TOOLTIP:1 "Ab urbe condita (лат. «от основания города») — это тип летоисчисления, иногда использующийся учёными в отношении хронологии Древнего Рима. 1 AUC — год основания Рима. Таким образом, 450 AUC соответствует 304 году до н. э. в современном григорианском календаре."
  #
  # military_building:0 "Тренировочный лагерь"

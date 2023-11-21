@@ -60,6 +60,7 @@ types MultiplayerLobby
 					blockoverride "Title_text" 
 					{
 						text = "[LobbyView.GetSelectedPlayable.GetCountry.GetName]"
+						font = "CaesarDressingCyrillic" 
 					}
 					
 				}
@@ -70,6 +71,7 @@ types MultiplayerLobby
 					blockoverride "Title_text" 
 					{
 						text = "SELECT_TITLE_SULLA_V"
+						font = "CaesarDressingCyrillic" 
 					}
 					
 				}
@@ -1822,6 +1824,7 @@ JominiMultiplayerLobby = {
 				blockoverride "Title_text"
 				{
 					text = "JOMINI_MULTIPLAYER_GUI_SESSION_HEADER"
+					font = "CaesarDressingCyrillic" 
 				}
 
 				blockoverride "White_buttons"
@@ -1962,14 +1965,14 @@ JominiMultiplayerLobby = {
 			top_window_header_for_layout_centered = {  
 				layoutpolicy_horizontal = expanding
 				visible = "[Not(IsLocalPlayerReplayingCommands)]"
-				blockoverride "Title_text" { text = "THE_WORLD" }
+				blockoverride "Title_text" { text = "THE_WORLD" font = "CaesarDressingCyrillic" }
 				blockoverride "White_buttons" {}
 				tooltip = "THE_WORLD_TOOLTIP"
 			}
 			top_window_header_for_layout_centered = {   
 				layoutpolicy_horizontal = expanding
 				visible = "[IsLocalPlayerReplayingCommands]"
-				blockoverride "Title_text" { text = "THE_WORLD_CATCHING_UP" }
+				blockoverride "Title_text" { text = "THE_WORLD_CATCHING_UP" font = "CaesarDressingCyrillic" }
 				blockoverride "White_buttons" {}
 			}
 			
