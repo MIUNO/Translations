@@ -1,62 +1,62 @@
 ﻿l_russian:
- writing_law:0 "Writing"
- no_script:1 "No Developed Script"
- no_script_desc:0 "No developed script."
- bureaucratic_script:0 "Bureaucratic Script"
- bureaucratic_script_desc:0 "A simple script for numbers and the naming of basic commodities enables the bureaucracy needed to manage a sizeable state."
- full_script:0 "Full Script"
- full_script_desc:0 "A fully developed script usable both for mathematics, bureaucracy and diplomatic aswell as trade-oriented communications."
- alphabet:0 "Alphabet"
- alphabet_desc:0 "An alphabet is much easier to learn and use by all people for all purposes."
- early_palaces:0 "Early Palaces"
- early_palaces_desc:0 "A simple form of palaces has developed to centralize some of the bureaucratic and diplomatic administration by the state."
- palaces_law:0 "Palatial"
- prepalatial:0 "Pre-palatial"
- prepalatial_desc:0 "The palatial structure has not yet formed."
- early_palaces:0 "Early Palaces"
- early_palaces_desc:0 "A simple form of palaces has developed centralizing some of the bureaucratic and diplomatic administration by the state."
- palatial:0 "Palatial"
- palatial_desc:0 "A mature palatial complex gives further benefits."
- imperial_palaces:0 "Imperial"
- imperial_palaces_desc:0 "An imperial administration that can manage vast territories, send diplomatic missions to far away lands, and manage trading expeditions to collect distant resources."
- servitude_law:0 "Servitude"
- no_intervention:0 "No Intervention"
- no_intervention_desc:0 "The state does not intervene in matters of servitude."
- state_enforcement:0 "State Enforcement"
- state_enforcement_desc:0 "The state enforces the contracts between land owners and servants, slaves or indentured."
- resource_extraction:0 "Resource Extraction"
- resource_extraction_desc:0 "The state focuses on the large scale extraction of resources by servitude labor to fuel ever hungry state apparatus." 
- sponsored_liberation:0 "Sponsored Liberation"
- sponsored_liberation_desc:0 "Large-scale servitude can be a cause of unrest and apathy among the states subjects. A free man is both more productive and at peace with the needs of the state."
- warfare_law:0 "Warfare"
- gentle_siege:0 "Gentle"
- harsh_siege:0 "Harsh"
- terrorizing:0 "Terrorizing"
+ writing_law:0 "Письмо"
+ no_script:1 "Нет разработанного сценария"
+ no_script_desc:0 "Нет разработанного сценария".
+ bureaucratic_script:0 "Бюрократический сценарий"
+ bureaucratic_script_desc:0 "Простой алфавит для чисел и наименований основных товаров позволяет создать бюрократию, необходимую для управления значительным государством".
+ full_script:0 "Полный сценарий"
+ full_script_desc:0 "Полностью разработанный сценарий, пригодный как для математических, бюрократических и дипломатических, так и для торговых коммуникаций".
+ alphabet:0 "Алфавит"
+ alphabet_desc:0 "Алфавит гораздо легче выучить и использовать всеми людьми для любых целей".
+ early_palaces:0 "Ранние дворцы"
+ early_palaces_desc:0 "Простая форма дворцов возникла для централизации части бюрократического и дипломатического управления государства".
+ palaces_law:0 "Дворцовый"
+ prepalatial:0 "Преддворцовый"
+ prepalatial_desc:0 "Дворцовая структура еще не сформировалась".
+ early_palaces:0 "Ранние дворцы"
+ early_palaces_desc:0 "Простая форма дворцов привела к централизации части бюрократического и дипломатического управления со стороны государства".
+ palatial:0 "Дворцовый"
+ palatial_desc:0 "Зрелый роскошный комплекс дает дополнительные преимущества".
+ imperial_palaces:0 "Империал"
+ imperial_palaces_desc:0 "Имперская администрация, которая может управлять огромными территориями, отправлять дипломатические миссии в далекие страны и управлять торговыми экспедициями для сбора отдаленных ресурсов".
+ servitude_law:0 "Рабство"
+ no_intervention:0 "Без вмешательства"
+ no_intervention_desc:0 "Государство не вмешивается в вопросы подневольного состояния".
+ state_enforcement:0 "Государственное исполнение"
+ state_enforcement_desc:0 "Государство обеспечивает соблюдение договоров между землевладельцами и слугами, рабами или наемниками".
+ resource_extraction:0 "Добыча ресурсов"
+ resource_extraction_desc:0 "Государство сосредотачивается на крупномасштабной добыче ресурсов с помощью подневольного труда, чтобы питать вечно голодный государственный аппарат". 
+ sponsored_liberation:0 "Спонсируемое освобождение"
+ sponsored_liberation_desc:0 "Крупномасштабное рабство может стать причиной волнений и апатии среди подданных государства. Свободный человек одновременно более продуктивен и находится в мире с потребностями государства".
+ warfare_law:0 "Военное дело"
+ gentle_siege:0 "Нежный"
+ harsh_siege:0 "Жесткий"
+ terrorizing:0 "Терроризирующий"
  terrorizing_desc:0 ""
- trade_laws:0 "Trade"
- local_monopoly:0 "Local Monopoly"
- local_monopoly_desc:0 "Establishing a local monopoly can maximize the profit from trade."
- trade_posts:0 "Trade Posts"
- trade_posts_desc:0 "Trading posts help protect the nations traders on the otherwise dangerous roads to distant lands. Also allows the establishing of trading colonies in far away lands."
- tin_exports:0 "Tin Exports"
- tin_exports_desc:0 "Tin is an extremely rare resource only found far away from the Near Eastern civilizations that so highly demands it. The long trade routes that formed to transport it connected far away places and spread ideas and technology across the globe."
- camel_caravans:0 "Desert Caravans"
- camel_caravans_desc:0 "Desert caravans to traverse the vast deserts of the Near East to connect otherwise unreachable societies provided great wealth and sharing of ideas. While the camel was not yet introduced to the Arabian peninsula it was in use in the far eastern Iranian Plateau and Afghani deserts."
- law_laws:0 "National Law"
- tribal_law:0 "Tribal Law"
- tribal_law_desc:0 "Conflicts are settled within and between the tribal groups people belong to on a case by case basis."
- kings_justice:0 "King's Justice"
- kings_justice_desc:0 "Quarreling parties can bring their conflicts to the King for final adjudication."
- law_code:0 "Law Code"
- law_code_desc:0 "Conflicts are settled following the state-accorded law code."
- ba_imperial_authority:0 "Imperial Authority"
- ba_imperial_authority_desc:0 "The state affords the full authority to settle conflicts in accordance with its own best interest."
- economic_law:0 "Economic Policy"
- tbd_law:0 "TBD"
+ trade_laws:0 "Торговля"
+ local_monopoly:0 "Местная монополия"
+ local_monopoly_desc:0 "Создание местной монополии может максимизировать прибыль от торговли".
+ trade_posts:0 "Торговые посты"
+ trade_posts_desc:0 "Торговые посты помогают защитить национальных торговцев на опасных дорогах в далекие страны. Также позволяют создавать торговые колонии в далеких землях".
+ tin_exports:0 "Экспорт олова"
+ tin_exports_desc:0 "Олово — чрезвычайно редкий ресурс, который можно найти только вдали от ближневосточных цивилизаций, которые так сильно в нем нуждаются. Длинные торговые пути, проложенные для его транспортировки, соединяли далекие места и распространяли идеи и технологии по всему миру".
+ camel_caravans:0 "Караваны пустыни"
+ camel_caravans_desc:0 "Караваны по пустыне, пересекавшие обширные пустыни Ближнего Востока и соединяющие иначе недоступные общества, обеспечили огромное богатство и обмен идеями. Хотя верблюд еще не был завезен на Аравийский полуостров, он использовался на дальнем востоке Иранского нагорья и в пустынях Афганистана. "
+ law_laws:0 "Национальный закон"
+ tribal_law:0 "Племенной закон"
+ tribal_law_desc:0 "Конфликты внутри и между племенными группами, к которым принадлежат люди, решаются в индивидуальном порядке".
+ kings_justice:0 "Королевское правосудие"
+ kings_justice_desc:0 "Ссорящиеся стороны могут передать свои конфликты королю для окончательного решения".
+ law_code:0 "Кодекс законов"
+ law_code_desc:0 "Конфликты разрешаются в соответствии с государственным сводом законов".
+ ba_imperial_authority:0 "Императорская власть"
+ ba_imperial_authority_desc:0 "Государство предоставляет все полномочия по разрешению конфликтов в соответствии со своими интересами".
+ economic_law:0 "Экономическая политика"
+ tbd_law:0 "ТБД"
  tbd_law_desc:0 ""
- cultural_intolerance:0 "Cultural Intolerance"
- cultural_intolerance_desc:0 "Foreign elements in our lands are only a nuisance and must be stamped out."
- gracious_conqueror:0 "Gracious Conqueror"
- gracious_conqueror_desc:0 "What language or gods our subjects follow are of no concern. So long as they toil in the fields and pay their dues they can speak whatever language they want."
- great_overlord:0 "Great Overlord"
- great_overlord_desc:0 "We let our conquered foes manage their internal affairs as they wish, so long as they pay us a respectable tribute and aid us in war."
+ cultural_intolerance:0 "Культурная нетерпимость"
+ cultural_intolerance_desc:0 "Иностранные элементы на наших землях являются лишь помехой и должны быть искоренены".
+ gracious_conqueror:0 "Милостивый завоеватель"
+ gracious_conqueror_desc:0 "Какому языку или богам следуют наши подданные, не имеет значения. Пока они трудятся в полях и платят дань, они могут говорить на любом языке, который захотят".
+ great_overlord:0 "Великий Повелитель"
+ great_overlord_desc:0 "Мы позволяем нашим побежденным врагам управлять своими внутренними делами так, как они хотят, при условии, что они платят нам достойную дань и помогают нам в войне".

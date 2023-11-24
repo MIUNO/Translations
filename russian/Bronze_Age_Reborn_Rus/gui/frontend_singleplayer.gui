@@ -277,4 +277,5 @@ widget = {
 		fontsize = 16
 		align = right
 	}
+	patch_notes_widget = {}
 }
