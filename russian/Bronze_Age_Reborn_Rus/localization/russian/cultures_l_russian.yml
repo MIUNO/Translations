@@ -120,7 +120,7 @@
  crestones:0 "Крестоны"
  #Pelasgian/mycenae
  pelasgian:1 "Пеласгианы"
- kepahllenians:0 "кепалленцы"
+ kepahllenians:0 "Кепалленцы"
  teleboans:0 "Телебоаны"
  kuretes:0 "Куретес"
  aperanti:0 "Аперанти"
@@ -178,7 +178,7 @@
  gournian:0 "Гурнианы"
  mallian:0 "Маллианы"
  #Aegean
- aegean:1 "Эгейское море"
+ aegean:1 "Аегеан"
  leleges:0 "Лелегес"
  telchines:0 "Тельчинс"
  #middle east
@@ -226,7 +226,7 @@
 
  #Middle-East new
  kur:0 "Кур"
- gutian:0 "Горец"
+ gutian:0 "Гутиан"
  nippuri:0 "Ниппури"
  kishites:0 "Кишиты"
  babylonian:0 "Вавилонский"

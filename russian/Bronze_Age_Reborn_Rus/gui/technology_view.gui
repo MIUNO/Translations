@@ -1074,6 +1074,7 @@ base_window = {
 			onreturnpressed = "[TechnologyView.OnFindTextChanged]"
 		}
 	}
+	
 	flowcontainer = {  #Civilization advances begining
 		visible = "[GetVariableSystem.HasValue( 'civilization_tech', 'yes' )]"
 		direction = vertical

@@ -32,4 +32,12 @@
  Irrigation:0 "Орошение"
 
  patch_notes: "Что нового"
- patch_notes_text: "V1.0.0 - Рассвет\nИзменения:\n- Перевод\n"
+ patch_notes_text: "V0.1 - Рассвет\nИзменения:\n- Общий машинный перевод\n- Описание богов, которого не было в оригинальном переводе\n- Исправления интефейса и визуальные улучшения\n- Перевод flatmap и элементов интерфейса\n- Доперевод строчек из оригинальной игры"
+
+ TOO_MANY_MERC_STACKS:0 "@trigger_no! Мы можем только поддержать $VAL|Y$ наемников. Это значение увеличивается с ростом ранга страны и модификаторов."
+ max_merc_stacks:0 "Максимум наемных армий"
+ MODIFIER_MAX_MERC_STACKS:0 "Максимум наемных армий"
+ MODIFIER_MAX_MERC_STACKS_desc:0 "Количество наемных армий, которые может поддержать наша страна."
+ TUTORIAL_MISSION_MENU:0 "Миссии недоступны в обучении."
+ POP_SCREEN:2 "Население"
+ ColonizeBA:0 "#T Колонизация#!\n [ScriptedGui.BuildTooltip(GuiScope.SetRoot(ProvinceWindow.GetProvince.MakeScope).AddScope('player', Player.MakeScope).End)]"

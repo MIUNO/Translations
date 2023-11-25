@@ -310,7 +310,7 @@
  MODIFIER_GLOBAL_SUPPLY_LIMIT_MODIFIER:0 "Лимит снабжения"
  MODIFIER_WAR_EXHAUSTION:0 "Усталость от войны (в мес.)"
  MODIFIER_MAX_WAR_EXHAUSTION:0 "Макс. усталости от войны"
- MODIFIER_ARMY_MOVEMENT_SPEED:0 "Скорость движения армии"
+ MODIFIER_ARMY_MOVEMENT_SPEED:0 "Скорость передвижение армии"
  MODIFIER_MOVEMENT_SPEED_IF_NO_ROAD:0 "Движение армии без дорог"
  MODIFIER_NAVY_MOVEMENT_SPEED:0 "Скорость движения флота"
  SHIP_RECRUIT_SPEED:0 "Скорость постройки корабля"

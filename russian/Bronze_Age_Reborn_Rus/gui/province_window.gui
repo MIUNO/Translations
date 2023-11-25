@@ -4813,14 +4813,14 @@ window = {
 						enabled = "[ScriptedGui.IsValid(GuiScope.SetRoot(ProvinceWindow.GetProvince.MakeScope).AddScope('player', Player.MakeScope).End)]"
 						blockoverride "On_click" { onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(ProvinceWindow.GetProvince.MakeScope).AddScope('player', Player.MakeScope).End)]" }
 						blockoverride "Icon" { texture = "gfx/interface/icons/shared_icons/alert_colonize_province.dds" }
-						tooltip = "[ScriptedGui.BuildTooltip(GuiScope.SetRoot(ProvinceWindow.GetProvince.MakeScope).AddScope('player', Player.MakeScope).End)]"						
+						tooltip = "ColonizeBA"						
 					}
 					
                     icon_button_province = {
                         size = { 144 66 }
                         datacontext = "[GetScriptedGui('move_capital_button')]"
                         visible = "[And( ProvinceWindow.IsPlayerProvince, Not( ProvinceWindow.GetProvince.IsCapital ) )]"
-                        enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).End )]"
+                        enabled = "[ScriptedGui.IsValid( GuiScope.MakeScope.Var('ColonizeBA').SetRoot( ProvinceWindow.GetProvince.MakeScope ).End )]"
                         blockoverride "On_click" { onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( ProvinceWindow.GetProvince.MakeScope ).End )]" }
                         tooltip = "MOVE_CAPITAL_BUTTON_TOOLTIP"
                         layoutpolicy_horizontal = fixed
