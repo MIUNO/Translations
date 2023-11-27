@@ -85,6 +85,7 @@
 					visible = "[Not(GetVariableSystem.Exists('patch_notes'))]"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
+					margin_top = -5
 
 					scrollarea = {
 						scrollbarpolicy_horizontal = always_off
@@ -116,7 +117,7 @@
 								autoresize = yes
 								max_width = 400
 								min_width = 400
-								margin = { 30 5 }
+								margin = { 30 15 }
 								margin_bottom = 25
 								multiline = yes
 								fontsize = 17
