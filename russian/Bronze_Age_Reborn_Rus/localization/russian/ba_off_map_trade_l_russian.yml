@@ -126,180 +126,180 @@ lapis_trade.2.desc: "[ROOT.GetCountry.GetRuler.GetName], произошла ин
 lapis_trade.2.a: "Невероятно!" #other traders/owners due to effect in option
 lapis_trade.2.b: "Интересно... нам полезно это знать" #(potential) customers
 
-lapis_trade.3.t: "Lapis Lazuli Trade Profits" #Extra visit
-lapis_trade.3.desc: "We have heard reports that the lapis trade is booming near [SCOPE.sP('visited_trade_post')GetName], surpassing other markets when it comes to the sale of this luxury item. Everyone knows that if the best lapis is required, whether for jewelry or ceremonial items, that the stone found in [SCOPE.sP('visited_trade_post')GetName] surpasses all others."
-lapis_trade.3.a: "We are pleased to hear of this"
+lapis_trade.3.t: "Прибыль от торговли лазуритом" #Extra visit
+lapis_trade.3.desc: "Мы слышали сообщения о том, что торговля лазуритом процветает вблизи [SCOPE.sP('visited_trade_post')GetName], превосходя другие рынки, когда дело доходит до продажи этого предмета роскоши. Всем известно, что если требуется лучший лазурит, будь то для ювелирных изделий или церемониальных предметов, то камень, найденный в [SCOPE.sP('visited_trade_post')GetName], превосходит все остальные."
+lapis_trade.3.a: "Мы рады слышать об этом"
 
-lapis_trade.4.t: "Trade Post Raided" #one-time raid
-lapis_trade.4.desc: "A cry for help from [SCOPE.sP('raided_trade_post')GetName], o [ROOT.GetCountry.GetRuler.GetName]! It seems that bandits, tempted by tales of the wealth found in [SCOPE.sP('raided_trade_post')GetName]'s markets, have boldly attacked the markets, taking what they please and killing any that offer resistance. Our soldiers gave pursuit but were unable to catch the perpetrators..."
-lapis_trade.4.a: "Damnation!"
+lapis_trade.4.t: "Совершен налет на торговый пост" #one-time raid
+lapis_trade.4.desc: "Крик о помощи от [SCOPE.sP('raided_trade_post')GetName], о [ROOT.GetCountry.GetRuler.GetName]! Похоже, что бандиты, соблазненные рассказами о богатствах, найденных на рынках [SCOPE.sP('raided_trade_post')GetName], смело атаковали рынки, забирая все, что им заблагорассудится, и убивая всех, кто оказывает сопротивление. Наши солдаты бросились в погоню, но не смогли поймать преступников..."
+lapis_trade.4.a: "Проклятие!"
 
-lapis_trade.5.t: "The Lapis Lazuli Trade" #updates on how the trade is doing
-lapis_trade.5.desc_1: "We wish that we had good news to report regarding the lapis trade, [ROOT.GetCountry.GetRuler.GetName], but we cannot hide reality behind a facade of lies - it is suffering. Whether or not the merchants have chosen other marketplaces or the supplies of lapis have dried up remain a mystery, but we do know that our incomes are nowhere near what they once were." #decreased global lapis trade
-lapis_trade.5.desc_2: "Thankfully, the lapis trade is growing steadily, with the incredibly rare luxury good becoming available to those who can afford it in [ROOT.GetCountry.GetCapital.GetName]. The benefits of the sale in the capital have extended throughout the entirety of [ROOT.GetCountry.GetName], we are pleased to say." #increased global lapis trade
-lapis_trade.5.desc_3: "Regarding the lapis trade, things could be better, but they could certainly be worse - we aren't making any money, but we aren't necessarily losing any either." #stagnant; i.e. same
-lapis_trade.5.a: "Interesting..." #first 3 are owners, last 3 importers
-lapis_trade.5.b: "That is not good."
-lapis_trade.5.c: "Good to know."
-lapis_trade.5.d: "Interesting..."
-lapis_trade.5.e: "That is not good."
-lapis_trade.5.f: "Good to know."
+lapis_trade.5.t: "Торговля лазуритом" #updates on how the trade is doing
+lapis_trade.5.desc_1: "Мы хотели бы сообщить хорошие новости о торговле лазуритом, [ROOT.GetCountry.GetRuler.GetName], но мы не можем скрыть реальность за фасадом лжи - это страдание. Выбрали ли торговцы другие рынки или запасы лазурита иссякли, остается загадкой, но мы точно знаем, что наши доходы далеко не те, что были когда-то." #decreased global lapis trade
+lapis_trade.5.desc_2: "К счастью, торговля лазуритом неуклонно растет, и невероятно редкий предмет роскоши становится доступным для тех, кто может себе это позволить в  [ROOT.GetCountry.GetCapital.GetName]. Мы рады сообщить, что преимущества продажи в столице распространились на всю территорию  [ROOT.GetCountry.GetName]." #increased global lapis trade
+lapis_trade.5.desc_3: "Что касается торговли лазуритом, то все могло быть лучше, но, безусловно, могло быть и хуже - мы не зарабатываем никаких денег, но и не обязательно теряем их." #stagnant; i.e. same
+lapis_trade.5.a: "Интересно..." #first 3 are owners, last 3 importers
+lapis_trade.5.b: "Это не хорошо."
+lapis_trade.5.c: "Хорошо знать."
+lapis_trade.5.d: "Интересно..."
+lapis_trade.5.e: "Это не хорошо."
+lapis_trade.5.f: "Хорошо знать."
 
 #6 is hidden
 
-lapis_trade.7.t: "Trade Routes Raided" #Trade Routes blocked
-lapis_trade.7.desc: "The lawlessness in faraway countries continues to have repurcussions in our own land, with attacks on the trade routes drying up our sources for imported luxury goods like lapis. Some of our military advisors have proposed that we send troops to clear out the rabble, whereas others prefer to use money to persuade the raiders to allow our merchants through...what should we do? We can't just ignore this problem."
-lapis_trade.7.a: "Send my Armies!"
-lapis_trade.7.b: "Bribe them."
-lapis_trade.7.c: "We will not go alone"
-lapis_trade.7.d: "Meh...who cares? Certainly not [ROOT.GetCountry.GetRuler.GetFirstName]"
+lapis_trade.7.t: "Совершались набеги на торговые пути" #Trade Routes blocked
+lapis_trade.7.desc: "Беззаконие в далеких странах продолжает отражаться на нашей собственной земле, а нападения на торговые пути иссушают наши источники импорта предметов роскоши, таких как лазурит. Некоторые из наших военных советников предложили нам отправить войска, чтобы очистить город от сброда, в то время как другие предпочитают использовать деньги, чтобы убедить рейдеров пропустить наших торговцев...что нам следует делать? Мы не можем просто игнорировать эту проблему."
+lapis_trade.7.a: "Отправьте мои армии!"
+lapis_trade.7.b: "Подкупите их."
+lapis_trade.7.c: "Мы пойдем не одни"
+lapis_trade.7.d: "Так себе...кого это волнует? Конечно, нет [ROOT.GetCountry.GetRuler.GetFirstName]"
 
-lapis_trade.8.t: "Trade Routes Raided" #Help asked
-lapis_trade.8.desc: "We have received a request from our neighbors, asking us to contribute militarily to the effort to clear out the bandits that have been choking the trade routes. While it is true that this initiative will benefit all of us, the timing is ill-advised, unfortunately. Still, there will be expectations that we have to meet."
-lapis_trade.8.a: "Send my Armies!"
-lapis_trade.8.b: "Money can sway every man."
-lapis_trade.8.c: "Who cares?"
+lapis_trade.8.t: "Совершались набеги на торговые пути" #Help asked
+lapis_trade.8.desc: "Мы получили запрос от наших соседей, в котором нас просят внести военный вклад в усилия по очистке торговых путей от бандитов. Хотя это правда, что эта инициатива принесет пользу всем нам, к сожалению, время выбрано неподходящее. Тем не менее, будут ожидания, которым мы должны соответствовать."
+lapis_trade.8.a: "Отправьте мои армии!"
+lapis_trade.8.b: "Деньги могут повлиять на каждого человека."
+lapis_trade.8.c: "Какая разница?"
 
-lapis_trade.9.t: "Lapis Trade Blockaded: Answers"
-lapis_trade.9.desc: "A massive confederacy is gathering troops in an attempt to attack the raiders that have been disrupting the lapis trade. We, too, have made promises, and now the hour has come for us to keep them. "
-lapis_trade.9.a: "We too will send some men."
-lapis_trade.9.b: "We will support the endeavour with money."
-lapis_trade.9.c: "And?"
-lapis_trade.9.d: "We will not do it alone."
+lapis_trade.9.t: "Торговля лазуритом заблокирована: ответы"
+lapis_trade.9.desc: "Огромная конфедерация собирает войска в попытке атаковать рейдеров, которые нарушают торговлю лазуритом. Мы тоже давали обещания, и теперь для нас настал час их сдержать."
+lapis_trade.9.a: "Мы тоже пошлем несколько человек."
+lapis_trade.9.b: "Поддержим начинание деньгами."
+lapis_trade.9.c: "И?"
+lapis_trade.9.d: "Мы не будем делать это в одиночку."
 
-lapis_trade.10.t: "Lapis Lazuli Expedition Lead" 
-lapis_trade.10.desc: "Now that we have determined to send military forces to distant lands in order to stop the raiders, we must choose someone to lead our soldiers. Whomever we entrust will be responsible for whatever happens, so we must be absolutely sure in the abilities of the person that we are selecting - failure cannot be an option!"
-lapis_trade.10.a: "[SCOPE.sChar('expedition_lead_1')GetName] has some experience."
-lapis_trade.10.b: "[SCOPE.sChar('expedition_lead_2')GetName] shall be our representative."
-lapis_trade.10.c: "In [SCOPE.sChar('expedition_lead_3')GetName] we trust." 
+lapis_trade.10.t: "Руководитель экспедиции по лазуриту" 
+lapis_trade.10.desc: "Теперь, когда мы решили отправить вооруженные силы в дальние страны, чтобы остановить налетчиков, мы должны выбрать кого-то, кто возглавит наших солдат. Тот, кому мы доверим, будет нести ответственность за все, что произойдет, поэтому мы должны быть абсолютно уверены в способностях человека, которого мы выбираем - неудача не может быть вариантом!"
+lapis_trade.10.a: "[SCOPE.sChar('expedition_lead_1')GetName] имеет некоторый опыт."
+lapis_trade.10.b: "[SCOPE.sChar('expedition_lead_2')GetName] будет нашим представителем."
+lapis_trade.10.c: "[SCOPE.sChar('expedition_lead_3')GetName] мы доверяем." 
 
-lapis_trade.11.t: "Trade Routes Still Blockaded" #Trade Routes blocked - restart of event chain if failed in the past
-lapis_trade.11.desc: "Unbelievable news! We received messages from the soldiers that we sent out to fight against the bandits that are crippling trade - our men have failed! The men that survived the battle, which could be described more accurately as an 'ambush and complete rout', can be counted on one hand - what a blow to the prestige of [ROOT.GetCountry.GetName]! Our enemies are undoubtedly mocking us."
-lapis_trade.11.a: "Send more men this time!"
-lapis_trade.11.b: "Bribe them. More money, this time."
-lapis_trade.11.c: "We will not go alone."
-lapis_trade.11.d: "We already failed once."
+lapis_trade.11.t: "Торговые пути все еще заблокированы" #Trade Routes blocked - restart of event chain if failed in the past
+lapis_trade.11.desc: "Невероятные новости! Мы получили сообщения от солдат, которых мы отправили сражаться с бандитами, подрывающими торговлю, - наши люди потерпели неудачу! Людей, выживших в битве, которую точнее было бы описать как "засаду и полный разгром", можно пересчитать по пальцам одной руки - какой удар по престижу [ROOT.GetCountry.GetName]! Наши враги, несомненно, издеваются над нами."
+lapis_trade.11.a: "На этот раз пришлите больше людей!"
+lapis_trade.11.b: "Подкупите их. На этот раз больше денег."
+lapis_trade.11.c: "Мы пойдем не одни."
+lapis_trade.11.d: "Однажды мы уже потерпели неудачу."
 
-lapis_trade.12.t: "Meeting Some Like-Minded" #meetup
-lapis_trade.12.desc: "This morning, the reinforcements from our impromptu allies against the trade-destroying bandits arrived at [ROOT.GetCountry.GetCapital.GetName], and by all accounts they are ready for war! The men are training every day and are hungry for the battles ahead."
-lapis_trade.12.a: "This is very welcome."
+lapis_trade.12.t: "Встреча с единомышленниками" #meetup
+lapis_trade.12.desc: "Этим утром подкрепление от наших импровизированных союзников в борьбе с бандитами, разрушающими торговлю, прибыло в [ROOT.GetCountry.GetCapital.GetName], и, судя по всему, они готовы к войне! Бойцы тренируются каждый день и жаждут предстоящих сражений."
+lapis_trade.12.a: "Это очень приветствуется."
 
-lapis_trade.13.t: "Lapis Lazuli Expedition Guide" 
-lapis_trade.13.desc: "It has been decided that we should send our an expedition to search for new sources of lapis; if anything, the troubles with trade have proven to us that we cannot rely on anyone else to provide us with this material. Now that we have assembled a group, who should lead them? There are plenty of attractive options that we can choose from, with each candidate having strengths."
-lapis_trade.13.a: "[SCOPE.sChar('expedition_guide_1')GetName] has some experience."
-lapis_trade.13.b: "The Egyptian [SCOPE.sChar('expedition_guide_2')GetName] knows best."
-lapis_trade.13.c: "In the Elamite [SCOPE.sChar('expedition_guide_3')GetName] we trust." 
+lapis_trade.13.t: "Руководство экспедиции по лазуриту" 
+lapis_trade.13.desc: "Было решено, что мы должны отправить нашу экспедицию на поиски новых источников лазурита; во всяком случае, проблемы с торговлей доказали нам, что мы не можем полагаться ни на кого другого в предоставлении нам этого материала. Теперь, когда мы собрали группу, кто должен их возглавить? Есть множество привлекательных вариантов, из которых мы можем выбрать, причем у каждого кандидата есть сильные стороны."
+lapis_trade.13.a: "[SCOPE.sChar('expedition_guide_1')GetName] имеет некоторый опыт."
+lapis_trade.13.b: "Египтянен [SCOPE.sChar('expedition_guide_2')GetName] знает лучше всех."
+lapis_trade.13.c: "Эламит [SCOPE.sChar('expedition_guide_3')GetName] которому мы доверяем." 
 
-lapis_trade.14.t: "Spoiled Supplies"
-lapis_trade.14.desc: "It's one bad thing after another these days, [ROOT.GetCountry.GetRuler.GetName]. We receive word from our explorers searching for lapis - the strangeness of the unfamiliar climates in the countries they are in has caused spoilage in the food supplies, and now our men are left with hardly anything to eat.\n\nThere are polite requests for a supplementary allowance to buy more provisions."
-lapis_trade.14.a: "We will replace the food."
-lapis_trade.14.b: "Start rationing the food"
+lapis_trade.14.t: "Испорченные припасы"
+lapis_trade.14.desc: "В наши дни происходит одно несчастье за другим, [ROOT.GetCountry.GetRuler.GetName]. Мы получаем сообщение от наших исследователей, которые ищут лазурит - странность незнакомого климата в странах, в которых они находятся, привела к порче запасов продовольствия, и теперь нашим людям почти нечего есть.\n\nПоступают вежливые просьбы о выделении дополнительного пособия на покупку большего количества провизии."
+lapis_trade.14.a: "Мы заменим еду."
+lapis_trade.14.b: "Начните распределять еду по порциям"
 
-lapis_trade.15.t: "Treason!"
-lapis_trade.15.desc: "Something terrible has happened - we hesitate to tell you, but know that concealing such a thing will be worse.\n\nA goodly portion of the men sent to the fight the bandits have actually joined up with them. The numbers of our enemies swell, while ours shrink...it was a terrible idea to let our soldiers mingle with fights from strange lands. What should we do now?"
-lapis_trade.15.a: "It isn't worth continuing"
-lapis_trade.15.b: "We will secure the Lapis again! Press on!"
+lapis_trade.15.t: "Измена!"
+lapis_trade.15.desc: "Случилось что-то ужасное - мы не решаемся сказать вам, но знаем, что скрывать такое будет еще хуже.Значительная часть людей, отправленных на борьбу с бандитами, на самом деле присоединились к ним. Число наших врагов растет, в то время как наших shrink...it было ужасной идеей позволить нашим солдатам участвовать в боях в чужих землях. Что нам теперь делать?"
+lapis_trade.15.a: "Продолжать не стоит"
+lapis_trade.15.b: "Мы снова добудем лазурит! Продолжайте!"
 
-lapis_trade.16.t: "Treasure in the East"
-lapis_trade.16.desc: "Our men have discovered a treasure in the east! The story is a curious one; our men, having marched for ten hours in the heat of the day, eventually found a stream that led down into a small valley. It was there, on the banks of the waters, that a large settlement was found, and yet it was abandoned completely - no sign of man or animal, no ashes in the hearths.\n\nSearching every home, our men eventually discovered what you now see before you, [ROOT.GetCountry.GetRuler.GetName]."
-lapis_trade.16.a: "Sell it!"
-lapis_trade.16.b: "We will take the chest."
-lapis_trade.16.c: "We will take the statue."
-lapis_trade.16.d: "We will take the crown."
-lapis_trade.16.e: "Leave the dead alone."
+lapis_trade.16.t: "Сокровище на Востоке"
+lapis_trade.16.desc: "Наши люди обнаружили сокровище на востоке! История любопытная; наши люди, после десятичасового марша по дневной жаре, в конце концов нашли ручей, который спускался в небольшую долину. Именно там, на берегах вод, было найдено большое поселение, и все же оно было полностью заброшено - ни следов человека или животного, ни пепла в очагах.\n\nОбыскав каждый дом, наши люди в конце концов обнаружили то, что вы сейчас видите перед собой, [ROOT.GetCountry.GetRuler.GetName]."
+lapis_trade.16.a: "Продим это!"
+lapis_trade.16.b: "Мы возьмем сундук."
+lapis_trade.16.c: "Мы возьмем статую."
+lapis_trade.16.d: "Мы возьмем корону."
+lapis_trade.16.e: "Оставьте мертвых в покое."
 
-lapis_trade.17.t: "The Master Artisan"
-lapis_trade.17.desc: "We have heard tales of an artisan, a wizened old master of metalworking, traveling through the area, and word is that he is staying in [ROOT.GetCountry.GetCapital.GetName] for a few days. An opportunity like this must be taken advantage of! We could see what the craftsman has for sale, or if he has any advice that he would be willing to impart to our own artisans. Or maybe he would like to stay here with us? We will not know anything unless we ask."
-lapis_trade.17.a: "Buy the armour."
-lapis_trade.17.b: "Invite him to our court."
-lapis_trade.17.c: "Ask the master for advice." #the master isn't necessarily only a smith
-lapis_trade.17.d: "Take the armour by force." #cruel required
+lapis_trade.17.t: "Мастер-ремесленник"
+lapis_trade.17.desc: "Мы слышали рассказы об одном ремесленнике, высохшем старом мастере металлообработки, путешествующем по этому району, и ходят слухи, что он остановился в [ROOT.GetCountry.GetCapital.GetName] на несколько дней. Такой возможностью, как эта, нужно воспользоваться! Мы могли бы посмотреть, что у мастера есть на продажу, или есть ли у него какие-либо советы, которыми он был бы готов поделиться с нашими собственными мастерами. Или, может быть, он хотел бы остаться здесь, с нами? Мы ничего не узнаем, пока не спросим."
+lapis_trade.17.a: "Купите доспехи."
+lapis_trade.17.b: "Пригласите его в наш двор."
+lapis_trade.17.c: "Спросите совета у мастера." #the master isn't necessarily only a smith
+lapis_trade.17.d: "Возьмите броню силой." #cruel required
 
-lapis_trade.18.t: "The Highwaymen's Camp" #meetup
-lapis_trade.18.desc: "Our men are in place, just outside of the highwaymen's camp - it won't be long before our soldiers are putting an end to our lapis problems. All that remains to do is give the final orders."
-lapis_trade.18.b: "Attack now!"
-lapis_trade.18.a: "Before the dawn we will strike."
+lapis_trade.18.t: "Лагерь разбойников" #meetup
+lapis_trade.18.desc: "Наши люди на месте, недалеко от лагеря разбойников с большой дороги - пройдет совсем немного времени, и наши солдаты положат конец нашим проблемам с ляписом. Все, что осталось сделать, это отдать последние приказы."
+lapis_trade.18.b: "Атакуйте сейчас!"
+lapis_trade.18.a: "До рассвета мы нанесем удар."
 
-lapis_trade.19.t: "The Highwaymen"
-lapis_trade.19.desc_1: "Although the costs, both in money and men, were great, we are pleased to report a complete and total victory against the raiders and bandits that were obstructing the trade routes. Our soldiers showed no mercy and slew their leader as well - we won't have to worry about these highwaymen ever again."
-lapis_trade.19.desc_2: "Even though they are undoubtedly a violent bunch, the highwaymen destroying our lapis trade cannot be accused of being stupid. Once we approached them with enough money to make it worth their while to find new pastimes, they were happy to oblige - it appears that they did not want to face the men of [ROOT.GetCountry.GetName] in battle."
-lapis_trade.19.desc_3: "We have lost everything! All the men and money, supplies - everything - has been destroyed or taken. The bandits had far greater numbers than reported - some survivors claim there were at least ten thousand, which sounds impossible. Our brave warriors were practically slaughtered to a man, though - a complete humiliation."
-lapis_trade.19.a: "All thanks to [SCOPE.sChar('expedition_lead')GetName]."
-lapis_trade.19.b: "Every man has a price"
-lapis_trade.19.c: "The gods are angry with us! What have we done to deserve this?!" 
+lapis_trade.19.t: "Разбойники"
+lapis_trade.19.desc_1: "Хотя затраты, как денежные, так и людские, были велики, мы рады сообщить о полной победе над рейдерами и бандитами, которые блокировали торговые пути. Наши солдаты не проявили милосердия и убили своего предводителя - нам больше никогда не придется беспокоиться об этих разбойниках с большой дороги."
+lapis_trade.19.desc_2: "Несмотря на то, что они, несомненно, жестокая банда, разбойников с большой дороги, уничтожающих нашу торговлю ляписом, нельзя обвинить в глупости. Как только мы предложили им достаточно денег, чтобы они могли потратить их на поиск новых развлечений, они были рады услужить - похоже, они не хотели сталкиваться с людьми из [ROOT.GetCountry.GetName] в бою."
+lapis_trade.19.desc_3: "Мы потеряли все! Все люди, деньги, припасы - все было уничтожено или захвачено. Бандитов было гораздо больше, чем сообщалось - некоторые выжившие утверждают, что их было по меньшей мере десять тысяч, что звучит невероятно. Однако наши храбрые воины были практически убиты все до единого - полное унижение."
+lapis_trade.19.a: "Все благодаря [SCOPE.sChar('expedition_lead')GetName]."
+lapis_trade.19.b: "У каждого человека есть цена"
+lapis_trade.19.c: "Боги злятся на нас! Чем мы заслужили это?!" 
 
-lapis_trade.20.t: "Lapis Lazuli Trade Routes Liberated"
-lapis_trade.20.desc: "There is much celebrating in the markets of [ROOT.GetCountry.GetCapital.GetName] this day, for the first imports of the fine trade goods we have been missing finally arrived in our shops and stalls. We will hopefully not to have to worry about the lapis trade for a long time."
-lapis_trade.20.a: "It was about time..."
+lapis_trade.20.t: "Торговые пути лазурита освобождены"
+lapis_trade.20.desc: "На рынках [ROOT.GetCountry.GetCapital.GetName] в этот день в наши магазины и киоски наконец поступили первые импортные товары, которых нам так не хватало. Надеюсь, нам еще долго не придется беспокоиться о торговле ляписом."
+lapis_trade.20.a: "Самое время было..."
 
-lapis_trade.21.t: "Lapis Lazuli Rescue Expedition Failure"
-lapis_trade.21.desc: "There is good news and bad news today.\n\nThe bad news? The lapis expedition is a bust; a total and complete waste of our time and resources. The good news is that we won't have to hear about this matter again."
-lapis_trade.21.a: "Damnation!"
+lapis_trade.21.t: "Провал экспедиции по спасению лазурита"
+lapis_trade.21.desc: "Сегодня есть хорошие новости и плохие новости.\n\nПлохие новости? Экспедиция на лазурит провалилась; полная трата нашего времени и ресурсов. Хорошая новость в том, что нам больше не придется слышать об этом деле."
+lapis_trade.21.a: "Проклятие!"
 
-lapis_trade.22.t: "Accident!"
-lapis_trade.22.desc: "Our lapis expedition has reported that they have suffered losses - they were traveling through a rocky defile when they were attacked by bandits dropping stones from a great height. Truly a tragedy, but our immediate problem is the survivors - they will need help if they are to go on."
-lapis_trade.22.a: "We will find replacements." #pay manpower
-lapis_trade.22.b: "Send them home." #do nothing 
+lapis_trade.22.t: "Несчастный случай!"
+lapis_trade.22.desc: "Наша экспедиция "ляпис" сообщила, что они понесли потери - они путешествовали по скалистому ущелью, когда на них напали бандиты, сбрасывающие камни с большой высоты. Действительно трагедия, но наша насущная проблема - выжившие - им понадобится помощь, если они хотят продолжать."
+lapis_trade.22.a: "Мы найдем замену." #pay manpower
+lapis_trade.22.b: "Отправьте их домой." #do nothing 
 
-lapis_trade.23.t: "[SCOPE.sChar('expedition_guide')GetName] joins the Court"
-lapis_trade.23.desc: "A curious development back home - it seems that [SCOPE.sChar('expedition_guide')GetName], having had a taste of life in [ROOT.GetCountry.GetCapital.GetName], has decided to make our capital [SCOPE.sChar('expedition_guide')GetHerHis] permanent home. It will be nice to have such an esteemed guest at court."
-lapis_trade.23.a: "What a welcome surprise."
+lapis_trade.23.t: "[SCOPE.sChar('expedition_guide')GetName] присоединяется к суду"
+lapis_trade.23.desc: "Любопытное развитие событий на родине - похоже, что [SCOPE.sChar('expedition_guide')GetName], почувствовав вкус жизни в [ROOT.GetCountry.GetCapital.GetName], решил сделать нашу столицу [SCOPE.sChar('expedition_guide')GetHerHis] своим постоянным домом. Будет приятно видеть такого уважаемого гостя при дворе."
+lapis_trade.23.a: "Какой приятный сюрприз."
 
 #24 is hidden
 
-lapis_trade.25.t: "The Expedition Lead"
-lapis_trade.25.desc: "We are pleased to announce that we have selected a leader for our lapis expedition; [SCOPE.sChar('expedition_lead')GetName]. May the gods accompany [SCOPE.sChar('expedition_lead')GetFirstName] and lead our forces to victory!" # [SCOPE.sChar('expedition_lead')GetName] can be used here 
-lapis_trade.25.a: "A worthy choice."
+lapis_trade.25.t: "Руководитель экспедиции"
+lapis_trade.25.desc: "Мы рады сообщить, что выбрали лидера для нашей экспедиции на лазурит; [SCOPE.sChar('expedition_lead')GetName]. Да сопутствуют боги [SCOPE.sChar('expedition_lead')GetFirstName] и приведи наши войска к победе!" # [SCOPE.sChar('expedition_lead')GetName] can be used here 
+lapis_trade.25.a: "Достойный выбор."
 
-lapis_trade.26.t: "A Lone Hermit"
-lapis_trade.26.desc: "One day, a strange hermit named [SCOPE.sChar('lapis_hermit')GetName] arrived at [ROOT.GetCountry.GetCapital.GetName], asking for an audience with [ROOT.GetCountry.GetRuler.GetName]. Claiming that the gods had given [SCOPE.sChar('lapis_hermit')GetHerHim] a message, [SCOPE.sChar('lapis_hermit')GetFirstName] claims that he will instruct [ROOT.GetCountry.GetRuler.GetFirstName] in the mysteries, even at the cost of [SCOPE.sChar('lapis_hermit')GetHerHis] own life."
-lapis_trade.26.a: "He shall teach me how to bear arms."
-lapis_trade.26.b: "He shall teach me how to build."
-lapis_trade.26.c: "I shall learn to believe."
-lapis_trade.26.d: "I shall learn to question."
-lapis_trade.26.e: "Stay here and teach us all!" #has the potential for a spin-off lol
+lapis_trade.26.t: "Одинокий отшельник"
+lapis_trade.26.desc: "Однажды странный отшельник по имени [SCOPE.sChar('lapis_hermit')GetName] прибыл в [ROOT.GetCountry.GetCapital.GetName], попросив аудиенции у [ROOT.GetCountry.GetRuler.GetName]. Утверждая, что боги передали [SCOPE.sChar('lapis_hermit')GetHerHim] сообщение, [SCOPE.sChar('lapis_hermit')GetFirstName] утверждает, что он посвятит [ROOT.GetCountry.GetRuler.GetFirstName] в тайны, даже ценой [SCOPE.sChar('lapis_hermit')GetHerHis] живет своей собственной жизнью."
+lapis_trade.26.a: "Он научит меня, как носить оружие."
+lapis_trade.26.b: "Он научит меня строить."
+lapis_trade.26.c: "Я научусь верить."
+lapis_trade.26.d: "Я научусь задавать вопросы."
+lapis_trade.26.e: "Оставайся здесь и научи нас всех!" #has the potential for a spin-off lol
 
 #27 is hidden
 
 #28 is hidden
 
-lapis_trade.29.t: "Trade Ship Wrecked"
-lapis_trade.29.desc: "[ROOT.GetCountry.GetRuler.GetName], we have sent out trade ships weeks ago that should have returned to port by now. Every morning, our scouts scan the horizon in vain, hoping beyond hope that they will have something good to report, but by now, we have lost hope. It appears that the entire fleet was lost at sea..."
-lapis_trade.29.a: "By the Gods!"
+lapis_trade.29.t: "Торговый корабль потерпел крушение"
+lapis_trade.29.desc: "[ROOT.GetCountry.GetRuler.GetName], несколько недель назад мы отправили торговые суда, которые уже должны были вернуться в порт. Каждое утро наши разведчики тщетно осматривают горизонт, безнадежно надеясь, что у них будет что-то хорошее, чтобы сообщить, но к настоящему времени мы потеряли надежду. Похоже, что весь флот пропал в море..."
+lapis_trade.29.a: "Клянусь богами!"
 
-lapis_trade.30.t:0 "Lapis Lazuli Trade Opportunities: Rumours"
-lapis_trade.30.desc: "Merchants that have arrived in [ROOT.GetCountry.GetCapital.GetName] are trading in rumours, so it would seem - they bring word of a distant land that has abundant lapis lazuli...so much, in fact, that the inhabitants of this distant place practically give it away, not knowing the true value of what they possess.\n\nWhile the stories sound apocryphal at best, [ROOT.GetCountry.GetRuler.GetName] has wondered if we should send an expedition to establish diplomatic contact with these mysterious people. Even if we don't secure the trade routes for ourselves, we should try to prevent our neighbors from obtaining it for themselves, at the very least."
-lapis_trade.30.a: "Find the source!"
-lapis_trade.30.b: "This doesn't matter right now."
+lapis_trade.30.t:0 "Торговые возможности лазурита: слухи"
+lapis_trade.30.desc: "Торговцы, прибывшие в [ROOT.GetCountry.GetCapital.GetName] торгуют слухами, так что, похоже, они приносят весть о далекой стране, в которой много лазурита...so на самом деле, так много, что жители этого отдаленного места практически раздают его, не зная истинной ценности того, чем они обладают.\n\nХотя эти истории в лучшем случае кажутся апокрифическими, [ROOT.GetCountry.GetRuler.GetName] задался вопросом, не следует ли нам отправить экспедицию для установления дипломатического контакта с этими таинственными людьми. Даже если мы не обеспечим безопасность торговых путей для себя, мы должны попытаться, по крайней мере, помешать нашим соседям заполучить их для себя."
+lapis_trade.30.a: "Найдите источник!"
+lapis_trade.30.b: "Это не имеет значения сейчас."
 
-lapis_trade.31.t: "Rumours No More" # rumours confirmed
-lapis_trade.31.desc: "[ROOT.GetCountry.GetRuler.GetName], the embassy you sent out to search for the fabled lapis markets have returned with good news! Everything that we have heard is true - this rarest of trade goods is found in abundance, and the citizens of the distant country, with a name that is difficult to pronounce in our tongue, wish to establish trading connections with us!\n\nNow that we have determined the source of the lapis, we should continue to grow our relations. "
-lapis_trade.31.a: "Send a representative to set up investments." #to invest
-lapis_trade.31.b: "I don't remember authorizing any of this..."
+lapis_trade.31.t: "Слухов больше нет" # rumours confirmed
+lapis_trade.31.desc: "[ROOT.GetCountry.GetRuler.GetName], посольство, которое вы отправили на поиски легендарных рынков ляписа, вернулось с хорошими новостями! Все, что мы слышали, правда - этот редчайший из торговых товаров встречается в изобилии, и граждане далекой страны с труднопроизносимым на нашем языке названием желают установить с нами торговые связи!\n\nТеперь, когда мы определили источник лазурита, мы должны продолжать развивать наши отношения."
+lapis_trade.31.a: "Пришлите представителя для организации инвестиций." #to invest
+lapis_trade.31.b: "Я не помню, чтобы я что-то разрешал..."
 
-lapis_trade.32.t: "A Tip From A Trader" # buy infos from a merchant ; pls rename lol
-lapis_trade.32.desc: "We have received a message from an unknown merchant, one who wants to remain anonymous for whatever reason. Having heard that we are working to secure a steady lapis trade, this helpful person met our diplomats on the road and has offered to share with us the location of a lapis mine. Not only could we purchase some of the raw materials, but perhaps we could start mining it ourselves.\n\nThat is, of course, if you believe the source; this anonymous person has asked for a small donative before the location is revealed - as always, we defer to [ROOT.GetCountry.GetRuler.GetName]."
-lapis_trade.32.a: "To the lapis mines we go!" 
-lapis_trade.32.b: "I don't trust this charlatan...denied"
+lapis_trade.32.t: "Совет от торговца" # buy infos from a merchant ; pls rename lol
+lapis_trade.32.desc: "Мы получили сообщение от неизвестного торговца, который по какой-то причине пожелал остаться анонимным. Услышав, что мы работаем над обеспечением стабильной торговли ляписом, этот услужливый человек встретил наших дипломатов по дороге и предложил поделиться с нами местоположением месторождения ляписа. Мы могли бы не только закупить часть сырья, но, возможно, и начать добывать его сами.\n\nЭто, конечно, если вы верите источнику; этот анонимный человек попросил небольшое пожертвование до того, как будет раскрыто местоположение - как всегда, мы полагаемся на [ROOT.GetCountry.GetRuler.GetName]."
+lapis_trade.32.a: "Мы идем к лазуритовым шахтам!" 
+lapis_trade.32.b: "Я не доверяю этому шарлатану...отказано"
 
-lapis_trade.33.t: "The Lapis Lazuli Mines" # arriving & investing
-lapis_trade.33.desc: "Our men have finally reached the rumoured source of the lapis lazuli mines, which is apparently an impressive site. Not only do shifts of workers continuously excavate the precious stone, but there are even farms and shops located close by; all of the food the workers need is grown locally, so that every effort can be given to extracting the precious resource.\n\nNow that our diplomats have arrived, we can get down to business. There are plenty of opportunities for us moving forward, but it will require gold - nothing in this world is free, I am afraid. Every sign points to this investment being worth it, but the upfront costs will bite."
-lapis_trade.33.a: "We must secure a share for ourselves." 
-lapis_trade.33.b: "For how much!? Forget it."
+lapis_trade.33.t: "Лазуритовые шахты" # arriving & investing
+lapis_trade.33.desc: "Наши люди наконец добрались до, по слухам, источника лазуритовых рудников, который, по-видимому, является впечатляющим местом. Смены рабочих не только непрерывно добывают драгоценный камень, но поблизости даже есть фермы и магазины; все продукты питания, необходимые рабочим, выращиваются на месте, так что можно приложить все усилия для добычи драгоценного ресурса.\n\nТеперь, когда прибыли наши дипломаты, мы можем приступить к делу. У нас есть масса возможностей для продвижения вперед, но для этого потребуется золото - боюсь, ничто в этом мире не дается бесплатно. Все указывает на то, что эти инвестиции того стоят, но первоначальные затраты будут кусаться."
+lapis_trade.33.a: "Мы должны обеспечить себе долю." 
+lapis_trade.33.b: "За сколько!? Забудь это."
 
-lapis_trade.34.t: "Secured Lapis Lazuli Trade" # back home; actual value increase
-lapis_trade.34.desc: "As [ROOT.GetCountry.GetRuler.GetName] strolls through [ROOT.GetCountry.GetCapital.GetName], as [ROOT.GetCountry.GetRuler.GetSheHe] enjoys doing after a long day's work, [ROOT.GetCountry.GetRuler.GetFirstName] can't help but notice the amount of lapis lazuli available in our markets. It seems that everyone, rich and poor, possesses something hewn from this magnificent material; our temples, shops and homes are all encrusted with deep blue ornamental accents.\n\nTruly, [ROOT.GetCountry.GetName] is blessed by the gods - what other reasons could there be for all of this wealth that our people now enjoy?"
-lapis_trade.34.a: "A fine investment indeed."
+lapis_trade.34.t: "Обеспеченная торговля лазуритом" # back home; actual value increase
+lapis_trade.34.desc: "Как [ROOT.GetCountry.GetRuler.GetName] проходит через [ROOT.GetCountry.GetCapital.GetName], как [ROOT.GetCountry.GetRuler.GetSheHe] любит заниматься после долгого рабочего дня, [ROOT.GetCountry.GetRuler.GetFirstName] не могу не заметить количество лазурита, доступного на наших рынках. Кажется, что у каждого, богатого и бедного, есть что-то, вырезанное из этого великолепного материала; все наши храмы, магазины и дома украшены темно-синими декоративными вставками.\n\nВоистину, [ROOT.GetCountry.GetName] благословлен богами - какие еще могут быть причины для всего этого богатства, которым сейчас наслаждается наш народ?"
+lapis_trade.34.a: "Действительно прекрасная инвестиция."
 
 ### Myrrh Events
 
-lapis_trade.35.t: "Missing Myrrh Caravan"
-lapis_trade.35.desc: "One of the saddest things is when a caravan goes missing, like what has happened to the merchants that were carrying myrrh from distant lands to [ROOT.GetCountry.GetCapital.GetName]. While it is always sad to lose valuable trade goods, the loss of lives is harder to bear. We have heard stories of a trader that has lost everything - all of his wealth and his only son, who was a guard for the caravan - sitting by the crossroads, hoping beyond hope that the trade wagons will appear over the horizon...but we know that they never will." # myrrh_trade_post is a scope (province)
-lapis_trade.35.a: "Damnation!"
+lapis_trade.35.t: "Пропавший караван с миррой"
+lapis_trade.35.desc: "Одна из самых печальных вещей - это когда пропадает караван, как это случилось с купцами, которые везли мирру из дальних стран в  [ROOT.GetCountry.GetCapital.GetName]. Хотя всегда печально терять ценные товары для торговли, гораздо труднее переносить гибель людей. Мы слышали истории о торговце, который потерял все - все свое богатство и своего единственного сына, который был охранником каравана, - сидя на перекрестке дорог, безнадежно надеясь, что торговые фургоны появятся на горизонте...но мы знаем, что этого никогда не произойдет." # myrrh_trade_post is a scope (province)
+lapis_trade.35.a: "Проклятие!"
 
-lapis_trade.36.t: "Myrrh Trade Booming"
-lapis_trade.36.desc: "The heavy, cloying scent of myrrh that pervades our marketplaces is a sign that business is booming. While some find the powerful aroma of this valuable incense to be overwhelming, [ROOT.GetCountry.GetRuler.GetName] has joked that the headaches are worth it." # myrrh_trade_post is a scope (province)
-lapis_trade.36.a: "I find the smell to be enjoyable, actually"
+lapis_trade.36.t: "Торговля миррой процветает"
+lapis_trade.36.desc: "Тяжелый, приторный аромат мирры, который наполняет наши рынки, является признаком того, что бизнес процветает. В то время как некоторые находят мощный аромат этого ценного благовония ошеломляющим,  [ROOT.GetCountry.GetRuler.GetName] пошутил, что головные боли того стоят." # myrrh_trade_post is a scope (province)
+lapis_trade.36.a: "На самом деле я нахожу этот запах приятным"
 
 lapis_trade.37.t: "Myrrh Production Increase"
 lapis_trade.37.desc: "[ROOT.GetCountry.GetRuler.GetName] was feasting one night in [ROOT.GetCountry.GetCapital.GetName] when a servant approached [ROOT.GetCountry.GetRuler.GetHerHim] with a message from an advisor. Our myrrh production is increasing, which ultimately means that our tax receipts are growing at a healthy clip - all the more reason to celebrate this fine evening." # myrrh_trade_post is a scope (province)
