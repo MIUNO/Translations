@@ -211,7 +211,7 @@ trade_goods_flavour.4.b: "Продайте кости! Мы что-нибудь 
 trade_goods_flavour.4.c: "Даже говорить об этом — пустая трата времени."
 
 trade_goods_flavour.5.t: "Результаты раскопок больших костей"
-trade_goods_flavour.5.desc: "После нескольких недель изнурительной работы под палящим солнцем  [ROOT.GetCountry.GetAdjective] наши рабочие объявили, что они обнаружили целый скелет великолепного зверя - возможно, кости мертвого бога? Наши самые мудрые умы озадачены этим открытием и застенчиво признают, что понятия не имеют, на что именно мы смотрим.\n\nНе так захватывающе, как открытие драгоценных металлов, но все же это интересный момент." #still no idea. maybe they are bones of dead gods?
+trade_goods_flavour.5.desc: "После нескольких недель изнурительной работы под палящим солнцем [ROOT.GetCountry.GetAdjective] наши рабочие объявили, что они обнаружили целый скелет великолепного зверя - возможно, кости мертвого бога? Наши самые мудрые умы озадачены этим открытием и застенчиво признают, что понятия не имеют, на что именно мы смотрим.\n\nНе так захватывающе, как открытие драгоценных металлов, но все же это интересный момент." #still no idea. maybe they are bones of dead gods?
 trade_goods_flavour.5.a: "Интересно..."
 trade_goods_flavour.5.b: "Какая пустая трата времени и денег..."
 
@@ -256,7 +256,7 @@ trade_goods_flavour.12.desc: "Повышенное потребление #E с�
 trade_goods_flavour.12.a: "Какое полезное растение."
 
 trade_goods_flavour.13.t: "Фермерство сильфия" 
-trade_goods_flavour.13.desc: "В [silphium_farm.GetName] некоторые фермеры начали систематически использовать  #E сильфиум#!. До сих пор они были очень успешны, и это удивительное растение успешно растет в большинстве районов; только в районах, расположенных слишком близко к океану или пустыне, оно отказывается расти. \nЭтот успех порождает вопрос: следует ли нам расширять деятельность или попытаться создать больше ферм, основанных на этой?" #Silphium farming grows on a farm. silphium_farm is a province scope
+trade_goods_flavour.13.desc: "В [silphium_farm.GetName] некоторые фермеры начали систематически использовать #E сильфиум#!. До сих пор они были очень успешны, и это удивительное растение успешно растет в большинстве районов; только в районах, расположенных слишком близко к океану или пустыне, оно отказывается расти. \nЭтот успех порождает вопрос: следует ли нам расширять деятельность или попытаться создать больше ферм, основанных на этой?" #Silphium farming grows on a farm. silphium_farm is a province scope
 trade_goods_flavour.13.a: "Расширьте ферму."
 trade_goods_flavour.13.b: "Мы должны распространить растение."
 trade_goods_flavour.13.c: "Нам не следует чрезмерно эксплуатировать эту территорию."
@@ -308,7 +308,7 @@ trade_goods_flavour.23.c: "Мы поддержим это."
 trade_goods_flavour.23.d: "Оно утихнет со временем." 
 
 trade_goods_flavour.24.t: "Пивоварня?" # To Beer or not to Beer
-trade_goods_flavour.24.desc: "Поскольку пиво становится все более распространенным, спрос на него значительно возрос, многие, кто попробовал божественный напиток, больше не могут от него отказаться; некоторых даже можно назвать наркоманами, хотя они составляют меньшинство. Богатый владелец таверны из  [beer_city_scope.GetName] обратился к нам в надежде, что мы совместно профинансируем его попытку открыть пивоварню, желая увеличить его доход. Хотя это и не совсем дешево, но поддержание счастья нашего населения может оказаться полезным." #in beer_city_scope, someone asks for state funding of a beer brewery
+trade_goods_flavour.24.desc: "Поскольку пиво становится все более распространенным, спрос на него значительно возрос, многие, кто попробовал божественный напиток, больше не могут от него отказаться; некоторых даже можно назвать наркоманами, хотя они составляют меньшинство. Богатый владелец таверны из [beer_city_scope.GetName] обратился к нам в надежде, что мы совместно профинансируем его попытку открыть пивоварню, желая увеличить его доход. Хотя это и не совсем дешево, но поддержание счастья нашего населения может оказаться полезным." #in beer_city_scope, someone asks for state funding of a beer brewery
 trade_goods_flavour.24.a: "Во имя Нинкаси мы сделаем это." # Sumer
 trade_goods_flavour.24.b: "Во имя богов." # Egypt
 trade_goods_flavour.24.c: "Пивоварня будет полезна." 
@@ -395,232 +395,232 @@ trade_goods_flavour.40.b: "Первосвященник наверняка бу�
 trade_goods_flavour.40.c: "Меньшее не повредит..." 
 trade_goods_flavour.40.d: "К сожалению, в данный момент мы не можем себе этого позволить." 
 
-trade_goods_flavour.41.t: "Elephant Hunt" 
-trade_goods_flavour.41.desc: "An elephant bull has been seen within a few days of [ROOT.GetCountry.GetCapital.GetName], suitable for a grand elephant hunt. It would surely be a mighty display of royal grandeur and strength, bringing down such a magnificent giant. \nOnly the strongest and savviest hunters are able to survive such a hunt after one of the most dangerous of animals - is [ROOT.GetCountry.GetRuler.GetName] one of them?" #do you want to go hunting?; can be dangerous
-trade_goods_flavour.41.a: "After the animal!" 
-trade_goods_flavour.41.b: "It is too dangerous." 
+trade_goods_flavour.41.t: "Охота на слонов" 
+trade_goods_flavour.41.desc: "В течение нескольких дней от [ROOT.GetCountry.GetCapital.GetName], был замечен слоновий бык, подходящий для грандиозной охоты на слонов. Это, несомненно, было бы грандиозной демонстрацией королевского величия и силы, свалить такого великолепного гиганта. \nТолько самые сильные и сообразительные охотники способны выжить в такой охоте на одно из самых опасных животных - это [ROOT.GetCountry.GetRuler.GetName] одно из них?" #do you want to go hunting?; can be dangerous
+trade_goods_flavour.41.a: "За животным!" 
+trade_goods_flavour.41.b: "Это слишком опасно." 
 
-trade_goods_flavour.42.t: "Elephant Hunt" #result
-trade_goods_flavour.42.desc_1: "Disaster! [ROOT.GetCountry.GetRuler.GetName] has valiantly fought the animal, yet as soon as the animal had been tracked down, it was clear that it outclassed all our hunters had to give and barely anyone escaped with their life. Our [ROOT.GetCountry.GetRulerTitle] will be buried with all honors." #dead
-trade_goods_flavour.42.desc_2: "Tracking the hunted animal was easy, yet once it was found, it was not as easy prey as many thought and inflicted many wounds on the hunters. Thankfully, no one died and [ROOT.GetCountry.GetRuler.GetName] can claim victory over the beast, yet were the wounds worth the hunt?" #wounded
-trade_goods_flavour.42.desc_3: "Victory my [ROOT.GetCountry.GetRulerTitle]! From tracking the animal down to ending it's life, the gods were on our side all the time. The hunt had no accidents and only a few participants were wounded lightly. It was a great and exhilarating day!" #successful
-trade_goods_flavour.42.a: "Maybe we shouldn't have done this..." #died or wounded
-trade_goods_flavour.42.b: "It was the right decision." #successful
+trade_goods_flavour.42.t: "Охота на слонов" #result
+trade_goods_flavour.42.desc_1: "Катастрофа! [ROOT.GetCountry.GetRuler.GetName] облестно сражался с животным, но как только животное было выслежено, стало ясно, что оно превзошло всех наших охотников, и едва ли кому-то удалось спастись. Наш [ROOT.GetCountry.GetRulerTitle] будет похоронен со всеми почестями." #dead
+trade_goods_flavour.42.desc_2: "Отследить преследуемое животное было легко, но как только оно было найдено, оно оказалось не такой легкой добычей, как многие думали, и нанесло охотникам много ран. К счастью, никто не погиб и [ROOT.GetCountry.GetRuler.GetName] может претендовать на победу над зверем, но стоили ли раны охоты?" #wounded
+trade_goods_flavour.42.desc_3: "Победа моя [ROOT.GetCountry.GetRulerTitle]! От выслеживания животного до прекращения его жизни боги все время были на нашей стороне. На охоте не было несчастных случаев, и лишь несколько участников были легко ранены. Это был замечательный и волнующий день!" #successful
+trade_goods_flavour.42.a: "Возможно, нам не стоило этого делать..." #died or wounded
+trade_goods_flavour.42.b: "Это было правильное решение." #successful
 
-trade_goods_flavour.43.t: "Stag Hunt" 
-trade_goods_flavour.43.desc: "A stag has been seen within a few days of [ROOT.GetCountry.GetCapital.GetName], suitable for a grand hunt. It would surely be a mighty display of royal grandeur and strength, bringing down such a magnificent animal. \nOnly the strongest and savviest hunters are able to hunt such an animal without earning a wound - is [ROOT.GetCountry.GetRuler.GetName] one of them?" #do you want to go hunting?; can be dangerous
-trade_goods_flavour.43.a: "After the animal!" 
-trade_goods_flavour.43.b: "It is too dangerous." 
+trade_goods_flavour.43.t: "Охота на оленя" 
+trade_goods_flavour.43.desc: "В пределах нескольких дней от [ROOT.GetCountry.GetCapital.GetName], был замечен олень, подходящий для грандиозной охоты. Это, несомненно, было бы грандиозной демонстрацией королевского величия и силы, убить такое великолепное животное. \nТолько самые сильные и сообразительные охотники способны охотиться на такого зверя, не получив ран - это [ROOT.GetCountry.GetRuler.GetName] один из них? #do you want to go hunting?; can be dangerous
+trade_goods_flavour.43.a: "За животным!" 
+trade_goods_flavour.43.b: "Это слишком опасно." 
 
-trade_goods_flavour.44.t: "Stag Hunt" #result
-trade_goods_flavour.44.desc_1: "Disaster! [ROOT.GetCountry.GetRuler.GetName] has valiantly fought the animal, yet as soon as the animal had been tracked down, it was clear that it outclassed all our hunters had to give and barely anyone escaped with their life. Our [ROOT.GetCountry.GetRulerTitle] will be buried with all honors." #dead
-trade_goods_flavour.44.desc_2: "Tracking the hunted animal was easy, yet once it was found, it was not as easy prey as many thought and inflicted many wounds on the hunters. Thankfully, no one died and [ROOT.GetCountry.GetRuler.GetName] can claim victory over the beast, yet were the wounds worth the hunt?" #wounded
-trade_goods_flavour.44.desc_3: "Victory my [ROOT.GetCountry.GetRulerTitle]! From tracking the animal down to ending it's life, the gods were on our side all the time. The hunt had no accidents and only a few participants were wounded lightly. It was a great and exhilarating day!" #successful
-trade_goods_flavour.44.a: "Maybe we shouldn't have done this..." #died or wounded
-trade_goods_flavour.44.b: "It was the right decision." #successful
+trade_goods_flavour.44.t: "Охота на оленя" #result
+trade_goods_flavour.44.desc_1: "Катастрофа! [ROOT.GetCountry.GetRuler.GetName] доблестно сражался с животным, но как только животное было выслежено, стало ясно, что оно превзошло всех наших охотников, и едва ли кому-то удалось спастись. Наш [ROOT.GetCountry.GetRulerTitle] будет похоронен со всеми почестями." #dead
+trade_goods_flavour.44.desc_2: "Отследить преследуемое животное было легко, но как только оно было найдено, оно оказалось не такой легкой добычей, как многие думали, и нанесло охотникам много ран. К счастью, никто не погиб и [ROOT.GetCountry.GetRuler.GetName] может претендовать на победу над зверем, но стоили ли раны охоты?" #wounded
+trade_goods_flavour.44.desc_3: "Победа моя [ROOT.GetCountry.GetRulerTitle]! От выслеживания животного до прекращения его жизни боги все время были на нашей стороне. На охоте не было несчастных случаев, и лишь несколько участников были легко ранены. Это был замечательный и волнующий день!" #successful
+trade_goods_flavour.44.a: "Возможно, нам не стоило этого делать..." #died or wounded
+trade_goods_flavour.44.b: "Это было правильное решение." #successful
 
-trade_goods_flavour.45.t: "Boar Hunt" 
-trade_goods_flavour.45.desc: "A boar has been seen within a few days of [ROOT.GetCountry.GetCapital.GetName], suitable for a grand hunt. It would surely be a mighty display of royal grandeur and strength, bringing down such a magnificent animal. \nOnly the strongest and savviest hunters are able to hunt such an animal without earning a wound - is [ROOT.GetCountry.GetRuler.GetName] one of them?" #do you want to go hunting?; can be dangerous
-trade_goods_flavour.45.a: "After the animal!" 
-trade_goods_flavour.45.b: "It is too dangerous." 
+trade_goods_flavour.45.t: "Охота на кабана" 
+trade_goods_flavour.45.desc: "В течение нескольких дней от [ROOT.GetCountry.GetCapital.GetName], был замечен кабан, подходящий для грандиозной охоты. Это, несомненно, было бы грандиозной демонстрацией королевского величия и силы, убить такое великолепное животное. \nТолько самые сильные и сообразительные охотники способны охотиться на такое животное, не получив ран - это [ROOT.GetCountry.GetRuler.GetName] один из них?" #do you want to go hunting?; can be dangerous
+trade_goods_flavour.45.a: "За животным!" 
+trade_goods_flavour.45.b: "Это слишком опасно." 
 
-trade_goods_flavour.46.t: "Boar Hunt" #result
-trade_goods_flavour.46.desc_1: "Disaster! [ROOT.GetCountry.GetRuler.GetName] has valiantly fought the animal, yet as soon as the animal had been tracked down, it was clear that it outclassed all our hunters had to give and barely anyone escaped with their life. Our [ROOT.GetCountry.GetRulerTitle] will be buried with all honors." #dead
-trade_goods_flavour.46.desc_2: "Tracking the hunted animal was easy, yet once it was found, it was not as easy prey as many thought and inflicted many wounds on the hunters. Thankfully, no one died and [ROOT.GetCountry.GetRuler.GetName] can claim victory over the beast, yet were the wounds worth the hunt?" #wounded
-trade_goods_flavour.46.desc_3: "Victory my [ROOT.GetCountry.GetRulerTitle]! From tracking the animal down to ending it's life, the gods were on our side all the time. The hunt had no accidents and only a few participants were wounded lightly. It was a great and exhilarating day!" #successful
+trade_goods_flavour.46.t: "Охота на кабана" #result
+trade_goods_flavour.46.desc_1: "Катастрофа! [ROOT.GetCountry.GetRuler.GetName] доблестно сражался с животным, но как только животное было выслежено, стало ясно, что оно превзошло всех наших охотников, и едва ли кому-то удалось спастись. Наш [ROOT.GetCountry.GetRulerTitle] будет похоронен со всеми почестями." #dead
+trade_goods_flavour.46.desc_2: "Отследить преследуемое животное было легко, но как только оно было найдено, оно оказалось не такой легкой добычей, как многие думали, и нанесло охотникам много ран. К счастью, никто не погиб и [ROOT.GetCountry.GetRuler.GetName] может претендовать на победу над зверем, но стоили ли раны охоты?" #wounded
+trade_goods_flavour.46.desc_3: "Победа моя [ROOT.GetCountry.GetRulerTitle]! От выслеживания животного до прекращения его жизни боги все время были на нашей стороне. На охоте не было несчастных случаев, и лишь несколько участников были легко ранены. Это был замечательный и волнующий день!" #successful
 trade_goods_flavour.46.a: "Maybe we shouldn't have done this..." #died or wounded
 trade_goods_flavour.46.b: "It was the right decision." #successful
 
-trade_goods_flavour.47.t: "Bear Hunt" 
-trade_goods_flavour.47.desc: "A bear has been seen within a few days of [ROOT.GetCountry.GetCapital.GetName], suitable for a grand hunt. It would surely be a mighty display of royal grandeur and strength, bringing down such a magnificent animal. \nOnly the strongest and savviest hunters are able to hunt such an animal without earning a wound - is [ROOT.GetCountry.GetRuler.GetName] one of them?" #do you want to go hunting?; can be dangerous
-trade_goods_flavour.47.a: "After the animal!" 
-trade_goods_flavour.47.b: "It is too dangerous." 
+trade_goods_flavour.47.t: "Медвежья охота" 
+trade_goods_flavour.47.desc: "В течение нескольких дней от [ROOT.GetCountry.GetCapital.GetName], был замечен медведь, подходящий для грандиозной охоты. Это, несомненно, было бы грандиозной демонстрацией королевского величия и силы, убить такое великолепное животное. \nТолько самые сильные и сообразительные охотники способны охотиться на такого зверя, не получив ран - это [ROOT.GetCountry.GetRuler.GetName] один из них?" #do you want to go hunting?; can be dangerous
+trade_goods_flavour.47.a: "За животным!" 
+trade_goods_flavour.47.b: "Это слишком опасно." 
 
-trade_goods_flavour.48.t: "Bear Hunt" #result
-trade_goods_flavour.48.desc_1: "Disaster! [ROOT.GetCountry.GetRuler.GetName] has valiantly fought the animal, yet as soon as the animal had been tracked down, it was clear that it outclassed all our hunters had to give and barely anyone escaped with their life. Our [ROOT.GetCountry.GetRulerTitle] will be buried with all honors." #dead
-trade_goods_flavour.48.desc_2: "Tracking the hunted animal was easy, yet once it was found, it was not as easy prey as many thought and inflicted many wounds on the hunters. Thankfully, no one died and [ROOT.GetCountry.GetRuler.GetName] can claim victory over the beast, yet were the wounds worth the hunt?" #wounded
-trade_goods_flavour.48.desc_3: "Victory my [ROOT.GetCountry.GetRulerTitle]! From tracking the animal down to ending it's life, the gods were on our side all the time. The hunt had no accidents and only a few participants were wounded lightly. It was a great and exhilarating day!" #successful
-trade_goods_flavour.48.a: "Maybe we shouldn't have done this..." #died or wounded
-trade_goods_flavour.48.b: "It was the right decision." #successful
+trade_goods_flavour.48.t: "Медвежья охота" #result
+trade_goods_flavour.48.desc_1: "Катастрофа! [ROOT.GetCountry.GetRuler.GetName] доблестно сражался с животным, но как только животное было выслежено, стало ясно, что оно превзошло всех наших охотников, и едва ли кому-то удалось спастись. Наш [ROOT.GetCountry.GetRulerTitle] будет похоронен со всеми почестями." #dead
+trade_goods_flavour.48.desc_2: "Отследить преследуемое животное было легко, но как только оно было найдено, оно оказалось не такой легкой добычей, как многие думали, и нанесло охотникам много ран. К счастью, никто не погиб и [ROOT.GetCountry.GetRuler.GetName] может претендовать на победу над зверем, но стоили ли раны охоты?" #wounded
+trade_goods_flavour.48.desc_3: "Победа моя [ROOT.GetCountry.GetRulerTitle]! От выслеживания животного до прекращения его жизни боги все время были на нашей стороне. На охоте не было несчастных случаев, и лишь несколько участников были легко ранены. Это был замечательный и волнующий день!" #successful
+trade_goods_flavour.48.a: "Возможно, нам не стоило этого делать..." #died or wounded
+trade_goods_flavour.48.b: "Это было правильное решение." #successful
 
-trade_goods_flavour.49.t: "Lion Hunt" 
-trade_goods_flavour.49.desc: "A lion has been seen within a few days of [ROOT.GetCountry.GetCapital.GetName], suitable for a grand hunt. It would surely be a mighty display of royal grandeur and strength, bringing down such a magnificent animal specimen of the king of the animals. \nOnly the strongest and savviest hunters are able to survive an encounter with such an animal - is [ROOT.GetCountry.GetRuler.GetName] one of them?" #do you want to go hunting?; can be dangerous
-trade_goods_flavour.49.a: "After the animal!" 
-trade_goods_flavour.49.b: "It is too dangerous." 
+trade_goods_flavour.49.t: "Львиная охота" 
+trade_goods_flavour.49.desc: "В течение нескольких дней от [ROOT.GetCountry.GetCapital.GetName], был замечен лев, подходящий для грандиозной охоты. Несомненно, это было бы великолепной демонстрацией королевского величия и силы - уничтожить такой великолепный экземпляр царя зверей. \nТолько самые сильные и сообразительные охотники способны пережить встречу с таким животным - является ли [ROOT.GetCountry.GetRuler.GetName] одним из них?" #do you want to go hunting?; can be dangerous
+trade_goods_flavour.49.a: "За животным!" 
+trade_goods_flavour.49.b: "Это слишком опасно." 
 
-trade_goods_flavour.50.t: "Lion Hunt" #result
-trade_goods_flavour.50.desc_1: "Disaster! [ROOT.GetCountry.GetRuler.GetName] has valiantly fought the animal, yet as soon as the animal had been tracked down, it was clear that it outclassed all our hunters had to give and barely anyone escaped with their life. Our [ROOT.GetCountry.GetRulerTitle] will be buried with all honors." #dead
-trade_goods_flavour.50.desc_2: "Tracking the hunted animal was easy, yet once it was found, it was not as easy prey as many thought and inflicted many wounds on the hunters. Thankfully, no one died and [ROOT.GetCountry.GetRuler.GetName] can claim victory over the beast, yet were the wounds worth the hunt?" #wounded
-trade_goods_flavour.50.desc_3: "Victory my [ROOT.GetCountry.GetRulerTitle]! From tracking the animal down to ending it's life, the gods were on our side all the time. The hunt had no accidents and only a few participants were wounded lightly. It was a great and exhilarating day!" #successful
-trade_goods_flavour.50.a: "Maybe we shouldn't have done this..." #died or wounded
-trade_goods_flavour.50.b: "It was the right decision." #successful
+trade_goods_flavour.50.t: "Львиная охота" #result
+trade_goods_flavour.50.desc_1: "Катастрофа! [ROOT.GetCountry.GetRuler.GetName] доблестно сражался с животным, но как только животное было выслежено, стало ясно, что оно превзошло всех наших охотников, и едва ли кому-то удалось спастись. Наш [ROOT.GetCountry.GetRulerTitle] будет похоронен со всеми почестями." #dead
+trade_goods_flavour.50.desc_2: "Отследить преследуемое животное было легко, но как только оно было найдено, оно оказалось не такой легкой добычей, как многие думали, и нанесло охотникам много ран. К счастью, никто не погиб и [ROOT.GetCountry.GetRuler.GetName] может претендовать на победу над зверем, но стоили ли раны охоты?" #wounded
+trade_goods_flavour.50.desc_3: "Победа моя [ROOT.GetCountry.GetRulerTitle]! От выслеживания животного до прекращения его жизни боги все время были на нашей стороне. На охоте не было несчастных случаев, и лишь несколько участников были легко ранены. Это был замечательный и волнующий день!" #successful
+trade_goods_flavour.50.a: "Возможно, нам не стоило этого делать..." #died or wounded
+trade_goods_flavour.50.b: "Это было правильное решение." #successful
 
-trade_goods_flavour.51.t: "Horse Breeding" 
-trade_goods_flavour.51.desc: "A horse breeder has approached our court, wanting to sell us some of his finest breeds. He offers us some horses for our war chariots - they are 'immune to fear' as the master claims. Alternatively, he has some sturdy horses to help to help the farmers in the fields.\nSeeing as to how beautiul and useful his breeds are, he would be useful in our employ..." #a master breeder has new horses
-trade_goods_flavour.51.a: "The war horses." 
-trade_goods_flavour.51.b: "Farms always need help." 
-trade_goods_flavour.51.c: "Have the master join our court." 
+trade_goods_flavour.51.t: "Коневодство" 
+trade_goods_flavour.51.desc: "К нашему двору обратился коневод, желающий продать нам несколько своих лучших пород. Он предлагает нам несколько лошадей для наших боевых колесниц - они "невосприимчивы к страху", как утверждает хозяин. В качестве альтернативы, у него есть несколько крепких лошадей, которые помогут фермерам на полях. \nУчитывая, насколько красивы и полезны его породы, он был бы полезен нам на службе..." #a master breeder has new horses
+trade_goods_flavour.51.a: "Боевые кони." 
+trade_goods_flavour.51.b: "Фермы всегда нуждаются в помощи." 
+trade_goods_flavour.51.c: "Пусть хозяин присоединится к нашему двору." 
 
-trade_goods_flavour.52.t: "A Matter of Grove Importance" #groove xd # EXPANSION POSSIBLE
-trade_goods_flavour.52.desc: "We have a bit of a predicament on our hands, and [ROOT.GetCountry.GetRuler.GetName] has a difficult decision to make.\n\nThere is a grove of trees that is not too far from [ROOT.GetCountry.GetCapital.GetName] that is a sacred place to animals, and although everyone knows that the gods frequently visit this forest to commune with the creatures, there are some who want to build their houses in this region.\n\nShould we allow our citizens to build their homes? The grove would have to be chopped down." # fell the trees of a holy grove or not? economic gain or religious happiness?
-trade_goods_flavour.52.a: "We have to preserve the grove at all costs!" 
-trade_goods_flavour.52.b: "Our people need houses..." 
+trade_goods_flavour.52.t: "Вопрос огромной важности" #groove xd # EXPANSION POSSIBLE
+trade_goods_flavour.52.desc: "У нас возникли некоторые затруднения, и [ROOT.GetCountry.GetRuler.GetName] предстоит принять трудное решение.\n\nЕсть роща деревьев, которая находится не слишком далеко от [ROOT.GetCountry.GetCapital.GetName] это священное место для животных, и хотя все знают, что боги часто посещают этот лес, чтобы пообщаться с существами, есть некоторые, кто хочет построить свои дома в этом регионе.\n\nДолжны ли мы позволить нашим гражданам строить свои дома? Рощу пришлось бы вырубить." # fell the trees of a holy grove or not? economic gain or religious happiness?
+trade_goods_flavour.52.a: "Мы должны сохранить рощу любой ценой!" 
+trade_goods_flavour.52.b: "Нашему народу нужны дома..." 
 
-trade_goods_flavour.53.t: "Horses Escaping" # EXPANSION POSSIBLE
-trade_goods_flavour.53.desc: "Terrible news from [SCOPE.sP('horse_farm_scope').GetName] - it seems that one of the stablehands forgot to close the gate before falling asleep, and when the idiot woke up, every single horse on the farm had escaped - there's no doubt the animals have made it to the badlands by this point. A total loss!" # SCOPE.sP('horse_farm_scope')GetName]: horses escaped, reducing productivity
-trade_goods_flavour.53.a: "We have to catch at least a few! Get out there!" 
-trade_goods_flavour.53.b: "Curses! Gone is gone...we can do nothing" 
+trade_goods_flavour.53.t: "Лошади убегают" # EXPANSION POSSIBLE
+trade_goods_flavour.53.desc: "Ужасные новости от [SCOPE.sP('horse_farm_scope').GetName] - похоже, что один из конюхов забыл закрыть ворота перед тем, как заснуть, и когда этот идиот проснулся, все лошади на ферме сбежали - нет сомнений, что к этому моменту животные добрались до бесплодных земель. Полная потеря!" # SCOPE.sP('horse_farm_scope')GetName]: horses escaped, reducing productivity
+trade_goods_flavour.53.a: "Нам нужно поймать хотя бы несколько! Выходи туда!" 
+trade_goods_flavour.53.b: "Проклятия! Ушло, ушло... мы ничего не можем сделать" 
 
-trade_goods_flavour.54.t: "The Nemean Lion Sighted" #
-trade_goods_flavour.54.desc: "News from [GetProvince('(int32)210').GetName]! The dread #E Nemean Lion#!, a beast of great size and ferocious appetite, has been spotted again, attacking cattle and even killing the children of an unfortunate shepherd. The locals are scared out of their minds and are begging from assistance from the [ROOT.GetCountry.GetAdjective] authorities. What should we do?" # in p:210 (Nemea) the Nemean Lion was sighted again, killing some cattle etc
-trade_goods_flavour.54.a: "We have to get rid of this nuisance." 
-trade_goods_flavour.54.b: "It needs to eat too." 
+trade_goods_flavour.54.t: "Обнаружен Немейский лев" #
+trade_goods_flavour.54.desc: "Новости от [GetProvince('(int32)210').GetName]! Ужасный #E немейский лев#!, зверь огромных размеров и свирепого аппетита, был снова замечен, нападающий на крупный рогатый скот и даже убивающий детей несчастного пастуха. Местные жители напуганы до смерти и просят помощи у властей [ROOT.GetCountry.GetAdjective]. Что нам делать?" # in p:210 (Nemea) the Nemean Lion was sighted again, killing some cattle etc
+trade_goods_flavour.54.a: "Нам нужно избавиться от этой неприятности." 
+trade_goods_flavour.54.b: "Его тоже нужно есть." 
 
-trade_goods_flavour.55.t: "Nemean Lion Found" #hunted and killed
-trade_goods_flavour.55.desc: "[ROOT.GetCountry.GetRuler.GetName] managed to find and kill the #E Nemean Lion#! - unbelievable! The beast was in the midst of attacking goats when [ROOT.GetCountry.GetRuler.GetName] fired a couple of arrows deep into its haunches. When the animal tried to flee, a well-aimed arrow to its heart ended its reign of terror forever.\n\nThe locals are ecstatic, to put it mildly - they have been singing all night and praising [ROOT.GetCountry.GetRuler.GetName] nonstop - the wine is flowing and the entire village near  [GetProvince('(int32)210').GetName] rejoices." # in p:210, the Nemean Lion was hunted and killed
-trade_goods_flavour.55.a: "What a hunt!" 
+trade_goods_flavour.55.t: "Найден Немейский лев" #hunted and killed
+trade_goods_flavour.55.desc: "[ROOT.GetCountry.GetRuler.GetName] удалось найти и убить #E немейского льва#! - невероятно! Зверь атаковал коз, когда [ROOT.GetCountry.GetRuler.GetName] выпустил пару стрел глубоко в его ляжки. Когда животное попыталось убежать, меткая стрела, пущенная ему в сердце, навсегда положила конец царству ужаса.\n\nМестные жители, мягко говоря, в восторге - они всю ночь пели и восхваляли [ROOT.GetCountry.GetRuler.GetName] безостановочно - вино льется рекой, и вся деревня рядом с [GetProvince('(int32)210').GetName] радуется." # in p:210, the Nemean Lion was hunted and killed
+trade_goods_flavour.55.a: "Какая охота!" 
 
-trade_goods_flavour.56.t: "Nemean Lion Eluding Us" #the lion wasn't found
-trade_goods_flavour.56.desc: "Although [ROOT.GetCountry.GetRuler.GetName] tried desperately to track down the #E Nemean Lion#!, even managing to find the creature's den, the lion itself remained elusive, never revealing itself.\n\nEveryone is disappointed, but no more time can be spent chasing down the lion." # in p:210, the Nemean Lion was hunted and killed
-trade_goods_flavour.56.a: "What a shame. We'll get it another time." 
+trade_goods_flavour.56.t: "Немейский лев, ускользающий от нас" #the lion wasn't found
+trade_goods_flavour.56.desc: "Хотя [ROOT.GetCountry.GetRuler.GetName] отчаянно пытался выследить #E немейского льва#!, даже сумев найти логово существа, сам лев оставался неуловимым, так и не обнаружив себя.\n\nВсе разочарованы, но больше нельзя тратить время на погоню за львом." # in p:210, the Nemean Lion was hunted and killed
+trade_goods_flavour.56.a: "Какой позор. Мы получим это в другой раз." 
 
-trade_goods_flavour.57.t: "The Erymanthian Boar Sighted" #
-trade_goods_flavour.57.desc: "We have heard disturbing reports that a gigantic boar has been seen near [GetProvince('(int32)71').GetName], attacking the herds of the locals and goring horses with its tusks. Despite their best efforts, the locals have been unable to kill the monster and are asking [ROOT.GetCountry.GetCapital.GetName] for help." # in p:71(Erymanthos) the Erymanthian Boar was sighted again, killing some cattle etc
-trade_goods_flavour.57.a: "We shall put an end to the Erymanthian menace" 
-trade_goods_flavour.57.b: "It is not our place to destroy such a divine creature" 
+trade_goods_flavour.57.t: "Обнаружен эриманфский кабан" #
+trade_goods_flavour.57.desc: "Мы получили тревожные сообщения о том, что вблизи [GetProvince('(int32)71').GetName], был замечен гигантский кабан, нападающий на стада местных жителей и забивающий лошадей своими клыками. Несмотря на все их усилия, местные жители не смогли убить монстра и прося [ROOT.GetCountry.GetCapital.GetName] о помощи." # in p:71(Erymanthos) the Erymanthian Boar was sighted again, killing some cattle etc
+trade_goods_flavour.57.a: "Мы положим конец Эриманфской угрозе" 
+trade_goods_flavour.57.b: "Не наше дело уничтожать такое божественное создание." 
 
-trade_goods_flavour.58.t: "Erymanthian Boar Found" #hunted and killed
-trade_goods_flavour.58.desc: "A story for the ages! [ROOT.GetCountry.GetRuler.GetName] has managed to track down and kill the feared #E Erymanthian Boar#! with an ease that has put the locals of [GetProvince('(int32)71').GetName] to shame.\n\nImmediately upon arriving near the boar's vicinity, [ROOT.GetCountry.GetRuler.GetFirstName] managed to coax the beast from the forest, dispatching it quickly with arrows.\n\nA giant pyre is now being constructed near Erymanthos so the boar can be barbequed, and [ROOT.GetCountry.GetRuler.GetFirstName] has agreed to stay to enjoy the festivities." # in p:71, the Erymanthian Boar was hunted and killed
-trade_goods_flavour.58.a: "I am the greatest hunter that has ever lived!" 
+trade_goods_flavour.58.t: "Найден эриманфский кабан" #hunted and killed
+trade_goods_flavour.58.desc: "История на века! [ROOT.GetCountry.GetRuler.GetName] удалось выследить и убить страшного #E эриманфийского кабана#! с легкостью, которая посрамила местных жителей [GetProvince('(int32)71').GetName].\n\nСразу же по прибытии в окрестности кабана, [ROOT.GetCountry.GetRuler.GetFirstName] сумел выманить зверя из леса, быстро расправившись с ним стрелами.\n\nСейчас неподалеку от Эримантоса сооружается гигантский погребальный костер, чтобы кабана можно было приготовить на гриле, и [ROOT.GetCountry.GetRuler.GetFirstName] согласился остаться, чтобы насладиться празднествами." # in p:71, the Erymanthian Boar was hunted and killed
+trade_goods_flavour.58.a: "Я величайший охотник, который когда-либо жил!" 
 
-trade_goods_flavour.59.t: "Erymanthian Boar Eluding Us" #the boar wasn't found
-trade_goods_flavour.59.desc: "Curses! The #E Erymanthian Boar#! continues to wreak havoc all around [GetProvince('(int32)71').GetName] but is too fast for our men to corner. Our horses are naturally terrified of the gigantic beast and refuse to get close enough to land a killing blow. Although everyone in Erymanthos is disappointed beyond words, the hunt had to be called off before victory was achieved." # in p:71, the Erymanthian Boar was hunted and killed
-trade_goods_flavour.59.a: "Tell everyone that we will get it another time." 
+trade_goods_flavour.59.t: "Эриманфский вепрь, ускользающий от нас" #the boar wasn't found
+trade_goods_flavour.59.desc: "Проклятия! #E Эриманфийский кабан#! продолжает сеять хаос повсюду [GetProvince('(int32)71').GetName] но слишком быстр, чтобы наши люди могли загнать его в угол. Наши лошади, естественно, в ужасе от гигантского зверя и отказываются подходить достаточно близко, чтобы нанести смертельный удар. Хотя все в Эримантосе несказанно разочарованы, охоту пришлось отменить, прежде чем была достигнута победа." # in p:71, the Erymanthian Boar was hunted and killed
+trade_goods_flavour.59.a: "Скажите всем, что мы получим это в другой раз." 
 
-trade_goods_flavour.60.t: "Healthy Population" #fruit
-trade_goods_flavour.60.desc: "We thought that you would be pleased to hear this, o [ROOT.GetCountry.GetRuler.GetName]; although everyone knows that the [ROOT.GetCountry.GetAdjective] people are fond of their beer and meat, as of late, there has been a concerted effort by our citizens to eat more fruits and vegetables. Not only is produce delectable and nourishing, but we have such a surplus of fruits on hand that it only makes sense for our people to consume what they cannot sell in the market." #eating fruit is healthy; in fruits_scope (province)
-trade_goods_flavour.60.a: "Hopefully, wel'll see more of this." 
+trade_goods_flavour.60.t: "Здоровое население" #fruit
+trade_goods_flavour.60.desc: "Мы подумали, что тебе будет приятно это услышать, о [ROOT.GetCountry.GetRuler.GetName]; хотя всем известно, что [ROOT.GetCountry.GetAdjective] люди любят пиво и мясо, в последнее время наши граждане предпринимают согласованные усилия, чтобы есть больше фруктов и овощей. Продукты не только восхитительны и питательны, но и у нас под рукой такой избыток фруктов, что нашим людям имеет смысл потреблять только то, что они не могут продать на рынке." #eating fruit is healthy; in fruits_scope (province)
+trade_goods_flavour.60.a: "Надеюсь, мы увидим больше этого." 
 
-trade_goods_flavour.61.t: "Healthy Population" #vegetables
-trade_goods_flavour.61.desc: "We thought that you would be pleased to hear this, o [ROOT.GetCountry.GetRuler.GetName]; although everyone knows that the [ROOT.GetCountry.GetAdjective] people are fond of their beer and meat, as of late, there has been a concerted effort by our citizens to eat more fruits and vegetables. Not only is produce delectable and nourishing, but we have such a surplus of fruits on hand that it only makes sense for our people to consume what they cannot sell in the market." # eating vegetables is healthy; in fruits_scope (province)
-trade_goods_flavour.61.a: "Hopefully, wel'll see more of this." 
+trade_goods_flavour.61.t: "Здоровое население" #vegetables
+trade_goods_flavour.61.desc: "Мы подумали, что тебе будет приятно это услышать, о [ROOT.GetCountry.GetRuler.GetName]; хотя всем известно, что [ROOT.GetCountry.GetAdjective] люди любят пиво и мясо, в последнее время наши граждане предпринимают согласованные усилия, чтобы есть больше фруктов и овощей. Продукты не только восхитительны и питательны, но и у нас под рукой такой избыток фруктов, что нашим людям имеет смысл потреблять только то, что они не могут продать на рынке." # eating vegetables is healthy; in fruits_scope (province)
+trade_goods_flavour.61.a: "Надеюсь, мы увидим больше этого." 
 
-trade_goods_flavour.62.t: "Bitumen Surplus" # EXPANSION POSSIBLE
-trade_goods_flavour.62.desc: "In an unexpected turn of events, our tar pit is deeper and larger than we previously estimated and our extraction capacity has thus increased. At least for now, where it is easily accessible, we can increase our production, but the question is whether to sell the bitumen or to keep it for our own use, maybe for ships or tools?" # Bitumen was used for tons of stuff; some bigger ones are building, ships and tools
-trade_goods_flavour.62.a: "Ships, to rule the sea." 
-trade_goods_flavour.62.b: "We have to build!" 
-trade_goods_flavour.62.c: "Those tools though..." 
-trade_goods_flavour.62.d: "We should trade it away." 
+trade_goods_flavour.62.t: "Избыток битума" # EXPANSION POSSIBLE
+trade_goods_flavour.62.desc: "При неожиданном повороте событий наша дегтярная яма оказалась глубже и больше, чем мы предполагали ранее, и, таким образом, наши мощности по добыче увеличились. По крайней мере, на данный момент, там, где он легкодоступен, мы можем увеличить наше производство, но вопрос в том, продавать ли битум или сохранить его для собственного использования, может быть, для судов или инструментов?" # Bitumen was used for tons of stuff; some bigger ones are building, ships and tools
+trade_goods_flavour.62.a: "Корабли, чтобы править морем." 
+trade_goods_flavour.62.b: "Мы должны строить!" 
+trade_goods_flavour.62.c: "Хотя эти инструменты..." 
+trade_goods_flavour.62.d: "Нам следует обменять его." 
 
-trade_goods_flavour.63.t: "Bones Found" 
-trade_goods_flavour.63.desc: "While extracting bitumen from a deposit, some large bones were uncovered, clearly the remains of a gigantic being - maybe divine in nature. Should we continue to uncover the bones or leave it in its last resting place?" # find dino bones in a tar pit; excavate more or let it be (ppl think it's something else); only one of a-d is available at any one time
-trade_goods_flavour.63.a: "We must uncover them." 
-trade_goods_flavour.63.b: "We must uncover them." 
-trade_goods_flavour.63.c: "We must uncover them." 
-trade_goods_flavour.63.d: "We must uncover them." 
-trade_goods_flavour.63.e: "Let it rest in peace." 
+trade_goods_flavour.63.t: "Кости найдены" 
+trade_goods_flavour.63.desc: "При добыче битума из залежи были обнаружены несколько крупных костей, явно останки гигантского существа - возможно, божественного по своей природе. Должны ли мы продолжать раскопки костей или оставить их в месте их последнего упокоения?" # find dino bones in a tar pit; excavate more or let it be (ppl think it's something else); only one of a-d is available at any one time
+trade_goods_flavour.63.a: "Мы должны их раскрыть." 
+trade_goods_flavour.63.b: "Мы должны их раскрыть." 
+trade_goods_flavour.63.c: "Мы должны их раскрыть." 
+trade_goods_flavour.63.d: "Мы должны их раскрыть." 
+trade_goods_flavour.63.e: "Пусть покоится с миром." 
 
-trade_goods_flavour.64.t: "Pomegranate Harvest Spoiled" # EXPANSION POSSIBLE
-trade_goods_flavour.64.desc: "Disaster has struck, my [ROOT.GetCountry.GetRulerTitle]! The pomegranate harvest has been spoiled due to bad storing and only a few fruits remain edible. The nobles and priests have already started to voice their displeasure, desiring the noble fruit and demanding we import more from abroad. Should we cave to their demands and pay an exorbitant cost?" # pomegranate harvest spoiled; let it be (nobles unhappy) or buy from outside the realm
-trade_goods_flavour.64.a: "We have to secure a supply from abroad." 
-trade_goods_flavour.64.b: "There are more important matters at hand." 
+trade_goods_flavour.64.t: "Урожай граната испорчен" # EXPANSION POSSIBLE
+trade_goods_flavour.64.desc: "Случилась беда, мой [ROOT.GetCountry.GetRulerTitle]! Урожай граната был испорчен из-за плохого хранения, и только несколько плодов остались съедобными. Знать и священники уже начали выражать свое недовольство, желая получить благородные плоды и требуя, чтобы мы импортировали больше из-за границы. Должны ли мы уступить их требованиям и заплатить непомерную цену?" # pomegranate harvest spoiled; let it be (nobles unhappy) or buy from outside the realm
+trade_goods_flavour.64.a: "Нам необходимо обеспечить поставки из-за границы." 
+trade_goods_flavour.64.b: "Есть более важные дела." 
 
-trade_goods_flavour.65.t: "Pomegranate Harvest Surplus" 
-trade_goods_flavour.65.desc:0"My [ROOT.GetCountry.GetRulerTitle], incredible news from our fields: the pomegranate harvest is significantly exceeding expectations. With this surplus, we are sure to make a tidy profit, should we not use the fruits ourselves." # pomegranate harvest surplus; keep it (happier nobles) or sell it
-trade_goods_flavour.65.a: "We will eat it all." 
-trade_goods_flavour.65.b: "We should sell them." 
+trade_goods_flavour.65.t: "Избыток урожая граната" 
+trade_goods_flavour.65.desc:0"Мой [ROOT.GetCountry.GetRulerTitle], невероятные новости с наших полей: урожай граната значительно превосходит ожидания. С этим избытком мы наверняка получим кругленькую прибыль, если не будем использовать плоды сами." # pomegranate harvest surplus; keep it (happier nobles) or sell it
+trade_goods_flavour.65.a: "Мы съедим все это." 
+trade_goods_flavour.65.b: "Мы должны их продать." 
 
-trade_goods_flavour.66.t: "Onion Harvest Surplus" 
-trade_goods_flavour.66.desc: "My [ROOT.GetCountry.GetRulerTitle], incredible news from our fields: the onion harvest is significantly exceeding expectations. With this surplus, we are sure to make a tidy profit, should we not use the fruits ourselves. At least, no one will starve this year." # onion harvest surplus; keep it (common ppl happy) or sell it realm
-trade_goods_flavour.66.a: "We will eat it all." 
-trade_goods_flavour.66.b: "We should sell them."
+trade_goods_flavour.66.t: "Избыток урожая лука" 
+trade_goods_flavour.66.desc: "MМойy [ROOT.GetCountry.GetRulerTitle], невероятные новости с наших полей: урожай лука значительно превосходит ожидания. С этим избытком мы наверняка получим кругленькую прибыль, если не будем использовать плоды сами. По крайней мере, в этом году никто не будет голодать." # onion harvest surplus; keep it (common ppl happy) or sell it realm
+trade_goods_flavour.66.a: "Мы съедим все это." 
+trade_goods_flavour.66.b: "Мы должны их продать."
 
-trade_goods_flavour.67.t: "Small Onion Harvest" # EXPANSION POSSIBLE
-trade_goods_flavour.67.desc: "Disaster has struck, my [ROOT.GetCountry.GetRulerTitle]! The onion harvest has turned out significantly smaller than expected and the peasants have started to grumble and protest. Should we not find a solution, we might have no support from the people and an increase in rebelliousness." # onion harvest spoiled; let it be (common ppl unhappy) or buy from outside the realm
-trade_goods_flavour.67.a: "We have to secure a supply from abroad." 
-trade_goods_flavour.67.b: "There are more important matters at hand."
+trade_goods_flavour.67.t: "Маленький урожай лука" # EXPANSION POSSIBLE
+trade_goods_flavour.67.desc: "Случилась беда, мой [ROOT.GetCountry.GetRulerTitle]! Урожай лука оказался значительно меньше, чем ожидалось, и крестьяне начали роптать и протестовать. Если мы не найдем решения, у нас может не быть поддержки со стороны народа и усилится бунтарство." # onion harvest spoiled; let it be (common ppl unhappy) or buy from outside the realm
+trade_goods_flavour.67.a: "Нам необходимо обеспечить поставки из-за границы." 
+trade_goods_flavour.67.b: "Есть более важные дела."
 
-trade_goods_flavour.68.t: "Cattle Escaping" # EXPANSION POSSIBLE
-trade_goods_flavour.68.desc: "Terrible news from [SCOPE.sP('cattle_farm_scope').GetName] - it seems that one of the stablehands forgot to close the gate before falling asleep, and when the idiot woke up, every single horse on the farm had escaped - there's no doubt the animals have made it to the badlands by this point. A total loss!" # SCOPE.sP('cattle_farm_scope')GetName] cattle escaped, reducing productivity
-trade_goods_flavour.68.a: "We have to catch at least a few." 
-trade_goods_flavour.68.b: "Gone is gone."
+trade_goods_flavour.68.t: "Скот убегает" # EXPANSION POSSIBLE
+trade_goods_flavour.68.desc: "Ужасные новости от [SCOPE.sP('cattle_farm_scope').GetName] - похоже, что один из конюхов забыл закрыть ворота перед тем, как заснуть, и когда этот идиот проснулся, все лошади на ферме сбежали - нет сомнений, что к этому моменту животные добрались до бесплодных земель. Полная потеря!" # SCOPE.sP('cattle_farm_scope')GetName] cattle escaped, reducing productivity
+trade_goods_flavour.68.a: "Нам нужно поймать хотя бы несколько." 
+trade_goods_flavour.68.b: "Ушел, ушел."
 
-trade_goods_flavour.69.t: "Tyrian Purple: An Exceptional Colour" # Tyrian purple gets "invented"
-trade_goods_flavour.69.desc: "Behold this divine colour, o [ROOT.GetCountry.GetRuler.GetName]. Created in the city of [GetProvince('(int32)3982')GetName], this deep purple has been named after the city it hails from. \nThe process to create even just one dyed piece of cloth is so elaborate and time-consuming that it dwarfs any other dye or pigment in its cost. For sure, selling this expensive dye will make us rich beyond belief, and owning one garment in this colour will be a display of immeasurable wealth." # [GetProvince('int32(3982)')GetName] Tyre
-trade_goods_flavour.69.a: "A divine colour indeed." 
+trade_goods_flavour.69.t: "Тирианский фиолетовый: исключительный цвет" # Tyrian purple gets "invented"
+trade_goods_flavour.69.desc: "Узри этот божественный цвет, о [ROOT.GetCountry.GetRuler.GetName]. Созданный в городе [GetProvince('(int32)3982')GetName], этот темно-фиолетовый был назван в честь города, из которого он родом. \nПроцесс создания даже одного окрашенного куска ткани настолько сложен и отнимает много времени, что по стоимости превосходит любой другой краситель или пигмент. Несомненно, продажа этого дорогого красителя сделает нас невероятно богатыми, а обладание одним предметом одежды такого цвета станет проявлением неизмеримого богатства." # [GetProvince('int32(3982)')GetName] Tyre
+trade_goods_flavour.69.a: "Действительно божественный цвет." 
 
-trade_goods_flavour.70.t: "Tyrian Purple: A New Colour" # Ping to in diplo range - "invitation of conquest for juicy trade"
-trade_goods_flavour.70.desc: "Hailing from [GetProvince('int32(3982)')GetName], news about a new colour have reached us. A purple so deep like no other colour, and so expensive that even the gods weep when seeing the cost. Only the [GetProvince('int32(3982)')GetOwner.GetAdjective]s know how to create the dye and wrenching that secret from their hands, indeed, their graves if necessary, will be worth it a thousand times over. One day, this city with its divince colour will be ours." # [GetProvince('int32(3982)')GetName] Tyre
-trade_goods_flavour.70.a: "A marvelous colour. It should be mine." 
+trade_goods_flavour.70.t: "Тирский фиолетовый: Новый цвет" # Ping to in diplo range - "invitation of conquest for juicy trade"
+trade_goods_flavour.70.desc: "Родом из [GetProvince('int32(3982)')GetName], до нас дошли новости о новом цвете. Фиолетовый, такой глубокий, как ни один другой цвет, и такой дорогой, что даже боги плачут, видя его стоимость. Только [GetProvince('int32(3982)')GetOwner.GetAdjective] знают, как создать краситель, и вырвать этот секрет из их рук, да и из их могил, если потребуется, будет стоить того в тысячу раз больше. Однажды этот город с его божественным колоритом станет нашим." # [GetProvince('int32(3982)')GetName] Tyre
+trade_goods_flavour.70.a: "Чудесный цвет. Оно должно быть моим." 
 
-trade_goods_flavour.71.t: "Tyrian Purple: A New Master" # Tyrian purple gets new owner (conquered)
-trade_goods_flavour.71.desc: "A new master over the purple has arisen in [GetProvince('int32(3982)')GetName]. The secret of manufacturing now deeply secured in the hands of the [GetProvince('int32(3982)')GetOwner.GetAdjective]s, the previous sellers will surely fade into obscurity. We will surely be the masters of the dye for centuries to come!" # [GetProvince('int32(3982)')GetName] Tyre
-trade_goods_flavour.71.a: "What a day to celebrate." 
+trade_goods_flavour.71.t: "Тирийский фиолетовый: Новый мастер" # Tyrian purple gets new owner (conquered)
+trade_goods_flavour.71.desc: "Новый мастер над фиолетовым появился в [GetProvince('int32(3982)')GetName]. Секрет производства теперь надежно [GetProvince('int32(3982)')GetOwner.GetAdjective], предыдущие продавцы наверняка канут в лету. Мы, несомненно, будем мастерами этого красителя на века вперед!" # [GetProvince('int32(3982)')GetName] Tyre
+trade_goods_flavour.71.a: "Какой день стоит отпраздновать." 
 
-trade_goods_flavour.72.t: "Tyrian Purple: A New Master" # ping of new owner
-trade_goods_flavour.72.desc: "A new master over the purple has arisen in [GetProvince('int32(3982)')GetName]. The secret of manufacturing now deeply secured in the hands of the [GetProvince('int32(3982)')GetOwner.GetAdjective]s, the previous sellers will surely fade into obscurity. \nIf the city changed hands already, why not once more?" # [GetProvince('int32(3982)')GetName] Tyre
+trade_goods_flavour.72.t: "Тирийский пурпур: Новый мастер" # ping of new owner
+trade_goods_flavour.72.desc: "Новый мастер над фиолетовым появился в [GetProvince('int32(3982)')GetName]. Секрет производства теперь надежно защищен в руках владельца [GetProvince('int32(3982)')GetOwner.GetAdjective], предыдущие продавцы наверняка канут в лету. \nЕсли город уже перешел из рук в руки, почему бы не сделать это еще раз?" # [GetProvince('int32(3982)')GetName] Tyre
 trade_goods_flavour.72.a: "One day, it will be ours." 
 
-trade_goods_flavour.73.t: "Dye Transporter Sunk" # Ship with dye sinks in a port, spilling the dyes into the water
-trade_goods_flavour.73.desc: "Terrible news from [SCOPE.sP('dye_shipwreck').GetName] - after a storm rolled through the region, our ships that were transporting dye all sank, and with them, our hopes for making a profit this season." # dye_shipwreck is the prov scope
-trade_goods_flavour.73.a: "What a waste of dyes...and life, I suppose" 
+trade_goods_flavour.73.t: "Транспортер красок затонул" # Ship with dye sinks in a port, spilling the dyes into the water
+trade_goods_flavour.73.desc: "Ужасные новости от [SCOPE.sP('dye_shipwreck').GetName] - после шторма, прокатившегося по региону, все наши корабли, перевозившие краску, затонули, а вместе с ними и наши надежды на получение прибыли в этом сезоне." # dye_shipwreck is the prov scope
+trade_goods_flavour.73.a: "Какая трата красок... и жизни, я полагаю." 
 
-trade_goods_flavour.74.t: "Dye Trade Boom" # Dye trade booming
-trade_goods_flavour.74.desc: "We will not disturb you with too many details today, [ROOT.GetCountry.GetRuler.GetName], but suffice it to say, we are doing exceptionally well with the dye trade. Merchants are traveling from all over to visit our markets, for our product is clearly better than anything that is made for one thousand miles in any direction." # 
+trade_goods_flavour.74.t: "Бум торговли красками" # Dye trade booming
+trade_goods_flavour.74.desc: "Мы не будем сегодня беспокоить вас излишними подробностями, [ROOT.GetCountry.GetRuler.GetName], но достаточно сказать, что у нас исключительно хорошие дела с торговлей красителями. Торговцы приезжают со всего мира, чтобы посетить наши рынки, потому что наш продукт явно лучше, чем все, что производится за тысячу миль в любом направлении." # 
 trade_goods_flavour.74.a: "A good development." 
 
-trade_goods_flavour.75.t: "Dyeing Accident" # Dyeing accident; the fur of some local noble got dyed the wrong colour
-trade_goods_flavour.75.desc: "There is a nobleman living in [ROOT.GetCountry.GetCapital.GetName] that has been making a fuss about an order of clothing that he had asked be dyed. Even though he was very specific as to what colors he desired, the dyeworkers 'ruined' some linen tunics by not staining them a deep purple.\n\nThe nobleman refuses to let the matter drop, and insists that because the state has funded the dye production initiative, the people of [ROOT.GetCountry.GetName] should be responsible for paying for a new tunic." # 
-trade_goods_flavour.75.a: "What a shame. It still looks nice though." 
-trade_goods_flavour.75.b: "We shall compensate him." 
+trade_goods_flavour.75.t: "Несчастный случай при окрашивании" # Dyeing accident; the fur of some local noble got dyed the wrong colour
+trade_goods_flavour.75.desc: "В [ROOT.GetCountry.GetCapital.GetName] живет дворянин, который поднял шум из-за заказа одежды, которую он попросил покрасить. Несмотря на то, что он был очень точен в выборе желаемых цветов, красильщики "испортили" несколько льняных туник, не окрасив их в темно-фиолетовый цвет.\n\nДворянин отказывается оставить этот вопрос без внимания и настаивает на том, что, поскольку государство профинансировало инициативу по производству красителей, жители [ROOT.GetCountry.GetName] должны нести ответственность за оплату новой туники." # 
+trade_goods_flavour.75.a: "Какой позор. Хотя это все еще выглядит красиво." 
+trade_goods_flavour.75.b: "Мы выплатим ему компенсацию." 
 
-trade_goods_flavour.76.t: "Spice Export" # Try to plant some spices in another poart of your realm
-trade_goods_flavour.76.desc: "Lately, it has been suggested in [ROOT.GetCountry.GetCapital.GetName] that we try to plant some spices locally instead of always paying a premium to have them imported. What do you think, [ROOT.GetCountry.GetRuler.GetName]? It might cost a little upfront, but if this works out, we stand to benefit!" # 
-trade_goods_flavour.76.a: "We shall try it." 
-trade_goods_flavour.76.b: "It is too expensive." 
+trade_goods_flavour.76.t: "Экспорт специй" # Try to plant some spices in another poart of your realm
+trade_goods_flavour.76.desc: "Недавно в [ROOT.GetCountry.GetCapital.GetName] было предложено попробовать выращивать некоторые специи на месте, вместо того, чтобы всегда переплачивать за их импорт. Что вы думаете, [ROOT.GetCountry.GetRuler.GetName]? Это может стоить немного дороже, но если все получится, мы выиграем!" # 
+trade_goods_flavour.76.a: "Мы попробуем." 
+trade_goods_flavour.76.b: "Это слишком дорого." 
 
-trade_goods_flavour.77.t: "Spice Export:Growth" # title unsure; 
-trade_goods_flavour.77.desc_1: "Tremendous news! Not only are the spices that we planted in one of our provinces growing, but the first harvests are in, and the locals are saying that our varieties are more fragrant and pungent than those we pay to import.\n\nBefore long, the markets in [ROOT.GetCountry.GetCapital.GetName] will be filled with good [ROOT.GetCountry.GetAdjective] spice for sale." # grew successfully
-trade_goods_flavour.77.desc_2: "Well, our efforts to grow spices in our own country have failed spectacularly, but at least we can console ourselves with the knowledge that we tried." # didn't grow
-trade_goods_flavour.77.a: "It worked! I am a genius!" 
-trade_goods_flavour.77.b: "It was worth a try" 
+trade_goods_flavour.77.t: "Экспорт специй: рост" # title unsure; 
+trade_goods_flavour.77.desc_1: "Потрясающие новости! Специи, которые мы посадили в одной из наших провинций, не только растут, но и собирают первый урожай, и местные жители говорят, что наши сорта более ароматные и острые, чем те, за импорт которых мы платим.\n\nВскоре рынки в [ROOT.GetCountry.GetCapital.GetName] будут заполнены хорошими [ROOT.GetCountry.GetAdjective] специями для продажи." # grew successfully
+trade_goods_flavour.77.desc_2: "Что ж, наши попытки выращивать специи в нашей собственной стране с треском провалились, но, по крайней мере, мы можем утешать себя знанием того, что мы пытались." # didn't grow
+trade_goods_flavour.77.a: "Это сработало! Я гений!" 
+trade_goods_flavour.77.b: "Стоило попробовать" 
 
-trade_goods_flavour.78.t: "Myrrh Trees" # Plant some myrrh trees in a neighbouring territories
-trade_goods_flavour.78.desc: "It has been proposed that we plant some myrrh trees locally, in an effort to cut down on the expenses paid importing this valuable incense. We have the location in mind, and the workers are ready to break ground if [ROOT.GetCountry.GetRuler.GetName] gives the word." # 
-trade_goods_flavour.78.a: "We shall do it." 
-trade_goods_flavour.78.b: "It is too expensive." 
+trade_goods_flavour.78.t: "Мирровые деревья" # Plant some myrrh trees in a neighbouring territories
+trade_goods_flavour.78.desc: "Было предложено посадить несколько мирровых деревьев на месте, чтобы сократить расходы на импорт этого ценного благовония. У нас есть на примете местоположение, и рабочие готовы приступить к работе, если [ROOT.GetCountry.GetRuler.GetName] выдает слово." # 
+trade_goods_flavour.78.a: "Мы сделаем это." 
+trade_goods_flavour.78.b: "Это слишком дорого." 
 
-trade_goods_flavour.79.t: "Incense Bushes" # Plant some incense bushes in a neighbouring territories
-trade_goods_flavour.79.desc: "It has been suggested to [ROOT.GetCountry.GetRuler.GetName] that [ROOT.GetCountry.GetName] could make more money if we pursue the sales of incense, which everyone loves and needs for religious purposes. We have bushes that are local to our region that produce a sweet-smelling tar, and when the flowers are dried and prepared into a potpourri, the smell is quite delightful. Should we undertake a massive initiative to start growing incense bushes, with hopes for sale?" # 
-trade_goods_flavour.79.a: "We shall do it." 
-trade_goods_flavour.79.b: "It is too expensive." 
+trade_goods_flavour.79.t: "Благовония Кусты" # Plant some incense bushes in a neighbouring territories
+trade_goods_flavour.79.desc: "Было высказано предположение [ROOT.GetCountry.GetRuler.GetName], что [ROOT.GetCountry.GetName] могли бы заработать больше денег, если бы мы продолжали продавать благовония, которые все любят и в которых нуждаются для религиозных целей. У нас есть кусты, произрастающие в нашем регионе, которые производят сладко пахнущую смолу, а когда цветы высушены и приготовлены для попурри, запах получается просто восхитительный. Должны ли мы предпринять масштабную инициативу по выращиванию кустов ладана в надежде на продажу?" # 
+trade_goods_flavour.79.a: "Мы сделаем это." 
+trade_goods_flavour.79.b: "Это слишком дорого." 
 
-trade_goods_flavour.80.t: "Spices Grow Rare" # spices are rare; nobles and merchants (citizen) are unhappy, prices increase
-trade_goods_flavour.80.desc: "The flavors that our people have grown accustomed to tasting are becoming rarer and rarer these days, much to the chagrin of [ROOT.GetCountry.GetRuler.GetName], whose breath is usually scented with the spices of distant kingdoms.\n\nAs cardamom pods and black pepper begin to disappear from the markets, everyone is crying out for [ROOT.GetCountry.GetName] to do something, anything, to restock the supplies - no matter what the cost." # 
-trade_goods_flavour.80.a: "We let nature steer the course." 
-trade_goods_flavour.80.b: "We have to procure some from our neighbours." 
+trade_goods_flavour.80.t: "Специи растут редко" # spices are rare; nobles and merchants (citizen) are unhappy, prices increase
+trade_goods_flavour.80.desc: "Ароматы, к которым привыкли наши люди, в наши дни встречаются все реже и реже, к большому огорчению [ROOT.GetCountry.GetRuler.GetName], чье дыхание обычно благоухает специями далеких королевств.\n\nПоскольку стручки кардамона и черный перец начинают исчезать с рынков, все взывают к [ROOT.GetCountry.GetName] сделать что-нибудь, что угодно, чтобы пополнить запасы - неважно, чего это будет стоить." # 
+trade_goods_flavour.80.a: "Мы позволяем природе управлять своим курсом." 
+trade_goods_flavour.80.b: "Нам приходится закупать кое-что у наших соседей." 
 
-trade_goods_flavour.81.t: "Salt Shortage" # salt shortage etc.
-trade_goods_flavour.81.desc: "We have a slow-moving crisis on our hands that could turn into a disaster if we aren't careful. We are hearing that supplies of salt are unusually low, and without this all-important resource, flavoring our food will be the least of our worries - we won't be able to cure any meats!" # 
-trade_goods_flavour.81.a: "We cannot change anything." 
-trade_goods_flavour.81.b: "We have to procure some from our neighbours." 
+trade_goods_flavour.81.t: "Нехватка соли" # salt shortage etc.
+trade_goods_flavour.81.desc: "У нас на руках медленно развивающийся кризис, который может перерасти в катастрофу, если мы не будем осторожны. Мы слышим, что запасы соли необычайно малы, и без этого важнейшего ресурса придание вкуса нашей пище будет наименьшей из наших забот - мы не сможем обработать ни одно мясо!" # 
+trade_goods_flavour.81.a: "Мы не можем ничего изменить." 
+trade_goods_flavour.81.b: "Нам приходится закупать кое-что у наших соседей." 
 
-trade_goods_flavour.82.t: "Assyrian Qunabu" # copy the Assyrians (unless you are Assyrian) in using Qunabu (Cannabis) in temples for ceremonies and similar
-trade_goods_flavour.82.desc: "We have heard rumors of a mysterious substance known as 'qunabu' that the Assyrians use in their temple cereremonies - it is said that those who partake of the dank clouds produced by burning this hemp commune with the gods, oftentimes laughing all the while, and then they are seized by a ferocious appetite that can only be satisfied by seeking sweets like honey cakes.\n\nWe could use qunabu in our own religious ceremonies, but we have to have the approval of [ROOT.GetCountry.GetRuler.GetName] before we do anything." # 
-trade_goods_flavour.82.a: "I think I know a guy who can get some for us" 
-trade_goods_flavour.82.b: "Just say no..." 
+trade_goods_flavour.82.t: "Ассирийский Кунабу" # copy the Assyrians (unless you are Assyrian) in using Qunabu (Cannabis) in temples for ceremonies and similar
+trade_goods_flavour.82.desc: "До нас дошли слухи о таинственном веществе, известном как "кунабу", которое ассирийцы используют в своих храмовых церемониях - говорят, что те, кто вкушает сырые облака, образующиеся при сжигании этой конопли, общаются с богами, часто все время смеясь, а затем ими овладевает зверский аппетит, который может привести к довольствуйтесь только такими сладостями, как медовые пирожные.\n\nМы могли бы использовать кунабу в наших собственных религиозных церемониях, но мы должны получить одобрение [ROOT.GetCountry.GetRuler.GetName], прежде чем что-либо делать." # 
+trade_goods_flavour.82.a: "Думаю, я знаю парня, который может достать для нас кое-что." 
+trade_goods_flavour.82.b: "Просто сказать нет..." 
 
-trade_goods_flavour.83.t: "A New Seam" # precious, metals, base metals, copper, gems: one of the four; new seam discovered in mining_target.
-trade_goods_flavour.83.desc: "Our workers report a happy discovery - a new seam of valuable mineral wealth, waiting to be taken from the ground in [SCOPE.sP('mining_target').GetName]. Initial reports are a little light on details, but it seems that this could be the largest vein ever discovered in [ROOT.GetCountry.GetAdjective] history - truly an impressive amount." # 
-trade_goods_flavour.83.a: "We must excavate this new wealth." 
-trade_goods_flavour.83.b: "It is simply not worth it." 
+trade_goods_flavour.83.t: "Новый пласт" # precious, metals, base metals, copper, gems: one of the four; new seam discovered in mining_target.
+trade_goods_flavour.83.desc: "Наши рабочие сообщают о счастливом открытии - новом пласте ценных полезных ископаемых, ожидающем извлечения из-под земли в [SCOPE.sP('mining_target').GetName]. Первоначальные отчеты немного освещают детали, но кажется, что это может быть самая крупная жила, когда-либо обнаруженная в истории [ROOT.GetCountry.GetAdjective] действительно впечатляющее количество." # 
+trade_goods_flavour.83.a: "Мы должны раскопать это новое богатство." 
+trade_goods_flavour.83.b: "Это просто того не стоит." 
 
-trade_goods_flavour.84.t: "A Seam Depleted" # precious, metals, base metals, copper: one of the three; seamd depleted in mining_target. What should they focus on in the future?
-trade_goods_flavour.84.desc: "We hear that [SCOPE.sP('mining_target').GetName] has been stripped of its valuable mineral wealth, but we still have a great number of slaves and laborers that are still in the region. Instead of dispersing them or sending them home, it has been suggested that we find something productive to do in the region; an assessment that [ROOT.GetCountry.GetRuler.GetName] has endorsed." # 
-trade_goods_flavour.84.a: "Farming!" # Vegeteables; needs to be a settlement
-trade_goods_flavour.84.b: "Horses are valuable." # Horses; needs to have horses in region or be hurrian; plus terrain
-trade_goods_flavour.84.c: "Wood is always needed." # Wood
-trade_goods_flavour.84.d: "I see a lot of weaving in their future." # Cloth; needs to be city
-trade_goods_flavour.84.e: "Dyes make money." # Dye; needs to be phoenician
-trade_goods_flavour.84.f: "We will have to content ourselves with some stones..." #
-trade_goods_flavour.84.g: "Limestone is an excellent material."
+trade_goods_flavour.84.t: "Пласт истощен" # precious, metals, base metals, copper: one of the three; seamd depleted in mining_target. What should they focus on in the future?
+trade_goods_flavour.84.desc: "Мы слышали, что [SCOPE.sP('mining_target').GetName] был лишен своих ценных минеральных богатств, но у нас все еще есть большое количество рабов и чернорабочих, которые все еще находятся в регионе. Вместо того, чтобы рассредоточивать их или отправлять домой, было предложено найти что-то продуктивное для региона; оценка, которую одобрил [ROOT.GetCountry.GetRuler.GetName]." # 
+trade_goods_flavour.84.a: "Сельское хозяйство!" # Vegeteables; needs to be a settlement
+trade_goods_flavour.84.b: "Лошади имеют ценность." # Horses; needs to have horses in region or be hurrian; plus terrain
+trade_goods_flavour.84.c: "Дерево всегда нужно." # Wood
+trade_goods_flavour.84.d: "Я вижу много перемен в их будущем." # Cloth; needs to be city
+trade_goods_flavour.84.e: "Красители приносят деньги." # Dye; needs to be phoenician
+trade_goods_flavour.84.f: "Придется довольствоваться камнями..." #
+trade_goods_flavour.84.g: "Известняк – отличный материал."

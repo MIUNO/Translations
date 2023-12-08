@@ -136,7 +136,7 @@ lapis_trade.4.a: "Проклятие!"
 
 lapis_trade.5.t: "Торговля лазуритом" #updates on how the trade is doing
 lapis_trade.5.desc_1: "Мы хотели бы сообщить хорошие новости о торговле лазуритом, [ROOT.GetCountry.GetRuler.GetName], но мы не можем скрыть реальность за фасадом лжи - это страдание. Выбрали ли торговцы другие рынки или запасы лазурита иссякли, остается загадкой, но мы точно знаем, что наши доходы далеко не те, что были когда-то." #decreased global lapis trade
-lapis_trade.5.desc_2: "К счастью, торговля лазуритом неуклонно растет, и невероятно редкий предмет роскоши становится доступным для тех, кто может себе это позволить в  [ROOT.GetCountry.GetCapital.GetName]. Мы рады сообщить, что преимущества продажи в столице распространились на всю территорию  [ROOT.GetCountry.GetName]." #increased global lapis trade
+lapis_trade.5.desc_2: "К счастью, торговля лазуритом неуклонно растет, и невероятно редкий предмет роскоши становится доступным для тех, кто может себе это позволить в [ROOT.GetCountry.GetCapital.GetName]. Мы рады сообщить, что преимущества продажи в столице распространились на всю территорию [ROOT.GetCountry.GetName]." #increased global lapis trade
 lapis_trade.5.desc_3: "Что касается торговли лазуритом, то все могло быть лучше, но, безусловно, могло быть и хуже - мы не зарабатываем никаких денег, но и не обязательно теряем их." #stagnant; i.e. same
 lapis_trade.5.a: "Интересно..." #first 3 are owners, last 3 importers
 lapis_trade.5.b: "Это не хорошо."
@@ -294,11 +294,11 @@ lapis_trade.34.a: "Действительно прекрасная инвест�
 ### Myrrh Events
 
 lapis_trade.35.t: "Пропавший караван с миррой"
-lapis_trade.35.desc: "Одна из самых печальных вещей - это когда пропадает караван, как это случилось с купцами, которые везли мирру из дальних стран в  [ROOT.GetCountry.GetCapital.GetName]. Хотя всегда печально терять ценные товары для торговли, гораздо труднее переносить гибель людей. Мы слышали истории о торговце, который потерял все - все свое богатство и своего единственного сына, который был охранником каравана, - сидя на перекрестке дорог, безнадежно надеясь, что торговые фургоны появятся на горизонте...но мы знаем, что этого никогда не произойдет." # myrrh_trade_post is a scope (province)
+lapis_trade.35.desc: "Одна из самых печальных вещей - это когда пропадает караван, как это случилось с купцами, которые везли мирру из дальних стран в [ROOT.GetCountry.GetCapital.GetName]. Хотя всегда печально терять ценные товары для торговли, гораздо труднее переносить гибель людей. Мы слышали истории о торговце, который потерял все - все свое богатство и своего единственного сына, который был охранником каравана, - сидя на перекрестке дорог, безнадежно надеясь, что торговые фургоны появятся на горизонте...но мы знаем, что этого никогда не произойдет." # myrrh_trade_post is a scope (province)
 lapis_trade.35.a: "Проклятие!"
 
 lapis_trade.36.t: "Торговля миррой процветает"
-lapis_trade.36.desc: "Тяжелый, приторный аромат мирры, который наполняет наши рынки, является признаком того, что бизнес процветает. В то время как некоторые находят мощный аромат этого ценного благовония ошеломляющим,  [ROOT.GetCountry.GetRuler.GetName] пошутил, что головные боли того стоят." # myrrh_trade_post is a scope (province)
+lapis_trade.36.desc: "Тяжелый, приторный аромат мирры, который наполняет наши рынки, является признаком того, что бизнес процветает. В то время как некоторые находят мощный аромат этого ценного благовония ошеломляющим, [ROOT.GetCountry.GetRuler.GetName] пошутил, что головные боли того стоят." # myrrh_trade_post is a scope (province)
 lapis_trade.36.a: "На самом деле я нахожу этот запах приятным"
 
 lapis_trade.37.t: "Увеличение производства мирры"
@@ -326,7 +326,7 @@ lapis_trade.41.a: "What an unpleasant surprise."
 lapis_trade.41.b: "What an unpleasant surprise."
 
 lapis_trade.42.t: "Война в землях лазурита"
-lapis_trade.42.desc: "Торговля лазуритом замедлилась до минимума, и  [ROOT.GetCountry.GetRuler.GetName] потребовал сообщить причину неожиданных задержек в доставке. Наши разведчики сообщают, что в далеких землях, где находят лазурит, идет Великая война - говорят, что есть человек, генерал, который ведет рабов, который стремится построить для себя королевство, захватив лазуритовые рудники.\n\nПока это бедствие не разрешится, нам придется просто иметь дело с выкупами." 
+lapis_trade.42.desc: "Торговля лазуритом замедлилась до минимума, и [ROOT.GetCountry.GetRuler.GetName] потребовал сообщить причину неожиданных задержек в доставке. Наши разведчики сообщают, что в далеких землях, где находят лазурит, идет Великая война - говорят, что есть человек, генерал, который ведет рабов, который стремится построить для себя королевство, захватив лазуритовые рудники.\n\nПока это бедствие не разрешится, нам придется просто иметь дело с выкупами." 
 lapis_trade.42.a: "Мы должны попытаться стать посредниками."
 lapis_trade.42.b: "Какой неприятный сюрприз."
 
@@ -740,79 +740,79 @@ tin_trade.45.desc_2: "Although [ROOT.GetCountry.GetRuler.GetName] sent our best 
 tin_trade.45.a: "A resounding success for [ROOT.GetCountry.GetAdjective] diplomacy."
 tin_trade.45.b: "We need to do some failure management." #Emotional Damage xD; if ruler is cruel, the diplomat dies
 
-tin_trade.46.t: "Peace in the West"
-tin_trade.46.desc: "At long last, the conflict that has become known as the 'Grey War' has grinded to an unceremonious halt. Details are few and far between, difficult to come by - we are not even sure which side won - but we can confirm that trading of tin has resumed, which is all that matters in the end." 
-tin_trade.46.a: "May the trade flow again, without being interrupted."
+tin_trade.46.t: "Мир на Западе"
+tin_trade.46.desc: "Наконец-то конфликт, который стал известен как "Серая война", был бесцеремонно прекращен. Подробностей немного, их трудно найти - мы даже не уверены, какая сторона победила, - но мы можем подтвердить, что торговля оловом возобновилась, а это, в конечном счете, все, что имеет значение." 
+tin_trade.46.a: "Пусть торговля снова течет, не прерываясь."
 
-tin_trade.47.t: "Peace in the West"
-tin_trade.47.desc: "At long last, the conflict that has become known as the 'Grey War' has grinded to an unceremonious halt. Details are few and far between, difficult to come by - no doubt due to the vast distances involved - but our happy merchants can confirm that tin trade has resumed, which is all that matters in the end." 
-tin_trade.47.a: "May the trade flow again." #tin
-tin_trade.47.b: "May the trade flow again." #non-tin
+tin_trade.47.t: "Мир на Западе"
+tin_trade.47.desc: "Наконец-то конфликт, который стал известен как "Серая война", был бесцеремонно прекращен. Подробностей немного, их трудно найти - без сомнения, из-за огромных расстояний, - но наши довольные продавцы могут подтвердить, что торговля оловом возобновилась, а это, в конечном счете, все, что имеет значение." 
+tin_trade.47.a: "Пусть торговля снова течет." #tin
+tin_trade.47.b: "Пусть торговля снова течет." #non-tin
 
-tin_trade.48.t: "A Wandering Master Artisan"
-tin_trade.48.desc: "[SCOPE.sChar('master_lapis_artisan')GetName], a Master Artisan that is known for his skill in utilizing tin in his creations, has arrived in [ROOT.GetCountry.GetName] - a fact that has been made known to [ROOT.GetCountry.GetRuler.GetName], who has expressed an interest in obtaining the services of the renowned craftsman.\n\nQuality is expensive, but worth every coin spent." # master_lapis_artisan (char) and visited_trade_post (prov) are scopes
-tin_trade.48.a: "Hire the Man" 
-tin_trade.48.b: "...and buy his best work too." 
-tin_trade.48.c: "That's usury." 
+tin_trade.48.t: "Странствующий мастер-ремесленник"
+tin_trade.48.desc: "[SCOPE.sChar('master_lapis_artisan')GetName], мастер-ремесленник, известный своим мастерством использования олова в своих творениях, прибыл в [ROOT.GetCountry.GetName] - факт, который был доведен до сведения [ROOT.GetCountry.GetRuler.GetName], который выразил заинтересованность в получении услуг известного мастера.\n\nКачество дорогое, но стоит каждой потраченной монеты." # master_lapis_artisan (char) and visited_trade_post (prov) are scopes
+tin_trade.48.a: "Наймите мужчину" 
+tin_trade.48.b: "...и купить его лучшие работы." 
+tin_trade.48.c: "Это ростовщичество." 
 
-tin_trade.49.t: "A Vulnerable Tin Merchant" #you could extort a merchant ; 50 is a follow-up event about consequences
-tin_trade.49.desc: "It is a curious case that we present to you today, [ROOT.GetCountry.GetRuler.GetName]; there are stories of a tin trader circulating that you need to hear about.\n\nThis merchant, an elderly man who has a touch of senility, traffics in tin and often visits our trade posts. He travels alone, which is rare for someone that carries such valuable goods, and the quality of his stone is unmatched. This merchant refuses to answer where he finds this tin, however, claiming that it is a secret and that he does not want anyone traveling with him - he is unafraid of bandits, he says.\n\nIt would be a trivial thing for us to charge him a 'protection fee' - we could force him to hire some of our men as guards. We wouldn't want anything unseemly to happen to him while traveling through [ROOT.GetCountry.GetName], after all, but he will undoubtedly be angered by our heavy hand in his affairs." # extorted_trade_post is a prov scope
-tin_trade.49.a: "Fleece him." # extortion
-tin_trade.49.b: "We are above that." #do not extort
+tin_trade.49.t: "Уязвимый торговец оловом" #you could extort a merchant ; 50 is a follow-up event about consequences
+tin_trade.49.desc: "Это любопытный случай, который мы представляем вам сегодня,  [ROOT.GetCountry.GetRuler.GetName]; ходят истории о торговце оловом, о которых вам нужно услышать.\n\nЭтот торговец, пожилой человек с налетом дряхлости, торгует оловом и часто посещает наши торговые пункты. Он путешествует один, что редкость для того, кто перевозит такие ценные товары, а качество его камня не имеет себе равных. Однако этот торговец отказывается отвечать, где он нашел эту жестянку, утверждая, что это секрет и что он не хочет, чтобы кто-то путешествовал с ним - по его словам, он не боится бандитов.\n\nДля нас было бы тривиально взимать с него "плату за защиту" - мы могли бы заставить его нанять кого-нибудь из наших людей в качестве охранников. Мы бы не хотели, чтобы с ним случилось что-нибудь неподобающее во время путешествия по [ROOT.GetCountry.GetName], в конце концов, но он, несомненно, будет разгневан нашим вмешательством в его дела." # extorted_trade_post is a prov scope
+tin_trade.49.a: "Очистите его." # extortion
+tin_trade.49.b: "Мы выше этого." #do not extort
 
-tin_trade.50.t: "A Wandering Master Artisan"
-tin_trade.50.desc: "[ROOT.GetCountry.GetRuler.GetName], I must inform you that [SCOPE.sChar('master_lapis_artisan')GetName], the Master Tin Smith, has told everyone willing to listen of how the people of [ROOT.GetCountry.GetName] treated him, and our reputation abroad now reflects this."
-tin_trade.50.a: "Who could have thought that?" #bad consequences
-tin_trade.50.b: "Well obviously nothing happened..." #nothing happened
-tin_trade.50.c: "A good deed does get rewarded!" #good consequences (did not extort)
+tin_trade.50.t: "Странствующий мастер-ремесленник"
+tin_trade.50.desc: "[ROOT.GetCountry.GetRuler.GetName], я должен сообщить вам, что [SCOPE.sChar('master_lapis_artisan')GetName], мастер-жестянщик, рассказал всем желающим послушать о том, как к нему относились жители [ROOT.GetCountry.GetName] и наша репутация за рубежом теперь отражает это."
+tin_trade.50.a: "Кто мог такое подумать?" #bad consequences
+tin_trade.50.b: "Ну, очевидно, ничего не произошло..." #nothing happened
+tin_trade.50.c: "Доброе дело вознаграждается!" #good consequences (did not extort)
 
-tin_trade.51.t: "A Titillating Offer" #Tintillating xD
-tin_trade.51.desc: "Curiously, we have received messengers from the people of an island far away that call themselves the #E Shekelesh#!. They have proposed that we work together; we can combine our resources with their navigational know-how and perhaps create a trade hub in one of our tin-producing provinces.\n\nAs always, the final authority lies with [ROOT.GetCountry.GetRuler.GetName]." # new_tin_prov in Libya/Kyrenaika can become a new tin trade hub; Sardinians (who sell tin) offered a deal.
-tin_trade.51.a: "This would be very welcome" 
-tin_trade.51.b: "We sadly cannot afford this." 
+tin_trade.51.t: "Заманчивое предложение" #Tintillating xD
+tin_trade.51.desc: "Любопытно, что мы получили посланцев от жителей далекого острова, которые называют себя #E Шекелеш#!. Они предложили нам работать вместе; мы можем объединить наши ресурсы с их навигационными ноу-хау и, возможно, создать торговый центр в одной из наших провинций, производящих олово.\n\nКак всегда, окончательные полномочия принадлежат [ROOT.GetCountry.GetRuler.GetName]." # new_tin_prov in Libya/Kyrenaika can become a new tin trade hub; Sardinians (who sell tin) offered a deal.
+tin_trade.51.a: "Это было бы очень кстати" 
+tin_trade.51.b: "Мы, к сожалению, не можем себе этого позволить." 
 
-tin_trade.52.t: "A Flourishing Trade Centre"
-tin_trade.52.desc: "Everyone has heard of the growing trade routes that pass through [ROOT.GetCountry.GetName]; goods from distant lands are loaded onto ships, destined to make the arduous journey over sea before being loaded into caravans in unfamiliar ports.\n\nThere is word that one of our trade ports has grown into something larger; enough people have moved into the settlement that it can be called a proper city." # flourishing_trade_post becomes a city for free
-tin_trade.52.a: "Let us do what we can to help grow this project of ours" #pls change lol; pay some casha nd get some buildings way cheaper than usual
-tin_trade.52.b: "Let nature run its course" #nothing happens extra
+tin_trade.52.t: "Процветающий торговый центр"
+tin_trade.52.desc: "Все слышали о растущих торговых путях, которые проходят через  [ROOT.GetCountry.GetName]; товары из далеких стран грузятся на корабли, которым суждено совершить трудное путешествие по морю, прежде чем их погрузят в караваны в незнакомых портах.\n\nХодят слухи, что один из наших торговых портов вырос во что-то большее; в поселение переехало достаточно людей, чтобы его можно было назвать настоящим городом." # flourishing_trade_post becomes a city for free
+tin_trade.52.a: "Давайте сделаем все, что в наших силах, чтобы помочь развитию нашего проекта" #pls change lol; pay some casha nd get some buildings way cheaper than usual
+tin_trade.52.b: "Пусть природа идет своим чередом" #nothing happens extra
 
-tin_trade.53.t: "Tin Trade Attracts People"
-tin_trade.53.desc: "Stories of [ROOT.GetCountry.GetName]'s fabled wealth have spread far and wide, with many abandoning their homes and villages to seek their fortunes in [ROOT.GetCountry.GetCapital.GetName] or its environs. The reason for this sudden influx is self-evident; the explosive growth in the tin trade has attracted these newcomers.\n\nThere is growing pressure on us to ensure that we are taking care of the people, but this is an expensive endeavor." # 
-tin_trade.53.a: "Make sure there's enough space for everyone." 
-tin_trade.53.b: "... and build some basic infrastructure." 
-tin_trade.53.c: "We do not care for our subject's behaviour."
+tin_trade.53.t: "Торговля оловом привлекает людей"
+tin_trade.53.desc: "Истории о легендарном богатстве [ROOT.GetCountry.GetName] распространились повсюду, и многие покинули свои дома и деревни, чтобы попытать счастья в [ROOT.GetCountry.GetCapital.GetName] или его окрестностей. Причина такого внезапного притока очевидна; взрывной рост торговли оловом привлек этих новичков.\n\nНа нас оказывается растущее давление, требующее, чтобы мы заботились о людях, но это дорогостоящее мероприятие." # 
+tin_trade.53.a: "Убедитесь, что места хватит всем." 
+tin_trade.53.b: "... и построить базовую инфраструктуру." 
+tin_trade.53.c: "Нас не волнует поведение нашего субъекта."
 
 #cut out
 
 # these two are commented out; might change and make them fit at a later date
 
-tin_trade.60.t:0 "New tin Cutting Techniques"
+tin_trade.60.t:0 "Новые методы резки олова"
 tin_trade.60.desc:0 "To Do" # 
-tin_trade.60.a:0 "Fantastic news." 
+tin_trade.60.a:0 "Фантастическая новость." 
 
-tin_trade.61.t:0 "New tin Cutting Techniques"
+tin_trade.61.t:0 "Новые методы резки олова"
 tin_trade.61.desc:0 "To Do" # 
-tin_trade.61.a:0 "Fantastic news." 
-tin_trade.61.b:0 "Fantastic news." 
+tin_trade.61.a:0 "Фантастическая новость." 
+tin_trade.61.b:0 "Фантастическая новость." 
 
 # cut out
 
-tin_trade.73.t: "Mystery from the West" # wounded man found
-tin_trade.73.desc: "[ROOT.GetCountry.GetRuler.GetName] is training one morning with the bow when [ROOT.GetCountry.GetRuler.GetHerHis] soldiers burst into the courtyard, dragging behind them a wounded man named [SCOPE.sChar('expedition_lead')GetName]. Although it has been forbidden, it seems that [SCOPE.sChar('expedition_lead')GetFirstName] has been attempting to find tin deposits of his own accord.\n\nWhy, then, is he in such bad shape? What happened to his expedition? There is a lot of explaining that [SCOPE.sChar('expedition_lead')GetFirstName] has to do." #expedition_lead is the wounded guy
-tin_trade.73.a: "Pry all his secrets out of him." # question him - he'll be of another realm, the only survivor of an expedition in search of a new rumored tin deposit. His company starved and fell prey to beasts.
-tin_trade.73.b: "Who cares?"
-tin_trade.73.c: "Kill him." #cruel option
+tin_trade.73.t: "Тайна с Запада" # wounded man found
+tin_trade.73.desc: "[ROOT.GetCountry.GetRuler.GetName] однажды утром тренируется с луком, когда [ROOT.GetCountry.GetRuler.GetHerHis] солдаты ворвались во двор, волоча за собой раненого мужчину по имени [SCOPE.sChar('expedition_lead')GetName]. Хотя это было запрещено, похоже, что [SCOPE.sChar('expedition_lead')GetFirstName] пытался самостоятельно найти залежи олова.\n\nПочему же тогда он в такой плохой форме? Что случилось с его экспедицией? Есть много объяснений, которые должен сделать [SCOPE.sChar('expedition_lead')GetFirstName]." #expedition_lead is the wounded guy
+tin_trade.73.a: "Выведать из него все его секреты." # question him - he'll be of another realm, the only survivor of an expedition in search of a new rumored tin deposit. His company starved and fell prey to beasts.
+tin_trade.73.b: "Какая разница?"
+tin_trade.73.c: "Убей его." #cruel option
 
-tin_trade.74.t: "New Tin Deposit" 
-tin_trade.74.desc: "After questioning the soles of [SCOPE.sChar('expedition_lead')GetName]'s feet, it appears that everything [SCOPE.sChar('expedition_lead')GetSheHe] has offered is true; there is a tin deposit that is only a few day's ride from [ROOT.GetCountry.GetName]. Although there are bandits in the mountains, we shouldn't let them scare us away from the motherlode!"
-tin_trade.74.a: "Secure the tin." 
-tin_trade.74.b: "It is not worth it."
+tin_trade.74.t: "Новое месторождение олова" 
+tin_trade.74.desc: "После опроса подошв ногf [SCOPE.sChar('expedition_lead')GetName] оказывается, что все [SCOPE.sChar('expedition_lead')GetSheHe] верно; есть месторождение олова, которое находится всего в нескольких днях езды от [ROOT.GetCountry.GetName]. Хотя в горах есть бандиты, мы не должны позволить им отпугнуть нас от родной земли!"
+tin_trade.74.a: "Закрепите олово." 
+tin_trade.74.b: "Это не стоит."
 
-tin_trade.75.t: "New Tin Deposit Found" 
-tin_trade.75.desc: "Gods be praised! A new tin mine deposit has been discovered, this time in the nearby mountains. Although the local inhabitants are suspicious of outsiders, we are not afraid of encountering them - nothing will keep us away from the tin!"
-tin_trade.75.a: "Good news!" 
+tin_trade.75.t: "Обнаружено новое месторождение олова" 
+tin_trade.75.desc: "Хвала богам! Обнаружено новое месторождение олова, на этот раз в близлежащих горах. Хотя местные жители с подозрением относятся к чужакам, мы не боимся встречи с ними - ничто не удержит нас вдали от олова!"
+tin_trade.75.a: "Хорошие новости!" 
 
-tin_trade.76.t: "New Tin Deposit" #ping
-tin_trade.76.desc: "We have received messengers from our neighbors, who are gloating as they announce that they have discovered a new source of tin. They promise us that they will sell tin to us at a good price, but we are afraid that they will gouge us...why can't these types of things ever happen to us?"
-tin_trade.76.a: "Good for them..." 
-tin_trade.76.b: "Good news is good news!"
+tin_trade.76.t: "Новое месторождение олова" #ping
+tin_trade.76.desc: "Мы получили вестников от наших соседей, которые злорадствуют, объявляя, что обнаружили новый источник олова. Они обещают нам, что продадут нам олово по хорошей цене, но мы боимся, что они нас обманут...почему подобные вещи никогда не могут случиться с нами?"
+tin_trade.76.a: "Хорошо им..." 
+tin_trade.76.b: "Хорошие новости есть хорошие новости!"
