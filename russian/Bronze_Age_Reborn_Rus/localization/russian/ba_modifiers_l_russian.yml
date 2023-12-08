@@ -46,7 +46,7 @@
  is_desert:0 "Пустыня"
  is_marsh:0 "Марш"
  is_jungle:0 "Джунгли"
- is_farmland:0 "Фермерземля"
+ is_farmland:0 "Пахотная земля"
  is_forest:0 "Лес"
  is_flood_plain:0 "Пойма"
  foreign_trading_colony:0 "Внешнеторговый район"
