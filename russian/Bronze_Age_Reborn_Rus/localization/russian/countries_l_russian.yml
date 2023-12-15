@@ -1655,7 +1655,7 @@
  ONE_EGYPT_ADJECTIVE:0 "Кемет"
  ONE_CYPRUS_NAME:0 "Энкомское Царство"
  ONE_CYPRUS_ADJECTIVE:0 "Энкомск"
- ONE_KRITI_NAME:0 "Минойское царство"
+ ONE_KRITI_NAME:0 "Минойское Царство"
  ONE_KRITI_ADJECTIVE:0 "Минойск"
  ONE_PHRYGIA_NAME:0 "Фригия"
  ONE_PHRYGIA_ADJECTIVE:0 "Фригийск"
@@ -1673,7 +1673,7 @@
  ONE_LYDIA_ADJECTIVE:0 "Лидиан"
  ONE_SEHA_NAME:0 "Сеха"
  ONE_SEHA_ADJECTIVE:0 "Сехан"
- ONE_WILUSA_NAME:0 "Троянское царство"
+ ONE_WILUSA_NAME:0 "Троянское Царство"
  ONE_WILUSA_ADJECTIVE:0 "Троянск"
  ONE_CANAAN_NAME:0 "Ханнанская Империя"
  ONE_CANAAN_ADJECTIVE:0 "Ханаанск"
@@ -1781,7 +1781,7 @@
  KTH_ADJ:0 "Кута"
  BBL:0 "Вавилон"
  BBL_ADJ:0 "Вавилонский"
- BBL_EMPIRE:0 "Вавилонская империя"
+ BBL_EMPIRE:0 "Вавилонская Империя"
  ADB:0 "Адаб"
  ADB_ADJ:0 "Адабит"
  GSR:0 "Гасур"
@@ -1913,11 +1913,11 @@
  NEW_THEBES_NAME:0 "Фибай"
  NEW_THEBES_ADJECTIVE:0 "Фибайи"
  PROV329_TH1:0 "Фибай"
- ONE_KIZZUWATNA_NAME:0 "Киццуватнанское царство"
+ ONE_KIZZUWATNA_NAME:0 "Киццуватнанское Царство"
  ONE_KIZZUWATNA_ADJECTIVE:0 "Киццуватнанск"
- ONE_ARZAWA_NAME:0 "Арзаванское царство"
+ ONE_ARZAWA_NAME:0 "Арзаванское Царство"
  ONE_ARZAWA_ADJECTIVE:0 "Арзаванск"
- ONE_ELAM_NAME:0 "Эламское царство"
+ ONE_ELAM_NAME:0 "Эламское Царство"
  ONE_ELAM_ADJECTIVE:0 "Эламск"
  ONE_LUWIA_NAME:0 "Лувийское Царство"
  ONE_LUWIA_ADJECTIVE:0 "Лувийск"
@@ -1929,7 +1929,7 @@
  BA_PAMPHYLIA_ADJECTIVE:0 "Памфилийский"
  BA_CARIA_NAME:0 "Кария"
  BA_CARIA_ADJECTIVE:0 "Кариан"
- G_CYPRUS_NAME:0 "Киприотское царство" #maybe Kupros or Kypros?
+ G_CYPRUS_NAME:0 "Киприотское Царство" #maybe Kupros or Kypros?
  G_CYPRUS_ADJECTIVE:0 "Кипрск"
  KYRENAIKA_NAME:0 "Киренаика"
  KYRENAIKA_ADJECTIVE:0 "Киренаиканец"
@@ -1963,7 +1963,7 @@
  ARAM_ADJECTIVE:0 "Арамейский"
  JUDAH_NAME:0 "Иудейское Царство"
  JUDAH_ADJECTIVE:0 "Иудейск"
- ISRAEL_NAME:0 "Израильское царство"
+ ISRAEL_NAME:0 "Израильское Царство"
  ISRAEL_ADJECTIVE:0 "Израильтянск" #The Israeli are the modern people, the Israelites the ancient ones
  QATNA_NAME:0 "Катна"
  QATNA_ADJECTIVE:0 "Катнан"
@@ -2000,7 +2000,7 @@
 
  ASSYRIA_EMP_NAME:0 "Империя Нинуртана" #Assyrian Empire, 'evolution' of Assyria. Can be named tons of other stuff lol.
  ASSYRIA_EMP_ADJECTIVE:0 "Нинуртан"
- AKKAD_EMP_NAME:0 "Саргоническая империя" #Akkad under Sargon
+ AKKAD_EMP_NAME:0 "Саргоническая Империя" #Akkad under Sargon
  AKKAD_EMP_ADJECTIVE:0 "Саргоник"
  GREATER_KEMET_NAME:0 "Большой Кемет" #Greater Egypt
  GREATER_TEHENU_NAME:0 "Большой Техену"

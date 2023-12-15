@@ -337,168 +337,168 @@ lapis_trade.43.b: "Какой неприятный сюрприз." #lapis
 lapis_trade.43.c: "Мы должны сделать все возможное, чтобы положить конец этому конфликту." #non-lapis
 lapis_trade.43.d: "Какой неприятный сюрприз." #non-lapis
 
-lapis_trade.44.t: "Send Diplomat"
-lapis_trade.44.desc: "Because of the ongoing 'Blue War', which was named because of the lapis lazuli trade that is at the heart of the conflict, there is pressure on [ROOT.GetCountry.GetRuler.GetName] to do something, and everyone has agreed that sending [SCOPE.sChar('lapis_diplo_guy')GetName] as a mediator would be a wise course of action. [SCOPE.sChar('lapis_diplo_guy')GetFirstName] has a maturity that belies [SCOPE.sChar('lapis_diplo_guy')GetHerHis] years, so all are in agreement that [SCOPE.sChar('lapis_diplo_guy')GetSheHe] would make a fine diplomat.\n\nAll that remains is for [ROOT.GetCountry.GetRuler.GetName] to say the word." #scope:lapis_diplo_guy is the character sent
-lapis_trade.44.a: "Send [SCOPE.sChar('lapis_diplo_guy')GetName]."
-lapis_trade.44.b: "There is nothing we can do - forget it."
+lapis_trade.44.t: "Отправить дипломата"
+lapis_trade.44.desc: "Из-за продолжающейся "Голубой войны", названной так из-за торговли лазуритом, которая лежит в основе конфликта, оказывается давление на [ROOT.GetCountry.GetRuler.GetName] что-то сделать, и все согласились с тем, что отправка [SCOPE.sChar('lapis_diplo_guy')GetName] в качестве посредника была бы мудрым решением. [SCOPE.sChar('lapis_diplo_guy')GetFirstName] имеет срок погашения, который противоречит [SCOPE.sChar('lapis_diplo_guy')GetHerHis] годам, поэтому все согласны с тем, что [SCOPE.sChar('lapis_diplo_guy')GetSheHe] был бы прекрасным дипломатом.\n\nВсе, что остается, это [ROOT.GetCountry.GetRuler.GetName] произнести слово." #scope:lapis_diplo_guy is the character sent
+lapis_trade.44.a: "Отправить [SCOPE.sChar('lapis_diplo_guy')GetName]."
+lapis_trade.44.b: "Мы ничего не можем сделать – забудь об этом."
 
-lapis_trade.45.t: "Diplomatic Overtures"
-lapis_trade.45.desc_1: "We are thrilled to report that the diplomat we sent to the conflicted regions in the Blue War has achieved peace! Everyone has realized the foolishness of this war, and while there yet remains difficult conversations that must be had, both sides have agreed to lay down their weapons and discuss ways that they can move forward without shedding blood. [ROOT.GetCountry.GetRuler.GetName] should be proud, as everyone is singing [ROOT.GetCountry.GetRuler.GetHerHis] praises." 
-lapis_trade.45.desc_2: "Although [ROOT.GetCountry.GetRuler.GetName] sent our best diplomats, our mission was an utter failure - the Blue War rages on, with reports of atrocities being committed by both sides. It seems that, despite our best efforts, the conflict will continue for the foreseeable future." 
-lapis_trade.45.a: "A resounding success for [ROOT.GetCountry.GetAdjective] diplomacy."
-lapis_trade.45.b: "We need to do some failure management." #Emotional Damage xD; if ruler is cruel, the diplomat dies
+lapis_trade.45.t: "Дипломатические предложения"
+lapis_trade.45.desc_1: "Мы рады сообщить, что дипломат, которого мы отправили в конфликтующие регионы во время Голубой войны, добился мира! Все осознали глупость этой войны, и хотя все еще остаются трудные переговоры, которые необходимо провести, обе стороны согласились сложить оружие и обсудить пути продвижения вперед без пролития крови. [ROOT.GetCountry.GetRuler.GetName] должна гордиться, поскольку все поют [ROOT.GetCountry.GetRuler.GetHerHis] дифирамбы.." 
+lapis_trade.45.desc_2: "Хотя [ROOT.GetCountry.GetRuler.GetName] отправили наших лучших дипломатов, наша миссия была полностью провалена - Голубая война продолжается, поступают сообщения о зверствах, совершаемых обеими сторонами. Похоже, что, несмотря на все наши усилия, конфликт будет продолжаться в обозримом будущем." 
+lapis_trade.45.a: "Оглушительный успех дипломатии [ROOT.GetCountry.GetAdjective]."
+lapis_trade.45.b: "Нам нужно немного поработать над управлением отказами." #Emotional Damage xD; if ruler is cruel, the diplomat dies
 
-lapis_trade.46.t: "Peace in the East"
-lapis_trade.46.desc: "At long last, the conflict that has become known as the 'Blue War' has grinded to an unceremonious halt. Details are few and far between, difficult to come by - we are not even sure which side won - but we can confirm that lapis trade has resumed, which is all that matters in the end." 
-lapis_trade.46.a: "May the trade flow again, without being interrupted."
+lapis_trade.46.t: "Мир на Востоке"
+lapis_trade.46.desc: "Наконец-то конфликт, который стал известен как "Голубая война", был бесцеремонно прекращен. Подробностей немного, их трудно найти - мы даже не уверены, какая сторона победила, - но мы можем подтвердить, что торговля ляписом возобновилась, а это, в конечном счете, все, что имеет значение." 
+lapis_trade.46.a: "Пусть торговля снова течет, не прерываясь."
 
-lapis_trade.47.t: "Peace in the East"
-lapis_trade.47.desc: "At long last, the conflict that has become known as the 'Blue War' has grinded to an unceremonious halt. Details are few and far between, difficult to come by - no doubt due to the vast distances involved - but our happy merchants can confirm that lapis trade has resumed, which is all that matters in the end." 
-lapis_trade.47.a: "May the trade flow again." #lapis
-lapis_trade.47.b: "May the trade flow again." #non-lapis
+lapis_trade.47.t: "Мир на Востоке"
+lapis_trade.47.desc: "Наконец-то конфликт, который стал известен как "Голубая война", был бесцеремонно прекращен. Подробностей немного, их трудно найти - без сомнения, из-за огромных расстояний, - но наши довольные продавцы могут подтвердить, что торговля ляписом возобновилась, а это, в конечном счете, все, что имеет значение." 
+lapis_trade.47.a: "Пусть торговля возобновится." #lapis
+lapis_trade.47.b: "Пусть торговля возобновится." #non-lapis
 
-lapis_trade.48.t: "A Wandering Master Artisan"
-lapis_trade.48.desc: "[SCOPE.sChar('master_lapis_artisan')GetName], a Master Artisan that is known for his skill in utilizing lapis lazuli in his creations, has arrived in [ROOT.GetCountry.GetName] - a fact that has been made known to [ROOT.GetCountry.GetRuler.GetName], who has expressed an interest in obtaining the services of the renowned craftsman.\n\nQuality is expensive, but worth every coin spent." # master_lapis_artisan (char) and visited_trade_post (prov) are scopes
-lapis_trade.48.a: "Hire the Man" 
-lapis_trade.48.b: "...and buy his best work too." 
-lapis_trade.48.c: "That's usury." 
+lapis_trade.48.t: "Странствующий мастер-ремесленник"
+lapis_trade.48.desc: "[SCOPE.sChar('master_lapis_artisan')GetName], мастер-ремесленник, известный своим мастерством использования лазурита в своих творениях, прибыл в [ROOT.GetCountry.GetName] - факт, который был доведен до сведения [ROOT.GetCountry.GetRuler.GetName], который выразил заинтересованность в получении услуг известного мастера.\n\nКачество дорогое, но стоит каждой потраченной монеты." # master_lapis_artisan (char) and visited_trade_post (prov) are scopes
+lapis_trade.48.a: "Наймите этого человека" 
+lapis_trade.48.b: "...и купить его лучшие работы." 
+lapis_trade.48.c: "Это ростовщичество." 
 
-lapis_trade.49.t: "A Vulnerable Lapis Merchant" #you could extort a merchant ; 50 is a follow-up event about consequences
-lapis_trade.49.desc: "It is a curious case that we present to you today, [ROOT.GetCountry.GetRuler.GetName]; there are stories of a lapis trader circulating that you need to hear about.\n\nThis merchant, an elderly man who has a touch of senility, traffics in lapis lazuli and often visits our trade posts. He travels alone, which is rare for someone that carries such valuable goods, and the quality of his stone is unmatched. This merchant refuses to answer where he finds this lapis, however, claiming that it is a secret and that he does not want anyone traveling with him - he is unafraid of bandits, he says.\n\nIt would be a trivial thing for us to charge him a 'protection fee' - we could force him to hire some of our men as guards. We wouldn't want anything unseemly to happen to him while traveling through [ROOT.GetCountry.GetName], after all, but he will undoubtedly be angered by our heavy hand in his affairs." # extorted_trade_post is a prov scope
-lapis_trade.49.a: "Fleece him." # extortion
-lapis_trade.49.b: "We are above that." #do not extort
+lapis_trade.49.t: "Уязвимый торговец лазуритом" #you could extort a merchant ; 50 is a follow-up event about consequences
+lapis_trade.49.desc: "Это любопытный случай, который мы представляем вам сегодня, [ROOT.GetCountry.GetRuler.GetName]; ходят истории о торговце ляписом, о которых вам нужно услышать.\n\nЭтот торговец, пожилой человек с налетом дряхлости, торгует лазуритом и часто посещает наши торговые пункты. Он путешествует один, что редкость для того, кто перевозит такие ценные товары, и качество его камня не имеет себе равных. Однако этот торговец отказывается отвечать, где он находит этот лазурит, утверждая, что это секрет и что он не хочет, чтобы кто-то путешествовал с ним - по его словам, он не боится бандитов.\n\nДля нас было бы тривиально взимать с него "плату за защиту" - мы могли бы заставить его нанять кого-нибудь из наших людей в качестве охранников. Мы бы не хотели, чтобы с ним случилось что-нибудь неподобающее во время путешествия по [ROOT.GetCountry.GetName], в конце концов, но он, несомненно, будет разгневан нашим вмешательством в его дела." # extorted_trade_post is a prov scope
+lapis_trade.49.a: "Обчисти его." # extortion
+lapis_trade.49.b: "Мы выше этого." #do not extort
 
-lapis_trade.50.t: "A Wandering Master Artisan"
-lapis_trade.50.desc: "[ROOT.GetCountry.GetRuler.GetName], I must inform you that [SCOPE.sChar('master_lapis_artisan')GetName], the Master Lapis Artisan, has told everyone willing to listen of how the people of [ROOT.GetCountry.GetName] treated him, and our reputation abroad now reflects this." # master_lapis_artisan (char) and visited_trade_post (prov) are scopes
-lapis_trade.50.a: "Who could have thought that?" #bad consequences
-lapis_trade.50.b: "Well obviously nothing happened..." #nothing happened
-lapis_trade.50.c: "A good deed does get rewarded!" #good consequences (did not extort)
+lapis_trade.50.t: "Странствующий мастер-ремесленник"
+lapis_trade.50.desc: "[ROOT.GetCountry.GetRuler.GetName], я должен сообщить вам, что [SCOPE.sChar('master_lapis_artisan')GetName], мастер по изготовлению лазурита, рассказал всем желающим послушать о том, как жители [ROOT.GetCountry.GetName] лечил его, и наша репутация за рубежом теперь отражает это." # master_lapis_artisan (char) and visited_trade_post (prov) are scopes
+lapis_trade.50.a: "Кто мог такое подумать?" #bad consequences
+lapis_trade.50.b: "Ну, очевидно, ничего не произошло..." #nothing happened
+lapis_trade.50.c: "Доброе дело вознаграждается!" #good consequences (did not extort)
 
-lapis_trade.51.t: "Coveted Lapis Lazuli in Short Supply"
-lapis_trade.51.desc: "[ROOT.GetCountry.GetRuler.GetName], although this matter is tiresome, we must inform you of the troubles. Our nobles have ceased their usually squabbling to petition us en masse, arguing that the popularity of lapis lazuli in [ROOT.GetCountry.GetAdjective] society has resulted in the richer classes being unable to find enough of the precious stone for their own purposes. They claim that not only the masses, but also the priestly castes are guilty of coveting lapis lazuli - everyone in our society has gone mad for it.\n\nWhat should we do? We cannot afford to ignore this for much longer." # 
-lapis_trade.51.a: "My noble friends shall have their due." #favour the nobles
-lapis_trade.51.b: "A happy people is easy to rule." #favour the masses
-lapis_trade.51.c: "Favouring the gods can never be wrong." #favour the priesthood over either
-lapis_trade.51.d: "The shiny stones are MINE!" #lunatic option
+lapis_trade.51.t: "Желанный лазурит в дефиците"
+lapis_trade.51.desc: "[ROOT.GetCountry.GetRuler.GetName], хотя этот вопрос утомителен, мы должны сообщить вам о неприятностях. Наши дворяне прекратили свои обычные склоки и массово обращаются к нам с петициями, утверждая, что популярность лазурита в [ROOT.GetCountry.GetAdjective] общество привело к тому, что более богатые классы не могут найти достаточное количество драгоценного камня для своих собственных целей. Они утверждают, что не только массы, но и касты жрецов виновны в вожделении к лазуритом - все в нашем обществе сошли по нему с ума.\n\nЧто нам следует делать? Мы не можем позволить себе игнорировать это слишком долго." # 
+lapis_trade.51.a: "Мои благородные друзья получат по заслугам." #favour the nobles
+lapis_trade.51.b: "Счастливым народом легко управлять." #favour the masses
+lapis_trade.51.c: "Благоволение богам никогда не может быть неправильным." #favour the priesthood over either
+lapis_trade.51.d: "Блестящие камни - МОИ!" #lunatic option
 
-lapis_trade.52.t: "A Flourishing Trade Centre"
-lapis_trade.52.desc: "Everyone has heard of the growing trade routes that pass through [ROOT.GetCountry.GetName]; goods from distant lands are loaded onto ships, destined to make the arduous journey over sea before being loaded into caravans in unfamiliar ports.\n\nThere is word that one of our trade ports has grown into something larger; enough people have moved into the settlement that it can be called a proper city." # flourishing_trade_post becomes a city for free
-lapis_trade.52.a: "Let us do what we can to help grow this project of ours" #pls change lol; pay some casha nd get some buildings way cheaper than usual
-lapis_trade.52.b: "Let nature run its course" #nothing happens extra
+lapis_trade.52.t: "Процветающий торговый центр"
+lapis_trade.52.desc: "Все слышали о растущих торговых путях, которые проходят через [ROOT.GetCountry.GetName]; товары из далеких стран грузятся на корабли, которым суждено совершить трудное путешествие по морю, прежде чем их погрузят в караваны в незнакомых портах.\n\nХодят слухи, что один из наших торговых портов вырос во что-то большее; в поселение переехало достаточно людей, чтобы его можно было назвать настоящим городом." # flourishing_trade_post becomes a city for free
+lapis_trade.52.a: "Давайте сделаем все возможное, чтобы помочь развитию этого нашего проекта." #pls change lol; pay some casha nd get some buildings way cheaper than usual
+lapis_trade.52.b: "Пусть природа идет своим чередом" #nothing happens extra
 
-lapis_trade.53.t: "Lapis Lazuli Trade Attracts People"
-lapis_trade.53.desc: "Stories of [ROOT.GetCountry.GetName]'s fabled wealth have spread far and wide, with many abandoning their homes and villages to seek their fortunes in [ROOT.GetCountry.GetCapital.GetName] or its environs. The reason for this sudden influx is self-evident; the explosive growth in the lapis lazuli trade has attracted these newcomers.\n\nThere is growing pressure on us to ensure that we are taking care of the people, but this is an expensive endeavor." # 
-lapis_trade.53.a: "Make sure there's enough space for everyone." 
-lapis_trade.53.b: "... and build some basic infrastructure." 
-lapis_trade.53.c: "We do not care for our subject's behaviour."
+lapis_trade.53.t: "Торговля лазуритом привлекает людей"
+lapis_trade.53.desc: "Истории о легендарном богатстве [ROOT.GetCountry.GetName] распространились повсюду, и многие покинули свои дома и деревни, чтобы попытать счастья в [ROOT.GetCountry.GetCapital.GetName] или его окрестностей. Причина такого внезапного притока очевидна; взрывной рост торговли лазуритом привлек этих новичков.\n\nНа нас оказывается растущее давление, требующее, чтобы мы заботились о людях, но это дорогостоящее мероприятие." # 
+lapis_trade.53.a: "Убедитесь, что места хватит всем." 
+lapis_trade.53.b: "... и построить базовую инфраструктуру." 
+lapis_trade.53.c: "Нас не волнует поведение нашего субъекта."
 
-lapis_trade.54.t: "Great Ceremony"
-lapis_trade.54.desc: "Some advisors have approached [ROOT.GetCountry.GetRuler.GetName] to propose that a Great Ceremony be held in [ROOT.GetCountry.GetCapital.GetName] to thank the gods for the lapis lazuli that they have showered upon our people. This rarest of trade goods has increased our wealth and prestige far beyond measure, and it is only fitting that we show proper obeisance and a spirit of gratitude.\n\n[ROOT.GetCountry.GetRuler.GetFirstName], whom should we honor in this festival?" #a great ceremony involving Lapis; to whom will you dedicate it?; start of a small event chain
-lapis_trade.54.a: "The gods, who are responsible for everything"
-lapis_trade.54.b: "Myself, of course!"
-lapis_trade.54.c: "Everything to the people"
-lapis_trade.54.d: "There will not be any festival."
+lapis_trade.54.t: "Великая Церемония"
+lapis_trade.54.desc: "Некоторые консультанты обратились к [ROOT.GetCountry.GetRuler.GetName] с предложением провести Большую церемонию в [ROOT.GetCountry.GetCapital.GetName] поблагодарить богов за лазурит, которым они осыпали наш народ. Этот редчайший из торговых товаров безмерно увеличил наше богатство и престиж, и вполне уместно, что мы проявляем должное почтение и дух благодарности.\n\n[ROOT.GetCountry.GetRuler.GetFirstName], кого мы должны чествовать на этом фестивале?" #a great ceremony involving Lapis; to whom will you dedicate it?; start of a small event chain
+lapis_trade.54.a: "Боги, ответственные за все"
+lapis_trade.54.b: "Я, конечно!"
+lapis_trade.54.c: "Все для людей"
+lapis_trade.54.d: "Никакого фестиваля не будет."
 
-lapis_trade.55.t: "A Festival for the Gods"
-lapis_trade.55.desc: "Now that [ROOT.GetCountry.GetRuler.GetName] has decided to honor the gods with a ceremony, we must decide some of the particulars - the theme of the festival, so to speak. We now have the enviable task of deciding which god or goddess shall be worshiped." #deity option from above
-lapis_trade.55.a: "We shall dedicate it to [SCOPE.sDeity('pantheon_deity_1')GetName]."
-lapis_trade.55.b: "It shall be held in the name of [SCOPE.sDeity('pantheon_deity_2')GetName]."
-lapis_trade.55.c: "The festival will favour no god over another."
-lapis_trade.55.d: "All temples can make their own ceremony."
+lapis_trade.55.t: "Фестиваль богов"
+lapis_trade.55.desc: "Теперь, когда [ROOT.GetCountry.GetRuler.GetName] решил почтить богов церемонией, мы должны определиться с некоторыми деталями - темой фестиваля, так сказать. Теперь перед нами стоит завидная задача - решить, какому богу или богине следует поклоняться." #deity option from above
+lapis_trade.55.a: "Мы посвятим его [SCOPE.sDeity('pantheon_deity_1')GetName]."
+lapis_trade.55.b: "Оно проводится от имени [SCOPE.sDeity('pantheon_deity_2')GetName]."
+lapis_trade.55.c: "Фестиваль не будет отдавать предпочтение ни одному богу перед другим."
+lapis_trade.55.d: "Все храмы могут проводить свои собственные церемонии."
 
-lapis_trade.56.t: "A Festival for [ROOT.GetCountry.GetRuler.GetName]"
-lapis_trade.56.desc: "Because [ROOT.GetCountry.GetRuler.GetName] has demanded that the upcoming Great Ceremony be a celebration of [ROOT.GetCountry.GetRuler.GetHerHis] life, we must now decide what aspect of [ROOT.GetCountry.GetRuler.GetFirstName]'s life will be the focus of the festival. Thankfully, we have many options to choose from, as our leader has lived a full and exciting life - a fact that [ROOT.GetCountry.GetRuler.GetFirstName] has proudly mentioned time and time again.\n\nWhat should the festival be dedicated to, o [ROOT.GetCountry.GetRuler.GetFirstName]?"
-lapis_trade.56.a: "To my unmatched conquests."
-lapis_trade.56.b: "To my endless wealth and riches."
-lapis_trade.56.c: "To my unifying nature."
-lapis_trade.56.d: "To my peerless diplomatic skills."
-lapis_trade.56.e: "To my cheerful personality."
-lapis_trade.56.f: "I AM THE GREATEST" #Lunatic (forced) option
+lapis_trade.56.t: "Фестиваль для [ROOT.GetCountry.GetRuler.GetName]"
+lapis_trade.56.desc: "Поскольку [ROOT.GetCountry.GetRuler.GetName] потребовал, чтобы предстоящая Великая церемония стала празднованием [ROOT.GetCountry.GetRuler.GetHerHis] жизни, мы должны теперь решить, какой аспектf [ROOT.GetCountry.GetRuler.GetFirstName] жизнь будет в центре внимания фестиваля. К счастью, у нас есть из чего выбирать, поскольку наш лидер прожил насыщенную и захватывающую жизнь - факт, который [ROOT.GetCountry.GetRuler.GetFirstName] с гордостью упоминался снова и снова.\n\nЧему должен быть посвящен фестиваль, о [ROOT.GetCountry.GetRuler.GetFirstName]?"
+lapis_trade.56.a: "Моим несравненным завоеваниям."
+lapis_trade.56.b: "К моему бесконечному богатству и богатству."
+lapis_trade.56.c: "К моей объединяющей природе."
+lapis_trade.56.d: "За мои несравненные дипломатические способности."
+lapis_trade.56.e: "Моему жизнерадостному характеру."
+lapis_trade.56.f: "Я ВЕЛИЧАЙШИЙ" #Lunatic (forced) option
 
-lapis_trade.57.t: "A Popular Festival"
-lapis_trade.57.desc: "Much to everyone's surprise, [ROOT.GetCountry.GetRuler.GetName] has decided to celebrate the common man in a Great Ceremony. Claiming that the people are the source of our strength, it has been announced throughout all of [ROOT.GetCountry.GetName] that all work shall cease for one week's time, and that free wheat cakes and beer will be given out in [ROOT.GetCountry.GetCapital.GetName]. On top of this, [ROOT.GetCountry.GetRuler.GetFirstName] has decided to celebrate a special theme." # 
-lapis_trade.57.a: "Celebrate our unity and cohesion." 
-lapis_trade.57.b: "The various peoples in our state are our strength." 
+lapis_trade.57.t: "Популярный фестиваль"
+lapis_trade.57.desc: "Ко всеобщему удивлению, [ROOT.GetCountry.GetRuler.GetName] решили отметить простого человека большой церемонией. Утверждая, что люди являются источником нашей силы, об этом было объявлено по всему [ROOT.GetCountry.GetName] что вся работа прекращается на одну неделю и [ROOT.GetCountry.GetCapital.GetName] будут раздаваться бесплатные пшеничные лепешки и пиво. В дополнение к этому, [ROOT.GetCountry.GetRuler.GetFirstName] решил отметить особую тему." # 
+lapis_trade.57.a: "Празднуйте наше единство и сплоченность." 
+lapis_trade.57.b: "Различные народы нашего государства – наша сила." 
 
-lapis_trade.58.t: "Grandiose Ceremonies"
-lapis_trade.58.desc: "Because we are wealthy in material goods, having vast quantities of myrrh, incense and lapis lazuli available to us, it has been proposed that we incorporate these valuable items in our religious festivals. Having decided upon this course of action, all that remains is to decide on the details; should we throw a sumptuous party, a feast for the gods, or should we have daily sacrifices for an entire week?" # 
-lapis_trade.58.a: "We shall please the gods with lavish feasts." 
-lapis_trade.58.b: "We shall appease the gods every day." 
+lapis_trade.58.t: "Грандиозные церемонии"
+lapis_trade.58.desc: "Поскольку мы богаты материальными благами и располагаем огромным количеством мирры, благовоний и лазуритом, было предложено включать эти ценные предметы в наши религиозные праздники. Определившись с таким планом действий, все, что остается, - это определиться с деталями; должны ли мы устроить роскошную вечеринку, пир для богов или нам следует устраивать ежедневные жертвоприношения в течение целой недели?" # 
+lapis_trade.58.a: "Мы порадуем богов пышными пирами." 
+lapis_trade.58.b: "Мы будем умилостивлять богов каждый день." 
 
-lapis_trade.59.t: "Lavish Ceremonies No More"
+lapis_trade.59.t: "Роскошных церемоний больше нет"
 lapis_trade.59.desc: "All good things must come to an end, and our period of feasting has certainly been a great period for us, but our priests assure us that the gods have been properly honored and that we do not have to throw lavish ceremonies as frequently as we have." # 
 lapis_trade.59.a: "May the Gods not punish our zealousness." 
 
 lapis_trade.60.t: "New Lapis Lazuli Cutting Technique"
-lapis_trade.60.desc: "My [ROOT.GetCountry.GetRuler.GetTitle], something incredible just happened, something beyond imagination; a craftsman has found a new way to cut the most precious of stones, the lapis lazuli. With this new cut technique, many more usable pieces can be created out of the raw mined stone, allowing for more decorations and jewelry! The priests will rejoice, for their ceaseless demands for more of the blue delight might be satisfied for once. \nOf course, the merchants and traders are extatic for they await limitless profits." 
-lapis_trade.60.a: "What an incredible feat." 
+lapis_trade.60.desc: "Мой [ROOT.GetCountry.GetRuler.GetTitle], только что произошло нечто невероятное, нечто за гранью воображения; мастер нашел новый способ огранки самого драгоценного из камней, лазурита. Благодаря этой новой технике огранки из необработанного добытого камня можно создать гораздо больше полезных изделий, что позволит создавать больше украшений! Жрецы будут рады, поскольку их постоянные потребности в большем количестве голубого наслаждения могут быть удовлетворены на этот раз. \nКонечно, купцы и торговки- экстатики, ибо они ждут безграничной прибыли." 
+lapis_trade.60.a: "Какой невероятный подвиг." 
 
-lapis_trade.61.t: "New lapis Lazuli Cutting Techniques"
-lapis_trade.61.desc: "My [ROOT.GetCountry.GetRuler.GetTitle], something incredible just happened, something beyond imagination; a craftsman has found a new way to cut the most precious of stones, the lapis lazuli. With this new cut technique, many more usable pieces can be created out of the raw mined stone, allowing for more decorations and jewelry! The priests will rejoice, for their ceaseless demands for more of the blue delight might be satisfied for once. \nOf course, the merchants and traders are extatic for they await limitless profits." # 
-lapis_trade.61.a: "What an incredible feat." 
-lapis_trade.61.b: "What an incredible feat.." 
+lapis_trade.61.t: "Новые методы огранки лазурита"
+lapis_trade.61.desc: "Мой [ROOT.GetCountry.GetRuler.GetTitle], только что произошло нечто невероятное, нечто за гранью воображения; мастер нашел новый способ огранки самого драгоценного из камней - лазурита. Благодаря этой новой технике огранки из необработанного добытого камня можно создать гораздо больше полезных изделий, что позволяет создавать больше украшений! Жрецы возрадуются, потому что их непрекращающиеся требования о большем количестве голубого наслаждения могут быть удовлетворены в кои-то веки. \nКонечно, купцы и торговки- экстатики, ибо они ждут безграничной прибыли." # 
+lapis_trade.61.a: "Какой невероятный подвиг." 
+lapis_trade.61.b: "Какой невероятный подвиг.." 
 
 lapis_trade.62.t: "Jewelry fit for an Empress"
-lapis_trade.62.desc: "My [ROOT.GetCountry.GetRuler.GetTitle], your noble consort, [ROOT.GetCountry.GetConsort.GetName], has expressed the desire for some jewelry made out of the precious, blue lapis lazuli stone. [ROOT.GetCountry.GetConsort.GetSheHe] While the stone is not as rare as to be prohibitively expensive, having the adornments made will still cost a princely sum. Refusing might upset your consort just as much as humouring [ROOT.GetCountry.GetConsort.GetHerHim]"
-lapis_trade.62.a: "Humour [ROOT.GetCountry.GetConsort.GetHerHim]."
-lapis_trade.62.b: "Why waste money?"
-lapis_trade.62.c: "The jewels shall be mine!"
+lapis_trade.62.desc: "Мой [ROOT.GetCountry.GetRuler.GetTitle], твой благородный супруг, [ROOT.GetCountry.GetConsort.GetName], выразила желание приобрести украшения из драгоценного голубого камня лазурит. [ROOT.GetCountry.GetConsort.GetSheHe] Хотя камень не настолько редок, чтобы быть непомерно дорогим, изготовление украшений все равно обойдется в кругленькую сумму. Отказ может расстроить вашу супругу так же сильно, как и потакание [ROOT.GetCountry.GetConsort.GetHerHim]"
+lapis_trade.62.a: "Юмор [ROOT.GetCountry.GetConsort.GetHerHim]."
+lapis_trade.62.b: "Зачем тратить деньги?"
+lapis_trade.62.c: "Драгоценности будут моими!"
 
-lapis_trade.63.t: "A Royal Tomb"
-lapis_trade.63.desc: "When going through [ancestor_tomb_city.GetName] I can see the influence of my predecessor [ancestor_ruler.GetName], the buildings he had built speaking of his tastes in buildings. The advisor accompanying me suggested visiting [ancestor_ruler.GetName]'s tomb. Once we arrived, I saw how run-down and old the building seemed. It no longer held up with the newer, fancier buildings. Seeing me so disheartened by the sight of the memorial of my ancestor, my companion suggested embellishing the edifice with some - including some precious lapis lazuli and most precious copper." #ancestor_ruler and ancestor_tomb_city are scopes
-lapis_trade.63.a: "Embellish the tomb."
-lapis_trade.63.b: "It is but a sign of the past."
+lapis_trade.63.t: "Королевская гробница"
+lapis_trade.63.desc: "Просматривая [ancestor_tomb_city.GetName], я вижу влияние моего предшественника [ancestor_ruler.GetName], здания, которые он построил, говорят о его вкусах в зданиях. Сопровождавший меня консультант предложил посетить гробницу [ancestor_ruler.GetName]. Как только мы прибыли, я увидел, каким обветшалым и старым казалось здание. Оно больше не соответствовало более новым, причудливым зданиям. Видя, что я так обескуражен видом памятника моему предку, мой спутник предложил украсить здание чем-нибудь, в том числе драгоценным ляпис-лазурью и самой ценной медью." #ancestor_ruler and ancestor_tomb_city are scopes
+lapis_trade.63.a: "Украсьте могилу."
+lapis_trade.63.b: "Это всего лишь знак прошлого."
 
-lapis_trade.64.t: "Advice from Beyond this World"
-lapis_trade.64.desc: "While trying to reach the gods with a ceremony, our [ROOT.GetCountry.GetRuler.GetTitle] [ROOT.GetCountry.GetRuler.GetName] meets a being that seems to be divine in nature. Extatic at finding someone in this dream world, they start to chat. Now [ROOT.GetCountry.GetRuler.GetName] has the opportunity to get divine advice regarding an area that he is lacking at. Governing isn't an easy task and not all have the same strengths..."
-lapis_trade.64.a: "I need to strengthen my armies."
-lapis_trade.64.b: "How do I run an empire?"
-lapis_trade.64.c: "Let us discuss politics..."
-lapis_trade.64.d: "How should we deal with unbelievers?"
+lapis_trade.64.t: "Совет из-за пределов этого мира"
+lapis_trade.64.desc: "Пытаясь достучаться до богов с помощью церемонии, наш [ROOT.GetCountry.GetRuler.GetTitle] [ROOT.GetCountry.GetRuler.GetName] встречает существо, которое кажется божественным по своей природе. В восторге от того, что нашел кого-то в этом мире грез, они начинают общаться. Теперь [ROOT.GetCountry.GetRuler.GetName] имеет возможность получить божественный совет относительно области, в которой ему не хватает. Управление - непростая задача, и не все обладают одинаковыми сильными сторонами..."
+lapis_trade.64.a: "Мне нужно усилить свою армию."
+lapis_trade.64.b: "Как управлять империей?"
+lapis_trade.64.c: "Давайте обсудим политику..."
+lapis_trade.64.d: "Как нам следует поступать с неверующими?"
 
-lapis_trade.65.t: "Divine Advice" #martial
-lapis_trade.65.desc: "When the divine being was asked by [ROOT.GetCountry.GetRuler.GetName] how [ROOT.GetCountry.GetRuler.GetSheHe] could improve the strength of arms of his men, it laughed out loud; 'this is too easy' it replied, 'you simply need your troops to train more. They currently do nothing but sit in a shack all day.' So chastised, [ROOT.GetCountry.GetRuler.GetName] wakes up, the divine words still on [ROOT.GetCountry.GetRuler.GetHerHis] mind."
-lapis_trade.65.a: "I shall do as advised."
-lapis_trade.65.b: "That sounds stupid..."
+lapis_trade.65.t: "Божественный совет" #martial
+lapis_trade.65.desc: "Когда божественное существо спросило [ROOT.GetCountry.GetRuler.GetName] как [ROOT.GetCountry.GetRuler.GetSheHe] мог бы улучшить силу оружия своих людей, оно громко рассмеялось; "это слишком просто", - ответило оно, "вам просто нужно, чтобы ваши войска больше тренировались. В настоящее время они ничего не делают, кроме как сидят в хижине весь день". Так что наказанный, [ROOT.GetCountry.GetRuler.GetName] просыпается, божественные слова все еще в [ROOT.GetCountry.GetRuler.GetHerHis] сознании."
+lapis_trade.65.a: "Я сделаю, как посоветовали."
+lapis_trade.65.b: "Это звучит глупо..."
 
-lapis_trade.66.t: "Divine Advice" #finesse
-lapis_trade.66.desc: "When the divine being was asked by [ROOT.GetCountry.GetRuler.GetName] how [ROOT.GetCountry.GetRuler.GetSheHe] could to build enough housing for everyone, it laughed out loud; 'this is too easy' it replied, 'you simply need to make plans. Currently you have some men throw some mod onto straw and call it a day. Plan what to build and where to build it, this will lead to more success.' So chastised, [ROOT.GetCountry.GetRuler.GetName] wakes up, the divine words still on [ROOT.GetCountry.GetRuler.GetHerHis] mind."
-lapis_trade.66.a: "I shall do as advised."
-lapis_trade.66.b: "That sounds stupid..."
+lapis_trade.66.t: "Божественный совет" #finesse
+lapis_trade.66.desc: "Когда божественное существо спросило [ROOT.GetCountry.GetRuler.GetName] как [ROOT.GetCountry.GetRuler.GetSheHe] мог бы построить достаточно жилья для всех, оно громко рассмеялось; "Это слишком просто", - ответило оно, "вам просто нужно составить план. В настоящее время у вас есть несколько человек, которые бросают мод на солому и заканчивают на этом. Планируйте, что и где строить, это приведет к большему успеху". Итак, наказанный, [ROOT.GetCountry.GetRuler.GetName] просыпается, божественные слова все еще звучат в [ROOT.GetCountry.GetRuler.GetHerHis] сознании."
+lapis_trade.66.a: "Я сделаю, как посоветовали."
+lapis_trade.66.b: "Это звучит глупо..."
 
-lapis_trade.67.t: "Divine Advice" #charisma
-lapis_trade.67.desc: "When the divine being was asked by [ROOT.GetCountry.GetRuler.GetName] how [ROOT.GetCountry.GetRuler.GetSheHe] could rein in the egoistic nobles, it laughed out loud; 'this is too easy' it replied, 'you simply need to get rid of some of your enemies. Dead, they cannot hinder you or betray that country.' So advised, [ROOT.GetCountry.GetRuler.GetName] wakes up, the divine words still on [ROOT.GetCountry.GetRuler.GetHerHis] mind."
-lapis_trade.67.a: "I shall do as suggested."
-lapis_trade.67.b: "That sounds stupid..."
+lapis_trade.67.t: "Божественный совет" #charisma
+lapis_trade.67.desc: "Когда божественное существо спросило [ROOT.GetCountry.GetRuler.GetName] как [ROOT.GetCountry.GetRuler.GetSheHe] мог обуздать эгоистичных дворян, он громко рассмеялся; "Это слишком просто", - ответил он, - "вам просто нужно избавиться от некоторых из ваших врагов. Мертвые, они не смогут помешать вам или предать эту страну". Так посоветовал [ROOT.GetCountry.GetRuler.GetName] просыпается, божественные слова все еще в [ROOT.GetCountry.GetRuler.GetHerHis] сознании."
+lapis_trade.67.a: "Я сделаю, как предложено."
+lapis_trade.67.b: "Это звучит глупо..."
 
-lapis_trade.68.t: "Divine Advice" #zeal
-lapis_trade.68.desc: "When the divine being was asked by [ROOT.GetCountry.GetRuler.GetName] how [ROOT.GetCountry.GetRuler.GetSheHe] could appease the lands full of unbelievers, it laughed out loud; 'this is too easy' it replied, 'you simply need to let them believe whatever they want. Once they are not suppressed, they will be much more favorable to your worldly rule.' So advised, [ROOT.GetCountry.GetRuler.GetName] wakes up, the divine words still on [ROOT.GetCountry.GetRuler.GetHerHis] mind."
-lapis_trade.68.a: "I shall do as suggested."
-lapis_trade.68.b: "That sounds stupid..."
+lapis_trade.68.t: "Божественный совет" #zeal
+lapis_trade.68.desc: "Когда божественное существо спросило [ROOT.GetCountry.GetRuler.GetName] как [ROOT.GetCountry.GetRuler.GetSheHe] мог бы умиротворить земли, полные неверующих, он громко рассмеялся; "Это слишком просто", - ответил он, - "вам просто нужно позволить им верить во все, во что они хотят. Как только они не будут подавлены, они будут гораздо более благосклонны к вашему мирскому правлению." Итак, [ROOT.GetCountry.GetRuler.GetName] просыпается, божественные слова все еще звучат в [ROOT.GetCountry.GetRuler.GetHerHis] сознании."
+lapis_trade.68.a: "Я сделаю, как предложено."
+lapis_trade.68.b: "Это звучит глупо..."
 
-lapis_trade.69.t:0 "Divine Advice: Consequences" #martial
-lapis_trade.69.desc_1:0 "Following the divine advice, our men have grown stronger and more disciplined. The harsher training has caused some deaths, a risk some are no longer willing to take. It is a necessary sacrifice however, for our troops are much more effective now, not even flinching with a chariot charging straight into our lines."
-lapis_trade.69.desc_2:0 "Not having followed the divine advice made our ruler more popular, for our young men have a safe place when campaigning. Should it come to battle however, our troops will offer no resistance to units more experienced. \nAt least, no one will consider [ROOT.GetCountry.GetRuler.GetName] a tyrant."
-lapis_trade.69.a:0 "It was for the best." #options are mutually exclusive (you only see 1)
-lapis_trade.69.b:0 "Maybe I shouldn't have ignored the idea."
+lapis_trade.69.t:0 "Божественный совет: Последствия" #martial
+lapis_trade.69.desc_1:0 "Следуя божественному совету, наши люди стали сильнее и дисциплинированнее. Более суровые тренировки привели к некоторым смертям, на риск, на который некоторые больше не готовы идти. Однако это необходимая жертва, потому что теперь наши войска гораздо эффективнее, они даже не дрогнули, когда колесница врезалась прямо в наши ряды."
+lapis_trade.69.desc_2:0 "То, что мы не последовали божественному совету, сделало нашего правителя более популярным, потому что у наших молодых людей есть безопасное место во время кампании. Однако, если дело дойдет до битвы, наши войска не окажут сопротивления более опытным подразделениям. \nПо крайней мере, никто не будет считать [ROOT.GetCountry.GetRuler.GetName] тираном."
+lapis_trade.69.a:0 "Это было к лучшему." #options are mutually exclusive (you only see 1)
+lapis_trade.69.b:0 "Возможно, мне не стоило игнорировать эту идею."
 
-lapis_trade.70.t:0 "Divine Advice: Consequences" #finesse
-lapis_trade.70.desc_1:0 "Following the divine advice by making plans has made building houses a lot cheaper, since we now know exactly how much materials and workers we need. However, all this planning and coordination takes more time until the buildings are finished. \nIt seems that our men have been made aware of how important the minutiae of a matter is, and pay much closer attention to the finer details. As our men gather together to build an advanced structure, having to trust each other as they work, a spirit of brotherhood is growing. By encouraging this culture, it seems that we will have a generation of skilled leaders soon."
-lapis_trade.70.desc_2:0 "Although it seems foolish to ignore the advice from a divine being, we have done so, with [ROOT.GetCountry.GetRuler.GetName] claiming that we have not suffered in any way. All this believing of being able to do everything on [ROOT.GetCountry.GetRuler.GetHerHis] own made [ROOT.GetCountry.GetRuler.GetName] a lot more unyielding...\nAnd yet, we cannot help but wonder...what would we have gained if we had only listened?"
-lapis_trade.70.a:0 "It was worth the time." #options are mutually exclusive (you only see 1)
-lapis_trade.70.b:0 "Maybe I should have followed the advice."
+lapis_trade.70.t:0 "Божественный совет: Последствия" #finesse
+lapis_trade.70.desc_1:0 "Следование божественному совету путем составления планов сделало строительство домов намного дешевле, поскольку теперь мы точно знаем, сколько материалов и рабочих нам нужно. Однако все это планирование и координация занимают больше времени, пока здания не будут закончены. \nПохоже, что наши сотрудники осознали, насколько важны мелочи в том или ином вопросе, и уделяют гораздо больше внимания мельчайшим деталям. По мере того, как наши сотрудники собираются вместе, чтобы построить передовую структуру, доверяя друг другу в работе, растет дух братства. Поощряя эту культуру, мы, похоже, скоро получим поколение квалифицированных лидеров."
+lapis_trade.70.desc_2:0 "Хотя кажется глупым игнорировать совет божественного существа, мы так и сделали, с [ROOT.GetCountry.GetRuler.GetName] утверждая, что мы никоим образом не пострадали. Вся эта вера в то, что мы можем делать все на [ROOT.GetCountry.GetRuler.GetHerHis] собственный [ROOT.GetCountry.GetRuler.GetName] намного более неуступчивый...\nИ все же мы не можем не задаваться вопросом...чего бы мы добились, если бы только слушали?"
+lapis_trade.70.a:0 "Это стоило потраченного времени." #options are mutually exclusive (you only see 1)
+lapis_trade.70.b:0 "Возможно, мне следовало последовать совету."
 
-lapis_trade.71.t:0 "Divine Advice: Consequences" #charisma
-lapis_trade.71.desc_1:0 "The last couple of weeks have been troubled for [ROOT.GetCountry.GetName], as a series of political assassinations have kept everyone awake at night.\n\nAlthough there is no definitive proof linking [ROOT.GetCountry.GetRuler.GetName] to the crimes, it comes as a coincidence that so many of [ROOT.GetCountry.GetRuler.GetFirstName]'s rivals are meeting their demise. The gods are known to be capricious..."
-lapis_trade.71.desc_2:0 "Although the divine being clearly instructed [ROOT.GetCountry.GetRuler.GetName], [ROOT.GetCountry.GetRuler.GetSheHe] did not have the fortitude to go through with what was suggested, and now our political troubles are multiplying.\n\nBeing a ruler is never easy; there might be decisions that have to be made, and if [ROOT.GetCountry.GetRuler.GetFirstName] doesn't make the call, then someone else will. Some ... concessions had to be made, mostly monetary in nature to keep the country running. \nThis experience made one thing abundantly clear: [ROOT.GetCountry.GetRuler.GetName] is no man of politics, but [ROOT.GetCountry.GetRuler.GetSheHe] certainly knows business."
-lapis_trade.71.a:0 "It was the best decision I've ever made!" #options are mutually exclusive (you only see 1)
-lapis_trade.71.b:0 "Maybe I should have killed my adversaries..."
+lapis_trade.71.t:0 "Божественный совет: Последствия" #charisma
+lapis_trade.71.desc_1:0 "Последние пару недель были неспокойными дляr [ROOT.GetCountry.GetName], поскольку серия политических убийств не давала всем спать по ночам.\n\nХотя нет окончательных доказательств, связывающих [ROOT.GetCountry.GetRuler.GetName] с преступлениями, это совпадение, что так много [ROOT.GetCountry.GetRuler.GetFirstName] приближаются к своей гибели. Боги, как известно, капризны..."
+lapis_trade.71.desc_2:0 "Хотя божественное существо ясно проинструктировало [ROOT.GetCountry.GetRuler.GetName], [ROOT.GetCountry.GetRuler.GetSheHe] не хватило мужества довести до конца то, что было предложено, и теперь наши политические проблемы множатся.\n\nБыть правителем никогда не бывает легко; могут быть решения, которые необходимо принять, и если [ROOT.GetCountry.GetRuler.GetFirstName] dне выполнит вызов, это сделает кто-то другой. Пришлось пойти на некоторые... уступки, в основном денежного характера, чтобы сохранить управление страной. \nЭтот опыт сделал одну вещь совершенно ясной: [ROOT.GetCountry.GetRuler.GetName] не человек политики, но [ROOT.GetCountry.GetRuler.GetSheHe] определенно разбирается в бизнесе."
+lapis_trade.71.a:0 "Это было лучшее решение, которое я когда-либо принимал!" #options are mutually exclusive (you only see 1)
+lapis_trade.71.b:0 "Возможно, мне следовало убить своих противников..."
 
-lapis_trade.72.t:0 "Divine Advice: Consequences" #zeal
-lapis_trade.72.desc_1:0 "Ignoring the advice of the priestly caste, [ROOT.GetCountry.GetRuler.GetName] has decided to let people believe whatever they want, as long as the tributes keep coming into [ROOT.GetCountry.GetCapital.GetName]. Allowing all people in [ROOT.GetCountry.GetName] to exercise the religion of their choice made everything a lot easier: royal representatives don't get ambushed on the roads anymore, locals accept royal authority much more and barely anyone rises up in rebellion against the crown. Truly, we should have done so a long time age. \nMuch to everyone's amazement, this policy of tolerance seems to be working, and our people are happier than ever. Seeing as to our benevolence, some even decided to adopt our language and customs. This is even better than forcing our beliefs on them - they make the choice on their own!"
-lapis_trade.72.desc_2:0 "Discarding the ludicrous idea of allowing everyone their own beliefs, we have cracked down on all separatist movements, punishing any disobedience harshly. While the priests are not happy about this, they shut their mouths after the promise of a small donation. We need to be one people, united by blood, sweat and soil. If we are not, we will be divided and our neighbours will come and crush us! \n'Anyone who lives in the lands of [ROOT.GetCountry.GetName] will worship as I tell them to!'"
-lapis_trade.72.a:0 "Divine advice is the best.." #options are mutually exclusive (you only see 1)
-lapis_trade.72.b:0 "Maybe I shouldn't have done this."
+lapis_trade.72.t:0 "Божественный совет: Последствия" #zeal
+lapis_trade.72.desc_1:0 "Игнорируя совет жреческой касты, [ROOT.GetCountry.GetRuler.GetName] решил позволить людям верить во все, во что они хотят, до тех пор, пока дань продолжает поступать в [ROOT.GetCountry.GetCapital.GetName]. Разрешение доступа всем пользователям в [ROOT.GetCountry.GetName] исповедовать религию по своему выбору стало намного проще: королевские представители больше не попадают в засады на дорогах, местные жители гораздо больше признают королевскую власть, и почти никто не восстает против короны. Действительно, нам следовало сделать это давным-давно. \nКо всеобщему изумлению, эта политика терпимости, похоже, работает, и наши люди счастливее, чем когда-либо. Видя нашу доброжелательность, некоторые даже решили перенять наш язык и обычаи. Это даже лучше, чем навязывать им наши убеждения - они сами делают выбор!"
+lapis_trade.72.desc_2:0 "Отбросив нелепую идею о том, чтобы позволить каждому иметь свои собственные убеждения, мы расправились со всеми сепаратистскими движениями, жестко наказывая за любое неповиновение. Хотя священникам это не нравится, они закрывают рты после обещания небольшого пожертвования. Мы должны быть единым народом, объединенным кровью, потом и почвой. Если мы не будем такими, мы будем разделены, и наши соседи придут и раздавят нас! \n"Любой, кто живет на землях [ROOT.GetCountry.GetName], будет поклоняться так, как я им скажу!""
+lapis_trade.72.a:0 "Божественный совет - лучший.." #options are mutually exclusive (you only see 1)
+lapis_trade.72.b:0 "Возможно, мне не следовало этого делать."
 
 lapis_trade.73.t: "Mystery from the East" # wounded man found
 lapis_trade.73.desc: "[ROOT.GetCountry.GetRuler.GetName] is training one morning with the bow when [ROOT.GetCountry.GetRuler.GetHerHis] soldiers burst into the courtyard, dragging behind them a wounded man named [SCOPE.sChar('expedition_lead')GetName]. Although it has been forbidden, it seems that [SCOPE.sChar('expedition_lead')GetFirstName] has been attempting to find lapis lazuli deposits of his own accord.\n\nWhy, then, is he in such bad shape? What happened to his expedition? There is a lot of explaining that [SCOPE.sChar('expedition_lead')GetFirstName] has to do." #expedition_lead is the wounded guy
