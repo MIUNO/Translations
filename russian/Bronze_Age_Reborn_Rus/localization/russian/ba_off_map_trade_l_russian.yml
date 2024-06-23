@@ -22,7 +22,6 @@ lapis_extortion_consequences_tt:0 "Разоренный вымогательст
 lapis_not_extortion_consequences_tt:0 "Торговец, с которым мы хорошо обращались, когда могли вымогать у него деньги, рассказал об этом своим соотечественникам, заставив [SCOPE.sP('extorted_trade_post')GetName] более привлекательный и #G увеличивающий#! объем торговли там."
 lapis_festival_holy_sites_autonomy_tt:0 "Все святые места получат этот модификатор."
 selfish_tooltip:0 "Это доступно нам благодаря тому, что наш правитель #Y эгоистичный#!."
-tin_trade_update_tt:0 "В зависимости от того, как торговцам нравятся соответствующие торговые посты, #Y Лазурит#! @lapis! теперь они могут импортироваться туда в #G увеличенных#! или #R уменьшенных#! количествах."
 tin_trade_update_importers_neg_tt:0 "#Y Олово#! @tin! торговля в целом #R снизила#! объем #for the update event 
 tin_trade_update_importers_pos_tt:0 "#Y Олово#! @tin! торговля в целом #G увеличила#! объем"
 tin_trade_update_importers_stag_tt:0 "#Y Олово#! @tin! торговля в целом #Y остается#! такой же сильной, как и раньше."
@@ -440,7 +439,7 @@ lapis_trade.61.b: "Какой невероятный подвиг.."
 
 lapis_trade.62.t: "Украшения, достойные императрицы"
 lapis_trade.62.desc: "Мой [ROOT.GetCountry.GetRuler.GetTitle], твой благородный супруг, [ROOT.GetCountry.GetConsort.GetName], выразила желание приобрести украшения из драгоценного голубого камня лазурит. [ROOT.GetCountry.GetConsort.GetSheHe] Хотя камень не настолько редок, чтобы быть непомерно дорогим, изготовление украшений все равно обойдется в кругленькую сумму. Отказ может расстроить вашу супругу так же сильно, как и потакание [ROOT.GetCountry.GetConsort.GetHerHim]"
-lapis_trade.62.a: "Юмор [ROOT.GetCountry.GetConsort.GetHerHim]."
+lapis_trade.62.a: "Потакать [ROOT.GetCountry.GetConsort.GetHerHim]."
 lapis_trade.62.b: "Зачем тратить деньги?"
 lapis_trade.62.c: "Драгоценности будут моими!"
 

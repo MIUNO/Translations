@@ -1,0 +1,3 @@
+﻿l_russian:
+ tin_smith_advice:0 "Cовет кузнеца по олову"
+ legion_history_hetairor:2 "После выдающегося использования конницы на территории [PROVINCE.GetName] было получено отличие «[GetLegionDistinction('distinction_hetairoi').GetName]»."

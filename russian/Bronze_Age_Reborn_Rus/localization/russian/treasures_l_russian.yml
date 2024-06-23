@@ -2,7 +2,7 @@
  generic_statue_description:0 "Статуя, представляющая божество, которой поклоняются и о которой заботятся слуги в храме. Иногда статуи перевозили в другой город на фестивали или просто чтобы отдать дань уважения другому божеству."
  treasure_petsuchos:0 "Петсухос"
  treasure_petsuchos_desc:0 "Петсухос — это имя крокодила-альбиноса, которого кормили и о котором заботились жрецы Собека, а после его смерти заменяли новым."
- treasure_statue_of_assur:0 "Статуя Ассура"
+ treasure_statue_of_assur:0 "Статуя Ашшура"
  treasure_statue_of_assur_desc:0 "$generic_statue_description$"
  treasure_statue_of_shamash:0 "Статуя Шамаша"
  treasure_statue_of_shamash_desc:0 "$generic_statue_description$"
