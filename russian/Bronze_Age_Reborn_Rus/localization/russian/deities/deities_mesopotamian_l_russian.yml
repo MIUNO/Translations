@@ -12,7 +12,7 @@
  omen_nanna:0 "Нанна"
  omen_nanna_desc:0 "Нанна, сын Энлиля и Нинлиль, муж Нингаль, покровитель Ура и бог Луны, поселяется в "Доме Великого Света" в Уре и символизируется быком и полумесяцем."
  deity_sin:0 "$omen_sin$"
- omen_sin:0 "Грех"
+ omen_sin:0 "Син"
  omen_sin_desc:0 ""
  deity_nergal:0 "$omen_nergal$"
  omen_nergal:0 "Нергал"

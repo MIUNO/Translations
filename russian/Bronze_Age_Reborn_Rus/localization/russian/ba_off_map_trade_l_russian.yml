@@ -529,7 +529,7 @@ tin_trade.1.a: "Невероятно!"
 tin_trade.2.t: "Больше олова" #neighbours
 tin_trade.2.desc: "[ROOT.GetCountry.GetRuler.GetName], произошла интересная вещь - редкая в наши дни хорошая новость. Похоже, иностранные торговцы наслышаны о рынках наших соседей, и они приезжают в их города со всех уголков Земли, привозя редкие товары из далеких стран. Благодаря этим растущим торговым связям мы теперь знаем о дополнительных источниках олова." #loc should be very similar to .1 and shouldn't make a distinction between tin owners and non-owners
 tin_trade.2.a: "Невероятно!" #other traders/owners due to effect in option
-tin_trade.2.b: "Интересный...нам полезно это знать" #(potential) customers
+tin_trade.2.b: "Интересно...нам полезно это знать" #(potential) customers
 
 tin_trade.3.t: "Прибыль от торговли оловом" #Extra visit
 tin_trade.3.desc: "Мы слышали сообщения о том, что торговля оловом процветает вблизи [SCOPE.sP('visited_trade_post')GetName], превосходя другие рынки, когда дело доходит до продажи этого предмета роскоши. Всем известно, что если требуется лучшее олово, будь то для ювелирных изделий или церемониальных предметов, то камень, найденный в [SCOPE.sP('visited_trade_post')GetName] превосходит все остальные."

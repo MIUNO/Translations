@@ -134,7 +134,7 @@ silphium_healing_tt:0 "Применение сильфия повысило со
 beer_culture_spreading_tt:0 "#Y Пивная культура#! из [SCOPE.sP('beer_city_scope')GetName] будет медленно распространяться по всей нашей стране."
 beer_culture_spread_tt:0 "Каждая территория восприняла нашу #Y пивную культуру#!, которая теперь стала национальной."
 beer_culture_limited_tt:0 "Мы остановим распространение #Y пивной культуры#! из [SCOPE.sP('beer_city_scope')GetName]. Это вмешательство сделает маловероятным дальнейшее развитие событий."
-beer_culture_national_tt:0 "The #Y Beer Culture#! modifier will become a #Y Country Modifier#!, removing it from all territories."
+beer_culture_national_tt:0 "Модификатор #Y Пивная культура#! станет #Y Модификатором страны#!, и он будет удален со всех территорий."
 beer_culture_local_tt:0 "аждая территория получит #Y пивную культуру#!."
 beer_culture_expand_production_tt:0 "Мы будем расширять производство пива, построив как можно больше пивоваренных заводов."
 beer_culture_cities_only_tt:0 "Мы сосредоточимся на городах. К сожалению, на фермах больше не будет такого легкого доступа к пиву..."
