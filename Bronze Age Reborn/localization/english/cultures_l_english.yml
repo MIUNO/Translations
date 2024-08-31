@@ -525,7 +525,10 @@
  walman:0 "Walman"
  taruisan:0 "Taruisan"
 
-hatti:0 "Hatti"
+ hatti:0 "Hatti"
+ 
+ liyan:0 "Liyan"
+ mahrusahite:0 "Mahrusahite"
 
 #Naming
  proto_thracian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $NICKNAME$ $FAMILY_MALE$"

@@ -527,6 +527,9 @@
 
  hatti:0 "Хаттийская"
 
+ liyan:0 "Лиян"
+ mahrusahite:0 "Махрусахите"
+
 #Naming
  proto_thracian_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $NICKNAME$ $FAMILY_MALE$"
  proto_thracian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

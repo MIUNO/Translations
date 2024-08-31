@@ -148,6 +148,8 @@
  treasure_statue_of_set_desc:0 "$generic_statue_description$"
  treasure_statue_of_khnum:0 "Statue of Khnum"
  treasure_statue_of_khnum_desc:0 "$generic_statue_description$"
+ treasure_statue_of_kiririsha:0 "Statue of Kiririsha"
+ treasure_statue_of_kiririsha_desc:0 "$generic_statue_description$"
 
  treasure_gilgamesh_mace:0 "Gilgamesh Mace"
  treasure_gilgamesh_mace_desc:0 "The mace supposedly wielded by Gilgamesh during his epic adventures."

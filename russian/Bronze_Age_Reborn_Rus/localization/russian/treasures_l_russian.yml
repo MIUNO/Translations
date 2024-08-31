@@ -148,7 +148,9 @@
  treasure_statue_of_set_desc:0 "$generic_statue_description$"
  treasure_statue_of_khnum:0 "Статуя Хнума"
  treasure_statue_of_khnum_desc:0 "$generic_statue_description$"
-
+ treasure_statue_of_kiririsha:0 "Статуя Киририши"
+ treasure_statue_of_kiririsha_desc:0 "$generic_statue_description$"
+ 
  treasure_gilgamesh_mace:0 "Гильгамеш Мейс"
  treasure_gilgamesh_mace_desc:0 "Булава, которой предположительно владел Гильгамеш во время своих эпических приключений."
  treasure_golden_helmet_of_meskalamdug:0 "Золотой шлем Мескаламдуга"
